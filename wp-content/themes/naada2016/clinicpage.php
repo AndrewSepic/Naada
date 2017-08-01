@@ -24,22 +24,14 @@ function naada_clinicBanner() {
 
 function my_custom_stuff(){
   ?>
-    <div class="rates">
-      <div class="centerWrap">
-        <h2>How Does It Work?</h2>
-      </div>
-      <div class="one-half first">
-        <p class="howItWorks"><?php the_field('how_does_it_work_text'); ?></p>
-      </div>
-      <div class="one-half">
-        <h4>Rates</h4>
-        <p><?php the_field('rates_right_text'); ?></p>
-      </div>
+    <div class="centerWrap">
+      <h2>How Does It Work?</h2>
+      <p class="howItWorks"><?php the_field('how_does_it_work_text'); ?></p>
     </div>
 
     <div class="centerWrap">
-        <h2>Services</h2>
-      <p><?php the_field('how_does_it_work_text'); ?></p>
+        <h2>Treatments</h2>
+      <p><?php the_field('treatments_text'); ?></p>
     </div>
 
 
@@ -50,7 +42,7 @@ function my_custom_stuff(){
         </div><!-- serviceLeft -->
         <div class="serviceRight">
           <p><?php the_field('osteopath_text'); ?></p>
-          <a href="/therapeutic-clinic/clinic-appointments/" class="naada-button orange-button medium">Book An Appointment</a> <a href="/therapeutic-clinic/our-therapists/" class="naada-button orange-hollow medium">Meet Our Osteopaths</a>
+          <a href="/therapeutic-clinic/osteopathy-appointments/" class="naada-button orange-button medium">Book An Appointment</a> <a href="/therapeutic-clinic/our-therapists/" class="naada-button orange-hollow medium">Meet Our Osteopaths</a>
         </div><!-- serviceRight -->
       </div><!-- serviceBlock -->
 
@@ -61,7 +53,7 @@ function my_custom_stuff(){
         </div><!-- serviceLeft -->
         <div class="serviceRight">
           <p><?php the_field('yoga_therapy_text'); ?></p>
-          <a href="/therapeutic-clinic/clinic-appointments/" class="naada-button orange-button medium">Book An Appointment</a> <a href="/therapeutic-clinic/our-therapists/" class="naada-button orange-hollow medium">Meet Our Therapists</a>
+          <a href="/therapeutic-clinic/yoga-therapy-appointments/" class="naada-button orange-button medium">Book An Appointment</a> <a href="/therapeutic-clinic/our-therapists/" class="naada-button orange-hollow medium">Meet Our Therapists</a>
         </div><!-- serviceRight -->
       </div><!-- serviceBlock -->
 
@@ -71,7 +63,17 @@ function my_custom_stuff(){
         </div><!-- serviceLeft -->
         <div class="serviceRight">
           <p><?php the_field('massage_therapy_text'); ?></p>
-          <a href="/therapeutic-clinic/clinic-appointments/" class="naada-button orange-button medium">Book An Appointment</a> <a href="/therapeutic-clinic/our-therapists/" class="naada-button orange-hollow medium">Meet Our Therapists</a>
+          <a href="/therapeutic-clinic/massage-therapy-appointments/" class="naada-button orange-button medium">Book An Appointment</a> <a href="/therapeutic-clinic/our-therapists/" class="naada-button orange-hollow medium">Meet Our Therapists</a>
+        </div><!-- serviceRight -->
+      </div><!-- serviceBlock -->
+
+      <div class="serviceBlock">
+        <div class="serviceLeft" style="background-image: url('<?php the_field('sauna_image');?>');'">
+          <h2 class="sauna">Infared Sauna</h2>
+        </div><!-- serviceLeft -->
+        <div class="serviceRight">
+          <p><?php the_field('sauna_text'); ?></p>
+          <!-- <a href="/therapeutic-clinic/clinic-appointments/" class="naada-button orange-button medium">Book An Appointment</a> <a href="/therapeutic-clinic/our-therapists/" class="naada-button orange-hollow medium">Meet Our Osteopaths</a> -->
         </div><!-- serviceRight -->
       </div><!-- serviceBlock -->
 
@@ -84,10 +86,6 @@ function my_custom_stuff(){
       </div>
       <p class="author">~<?php// the_field('testimonial_author'); ?></p>
     </div> -->
-
-    <div class="centerWrap bottom">
-      <a href="http://www.naada.ca/clinic-appointments/" class="naada-button orange-button large">Book An Appointment</a>
-    </div>
 <?php
 }
   remove_action('genesis_loop', 'genesis_do_loop');

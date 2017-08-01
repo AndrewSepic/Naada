@@ -6,6 +6,7 @@
 jQuery( document ).ready(function( $ ) {
 
   openCloak();
+  saunaScroll();
   healcodeWidgetReady();
 
   // Test to see when Healcode Widget is loaded
@@ -16,6 +17,7 @@ jQuery( document ).ready(function( $ ) {
         if (healCodeLoading2.length !== 0) {
          //  callback();
           swapTitle();
+          AddYTIntakeLink();
           clearInterval(healCodeLoadingInterval2);
         }
       },100);
@@ -41,6 +43,31 @@ jQuery( document ).ready(function( $ ) {
     $('a.openAppoint').on("click", function(e){
       e.preventDefault();
       $('div.bookingCloak').slideDown('slow');
+    })
+  }
+
+  function AddYTIntakeLink() {
+    //$('#session_type').change(function(){
+    //   if($(this).val() == 'Yoga Therapy'){ // or this.value == 'volvo'
+    //$("select#session_type option[value="Yoga Therapy"]")
+    $("select#session_type").change(function(){
+      if($(this).val()==78){ // EDITED THIS LINE
+        console.log('Yoga Therapy is selected!');
+        $('div.healcode form .pre-filters').after("<div class=\"ytNotice\"><h4>You've selected a yoga therapy treatment</h4> <p>Please follow <a href=\"/therapeutics/book-appointment\" target=\"_blank\">this link</a> to fill out the new client assessment form. And return to this page to continue your booking.</p></div>");
+      }
+      else if($(this).val()!=78) {
+        console.log('Yoga Therapy is no longer selected');
+        $('div.ytNotice').empty();
+      }
+    })
+  }
+
+  function saunaScroll() {
+    $('a.sauna').on("click", function(e){
+      e.preventDefault();
+      $('html, body').animate({
+       scrollTop: $("h2.sauna").offsetParent().offset().top
+      }, 1500);
     })
   }
 

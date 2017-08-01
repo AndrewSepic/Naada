@@ -106,7 +106,7 @@ add_action('wp_enqueue_scripts', 'naada_homepage_script');
 
 // Add JS Only to clinic pages
 function clinic_script() {
-	if (is_page( array('our-therapists', 'clinic-bookings'))) {
+	if (is_page( array('our-therapists', 'clinic-appointments', 'therapeutic-clinic'))) {
 		wp_enqueue_script('clinic', get_stylesheet_directory_uri() . '/js/clinic.js', true);
 	}
 }
