@@ -37,10 +37,12 @@ function pa_insertPage($atts, $content = null) {
 add_shortcode('naada_student_assess','naada_assessment');
 function naada_assessment(){
     global $wpdb;
-     $this_page =   $_SERVER['REQUEST_URI'];
-     $page      =   $_POST['page'];
-     if ( $page == NULL ) {
-        echo '<div class ="assessment"> 
+     $this_page = $_SERVER['REQUEST_URI'];
+     if (isset($_POST['page'])) $page = $_POST['page'];
+
+    //  if ( $page == NULL ) {
+     if ( !isset($page) ) {
+        echo '<div class ="assessment">
         <form method="post" action="' . $this_page .'">
 
         <p>Naada Yoga offers a wide variety of complimentary classes to best support a healthy and balanced yoga practice. Take a look at which classes we recommend for you by taking our online assessment now.</p>
@@ -152,7 +154,7 @@ function naada_assessment(){
     } //End Page 1 of Form
 
     elseif ( $page == 1 ) {
-    
+
       // sets recClasses to data input by insertPage Function above
       $recClasses =  pa_insertPage($atts, $content = null);
       // vars for each Q
@@ -176,7 +178,7 @@ function naada_assessment(){
               <strong>Based on your results we would like to recommend that you try our Therapeutic classes. </strong>';
 
         echo '<div class="theraRec">' . $recClasses . '</div>';
-        
+
       }
 
       elseif ($total > 12 && $total <= 15) {
@@ -185,7 +187,7 @@ function naada_assessment(){
               <strong>Based on your results we would like to recommend that you try our Therapeutic or Beginner classes. </strong>';
 
         echo '<div class="begtheraRec">' . $recClasses . '</div>';
-        
+
       }
 
        elseif ($total > 15 && $total <= 19) {
@@ -194,7 +196,7 @@ function naada_assessment(){
               <strong>Based on your results we would like to recommend that you try our Beginner classes. </strong>';
 
         echo '<div class="begRec">' . $recClasses . '</div>';
-        
+
       }
 
       elseif ($total > 19 && $total <= 22) {
@@ -203,9 +205,9 @@ function naada_assessment(){
               <strong>Based on your results we would like to recommend that you try our Beginner or Intermediate classes. </strong>';
 
         echo '<div class="beginterRec">' . $recClasses . '</div>';
-        
+
       }
-      
+
       elseif ($total > 22 && $total <= 26) {
         // Show thing two
         echo '<h4>Thank you!</h4>
@@ -233,8 +235,8 @@ function naada_assessment(){
       echo '<div class="getStarted"><p>To achieve the full benefits of yoga we recommend aiming to practice 3 times per week. If you are new to Naada Yoga the best place to start is with our one time introductory offer of <strong>3 month\'s unlimited for $150.</strong> Once registered you can begin to schedule your recommended classes right away.  We look forward to supporting you in developing a healthy and habitual yoga practice. </p>
       <p><a class="naada-button orange-button medium" href="http://clients.mindbodyonline.com/ws.asp?studioid=6387&stype=41&prodid=155"><span>Get Started Now</span></a></p>
       <p>This student assessment is aimed at helping you get the most out of your practice with us by directing you to the appropriate group classes.  If you would like more personalized instruction accompanied with a tailor made program we suggest contacting the studio at 514-510-3274 and scheduling a private consultation with one of our instructors.</p></div>';
-     
+
     } //End Page 2 of Form
- };// End FUnction 
+ };// End FUnction
 
 ?>
