@@ -189,7 +189,7 @@ NYTT programs enable you to dive deeply into the study and practice of yoga. All
 </div>
 </div>
 </div>
-<?php_logo_guid
+<?php
 }
   remove_action('genesis_loop', 'genesis_do_loop');
   add_action('genesis_loop', 'my_custom_stuff');
