@@ -14,6 +14,10 @@ wp-content/themes/genesis
 wp-content/themes/twentyseventeen
 images/
 
+# Naada theme personal CSS/SASS files
+wp-content/themes/naada2016/andrew.css
+wp-content/themes/naada2016/roy.css
+
 # wordpress specific
 wp-config.php
 wp-content/uploads/
