@@ -37,10 +37,12 @@ function pa_insertPage_fr($atts, $content = null) {
 add_shortcode('naada_student_assess_fr','naada_assessment_fr');
 function naada_assessment_fr (){
     global $wpdb;
-     $this_page =   $_SERVER['REQUEST_URI'];
-     $page      =   $_POST['page'];
-     if ( $page == NULL ) {
-        echo '<div class ="assessment"> 
+     $this_page = $_SERVER['REQUEST_URI'];
+     if (isset($_POST['page'])) $page = $_POST['page'];
+
+    //  if ( $page == NULL ) {
+     if ( !isset($page) ) {
+        echo '<div class ="assessment">
         <form method="post" action="' . $this_page .'">
 
         <p>Naada Yoga offre une grande variété de cours complémentaires afin de mieux accompagner une pratique de yoga saine et équilibrée. Apprenez quels cours nous vous recommandons en répondant à notre évaluation en ligne.</p>
@@ -60,7 +62,7 @@ function naada_assessment_fr (){
         <input type="radio" name="reason" value="1">Relaxation, réduction de stress, traiter une blessure, douleur chronique ou condition médicale<br>
         <input type="radio" name="reason" value="2">Apprendre les principes fondamentaux d\'une pratique physique<br>
         <input type="radio" name="reason" value="3">Développer de la force, le cardio, perdre du poids<br>
-        <input type="radio" name="reason" value="4">Approfondir mon expérience de méditation, pranayama et asana 
+        <input type="radio" name="reason" value="4">Approfondir mon expérience de méditation, pranayama et asana
         </div>
 
         <!-- Third Question -->
@@ -152,7 +154,7 @@ function naada_assessment_fr (){
     } //End Page 1 of Form
 
     elseif ( $page == 1 ) {
-    
+
       // sets recClasses to data input by insertPage Function above
       $recClasses =  pa_insertPage($atts, $content = null);
       // vars for each Q
@@ -176,7 +178,7 @@ function naada_assessment_fr (){
               <strong>À partir de vos résultats, nous aimerions vous recommander d\'essayer notre classes Thérapeutique. </strong>';
 
         echo '<div class="theraRec">' . $recClasses . '</div>';
-        
+
       }
 
       elseif ($total > 12 && $total <= 15) {
@@ -185,7 +187,7 @@ function naada_assessment_fr (){
               <strong>À partir de vos résultats, nous aimerions vous recommander d\'essayer notre classes Débutant ou Thérapeutique. </strong>';
 
         echo '<div class="begtheraRec">' . $recClasses . '</div>';
-        
+
       }
 
        elseif ($total > 15 && $total <= 19) {
@@ -194,7 +196,7 @@ function naada_assessment_fr (){
               <strong>À partir de vos résultats, nous aimerions vous recommander d\'essayer notre classes Débutant. </strong>';
 
         echo '<div class="begRec">' . $recClasses . '</div>';
-        
+
       }
 
       elseif ($total > 19 && $total <= 22) {
@@ -203,9 +205,9 @@ function naada_assessment_fr (){
               <strong>À partir de vos résultats, nous aimerions vous recommander d\'essayer notre classes Débutant ou Intermédiaire. </strong>';
 
         echo '<div class="beginterRec">' . $recClasses . '</div>';
-        
+
       }
-      
+
       elseif ($total > 22 && $total <= 26) {
         // Show thing two
         echo '<h3>Merci!</h3>
@@ -233,8 +235,8 @@ function naada_assessment_fr (){
       echo '<div class="getStarted"><p>Afin de parvenir aux bienfaits complets du yoga, nous recommandons que vous envisagiez une pratique hebdomadaire de 3 cours. Si Naada Yoga vous est complètement nouveau, <strong>notre spécial d\'introduction de 3 mois illimité pour 150$</strong> serait un excellent début. Vous pourrez choisir vos cours recommandés du moment que vous êtes inscrit(e). Nous avons hâte de vous accompagner dans le développement de votre pratique saine et habituelle.</p>
       <p><a class="button" href="http://clients.mindbodyonline.com/ws.asp?studioid=6387&stype=41&prodid=155"><span>COMMENCEZ DÈS MAINTENANT</span></a></p>
       <p>Cette évaluation d\'élève est conçue pour vous aider à profiter au maximum de votre pratique avec nous en vous guidant vers les cours de groupe appropriés. Si vous aimeriez une éducation plus personnalisée dans le cadre d\'un programme fait sur mesure, nous vous suggérons de contacter le studio au 514-510-3274 et de prendre rendez-vous pour une consultation privée avec un de nos professeurs.</p></div>';
-     
+
     } //End Page 2 of Form
- };// End FUnction 
+ };// End FUnction
 
 ?>
