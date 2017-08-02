@@ -31,7 +31,7 @@ function homepage_Output(){
   <div class="homeContentWrap">
     <h3 class="schedule">Today's Schedule</h3>
     <a class="fullSched" href="/schedule">FULL SCHEDULE</a>
-    <div class="horz-sched">[hc-hmw snippet="Homepage-Horizontal-Schedule"]</div>
+    <div class="horz-sched"><?php echo do_shortcode( '[hc-hmw snippet="Homepage-Horizontal-Schedule"]');?>'</div>
     <div class="sell">
       <div class="greenbox">
         <h3><?php the_field('sell_box_1_title'); ?></h3>
@@ -41,24 +41,23 @@ function homepage_Output(){
     </div>
     <div class="sell">
       <div class="greenbox app">
-        <h3>GET THE NAADA YOGA APP
-          AVAILABLE FOR IOS &amp; ANDROID »</h3>
+        <h3><?php the_field('sell_box_2_title'); ?></h3>
         </div>
         <a class="naada-button orange-button medium" href="/mobile-app">Get the App</a>
-        We’ve just released a new version of our mobile app. It’s an improved experience allowing you to view the schedules, sign up for classes, pay for workshops &amp; more.
+        <?php the_field('sell_box_2_text');?>
     </div>
 
     <hr />
 
     <h3>Upcoming Courses</h3>
     <div class="naada-carousel">
-      <div id="healCodeLoading">[hc-hmw snippet="Homepage-Events-Carousel"]</div>
+      <div id="healCodeLoading"><?php echo do_shortcode( '[hc-hmw snippet="Homepage-Events-Carousel"]');?></div>
     </div>
   </div><!-- .homeContentWrap -->
 
   <section class="module parallax parallax-1">
     <div class="parallaxContent">
-      <h2>Online Yoga Education</h2>
+      <h2><?php the_field('parallax1_section_title');?></h2>
       <div class="block left">
         <h3>Study with Naada at Home, at Your Pace</h3>
         Naada Yoga brings the highest quality yoga teachers to Montreal contributing to one of the leading teacher training programs in the country. We are proud to now offer online versions of selected courses from our NYTT curriculum.
