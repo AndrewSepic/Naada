@@ -158,17 +158,16 @@ function naada_assessment_fr (){
       // sets recClasses to data input by insertPage Function above
       $recClasses =  pa_insertPage($atts, $content = null);
       // vars for each Q
-      $experience = (int) $_POST['experience'];
-      $reason = (int) $_POST['reason'];
-      $health = (int) $_POST['health'];
-      $energy = (int) $_POST['energy'];
-      $exercise = (int) $_POST['exercise'];
-      $mental = (int) $_POST['mental'];
-      $sleep = (int) $_POST['sleep'];
-      $oftenmom = (int) $_POST['oftenmom'];
-      $inversions = (int) $_POST['inversions'];
-      $learninversions = (int) $_POST['learninversions'];
-
+      $experience =       (isset($_POST['experience']) ? (int) $_POST['experience'] : 0);
+      $reason =           (isset($_POST['reason']) ? (int) $_POST['reason'] : 0);
+      $health =           (isset($_POST['health']) ? (int) $_POST['health'] : 0);
+      $energy =           (isset($_POST['energy']) ? (int) $_POST['energy'] : 0);
+      $exercise =         (isset($_POST['exercise']) ? (int) $_POST['exercise'] : 0);
+      $mental =           (isset($_POST['mental']) ? (int) $_POST['mental'] : 0);
+      $sleep =            (isset($_POST['sleep']) ? (int) $_POST['sleep'] : 0);
+      $oftenmom =         (isset($_POST['oftenmom']) ? (int) $_POST['oftenmom'] : 0);
+      $inversions =       (isset($_POST['inversions']) ? (int) $_POST['inversions'] : 0);
+      $learninversions =  (isset($_POST['learninversions']) ? (int) $_POST['learninversions'] : 0);
 
       $total = $experience + $reason + $health + $energy + $exercise + $mental + $sleep + $oftenmom + $inversions + $learninversions;
 
