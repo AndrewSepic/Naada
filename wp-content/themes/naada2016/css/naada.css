@@ -1,1 +1,3291 @@
-﻿.videoBanner{width:100%;position:relative}.videoCallout{position:absolute;top:30%;width:500px;left:10%;color:#fff;font-size:1.5rem;line-height:normal;font-weight:400;text-align:center;z-index:100}.videoCallout h2{color:#fff;text-shadow:1px 1px 1px rgba(0,0,0,0.51)}.videoCallout p{text-shadow:1px 1px 1px rgba(0,0,0,0.51)}.videoCallout a.naada-button{text-shadow:none}.videoBanner video{z-index:-100;position:relative;width:100%}.site-header .widget-area{margin-top:25px}.header-widget-area section{float:right}.nav-header a,.nav-header .naada-icon,.nav-header .current-menu-item>a{color:#999}.nav-header a:hover{color:#333}.nav-header .genesis-nav-menu #menu-item-329-fr a,.nav-header .genesis-nav-menu #menu-item-4881-en a,.nav-header .genesis-nav-menu #menu-item-329-fr a:hover,.nav-header .genesis-nav-menu #menu-item-4881-en a:hover{color:#F7AD00}.site-header .search-form{margin-top:6px;width:100%}.widget_search form input[type="search"]{margin-bottom:0;padding:5px 10px;border-radius:20px;font-size:16px}input[type="search"]::-webkit-input-placeholder{color:#ccc}input[type="search"]:-moz-placeholder{color:#ddd;opacity:1}input[type="search"]::-moz-placeholder{color:#ddd;opacity:1}input[type="search"]:-ms-input-placeholder{color:#ddd}input[type="search"]:placeholder-shown{color:#ddd}section#search-3{width:72px;margin-left:20px}body{font-family:Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;font-size:15px;color:#666}.sidebar{font-size:15px;color:#666}body.home{background-color:#fff}.sidebar{font-size:14px}a,.entry-title a,.sidebar .widget-title a,.entry-content a,.sidebar a{color:#f7ad00}a:hover,.entry-title a:hover,.sidebar .widget-title a:hover,.entry-content a:hover,.sidebar a:hover{color:#e19d00}h1,h2,h3,h4,h5,h6{text-transform:uppercase}hr{border:0;height:4px;margin-bottom:4rem;width:100%;background-color:#f5f5f5}.entry-content a,.sidebar a{border-bottom:none}button{color:#fff;font-weight:bold;background-color:#f7ad00;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px}input{padding:.95rem}input[type="button"],input[type="reset"],input[type="submit"]{color:#fff;font-weight:bold;background-color:#f7ad00;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px}.button,.entry-content a.button{color:#fff;font-weight:bold;background-color:#f7ad00;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px}button:hover{background-color:#e19d00}input:hover[type="button"],input:hover[type="reset"],input:hover[type="submit"]{background-color:#e19d00}.button:hover{background-color:#e19d00}input[type="search"]{margin-bottom:20px}input[type="checkbox"],input[type="image"],input[type="radio"]{margin-right:5px}:focus{outline-color:#fff}.archive-pagination li a{background-color:#616161}span.dropcap{float:left;font-size:50px;line-height:44px;padding:2px 5px 0 3px}.site-header{min-height:80px}.site-header .wrap{padding:8px 0}.title-area{padding:7px 0}.nav-primary{background-color:#b3ba1c}.genesis-nav-menu{font-size:13px;color:#666;text-transform:uppercase;font-weight:bold}.menu-secondary{font-size:12px}ul.menu-primary>li.menu-item-has-children>a:after{content:'\f502';display:inline-block;font:normal 12px/1 'Genericons';vertical-align:bottom;-webkit-font-smoothing:antialiased;padding-left:5px}ul.menu-primary ul>li.menu-item-has-children>a:after{content:'\f502';display:inline-block;font:normal 12px/1 'Genericons';vertical-align:bottom;-webkit-font-smoothing:antialiased;padding-left:5px;content:'\f501';vertical-align:text-bottom;padding-bottom:2px}.genesis-nav-menu a{padding:15px 6px}.nav-primary .genesis-nav-menu a:hover,.nav-primary .genesis-nav-menu .current-menu-item>a{color:#e8e8e8}.nav-primary .genesis-nav-menu .sub-menu{z-index:500}.nav-primary .genesis-nav-menu .sub-menu .current-menu-item>a:hover{color:#fff}.nav-primary .genesis-nav-menu .sub-menu a{background-color:#fff;color:#b3ba1c;border:1px solid #e5e5e5;border-top:none;font-size:13px;text-transform:uppercase;line-height:1.2}.genesis-nav-menu .sub-menu .current-menu-item a{background-color:#fff;color:#b3ba1c;border:1px solid #e5e5e5;border-top:none;font-size:13px;text-transform:uppercase;line-height:1.2}.menu-primary .sub-menu a:hover,.menu-primary .sub-menu .current-menu-item a:hover{background-color:#b3ba1c;color:#fff}.header-image .site-title>a{background:url("../images/logo.png") no-repeat left}#menu-ytt-submenu li a,#menu-ytt-submenu-french li a{font-size:1.2em}#menu-ytt-submenu li a:hover:after,#menu-ytt-submenu-french li a:hover:after{content:'\f501';display:inline-block;font:normal 14px/1 'Genericons';vertical-align:middle;-webkit-font-smoothing:antialiased;padding-left:5px}.shiftnav-loading{display:none !important}.entry-title{margin-bottom:30px}.post h1.entry-title{font-size:24px}.archive-pagination li a:hover,.archive-pagination .active a{background-color:#f7ad00}.entry-meta{font-weight:bold;display:none}.wp-caption-text{font-weight:400;font-style:italic}.widget-title{font-size:20px}.home .site-inner{padding-top:0}.forcefullwidth_wrapper_tp_banner{display:block;clear:both;margin-bottom:28px !important}.naada-accordion{margin-bottom:40px !important}.naada-teacher{float:right;margin:0 0 20px 20px}.naada-teacher img{float:left;padding-right:5px}div.naada-question{margin-bottom:28px}.video-wrapper{position:relative;padding-bottom:52%;padding-top:25px;height:0;border:1px solid #e5e5e5;margin-bottom:20px}.video-wrapper iframe{position:absolute;top:0;left:0;width:100%;height:100%}table.naada-table tbody{border:none}.naada-paypal-button input{border:none;padding:0}img.resource-boxes{width:220px;float:left;margin:5px 5px 0 0}.naada-pricing{font-size:18px;font-weight:bold;line-height:1.3}.naada-pricing tbody{background-color:whitesmoke}.naada-pricing td{padding:20px !important;width:50%}.naada-pricing ul{font-size:14px;font-weight:normal}.naada-pricing p{font-size:14px;font-weight:normal;margin:14px 0}.naada-pricing-amount{font-size:30px;line-height:0.8}h2.tablepress-table-name{font-size:24px}h2.ld-entry-title{font-size:24px;margin-bottom:20px}#learndash_uploaded_assignments h2{font-size:24px;margin-bottom:20px}.learndash input.button-primary{margin-top:10px}.widget_sfwd-courses-widget h4 a,.widget_sfwd_ldcourseinfo #ld_course_info_mycourses_list h4{font-size:16px}.widget_ldcourseinfo .ld-course-info-my-courses h2{font-size:15px}.widget_ldcourseinfo .ld-course-info-my-courses img{display:none}.widget_ldcourseinfo .ld-course-info-my-courses:before{content:"• "}.widget_sfwd-courses-widget li{padding-bottom:0}div.uber-grid-filters>div{margin-right:5px !important}div.uber-grid-filters>div a{font-size:14px !important}.page-id-198 .uber-grid-filters,.page-id-5231 .uber-grid-filters{display:none !important}.gform_wrapper input{border:1px solid #ddd}.gform_wrapper input[type="submit"]{padding:16px 24px;border:none}.widget ol>li{text-indent:0}.gform_wrapper ul.gfield_checkbox li,.gform_wrapper ul.gfield_radio li{overflow:visible !important}.genericon{vertical-align:text-bottom}.naada-icon:before{display:inline-block;-webkit-font-smoothing:antialiased;font:normal 16px/1 'Genericons';vertical-align:text-bottom}.naada-facebook-icon:before{content:'\f203'}.naada-twitter-icon:before{content:'\f202'}.naada-instagram-icon:before{content:'\f215'}.naada-slide-box1{font-size:14px;color:#fff}.naada-slide-box1 p{margin:0 0 10px}.naada-slide-box1 a.naada-slidebox-link{color:#999;border-bottom:1px dotted #999}.naada-slide-box1 a.naada-slidebox-link:hover{color:#fff}.naada-slide-box1 h5{color:#fff;margin:0 0 10px 0;font-weight:bold}.naada-slide-image{border:3px solid #fff}div.horz-sched{margin-bottom:2rem}div.horz-sched .healcode table,div.horz-sched .healcode tbody{border:0}div.horz-sched div.healcode table.schedule tr td{border-top:0}div.horz-sched div.healcode table tr{border-bottom:0}div.horz-sched div.list_view li{padding:1rem;width:100px;float:left;min-height:140px;border-left:1px dashed #DEDEDE;border-bottom:1px solid #E5E5E5}div.horz-sched .healcode a.hc-button.signup_now{font-size:.75rem}div.horz-sched .healcode .hc_time{line-height:1rem}div.horz-sched .healcode span.hc_endtime{color:#C3C3C3}div.horz-sched .healcode .mbo_class{padding-top:7px;line-height:1rem}div.horz-sched div.list_view li div.signup{position:absolute;bottom:7%;top:inherit;margin-top:0;left:10px}div.healcode div.hc_footer div{display:none !important}div.healcode a.hc-button{display:inline-block !important;-webkit-border-radius:3px;-moz-border-radius:3px;-o-border-radius:3px;border-radius:3px;color:#fff;background-color:#404040}div.healcode a:hover.hc-button{background-color:#fabd30;color:#fff !important}div.healcode a.hc-button.signup_now{font-family:Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;font-weight:normal;background-color:#f7ad00 !important}div.healcode .week_links a{font-family:Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;font-weight:bold !important;background-color:#f7ad00 !important}div.healcode a.hc-button.signup_now:hover,div.healcode .week_links a:hover{background-color:#fabd30 !important}.footer-widgets{background-color:#b3ba1c;color:#fff}.footer-widgets a{color:#fff;border-bottom:1px dotted #fff}.footer-widgets button{background-color:#f7ad00;color:#fff;font-weight:bold}.footer-widgets input[type="button"],.footer-widgets input[type="reset"],.footer-widgets input[type="submit"]{background-color:#f7ad00;color:#fff;font-weight:bold}.footer-widgets .button{background-color:#f7ad00;color:#fff;font-weight:bold}.footer-widgets button:hover{background-color:#e19d00;color:#fff}.footer-widgets input:hover[type="button"],.footer-widgets input:hover[type="reset"],.footer-widgets input:hover[type="submit"]{background-color:#e19d00;color:#fff}.footer-widgets .button:hover{background-color:#e19d00;color:#fff}.site-footer{background-color:#90980e;background-size:cover;color:#fff;padding:1.5rem 0}.footer-widgets input{border:1px solid #fff;border-radius:3px}body.home .site-inner{max-width:100%}body.home .site-inner article.entry{padding:0;margin-bottom:1rem}body.home .site-inner .homeContentWrap{max-width:1200px;margin:0 auto;padding:3rem 3rem}body.home .site-inner .homeContentWrap .greenbox{background-color:#b3ba1c;color:#fff;padding:10px;margin-bottom:1rem}body.home .site-inner .homeContentWrap .greenbox h3{font-size:1.35rem;color:#fff;padding:10px;margin-bottom:0}body.home .site-inner .homeContentWrap .sell{width:47%;float:left;margin:2rem 3% 2rem 0}body.home .site-inner .homeContentWrap .sell p{float:left;width:60%}body.home .site-inner .homeContentWrap .sell .greenbox+p{float:left;width:35%}body.home .site-inner .homeContentWrap .login-left{float:left;width:20%;margin-right:5%}body.home .site-inner .homeContentWrap .login-right{float:left;width:75%}body.home .site-inner .homeContentWrap .login-right div.signin{background:#e1e1e1;border-radius:10px;padding:2rem 2rem 1rem;float:left;width:100%}body.home .site-inner .homeContentWrap .login-right h3{background:#f4f4f4;padding:.75rem 1.5rem;display:inline-block;margin:0 0 0 2rem;color:#7B7B7B;border-radius:10px 10px 0 0}body.home .site-inner .homeContentWrap .login-right .form-group{float:left;margin:0 3% 2% 0}body.home .site-inner .homeContentWrap .login-right .form-group:nth-of-type(1),body.home .site-inner .homeContentWrap .login-right .form-group .form-group:nth-of-type(2){width:40%}body.home .site-inner .homeContentWrap .login-right .form-group:nth-of-type(3){width:15%;margin:1.65rem 0 1rem}body.home .site-inner .homeContentWrap .login-right .form-group input[type="submit"]{float:right}body.home .site-inner .homeContentWrap .login-right ul li{list-style-type:none;font-size:1.2rem;font-style:italic}section.module.parallax{width:100%;padding:6rem 0;position:relative}section.module.parallax .parallaxContent{margin:0 auto;max-width:1200px;text-align:center}section.module.parallax .parallaxContent h2{color:#fff;text-align:center;position:relative}section.module.parallax .parallaxContent h2 span{border-bottom:5px solid #b3ba1c}section.module.parallax .parallaxContent h3{color:#fff;font-size:1.45rem;font-weight:600}section.module.parallax .parallaxContent .block{width:45%;margin:3rem 1rem;float:left;color:#fff;font-size:1.2rem;text-align:left}section.module.parallax .parallaxContent .block.right p{padding-top:2.3rem}section.module.parallax div.downArrow{display:inline-block;vertical-align:middle}section.module.parallax div.downArrow a{display:inline-block;border-radius:50%}section.module.parallax div.downArrow:hover .bottom{border:0.5em solid #b3ba1c}section.module.parallax div.downArrow:hover .bottom:after{border-top:0.5em solid #b3ba1c;border-right:0.5em solid #b3ba1c}section.module.parallax div.downArrow .bottom{display:inline-block;width:4em;height:4em;border:0.5em solid #fff;border-radius:50%;margin-left:0.75em}section.module.parallax div.downArrow .bottom:after{content:'';display:inline-block;margin-top:0.4em;width:1.4em;height:1.4em;border-top:0.5em solid #fff;border-right:0.5em solid #fff;-moz-transform:rotate(135deg);-webkit-transform:rotate(135deg);transform:rotate(135deg)}.onlineEducation{text-align:center;padding:2rem 0}.onlineEducation a{color:#b3ba1c}section.module.parallax-1{background:url("../images/online-yoga-education.jpg") 50% 0 repeat fixed;background-size:cover}section.module.parallax-2{background:url("../images/nytt-bg.jpg") 50% 0 repeat fixed;background-size:cover}section.module.parallax-2 .parallaxContent .block .right p{padding-top:0}.online-carousel{margin:3rem 0}.online-carousel div.courseImage{float:none !important;width:288px;margin:0 auto 1.5rem !important}.online-carousel div.courseImage img{border:1px solid #E5E5E5;float:none;padding:6px;margin:0;width:288px;height:178px;border-radius:5px}.online-carousel h2{margin-bottom:0}.online-carousel h2 a{display:block;text-align:center;font-weight:300;font-size:1.5rem}.online-carousel span.trainer-name a{display:inline-block;font-size:1.1rem}.online-carousel .slick-slide{width:355px;text-align:center}.naada-button{display:inline-block;position:relative;margin:5px;text-decoration:none;text-transform:uppercase;font-weight:bold;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px}.naada-button:hover{display:inline-block;position:relative;margin:5px;text-decoration:none;text-transform:uppercase;font-weight:bold;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px}.grey-button{color:#fff !important;background-color:#3f3f3f}.grey-button:hover{color:#fff !important;background-color:#1f1f1f}.green-button{color:#fff !important;background-color:#b3ba1c}.green-button:hover{color:#fff !important;background-color:#a6ad1b}.orange-button{color:#fff !important;background-color:#f7ad00}.footer-widgets a.orange-button,.rev_slider a.orange-button{border:1px solid #fff}.orange-button:hover{color:#fff !important;background-color:#fabd30}.naada-button.small{font-size:11px;line-height:14px;padding:5px 10px}.naada-button.medium{font-size:16px;line-height:16px;padding:12px 20px}.naada-button.large{font-size:21px;line-height:21px;padding:18px 30px}.naada-promo-box{border:1px solid #e5e5e5;margin-bottom:20px}.naada-promo-box-header{display:inline-block;width:100%;padding:15px;color:#fff;font-weight:bold;text-transform:uppercase;background-color:#b3ba1c}.naada-promo-box-body{display:inline-block;padding:15px}.naada-promo-box-dates{display:inline-block;padding:0 15px 15px;font-weight:bold}tr.kids_enfants_7_11 .class_level span,tr.kids_enfants_4_6 .class_level span,tr.prenatal .class_level span,tr.acro_yoga .class_level span{color:#fff;text-transform:uppercase;background:#8284ad;padding:5px 10px}tr.meditation .class_level span,tr.restorative_101 .class_level span,tr.restaurateur_cou_epaules .class_level span,tr.restaurateur .class_level span,tr.restaurateur_hanches_dos .class_level span,tr.yoga_wall_restorative .class_level span,tr.yin_yoga .class_level span,tr.ayurveda .class_level span,tr.advanced_anatomy .class_level span{color:#fff;text-transform:uppercase;background:#F1E33D;padding:5px 10px}tr.energizer .class_level span,tr.rise_and_shine .class_level span,tr.naada_level_1 .class_level span,tr.intro_to_yoga .class_level span,tr.yoga_wall_intro .class_level span,tr.community_yoga_for_healthy_aging .class_level span,tr.community_class .class_level span{color:#fff;text-transform:uppercase;background:#b3ba1e;padding:5px 10px}tr.naada_level_2 .class_level span,tr.yoga_wall .class_level span,tr.shoulder_openers .class_level span,tr.hip_openers .class_level span,tr.back_bends .class_level span,tr.yoga_wall .class_level span,tr.yoga_wall_hip_openers .class_level span{color:#fff;text-transform:uppercase;background:#97c9ea;padding:5px 10px}tr.naada_live_by_donation .class_level span,tr.live_workshop_level_2_3 .class_level span,tr.naada_live .class_level span,tr.naada_level_2_3 .class_level span{color:#fff;text-transform:uppercase;background:#f59c00;padding:5px 10px}tr.kids_enfants_5_10 .class_level span,tr.fete_de_rue_le_mile_end_fete_la_bonne_vie_en_sante .class_level span{color:#fff;text-transform:uppercase;background:#8284ad;padding:5px 10px}tr.yoga_for_bone_health .class_level span,tr.yoga_for_women_yoga_pour_femmes .class_level span,tr.inversions .class_level span,tr.yoga_for_men_yoga_pour_hommes .class_level span,tr.intro_to_pranayama .class_level span,tr.prenatal .class_level span,tr.soins_du_dos_back_care .class_level span,tr.back_care .class_level span,tr.yoga_intro .class_level span{color:#fff;text-transform:uppercase;background:#f285a2;padding:5px 10px}tr.decoding_the_sun_salutations_decoder_les_salutations_au_soleil .class_level span,tr.finding_the_earth_through_standing_poses_connecter_avec_le_sol_lors_des_postures_debout .class_level span,tr.get_to_the_core_twisting_in_standing_poses_droit_au_coeur_les_torsions_en_postures_debout .class_level span{color:#fff;text-transform:uppercase;background:#D34F3F;padding:5px 10px}.Enrollment td.class_level span.class_level{color:#fff;text-transform:uppercase;background:#D34F3F;padding:5px 10px}.Enrollment.assisting_101 td.class_level span.class_level,.Enrollment.ayurveda td.class_level span.class_level,.Enrollment.asana_103 td.class_level span.class_level,.Enrollment.back_care td.class_level span.class_level,.Enrollment.meditation_101 td.class_level span.class_level,.Enrollment.relax_and_renew td.class_level span.class_level,.Enrollment.pranayama_101 td.class_level span.class_level,.Enrollment.yoga_wall td.class_level span.class_level,.Enrollment.naada_101 td.class_level span.class_level,.Enrollment.psychology_of_yoga td.class_level span.class_level{color:#fff;text-transform:uppercase;background:#909090;padding:5px 10px}.naada-class-categories{padding:10px;text-transform:uppercase;color:#fff}.naada-class-category-desc{margin:0 0 10px 10px;font-style:italic}.naada-therapeutic{background:#e3d042}.naada-beginner{background:#b3ba1e}.naada-intermediate{background:#97c9ea}.naada-advanced{background:#f59c00}.naada-specialty-classes{background:#f285a2}.naada-family{background:#8284ad}.clearfix{display:inline-block}.clearfix:after{visibility:hidden;display:block;font-size:0;content:" ";clear:both;height:0}img.naada-grid{margin:0 5px 5px 0;width:133px;float:left}@media only screen and (max-width: 1200px){img.naada-grid{width:103px}}@media only screen and (max-width: 960px){.naada-teacher{float:none}.naada-teacher img{float:none}img.naada-grid{width:137px}}@media only screen and (max-width: 800px){img.naada-grid{width:113px}.entry-title{font-size:30px;margin-bottom:30px}img.resource-boxes{width:260px}}#hc_enrollments_301084042aa:first-child .enrollment{display:block}#hc_enrollments_301084042aa .enrollment{display:none}body.page-id-6613 div.healcode.enrollments .enrollment,body.page-id-6613 div.healcode.enrollments .healcode-course{width:300px !important}div.healcode-course div.enrollment{display:none !important}#overlay{position:fixed;top:0;left:0;width:100%;height:100%;background:#000;opacity:0.5;filter:alpha(opacity=50)}#modal{position:absolute;background:rgba(0,0,0,0.2);border-radius:14px;padding:8px}#content{border-radius:8px;background:#fff;padding:20px}#close{position:absolute;width:30px;height:30px;display:block;top:-7px;right:-7px;background-color:#fff;border-radius:14px;font-weight:bold;padding:1px 8px;border:2px solid #5A5A5A}#close:hover{background:#f7ad00;color:#fff}.naada-carousel div.healcode-image-area{float:none !important;width:288px;margin:0 auto 1.5rem !important}.naada-carousel div.healcode-image-area img{border:1px solid #E5E5E5;float:none;padding:6px;margin:0;width:288px;height:178px;border-radius:5px}.naada-carousel h2.healcode-enrollment-name,.naada-carousel h2.healcode-course-name{text-transform:capitalize}.naada-carousel span.healcode-trainer-name{text-align:center;display:block}.naada-carousel div.healcode .healcode-course{min-height:466px}.naada-carousel .slick-slider{max-height:450px}.naada-carousel .slick-slider .slick-slide{width:354px}.naada-carousel .slick-list{padding:0 0 0 20px !important}.slick-prev,.slick-next{height:40px !important;weight:40px !important}.slick-prev:before,.slick-next:before{color:#e9e9e9 !important;font-size:40px !important}
+@charset "UTF-8";
+/*
+  * CUSTOM THEME FOR NAADA yoga_wall
+  * By PAUL @ Blink Web Services & ANDREW @ THink Up Design
+  * Updated and Sassed January 2016 */
+/* COLORS */
+/* MIXINS */
+/* Video Banner CSS */
+/* line 43, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.videoBanner, .familyBanner, .clinicBanner {
+  width: 100%;
+  position: relative;
+}
+
+/* line 47, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.familyBanner, .clinicBanner {
+  background-size: cover;
+  min-height: 600px;
+}
+
+@media only screen and (max-width: 400px) {
+  /* line 47, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  .familyBanner, .clinicBanner {
+    min-height: 250px;
+  }
+}
+
+/* line 53, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.familyBanner {
+  background: url("../images/familyyoga-header.jpg") no-repeat bottom left;
+}
+
+/* line 56, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.clinicBanner {
+  background-position: bottom left;
+}
+
+/* line 59, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.videoCallout, .familyCallout, .clinicCallout {
+  position: absolute;
+  top: 30%;
+  width: 500px;
+  left: 10%;
+  color: #fff;
+  font-size: 1.5rem;
+  line-height: normal;
+  font-weight: 400;
+  text-align: center;
+  z-index: 100;
+}
+
+/* line 70, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.videoCallout h1, .videoCallout h2, .videoCallout h3, .familyCallout h1, .familyCallout h2, .familyCallout h3, .clinicCallout h1, .clinicCallout h2, .clinicCallout h3 {
+  color: #fff;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.51);
+  font-weight: 600;
+}
+
+/* line 74, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.videoCallout p, .familyCallout p, .clinicCallout p {
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.51);
+}
+
+/* line 76, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.videoCallout a.naada-button, .familyCallout a.naada-button, .clinicCallout a.naada-button {
+  text-shadow: none;
+}
+
+/* line 78, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.videoCallout div.downArrow, .familyCallout div.downArrow, .clinicCallout div.downArrow {
+  position: absolute;
+  bottom: -21px;
+  left: 48%;
+  display: inline-block;
+  border-radius: 50%;
+  display: inline-block;
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: #b3ba1c;
+  border-radius: 50%;
+  margin-left: 0.75em;
+  bottom: -36px;
+  left: 42%;
+}
+
+@media only screen and (min-width: 375px) and (max-width: 449px) {
+  /* line 78, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  .videoCallout div.downArrow, .familyCallout div.downArrow, .clinicCallout div.downArrow {
+    left: 42%;
+  }
+}
+
+@media only screen and (max-width: 374px) {
+  /* line 78, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  .videoCallout div.downArrow, .familyCallout div.downArrow, .clinicCallout div.downArrow {
+    left: 40%;
+  }
+}
+
+/* line 29, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.videoCallout div.downArrow:after, .familyCallout div.downArrow:after, .clinicCallout div.downArrow:after {
+  content: '';
+  display: inline-block;
+  margin-top: 9px;
+  width: 12px;
+  height: 12px;
+  border-top: 5px solid #fff;
+  border-right: 5px solid #fff;
+  -moz-transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+
+@media only screen and (min-width: 640px) and (max-width: 960px) {
+  /* line 59, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  .videoCallout, .familyCallout, .clinicCallout {
+    top: 20%;
+    width: 400px;
+    left: 5%;
+    font-size: 1.25rem;
+  }
+  /* line 87, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  .videoCallout .naada-button.large, .familyCallout .naada-button.large, .clinicCallout .naada-button.large {
+    padding: 10px 15px;
+    font-size: 18px;
+  }
+  /* line 90, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  .videoCallout .text-widget p, .familyCallout .text-widget p, .clinicCallout .text-widget p {
+    margin: 0 0 10px;
+  }
+}
+
+@media only screen and (max-width: 639px) {
+  /* line 59, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  .videoCallout, .familyCallout, .clinicCallout {
+    top: 10%;
+    width: 300px;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  /* line 97, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  .videoCallout h2, .familyCallout h2, .clinicCallout h2 {
+    font-size: 22px;
+  }
+  /* line 99, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  .videoCallout .naada-button.large, .familyCallout .naada-button.large, .clinicCallout .naada-button.large {
+    padding: 8px 10px;
+    font-size: 14px;
+  }
+  /* line 102, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  .videoCallout .text-widget p, .familyCallout .text-widget p, .clinicCallout .text-widget p {
+    margin: 0 0 10px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  /* line 59, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  .videoCallout, .familyCallout, .clinicCallout {
+    top: 20%;
+  }
+  /* line 106, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  .videoCallout .textwidget p, .familyCallout .textwidget p, .clinicCallout .textwidget p {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  /* line 59, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  .videoCallout, .familyCallout, .clinicCallout {
+    left: 2%;
+  }
+  /* line 110, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  .videoCallout h2, .familyCallout h2, .clinicCallout h2 {
+    font-size: 17px;
+  }
+  /* line 112, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  .videoCallout .textwidget p, .familyCallout .textwidget p, .clinicCallout .textwidget p {
+    display: none;
+  }
+  /* line 114, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  .videoCallout .naada-button.large, .familyCallout .naada-button.large, .clinicCallout .naada-button.large {
+    padding: 4px 10px;
+  }
+}
+
+/* line 123, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.videoBanner video {
+  z-index: -100;
+  position: relative;
+  width: 100%;
+}
+
+/* Video Banner End */
+/* Header Widget */
+/* line 132, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.header-full-width .title-area {
+  width: 360px;
+}
+
+/* line 135, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.site-header .menu-secondary-navigation-container, .site-header .menu-secondary-navigation-french-container {
+  max-width: 800px;
+  margin-top: 25px;
+  float: right;
+}
+
+/* line 140, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.site-header .menu-secondary-navigation-container ul li, .site-header .menu-secondary-navigation-french-container ul li {
+  float: right;
+  padding: 0 5px;
+}
+
+/* line 143, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.site-header .menu-secondary-navigation-container ul li a, .site-header .menu-secondary-navigation-french-container ul li a {
+  color: #A2A2A2;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* line 147, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.site-header .menu-secondary-navigation-container ul li a:hover, .site-header .menu-secondary-navigation-french-container ul li a:hover {
+  color: #BeBebe;
+}
+
+/* line 149, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.site-header .menu-secondary-navigation-container ul li.language a, .site-header .menu-secondary-navigation-french-container ul li.language a {
+  color: #f7ad00;
+}
+
+/* line 151, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.site-header .menu-secondary-navigation-container ul li.language a:hover, .site-header .menu-secondary-navigation-french-container ul li.language a:hover {
+  color: #fabd30;
+}
+
+@media only screen and (max-width: 700px) {
+  /* line 135, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  .site-header .menu-secondary-navigation-container, .site-header .menu-secondary-navigation-french-container {
+    float: left;
+    margin-top: 0;
+  }
+  /* line 156, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  .site-header .menu-secondary-navigation-container section.widget_nav_menu, .site-header .menu-secondary-navigation-french-container section.widget_nav_menu {
+    float: left;
+    margin-left: 15px;
+  }
+  /* line 159, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  .site-header .menu-secondary-navigation-container section#search-3, .site-header .menu-secondary-navigation-french-container section#search-3 {
+    margin-right: 20px;
+    margin-left: 0;
+  }
+}
+
+/* line 163, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.header-widget-area section {
+  float: right;
+}
+
+/* line 167, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.nav-header a, .nav-header .naada-icon, .nav-header .current-menu-item > a {
+  color: #999;
+}
+
+/* line 169, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.nav-header a:hover {
+  color: #333;
+}
+
+/* line 172, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.nav-header .genesis-nav-menu #menu-item-329-fr a, .nav-header .genesis-nav-menu #menu-item-4881-en a, .nav-header .genesis-nav-menu #menu-item-329-fr a:hover, .nav-header .genesis-nav-menu #menu-item-4881-en a:hover {
+  color: #F7AD00;
+}
+
+/* line 175, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.site-header form.search-form {
+  margin-top: 21px;
+  width: 100%;
+  margin-bottom: 0;
+  padding: 5px 8px;
+  border-radius: 20px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  float: right;
+  height: 30px;
+  width: auto;
+}
+
+@media only screen and (max-width: 700px) {
+  /* line 175, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  .site-header form.search-form {
+    margin-top: 60px;
+    margin-right: 10px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  /* line 175, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  .site-header form.search-form {
+    margin-top: 0;
+  }
+}
+
+/* line 191, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.site-header form.search-form:hover {
+  background-color: #b3ba1c;
+  color: #fff;
+  cursor: text;
+}
+
+/* line 195, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.site-header form.search-form:hover .ico-mglass {
+  background: #b3ba1c;
+  border: 2px solid #fff;
+}
+
+/* line 198, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.site-header form.search-form:hover .ico-mglass::after {
+  background: #fff;
+}
+
+/* line 200, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.site-header form.search-form input {
+  border: 0;
+  border-bottom: 1px solid #ECEFAC;
+  display: none;
+  background: transparent;
+  color: #fff;
+  margin-bottom: 0;
+  width: 85%;
+  padding: 0;
+  height: 20px;
+  float: right;
+}
+
+/* line 212, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.ico-mglass {
+  position: relative;
+  display: inline-block;
+  background: #fff;
+  border-radius: 30px;
+  height: 11px;
+  width: 11px;
+  border: 2px solid #888;
+  float: left;
+  margin-top: 3px;
+}
+
+/* line 223, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.ico-mglass:after {
+  content: "";
+  height: 2px;
+  width: 7px;
+  background: #888;
+  position: absolute;
+  top: 7px;
+  left: 5px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+}
+
+/* line 238, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+input[type="search"]::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  color: #ccc;
+}
+
+/* line 241, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+input[type="search"]:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #ddd;
+  opacity: 1;
+}
+
+/* line 245, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+input[type="search"]::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #ddd;
+  opacity: 1;
+}
+
+/* line 249, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+input[type="search"]:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #ddd;
+}
+
+/* line 252, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+input[type="search"]:placeholder-shown {
+  /* Standard Pseudo-class */
+  color: #ddd;
+}
+
+/* line 256, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+section#search-3 {
+  width: 30px;
+  margin-left: 20px;
+}
+
+/* line 259, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+section#search-3 h4 {
+  display: none;
+}
+
+/* End Header Widget */
+/* line 264, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+body {
+  font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  color: #666;
+}
+
+/* line 269, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.sidebar {
+  font-size: 15px;
+  color: #666;
+}
+
+/* line 273, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+body.home, body.page-template-familypage {
+  background-color: #fff;
+}
+
+/* line 276, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.sidebar {
+  font-size: 14px;
+}
+
+/* line 279, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+a, .entry-title a, .sidebar .widget-title a, .entry-content a, .sidebar a {
+  color: #f7ad00;
+}
+
+/* line 282, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+a:hover, .entry-title a:hover, .sidebar .widget-title a:hover, .entry-content a:hover, .sidebar a:hover {
+  color: #e19d00;
+}
+
+/* line 285, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+h1, h2, h3, h4, h5, h6 {
+  text-transform: uppercase;
+}
+
+/* line 288, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+hr {
+  border: 0;
+  height: 4px;
+  margin-bottom: 4rem;
+  /*background-image: -webkit-linear-gradient(left, rgba(153,153,153,0), rgba(153,153,153,0.75), rgba(153,153,153,0));
+   *background-image:    -moz-linear-gradient(left, rgba(153,153,153,0), rgba(153,153,153,0.75), rgba(153,153,153,0));
+   *background-image:     -ms-linear-gradient(left, rgba(153,153,153,0), rgba(153,153,153,0.75), rgba(153,153,153,0));
+   *background-image:      -o-linear-gradient(left, rgba(153,153,153,0), rgba(153,153,153,0.75), rgba(153,153,153,0)); */
+  width: 100%;
+  background-color: #f5f5f5;
+}
+
+/* line 299, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.entry-content a, .sidebar a {
+  border-bottom: none;
+}
+
+/* line 302, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+button {
+  color: #fff;
+  font-weight: bold;
+  background-color: #f7ad00;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+/* line 310, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+input {
+  padding: .95rem;
+}
+
+/* line 312, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+input[type="button"], input[type="reset"], input[type="submit"] {
+  color: #fff;
+  font-weight: bold;
+  background-color: #f7ad00;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+/* buttons */
+/* line 346, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.naada-button {
+  display: inline-block;
+  position: relative;
+  margin: 5px;
+  /*font-family: Merriweather, 'Open Sans', Arial, sans-serif; */
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+/* line 348, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.naada-button:hover {
+  display: inline-block;
+  position: relative;
+  margin: 5px;
+  /*font-family: Merriweather, 'Open Sans', Arial, sans-serif; */
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+/* line 351, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.orange-hollow {
+  border: 2px solid #f7ad00;
+}
+
+/* line 353, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.orange-hollow:hover {
+  color: #fbc13b;
+  border: 2px solid #fbc13b;
+}
+
+/* line 357, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.grey-button {
+  color: #fff !important;
+  background-color: #3f3f3f;
+}
+
+/* line 360, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.grey-button:hover {
+  color: #fff !important;
+  background-color: #1f1f1f;
+}
+
+/* line 364, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.green-button {
+  color: #fff !important;
+  background-color: #b3ba1c;
+}
+
+/* line 367, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.green-button:hover {
+  color: #fff !important;
+  background-color: #a6ad1b;
+}
+
+/* line 375, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.orange-button {
+  color: #fff !important;
+  background-color: #f7ad00;
+}
+
+/* line 378, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.footer-widgets a.orange-button, .rev_slider a.orange-button {
+  border: 1px solid #fff;
+}
+
+/* line 381, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.orange-button:hover {
+  color: #fff !important;
+  background-color: #fabd30;
+}
+
+/* line 385, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.inactive-button {
+  background-color: #C5C5C5;
+  color: #8D8888;
+}
+
+/* line 390, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.naada-button.small {
+  font-size: 11px;
+  line-height: 14px;
+  padding: 5px 10px;
+}
+
+/* line 394, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.naada-button.medium {
+  font-size: 16px;
+  line-height: 16px;
+  padding: 12px 20px;
+}
+
+/* line 398, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.naada-button.large {
+  font-size: 21px;
+  line-height: 21px;
+  padding: 18px 30px;
+}
+
+/* end buttons */
+/* line 405, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+a.button, .button, .entry-content a.button {
+  color: #fff;
+  font-weight: bold;
+  background-color: #f7ad00;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+/* line 412, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+a.button:hover, .button:hover, .entry-content a.button:hover {
+  background-color: #fabd30;
+  color: #fff;
+}
+
+/* line 416, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+button:hover {
+  background-color: #e19d00;
+}
+
+/* line 420, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+input:hover[type="button"], input:hover[type="reset"], input:hover[type="submit"] {
+  background-color: #e19d00;
+}
+
+/* line 423, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.button:hover {
+  background-color: #e19d00;
+}
+
+/* line 427, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+input[type="search"] {
+  margin-bottom: 20px;
+}
+
+/* line 429, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+input[type="checkbox"], input[type="image"], input[type="radio"] {
+  margin-right: 5px;
+}
+
+/* line 432, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+:focus {
+  outline-color: #fff;
+}
+
+/* line 435, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.archive-pagination li a {
+  background-color: #616161;
+}
+
+/* line 438, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+span.dropcap {
+  float: left;
+  font-size: 50px;
+  line-height: 44px;
+  padding: 2px 5px 0 3px;
+}
+
+/* line 444, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.twocol {
+  width: 45%;
+  float: left;
+  margin-right: 2.5%;
+}
+
+/* line 448, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.twocol:nth-of-type(2)::after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+/* line 455, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.row {
+  float: left;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+/* line 460, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.alert, .notice {
+  margin: 1rem 1rem 2rem;
+  padding: 1rem;
+  display: block;
+  float: left;
+  color: #fff;
+  border-radius: 5px;
+}
+
+/* line 467, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.alert p, .notice p {
+  margin: 0;
+  line-height: 1.1rem;
+}
+
+/* line 471, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.alert {
+  background-color: #e87070;
+  border: 2px solid red;
+}
+
+/* line 474, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.alert h3 {
+  color: #fff;
+}
+
+/* line 477, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.notice {
+  background-color: #d9eaff;
+  border: 2px solid #a8c3e4;
+  color: #616161;
+}
+
+/* line 481, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.notice h3 {
+  color: #616161;
+}
+
+/* line 484, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.checkMarks li {
+  background: url("../images/checkmark.png") no-repeat top left;
+  padding-left: 35px;
+  line-height: normal;
+  font-weight: 400;
+  font-size: 1.1rem;
+  padding-bottom: .75rem;
+}
+
+/* line 492, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.underline {
+  border-bottom: 4px solid #b3ba1c;
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 1rem;
+  padding-bottom: 3px;
+}
+
+/* line 499, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.centerWrap {
+  text-align: center;
+}
+
+/* line 501, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.centerWrap > h2 {
+  margin: 0 auto 2rem;
+  display: inline-block;
+}
+
+/* line 504, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.centerWrap h3.newsletter {
+  margin: 2rem auto 1rem;
+}
+
+/* line 506, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.centerWrap #mc_embed_signup {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 0;
+}
+
+/* line 510, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.centerWrap #mc_embed_signup form {
+  text-align: center;
+}
+
+/* line 512, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.centerWrap #mc_embed_signup #mc_embed_signup_scroll {
+  width: 100%;
+}
+
+/* line 514, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.centerWrap #mc_embed_signup #mc_embed_signup_scroll input[type="email"] {
+  width: 265px;
+  display: inline-block;
+}
+
+@media only screen and (max-width: 500px) {
+  /* line 514, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  .centerWrap #mc_embed_signup #mc_embed_signup_scroll input[type="email"] {
+    width: 46%;
+  }
+}
+
+/* MailChimp */
+/* line 523, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+#mc_embed_signup {
+  clear: left;
+  font-size: 14px;
+}
+
+/* line 526, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+#mc_embed_signup .clear {
+  text-align: center;
+}
+
+/* line 528, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+#mc_embed_signup p.stupid {
+  display: inline-block;
+  margin: 0;
+}
+
+/* line 531, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+#mc_embed_signup p.stupid input[type='submit'] {
+  margin: -20px 0 0 0;
+  padding: .75rem 2rem;
+  width: 100%;
+}
+
+/* line 535, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+#mc_embed_signup input[type='submit'] {
+  background-color: #F7AD00;
+  border: 1px solid #ffffff;
+  padding: 16px;
+  height: auto;
+  margin-top: 1.5em;
+  width: 80%;
+}
+
+/* line 542, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+#mc_embed_signup input[type='submit']:hover {
+  background-color: #E19D00;
+}
+
+/* Header */
+@media only screen and (min-width: 1200px) {
+  /* line 550, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  .site-container {
+    padding-top: 43px;
+  }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1200px) {
+  /* line 550, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  .site-container {
+    padding-top: 86px;
+  }
+}
+
+/* line 556, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.site-header {
+  min-height: 80px;
+}
+
+/* line 558, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.site-header .wrap {
+  padding: 8px 0;
+}
+
+/* line 561, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.title-area {
+  padding: 7px 0;
+}
+
+/* end Header */
+/* Navigation */
+/* line 568, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.nav-primary {
+  background-color: #b3ba1c;
+  z-index: 999;
+  position: fixed;
+  width: 100%;
+}
+
+/* line 574, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.genesis-nav-menu {
+  font-size: 13px;
+  color: #666;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* line 580, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.menu-secondary {
+  font-size: 12px;
+}
+
+@media only screen and (max-width: 400px) {
+  /* line 584, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  #menu-secondary-navigation li {
+    font-size: 10px;
+  }
+}
+
+/* line 588, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+ul.menu-primary > li.menu-item-has-children > a:after {
+  content: '\f502';
+  display: inline-block;
+  font: normal 12px/1 'Genericons';
+  vertical-align: bottom;
+  -webkit-font-smoothing: antialiased;
+  padding-left: 5px;
+}
+
+/* line 595, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+ul.menu-primary ul > li.menu-item-has-children > a:after {
+  content: '\f502';
+  display: inline-block;
+  font: normal 12px/1 'Genericons';
+  vertical-align: bottom;
+  -webkit-font-smoothing: antialiased;
+  padding-left: 5px;
+  content: '\f501';
+  vertical-align: text-bottom;
+  padding-bottom: 2px;
+}
+
+/* line 606, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.genesis-nav-menu a {
+  padding: 15px 6px;
+}
+
+/* line 610, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.nav-primary .genesis-nav-menu a:hover, .nav-primary .genesis-nav-menu .current-menu-item > a {
+  color: #e8e8e8;
+}
+
+/* line 612, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.nav-primary .genesis-nav-menu .sub-menu {
+  z-index: 500;
+}
+
+/* line 613, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.nav-primary .genesis-nav-menu .sub-menu .current-menu-item > a:hover {
+  color: #fff;
+}
+
+/* line 616, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.nav-primary .genesis-nav-menu .sub-menu a {
+  background-color: #fff;
+  color: #b3ba1c;
+  border: 1px solid #e5e5e5;
+  border-top: none;
+  font-size: 13px;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+/* line 625, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.genesis-nav-menu .sub-menu .current-menu-item a {
+  background-color: #fff;
+  color: #b3ba1c;
+  border: 1px solid #e5e5e5;
+  border-top: none;
+  font-size: 13px;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+/* line 635, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.menu-primary .sub-menu a:hover, .menu-primary .sub-menu .current-menu-item a:hover {
+  background-color: #b3ba1c;
+  color: #fff;
+}
+
+/* line 639, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.header-image .site-title > a {
+  background: url("../images/logo.png") no-repeat left;
+  width: 360px;
+}
+
+/* line 643, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+#menu-ytt-submenu li a, #menu-ytt-submenu-french li a {
+  font-size: 1.2em;
+}
+
+/* line 646, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+#menu-ytt-submenu li a:hover:after, #menu-ytt-submenu-french li a:hover:after {
+  content: '\f501';
+  display: inline-block;
+  font: normal 14px/1 'Genericons';
+  vertical-align: middle;
+  -webkit-font-smoothing: antialiased;
+  padding-left: 5px;
+}
+
+/* line 654, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.shiftnav-loading {
+  display: none !important;
+}
+
+/* end Navigation */
+/* Posts & Pages */
+/* line 661, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.entry-title {
+  margin-bottom: 30px;
+}
+
+/* line 664, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.post h1.entry-title {
+  font-size: 24px;
+}
+
+/* line 668, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.archive-pagination li a:hover, .archive-pagination .active a {
+  background-color: #f7ad00;
+}
+
+/* line 671, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.entry-meta {
+  font-weight: bold;
+  display: none;
+}
+
+/* removed from article and courses display */
+/* line 677, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.wp-caption-text {
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* line 681, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.widget-title {
+  font-size: 20px;
+}
+
+/* line 684, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.home .site-inner, .page-template-familypage .site-inner {
+  padding-top: 0;
+}
+
+@media only screen and (max-width: 800px) {
+  /* line 684, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  .home .site-inner, .page-template-familypage .site-inner {
+    padding: 0;
+  }
+}
+
+/* line 689, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.forcefullwidth_wrapper_tp_banner {
+  display: block;
+  clear: both;
+  margin-bottom: 28px !important;
+}
+
+/* line 694, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.naada-accordion {
+  margin-bottom: 40px !important;
+}
+
+/* line 697, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.naada-teacher {
+  float: right;
+  margin: 0 0 20px 20px;
+}
+
+/* line 700, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.naada-teacher img {
+  float: left;
+  padding-right: 5px;
+}
+
+/* line 704, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+div.naada-question {
+  margin-bottom: 28px;
+}
+
+/* line 707, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.video-wrapper {
+  position: relative;
+  padding-bottom: 52%;
+  /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+  border: 1px solid #e5e5e5;
+  margin-bottom: 20px;
+}
+
+/* line 715, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 722, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+table.naada-table tbody {
+  border: none;
+}
+
+/* line 725, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.naada-paypal-button input {
+  border: none;
+  padding: 0;
+}
+
+/* line 729, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+img.resource-boxes {
+  width: 220px;
+  float: left;
+  margin: 5px 5px 0 0;
+}
+
+/* Tablepress styles */
+/* line 736, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.naada-pricing {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.3;
+}
+
+/* line 740, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.naada-pricing tbody {
+  background-color: whitesmoke;
+}
+
+/* line 742, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.naada-pricing td {
+  padding: 20px !important;
+  width: 50%;
+}
+
+/* line 745, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.naada-pricing ul {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+/* line 748, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.naada-pricing p {
+  font-size: 14px;
+  font-weight: normal;
+  margin: 14px 0;
+}
+
+/* line 753, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.naada-pricing-amount {
+  font-size: 30px;
+  line-height: 0.8;
+}
+
+/* line 758, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+h2.tablepress-table-name {
+  font-size: 24px;
+}
+
+/* line 760, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+h2.ld-entry-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* LearnDash styles */
+/* line 766, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+#learndash_uploaded_assignments h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* line 770, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.learndash input.button-primary {
+  margin-top: 10px;
+}
+
+/* line 773, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.widget_sfwd-courses-widget h4 a, .widget_sfwd_ldcourseinfo #ld_course_info_mycourses_list h4 {
+  font-size: 16px;
+}
+
+/* line 777, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.widget_ldcourseinfo .ld-course-info-my-courses h2 {
+  font-size: 15px;
+}
+
+/* line 779, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.widget_ldcourseinfo .ld-course-info-my-courses img {
+  display: none;
+}
+
+/* line 781, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.widget_ldcourseinfo .ld-course-info-my-courses:before {
+  content: "• ";
+}
+
+/* line 784, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.widget_sfwd-courses-widget li {
+  padding-bottom: 0;
+}
+
+/* line 787, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+#learndash_lessons a, #learndash_quizzes a, .expand_collapse a, .learndash_topic_dots a,
+.learndash_topic_dots a > span, #learndash_lesson_topics_list span a, #learndash_profile a,
+#learndash_profile a span {
+  color: #f7ad00 !important;
+}
+
+/* line 791, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+#learndash_lessons a:hover, #learndash_quizzes a:hover, .expand_collapse a:hover, .learndash_topic_dots a:hover,
+.learndash_topic_dots a > span:hover, #learndash_lesson_topics_list span a:hover, #learndash_profile a:hover,
+#learndash_profile a span:hover {
+  color: #fabd30 !important;
+}
+
+/* line 794, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.learndash_nevigation_lesson_topics_list > div > div.list_arrow {
+  display: block;
+  width: 16px;
+  height: 16px;
+  text-align: center;
+  margin-top: 4px;
+  float: left;
+}
+
+/* line 802, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+#learndash_profile .learndash-course-link a {
+  font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* line 805, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.learndash_nevigation_lesson_topics_list > div {
+  margin-bottom: 10px;
+}
+
+/* line 808, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+dd.course_progress div.course_progress_blue {
+  background-color: #5CB85C;
+  height: 100%;
+}
+
+/* line 812, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+dd.course_progress {
+  display: block;
+  margin: 10px auto;
+  padding: 0;
+  position: relative;
+  width: 90%;
+  background-color: #F5F5F5;
+  border: medium none;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
+  height: 20px;
+  overflow: hidden;
+}
+
+/* Ubergrid styles */
+/* line 827, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+div.uber-grid-filters > div {
+  margin-right: 5px !important;
+}
+
+/* line 828, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+div.uber-grid-filters > div a {
+  font-size: 14px !important;
+}
+
+/* line 832, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.page-id-198 .uber-grid-filters, .page-id-5231 .uber-grid-filters {
+  display: none !important;
+}
+
+/* Gravity Forms styles */
+/* line 837, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.gform_wrapper input {
+  border: 1px solid #ddd;
+}
+
+/* line 839, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.gform_wrapper input[type="submit"] {
+  padding: 16px 24px;
+  border: none;
+}
+
+/*  end Posts & Pages */
+/* fix for framework update */
+/* line 847, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.widget ol > li {
+  text-indent: 0;
+}
+
+/* GF fix for radio buttons overflow */
+/* line 853, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.gform_wrapper ul.gfield_checkbox li, .gform_wrapper ul.gfield_radio li {
+  overflow: visible !important;
+}
+
+/* Genericons */
+/* line 858, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.genericon {
+  vertical-align: text-bottom;
+}
+
+/* line 861, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.naada-icon:before {
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+  font: normal 16px/1 'Genericons';
+  vertical-align: text-bottom;
+}
+
+/* line 867, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.naada-facebook-icon:before {
+  content: '\f203';
+  /*color: #3b5998; */
+}
+
+/* line 871, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.naada-twitter-icon:before {
+  content: '\f202';
+}
+
+/* line 874, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.naada-instagram-icon:before {
+  content: '\f215';
+}
+
+/* Slideshow */
+/* line 879, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.naada-slide-box1 {
+  font-size: 14px;
+  color: #fff;
+}
+
+/* line 882, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.naada-slide-box1 p {
+  margin: 0 0 10px;
+}
+
+/* line 884, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.naada-slide-box1 a.naada-slidebox-link {
+  color: #999;
+  border-bottom: 1px dotted #999;
+}
+
+/* line 887, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.naada-slide-box1 a.naada-slidebox-link:hover {
+  color: #fff;
+}
+
+/* line 889, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.naada-slide-box1 h5 {
+  color: #fff;
+  margin: 0 0 10px 0;
+  font-weight: bold;
+}
+
+/* line 894, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.naada-slide-image {
+  border: 3px solid #fff;
+}
+
+/* Footer */
+/* line 900, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.footer-widgets, .woocommerce .footer-widgets {
+  background-color: #b3ba1c;
+  color: #fff;
+}
+
+/* line 903, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.footer-widgets a, .woocommerce .footer-widgets a {
+  color: #fff;
+  border-bottom: 1px dotted #fff;
+}
+
+/* line 906, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.footer-widgets a.social, .woocommerce .footer-widgets a.social {
+  padding: 0 .25rem;
+  border-bottom: 0;
+}
+
+/* line 909, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.footer-widgets a.social:hover img, .woocommerce .footer-widgets a.social:hover img {
+  opacity: .8;
+}
+
+/* line 911, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.footer-widgets a.social img, .woocommerce .footer-widgets a.social img {
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+}
+
+/* line 915, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.footer-widgets button, .footer-widgets input[type="button"], .footer-widgets input[type="reset"], .footer-widgets input[type="submit"], .footer-widgets .button, .footer-widgets input.button, .woocommerce .footer-widgets button, .woocommerce .footer-widgets input[type="button"], .woocommerce .footer-widgets input[type="reset"], .woocommerce .footer-widgets input[type="submit"], .woocommerce .footer-widgets .button, .woocommerce .footer-widgets input.button {
+  font-weight: bold;
+  display: inline-block;
+  position: relative;
+  margin: 5px;
+  /*font-family: Merriweather, 'Open Sans', Arial, sans-serif; */
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  color: #fff !important;
+  background-color: #f7ad00;
+  border: 1px solid white;
+  padding: 16px 24px;
+}
+
+/* line 921, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.footer-widgets button:hover, .footer-widgets input[type="button"]:hover, .footer-widgets input[type="reset"]:hover, .footer-widgets input[type="submit"]:hover, .footer-widgets .button:hover, .footer-widgets input.button:hover, .woocommerce .footer-widgets button:hover, .woocommerce .footer-widgets input[type="button"]:hover, .woocommerce .footer-widgets input[type="reset"]:hover, .woocommerce .footer-widgets input[type="submit"]:hover, .woocommerce .footer-widgets .button:hover, .woocommerce .footer-widgets input.button:hover {
+  background-color: #fabd30;
+  color: #fff;
+  display: inline-block;
+  position: relative;
+  margin: 5px;
+  /*font-family: Merriweather, 'Open Sans', Arial, sans-serif; */
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+/* line 926, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.site-footer {
+  background-color: #90980e;
+  background-size: cover;
+  color: #fff;
+  padding: 1.5rem 0;
+}
+
+/* line 931, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.site-footer a {
+  color: #fff;
+}
+
+/* line 933, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.site-footer a:hover {
+  color: #D6DA9D;
+}
+
+/* line 936, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.footer-widgets input {
+  border: 1px solid #fff;
+  border-radius: 3px;
+}
+
+/* end Footer */
+/* HOMEPAGE Specific Style */
+/* line 944, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+body.home .site-inner, body.page-template-familypage .site-inner, body.page-template-landing {
+  max-width: 100%;
+}
+
+/* line 946, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+body.home .site-inner article.entry, body.page-template-familypage .site-inner article.entry, body.page-template-landing article.entry {
+  padding: 0;
+  margin-bottom: 1rem;
+}
+
+/* line 949, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+body.home .site-inner .homeContentWrap, body.page-template-familypage .site-inner .homeContentWrap, body.page-template-landing .homeContentWrap {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3rem 3rem;
+}
+
+@media only screen and (max-width: 400px) {
+  /* line 949, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  body.home .site-inner .homeContentWrap, body.page-template-familypage .site-inner .homeContentWrap, body.page-template-landing .homeContentWrap {
+    padding: 2rem 2rem;
+  }
+}
+
+/* line 955, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+body.home .site-inner .homeContentWrap h3.schedule, body.page-template-familypage .site-inner .homeContentWrap h3.schedule, body.page-template-landing .homeContentWrap h3.schedule {
+  float: left;
+  display: inline-block;
+  margin-bottom: 2rem;
+}
+
+/* line 959, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+body.home .site-inner .homeContentWrap a.fullSched, body.page-template-familypage .site-inner .homeContentWrap a.fullSched, body.page-template-landing .homeContentWrap a.fullSched {
+  background: #F5F5F5;
+  border: 1px solid #DEDEDE;
+  border-radius: 5px;
+  padding: .25rem;
+  font-size: 0.9rem;
+  color: #aeaeae;
+  margin: 0 0 0 10px;
+  display: inline-block;
+  float: left;
+}
+
+/* line 969, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+body.home .site-inner .homeContentWrap a.fullSched:hover, body.page-template-familypage .site-inner .homeContentWrap a.fullSched:hover, body.page-template-landing .homeContentWrap a.fullSched:hover {
+  cursor: pointer;
+  background: #f7ad00;
+  color: #fff;
+  border: 1px solid #f7ad00;
+}
+
+/* line 974, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+body.home .site-inner .homeContentWrap.online-courses, body.page-template-familypage .site-inner .homeContentWrap.online-courses, body.page-template-landing .homeContentWrap.online-courses {
+  padding: 1rem 3rem 3rem;
+}
+
+@media only screen and (max-width: 400px) {
+  /* line 974, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  body.home .site-inner .homeContentWrap.online-courses, body.page-template-familypage .site-inner .homeContentWrap.online-courses, body.page-template-landing .homeContentWrap.online-courses {
+    padding: 1rem 2rem 2rem;
+  }
+}
+
+/* line 978, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+body.home .site-inner .homeContentWrap .greenbox, body.page-template-familypage .site-inner .homeContentWrap .greenbox, body.page-template-landing .homeContentWrap .greenbox {
+  background-color: #b3ba1c;
+  color: #fff;
+  padding: 10px;
+  margin-bottom: 1rem;
+  background-color: #b3ba1c;
+}
+
+/* line 986, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+body.home .site-inner .homeContentWrap .greenbox h3, body.page-template-familypage .site-inner .homeContentWrap .greenbox h3, body.page-template-landing .homeContentWrap .greenbox h3 {
+  font-size: 1.35rem;
+  color: #fff;
+  padding: 10px;
+  margin-bottom: 0;
+  text-shadow: 1px 1px 1px rgba(0, 0, 1, 0.3);
+}
+
+/* line 992, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+body.home .site-inner .homeContentWrap .greenbox.app, body.page-template-familypage .site-inner .homeContentWrap .greenbox.app, body.page-template-landing .homeContentWrap .greenbox.app {
+  background: url("../images/3month-bg1.jpg") no-repeat 0% 50%;
+  background-size: cover;
+  position: relative;
+}
+
+/* line 996, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+body.home .site-inner .homeContentWrap .greenbox.app::before, body.page-template-familypage .site-inner .homeContentWrap .greenbox.app::before, body.page-template-landing .homeContentWrap .greenbox.app::before {
+  content: "";
+  width: 50px;
+  height: 80px;
+  background: url("../images/iphone.png") no-repeat top left;
+  position: absolute;
+  left: 10px;
+  top: 5px;
+  background-size: contain;
+}
+
+/* line 1005, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+body.home .site-inner .homeContentWrap .greenbox.app h3, body.page-template-familypage .site-inner .homeContentWrap .greenbox.app h3, body.page-template-landing .homeContentWrap .greenbox.app h3 {
+  color: #fff;
+  text-shadow: 1px 1px 1px rgba(0, 0, 1, 0.3);
+  padding: 10px 10px 10px 50px;
+}
+
+/* line 1009, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+body.home .site-inner .homeContentWrap .col_1_3, body.page-template-familypage .site-inner .homeContentWrap .col_1_3, body.page-template-landing .homeContentWrap .col_1_3 {
+  width: 22%;
+}
+
+/* line 1011, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+body.home .site-inner .homeContentWrap .col_2_3, body.page-template-familypage .site-inner .homeContentWrap .col_2_3, body.page-template-landing .homeContentWrap .col_2_3 {
+  width: 72%;
+}
+
+/* line 1013, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+body.home .site-inner .homeContentWrap .col_2_3 .naada-pricing td, body.page-template-familypage .site-inner .homeContentWrap .col_2_3 .naada-pricing td, body.page-template-landing .homeContentWrap .col_2_3 .naada-pricing td {
+  width: auto !important;
+}
+
+/* line 1015, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+body.home .site-inner .homeContentWrap .col_2_3, body.home .site-inner .homeContentWrap .col_1_3, body.page-template-familypage .site-inner .homeContentWrap .col_2_3, body.page-template-familypage .site-inner .homeContentWrap .col_1_3, body.page-template-landing .homeContentWrap .col_2_3, body.page-template-landing .homeContentWrap .col_1_3 {
+  float: left;
+  margin: 2rem 3% 2rem 0;
+}
+
+/* line 1018, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+body.home .site-inner .homeContentWrap .col_2_3 p, body.home .site-inner .homeContentWrap .col_1_3 p, body.page-template-familypage .site-inner .homeContentWrap .col_2_3 p, body.page-template-familypage .site-inner .homeContentWrap .col_1_3 p, body.page-template-landing .homeContentWrap .col_2_3 p, body.page-template-landing .homeContentWrap .col_1_3 p {
+  float: left;
+  width: 60%;
+}
+
+/* line 1021, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+body.home .site-inner .homeContentWrap .col_2_3 .greenbox + p, body.home .site-inner .homeContentWrap .col_1_3 .greenbox + p, body.page-template-familypage .site-inner .homeContentWrap .col_2_3 .greenbox + p, body.page-template-familypage .site-inner .homeContentWrap .col_1_3 .greenbox + p, body.page-template-landing .homeContentWrap .col_2_3 .greenbox + p, body.page-template-landing .homeContentWrap .col_1_3 .greenbox + p {
+  float: left;
+  width: 35%;
+}
+
+@media only screen and (max-width: 525px) {
+  /* line 1021, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  body.home .site-inner .homeContentWrap .col_2_3 .greenbox + p, body.home .site-inner .homeContentWrap .col_1_3 .greenbox + p, body.page-template-familypage .site-inner .homeContentWrap .col_2_3 .greenbox + p, body.page-template-familypage .site-inner .homeContentWrap .col_1_3 .greenbox + p, body.page-template-landing .homeContentWrap .col_2_3 .greenbox + p, body.page-template-landing .homeContentWrap .col_1_3 .greenbox + p {
+    width: 100%;
+    float: none;
+  }
+  /* line 1027, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  body.home .site-inner .homeContentWrap .col_2_3 .greenbox + p + p, body.home .site-inner .homeContentWrap .col_1_3 .greenbox + p + p, body.page-template-familypage .site-inner .homeContentWrap .col_2_3 .greenbox + p + p, body.page-template-familypage .site-inner .homeContentWrap .col_1_3 .greenbox + p + p, body.page-template-landing .homeContentWrap .col_2_3 .greenbox + p + p, body.page-template-landing .homeContentWrap .col_1_3 .greenbox + p + p {
+    float: left;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* line 1031, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  body.home .site-inner .homeContentWrap .col_1_3, body.home .site-inner .homeContentWrap .col_2_3, body.page-template-familypage .site-inner .homeContentWrap .col_1_3, body.page-template-familypage .site-inner .homeContentWrap .col_2_3, body.page-template-landing .homeContentWrap .col_1_3, body.page-template-landing .homeContentWrap .col_2_3 {
+    width: 100%;
+    margin: 2rem 3% 0 0;
+  }
+}
+
+/* line 1034, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+body.home .site-inner .homeContentWrap .sell, body.page-template-familypage .site-inner .homeContentWrap .sell, body.page-template-landing .homeContentWrap .sell {
+  width: 47%;
+  float: left;
+  margin: 2rem 3% 2rem 0;
+}
+
+/* line 1038, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+body.home .site-inner .homeContentWrap .sell p, body.page-template-familypage .site-inner .homeContentWrap .sell p, body.page-template-landing .homeContentWrap .sell p {
+  float: left;
+  width: 60%;
+}
+
+/* line 1041, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+body.home .site-inner .homeContentWrap .sell .greenbox + p, body.page-template-familypage .site-inner .homeContentWrap .sell .greenbox + p, body.page-template-landing .homeContentWrap .sell .greenbox + p {
+  float: left;
+  width: 35%;
+}
+
+@media only screen and (max-width: 525px) {
+  /* line 1041, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  body.home .site-inner .homeContentWrap .sell .greenbox + p, body.page-template-familypage .site-inner .homeContentWrap .sell .greenbox + p, body.page-template-landing .homeContentWrap .sell .greenbox + p {
+    width: 100%;
+    float: none;
+  }
+  /* line 1047, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  body.home .site-inner .homeContentWrap .sell .greenbox + p + p, body.page-template-familypage .site-inner .homeContentWrap .sell .greenbox + p + p, body.page-template-landing .homeContentWrap .sell .greenbox + p + p {
+    float: left;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* line 1051, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  body.home .site-inner .homeContentWrap .sell, body.page-template-familypage .site-inner .homeContentWrap .sell, body.page-template-landing .homeContentWrap .sell {
+    width: 100%;
+    margin: 2rem 3% 0 0;
+  }
+}
+
+/* line 1054, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+body.home .site-inner .homeContentWrap .login-left, body.page-template-familypage .site-inner .homeContentWrap .login-left, body.page-template-landing .homeContentWrap .login-left {
+  float: left;
+  width: 20%;
+  margin-right: 5%;
+}
+
+/* line 1058, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+body.home .site-inner .homeContentWrap .login-right, body.page-template-familypage .site-inner .homeContentWrap .login-right, body.page-template-landing .homeContentWrap .login-right {
+  float: left;
+  width: 75%;
+}
+
+/* line 1061, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+body.home .site-inner .homeContentWrap .login-right div.signin, body.page-template-familypage .site-inner .homeContentWrap .login-right div.signin, body.page-template-landing .homeContentWrap .login-right div.signin {
+  background: #e1e1e1;
+  border-radius: 10px;
+  padding: 2rem 2rem 1rem;
+  float: left;
+  width: 100%;
+}
+
+/* line 1067, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+body.home .site-inner .homeContentWrap .login-right h3, body.page-template-familypage .site-inner .homeContentWrap .login-right h3, body.page-template-landing .homeContentWrap .login-right h3 {
+  background: #f4f4f4;
+  padding: .75rem 1.5rem;
+  display: inline-block;
+  margin: 0 0 0 2rem;
+  color: #7B7B7B;
+  border-radius: 10px 10px 0 0;
+}
+
+/* line 1074, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+body.home .site-inner .homeContentWrap .login-right .form-group, body.page-template-familypage .site-inner .homeContentWrap .login-right .form-group, body.page-template-landing .homeContentWrap .login-right .form-group {
+  float: left;
+  margin: 0 3% 2% 0;
+}
+
+/* line 1077, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+body.home .site-inner .homeContentWrap .login-right .form-group:nth-of-type(1), body.home .site-inner .homeContentWrap .login-right .form-group .form-group:nth-of-type(2), body.page-template-familypage .site-inner .homeContentWrap .login-right .form-group:nth-of-type(1), body.page-template-familypage .site-inner .homeContentWrap .login-right .form-group .form-group:nth-of-type(2), body.page-template-landing .homeContentWrap .login-right .form-group:nth-of-type(1), body.page-template-landing .homeContentWrap .login-right .form-group .form-group:nth-of-type(2) {
+  width: 40%;
+}
+
+/* line 1079, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+body.home .site-inner .homeContentWrap .login-right .form-group:nth-of-type(3), body.page-template-familypage .site-inner .homeContentWrap .login-right .form-group:nth-of-type(3), body.page-template-landing .homeContentWrap .login-right .form-group:nth-of-type(3) {
+  width: 15%;
+  margin: 1.65rem 0 1rem;
+}
+
+/* line 1082, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+body.home .site-inner .homeContentWrap .login-right .form-group input[type="submit"], body.page-template-familypage .site-inner .homeContentWrap .login-right .form-group input[type="submit"], body.page-template-landing .homeContentWrap .login-right .form-group input[type="submit"] {
+  float: right;
+}
+
+/* line 1084, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+body.home .site-inner .homeContentWrap .login-right ul li, body.page-template-familypage .site-inner .homeContentWrap .login-right ul li, body.page-template-landing .homeContentWrap .login-right ul li {
+  list-style-type: none;
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+/* line 1090, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+body.page-template-familypage .site-inner .homeContentWrap .sell h3 {
+  padding: 1em;
+}
+
+/* line 1092, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+body.page-template-familypage .site-inner .homeContentWrap .sell .greenbox + p {
+  width: 100%;
+}
+
+/* line 1094, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+body.page-template-familypage .site-inner .homeContentWrap .sell .greenbox.family {
+  background: url("../images/family-yoga-bg.png") no-repeat 0% 50%;
+  background-size: cover;
+  position: relative;
+}
+
+/* line 1098, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+body.page-template-familypage .site-inner .homeContentWrap .sell .greenbox.family + p {
+  width: 35%;
+  float: left;
+}
+
+/* line 1102, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+section.module.parallax {
+  width: 100%;
+  padding: 4rem 0;
+  position: relative;
+}
+
+/* line 1106, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+section.module.parallax .parallaxContent {
+  margin: 0 auto;
+  max-width: 1200px;
+  text-align: center;
+}
+
+/* line 1110, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+section.module.parallax .parallaxContent h2 {
+  color: #fff;
+  text-align: center;
+  position: relative;
+}
+
+/* line 1114, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+section.module.parallax .parallaxContent h2 span {
+  border-bottom: 5px solid #b3ba1c;
+}
+
+/* line 1116, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+section.module.parallax .parallaxContent h3 {
+  color: #fff;
+  font-size: 1.45rem;
+  font-weight: 600;
+}
+
+/* line 1120, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+section.module.parallax .parallaxContent .block {
+  width: 45%;
+  margin: 3rem 1rem 1rem;
+  float: left;
+  color: #fff;
+  font-size: 1.2rem;
+  text-align: left;
+}
+
+/* line 1127, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+section.module.parallax .parallaxContent .center {
+  margin: 3rem 1rem 1rem;
+  color: #fff;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+@media only screen and (max-width: 640px) {
+  /* line 1133, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  section.module.parallax .parallaxContent .block {
+    width: 100%;
+    padding: 1rem 2rem 0;
+    margin: 2rem 0 0;
+  }
+  /* line 1137, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  section.module.parallax .parallaxContent .block p {
+    padding: 0;
+  }
+}
+
+/* line 1139, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+section.module.parallax.parallax-1 .parallaxContent .block.right p {
+  padding-top: 2.3rem;
+}
+
+@media only screen and (max-width: 640px) {
+  /* line 1142, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  section.module.parallax.parallax-1 .parallaxContent .block.right, section.module.parallax.parallax-2 .parallaxContent .block.right {
+    margin: 0;
+  }
+  /* line 1144, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  section.module.parallax.parallax-1 .parallaxContent .block.right p, section.module.parallax.parallax-2 .parallaxContent .block.right p {
+    padding-top: 0;
+  }
+}
+
+/* line 1146, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+section.module.parallax div.downArrow {
+  position: absolute;
+  bottom: -21px;
+  left: 48%;
+  display: inline-block;
+  border-radius: 50%;
+  display: inline-block;
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: #b3ba1c;
+  border-radius: 50%;
+  margin-left: 0.75em;
+}
+
+@media only screen and (min-width: 375px) and (max-width: 449px) {
+  /* line 1146, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  section.module.parallax div.downArrow {
+    left: 42%;
+  }
+}
+
+@media only screen and (max-width: 374px) {
+  /* line 1146, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  section.module.parallax div.downArrow {
+    left: 40%;
+  }
+}
+
+/* line 29, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+section.module.parallax div.downArrow:after {
+  content: '';
+  display: inline-block;
+  margin-top: 9px;
+  width: 12px;
+  height: 12px;
+  border-top: 5px solid #fff;
+  border-right: 5px solid #fff;
+  -moz-transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+
+/* line 1149, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.onlineEducation {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+/* line 1152, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.onlineEducation a {
+  color: #b3ba1c;
+}
+
+/* line 1155, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+section.module.parallax-1 {
+  background: url("../images/online-yoga-education.jpg") 50% 0 repeat fixed;
+}
+
+@media only screen and (max-width: 400px) {
+  /* line 1155, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  section.module.parallax-1 {
+    background: url("../images/online-yoga-education-mobile.jpg") 47% 40% repeat;
+    background-size: cover;
+  }
+}
+
+/* line 1161, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+section.module.parallax-2 {
+  background: url("../images/nytt-bg.jpg") 50% 0 repeat fixed;
+}
+
+@media only screen and (max-width: 400px) {
+  /* line 1161, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  section.module.parallax-2 {
+    background: url("../images/nytt-bg-mobile.jpg") 55% 35% repeat;
+    background-size: cover;
+  }
+}
+
+/* line 1166, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+section.module.parallax-2 .parallaxContent .block .right p {
+  padding-top: 0;
+}
+
+/* line 1169, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.online-carousel, .nytt-carousel {
+  margin: 3rem 0;
+}
+
+/* line 1171, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.online-carousel div.courseImage, .nytt-carousel div.courseImage {
+  float: none !important;
+  width: 288px;
+  margin: 0 auto 1.5rem !important;
+}
+
+/* line 1175, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.online-carousel div.courseImage img, .nytt-carousel div.courseImage img {
+  border: 1px solid #E5E5E5;
+  float: none;
+  padding: 6px;
+  margin: 0;
+  width: 288px;
+  height: 178px;
+  border-radius: 5px;
+}
+
+/* line 1183, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.online-carousel h2, .nytt-carousel h2 {
+  margin-bottom: 0;
+}
+
+/* line 1185, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.online-carousel h2 a, .nytt-carousel h2 a {
+  display: block;
+  text-align: center;
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+
+/* line 1190, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.online-carousel span.trainer-name a, .nytt-carousel span.trainer-name a {
+  display: inline-block;
+  font-size: 1.1rem;
+}
+
+/* line 1193, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.online-carousel .slick-slide, .nytt-carousel .slick-slide {
+  width: 365px;
+  text-align: center;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+  /* line 1197, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  .online-carousel .slick-slide, .nytt-carousel .slick-slide {
+    width: 400px;
+    margin: 0 1rem 0;
+  }
+}
+
+@media only screen and (min-width: 780px) and (max-width: 899px) {
+  /* line 1201, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  .online-carousel .slick-slide, .nytt-carousel .slick-slide {
+    width: 330px;
+  }
+}
+
+@media only screen and (min-width: 680px) and (max-width: 779px) {
+  /* line 1204, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  .online-carousel .slick-slide, .nytt-carousel .slick-slide {
+    width: 305px;
+  }
+}
+
+@media only screen and (min-width: 520px) and (max-width: 679px) {
+  /* line 1207, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  .online-carousel .slick-slide, .nytt-carousel .slick-slide {
+    width: 460px;
+    margin: 0 2rem;
+  }
+}
+
+@media only screen and (min-width: 450px) and (max-width: 519px) {
+  /* line 1211, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  .online-carousel .slick-slide, .nytt-carousel .slick-slide {
+    width: 400px;
+    margin: 0 2rem;
+  }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 449px) {
+  /* line 1215, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  .online-carousel .slick-slide, .nytt-carousel .slick-slide {
+    width: 320px;
+    margin: 0 1rem;
+  }
+}
+
+@media only screen and (max-width: 374px) {
+  /* line 1219, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  .online-carousel .slick-slide, .nytt-carousel .slick-slide {
+    width: 270px;
+    margin: 0;
+    padding: 0 !important;
+  }
+  /* line 1223, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  .online-carousel div.healcode-image-area img, .nytt-carousel div.healcode-image-area img {
+    width: 250px;
+    height: 153px;
+  }
+}
+
+/* line 1227, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.nytt-carousel .slick-slide h2 {
+  margin-bottom: 2rem;
+}
+
+/* Family Page Style */
+/* line 1233, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+body.page-template-familypage .site-inner {
+  max-width: 100%;
+}
+
+/* line 1235, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+body.page-template-familypage .homeContentWrap {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3rem 3rem;
+}
+
+/* line 1239, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+body.page-template-familypage .homeContentWrap h2 {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+/* line 1242, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+body.page-template-familypage header.entry-header {
+  display: none;
+}
+
+/* line 1244, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+body.page-template-familypage article.entry {
+  padding: 0;
+  margin-bottom: 1rem;
+}
+
+/* line 1247, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+body.page-template-familypage .breadcrumb {
+  display: none;
+}
+
+/* line 1250, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+section.module.parallax-3 {
+  background: url("../images/family-yoga-parallax1.jpg") 50% 30% repeat fixed;
+  padding: 4rem 0;
+}
+
+@media only screen and (max-width: 400px) {
+  /* line 1250, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  section.module.parallax-3 {
+    background: url("../images/family-yoga-parallax1.jpg") 47% 40% repeat;
+    background-size: cover;
+  }
+}
+
+/* line 1257, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+section.module.parallax-4 {
+  padding: 9.5rem 0;
+  background: url("../images/family-yoga-parallax2.jpg") 50% 50% repeat fixed;
+}
+
+@media only screen and (max-width: 400px) {
+  /* line 1257, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  section.module.parallax-4 {
+    background: url("../images/family-yoga-parallax2.jpg") 55% 35% repeat;
+    background-size: cover;
+  }
+}
+
+/* line 1263, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+section.module.parallax-4 .parallaxContent .block .right p {
+  padding-top: 0;
+}
+
+/* Promo box */
+/* line 1268, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.naada-promo-box {
+  border: 1px solid #e5e5e5;
+  margin-bottom: 20px;
+}
+
+/* line 1272, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.naada-promo-box-header {
+  display: inline-block;
+  width: 100%;
+  padding: 15px;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #b3ba1c;
+}
+
+/* line 1281, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.naada-promo-box-body {
+  display: inline-block;
+  padding: 15px;
+}
+
+/* line 1285, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.naada-promo-box-dates {
+  display: inline-block;
+  padding: 0 15px 15px;
+  font-weight: bold;
+}
+
+/* end Promo box */
+/* Andrew's HealCode styles */
+/* Family */
+/* line 1296, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+tr {
+  /* Family */
+  /* Therapeutic */
+  /* beginner */
+  /* Intermediate */
+  /* Advanced */
+  /* Specialty Classes */
+  /* Workshops */
+}
+
+/* line 1298, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+tr.kids_class_7_9yrs .class_level span, tr.kids_class_5_10yrs .class_level span, tr.kids_class_4_6_yrs .class_level span, tr.prenatal .class_level span, tr.postnatal .class_level span, tr.family_yoga .class_level span, tr.acro_yoga .class_level span, tr.kids_class_1_3_yrs .class_level span, tr.kids_class_2_5_yrs .class_level span, tr.mom_dad_crawlers_class .class_level span, tr.kids_class_10_15yrs .class_level span,
+tr.moms_dads_yoga .class_level span {
+  color: #fff;
+  text-transform: uppercase;
+  background: #f285a2;
+  padding: 5px 10px;
+}
+
+/* line 1305, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+tr.meditation .class_level span, tr.restorative_101 .class_level span, tr.restaurateur_cou_epaules .class_level span, tr.restaurateur .class_level span, tr.restaurateur_hanches_dos .class_level span, tr.yoga_wall_restorative .class_level span, tr.yin_yoga .class_level span, tr.ayurveda .class_level span, tr.advanced_anatomy .class_level span {
+  color: #fff;
+  text-transform: uppercase;
+  background: #F1E33D;
+  padding: 5px 10px;
+}
+
+/* line 1311, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+tr.energizer .class_level span, tr.rise_and_shine .class_level span, tr.naada_level_1 .class_level span, tr.intro_to_yoga .class_level span, tr.yoga_wall_intro .class_level span, tr.community_yoga_for_healthy_aging .class_level span, tr.community_class .class_level span {
+  color: #fff;
+  text-transform: uppercase;
+  background: #b3ba1e;
+  padding: 5px 10px;
+}
+
+/* line 1317, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+tr.naada_level_2 .class_level span, tr.yoga_wall .class_level span, tr.shoulder_openers .class_level span, tr.hip_openers .class_level span, tr.back_bends .class_level span, tr.yoga_wall .class_level span, tr.yoga_wall_hip_openers .class_level span {
+  color: #fff;
+  text-transform: uppercase;
+  background: #97c9ea;
+  padding: 5px 10px;
+}
+
+/* line 1323, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+tr.naada_live_by_donation .class_level span, tr.live_workshop_level_2_3 .class_level span, tr.naada_live .class_level span, tr.naada_level_2_3 .class_level span {
+  color: #fff;
+  text-transform: uppercase;
+  background: #f59c00;
+  padding: 5px 10px;
+}
+
+/* line 1329, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+tr.yoga_for_bone_health .class_level span, tr.yoga_for_women_yoga_pour_femmes .class_level span, tr.inversions .class_level span, tr.yoga_for_men_yoga_pour_hommes .class_level span, tr.intro_to_pranayama .class_level span, tr.prenatal .class_level span, tr.soins_du_dos_back_care .class_level span, tr.back_care .class_level span, tr.yoga_intro .class_level span {
+  color: #fff;
+  text-transform: uppercase;
+  background: #f285a2;
+  padding: 5px 10px;
+}
+
+/* line 1335, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+tr.decoding_the_sun_salutations_decoder_les_salutations_au_soleil .class_level span, tr.finding_the_earth_through_standing_poses_connecter_avec_le_sol_lors_des_postures_debout .class_level span, tr.get_to_the_core_twisting_in_standing_poses_droit_au_coeur_les_torsions_en_postures_debout .class_level span {
+  color: #fff;
+  text-transform: uppercase;
+  background: #D34F3F;
+  padding: 5px 10px;
+}
+
+/* line 1345, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.Enrollment td.class_level span.class_level {
+  color: #fff;
+  text-transform: uppercase;
+  background: #D34F3F;
+  padding: 5px 10px;
+}
+
+/* line 1350, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.Enrollment.assisting_101 td.class_level span.class_level, .Enrollment.ayurveda td.class_level span.class_level, .Enrollment.asana_103 td.class_level span.class_level, .Enrollment.back_care td.class_level span.class_level, .Enrollment.meditation_101 td.class_level span.class_level, .Enrollment.relax_and_renew td.class_level span.class_level, .Enrollment.pranayama_101 td.class_level span.class_level, .Enrollment.yoga_wall td.class_level span.class_level, .Enrollment.naada_101 td.class_level span.class_level, .Enrollment.psychology_of_yoga td.class_level span.class_level {
+  color: #fff;
+  text-transform: uppercase;
+  background: #909090;
+  padding: 5px 10px;
+}
+
+/* NYTT */
+/** Course Descriptions Styles * */
+/* line 1360, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.naada-class-categories {
+  padding: 10px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+/* line 1365, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.naada-class-category-desc {
+  margin: 0 0 10px 10px;
+  font-style: italic;
+}
+
+/* line 1369, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.naada-therapeutic {
+  background: #e3d042;
+}
+
+/* line 1372, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.naada-beginner {
+  background: #b3ba1e;
+}
+
+/* line 1375, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.naada-intermediate {
+  background: #97c9ea;
+}
+
+/* line 1378, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.naada-advanced {
+  background: #f59c00;
+}
+
+/* line 1381, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.naada-family {
+  background: #f285a2;
+}
+
+/* Mobile styles for Full Schedule */
+@media only screen and (max-width: 400px) {
+  /* line 1388, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  body.page-id-7 div.healcode.schedule td .hc_starttime, body.page-id-7 div.healcode.schedule td .hc_endtime {
+    display: block;
+    float: left;
+    line-height: normal;
+  }
+  /* line 1392, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  body.page-id-7 div.healcode.schedule td.mbo_class {
+    line-height: normal;
+  }
+  /* line 1394, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  body.page-id-7 div.healcode.schedule a.hc-button.signup_now, body.page-id-7 div.healcode.schedule div.healcode input.hc-button {
+    font-size: 10px;
+    line-height: normal;
+    font-weight: normal;
+    padding: 4px 2px;
+  }
+}
+
+/* end Andrew's HealCode styles */
+/* line 1404, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.clearfix {
+  display: inline-block;
+}
+
+/* line 1405, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+/* responsive image grid */
+/* line 1416, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+img.naada-grid {
+  margin: 0 5px 5px 0;
+  width: 133px;
+  float: left;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 1200px) {
+  /* line 1424, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  img.naada-grid {
+    width: 103px;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  /* line 1428, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  .naada-teacher {
+    float: none;
+  }
+  /* line 1430, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  .naada-teacher img {
+    float: none;
+  }
+  /* line 1432, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  img.naada-grid {
+    width: 137px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  /* line 1436, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  img.naada-grid {
+    width: 113px;
+  }
+  /* line 1438, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  .entry-title {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  /* line 1441, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  img.resource-boxes {
+    width: 260px;
+  }
+}
+
+/* HEALCODE OVERRIDES */
+/* line 1447, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+#hc_enrollments_301084042aa:first-child .enrollment {
+  display: block;
+}
+
+/* line 1449, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+#hc_enrollments_301084042aa .enrollment {
+  display: none;
+}
+
+/* Healcode widget tweaks */
+/* New Horizontal Schedule Widget for homepage */
+@media only screen and (min-width: 640px) {
+  /* line 1459, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  div.horz-sched {
+    margin-bottom: 2rem;
+  }
+  /* line 1461, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  div.horz-sched::after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+  }
+  /* line 1468, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  div.horz-sched .healcode table, div.horz-sched .healcode tbody {
+    border: 0;
+  }
+  /* line 1472, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  div.horz-sched div.healcode table.schedule tr td {
+    border-top: 0;
+  }
+  /* line 1474, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  div.horz-sched div.healcode table tr {
+    border-bottom: 0;
+  }
+  /* line 1476, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  div.horz-sched div.list_view li {
+    padding: 1rem;
+    width: 100px;
+    float: left;
+    min-height: 140px;
+    border-left: 1px dashed #DEDEDE;
+  }
+  /* line 1482, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  div.horz-sched div.list_view li:last-child {
+    border-right: 1px dashed #DEDEDE;
+  }
+  /* line 1485, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  div.horz-sched .healcode a.hc-button.signup_now {
+    font-size: .75rem;
+  }
+  /* line 1487, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  div.horz-sched .healcode .hc_time {
+    line-height: 1rem;
+  }
+  /* line 1489, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  div.horz-sched .healcode span.hc_endtime {
+    color: #C3C3C3;
+  }
+  /* line 1491, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  div.horz-sched .healcode .mbo_class {
+    padding-top: 7px;
+    line-height: 1rem;
+  }
+  /* line 1494, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  div.horz-sched div.list_view li div.signup {
+    position: absolute;
+    bottom: 7%;
+    top: inherit;
+    margin-top: 0;
+    left: 10px;
+  }
+}
+
+@media only screen and (max-width: 639px) {
+  /* line 1504, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  div.horz-sched tbody {
+    border: 0;
+  }
+  /* line 1506, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  div.horz-sched div.list_view li {
+    border-left: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+  }
+  /* line 1509, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  div.horz-sched div.healcode table tr {
+    border-bottom: 0;
+  }
+  /* line 1511, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  div.horz-sched div.healcode table.schedule tr td {
+    border-top: 0;
+  }
+}
+
+/* End Horizontal sched */
+/* line 1522, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+div.healcode div.hc_footer div {
+  display: none !important;
+}
+
+/* line 1525, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+div.healcode a.hc-button {
+  display: inline-block !important;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  color: #fff;
+  background-color: #404040;
+}
+
+/* line 1533, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+div.healcode a:hover.hc-button {
+  background-color: #fabd30;
+  color: #fff !important;
+}
+
+/* line 1536, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+div.healcode a.hc-button.signup_now {
+  font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  background-color: #f7ad00;
+}
+
+/* line 1540, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+div.healcode a a {
+  font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold !important;
+}
+
+/* Subject to Page ID, ie use homepage for deployment */
+/* line 1551, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+body.page-id-6613 div.healcode.enrollments .enrollment, body.page-id-6613 div.healcode.enrollments .healcode-course {
+  width: 300px !important;
+}
+
+/* Hides Sub Enrollments in Courses */
+/* line 1556, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+div.healcode-course div.enrollment {
+  display: none !important;
+}
+
+/* HEALCODE CAROUSEL CSS */
+/* line 1561, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+#overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
+/* line 1571, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+#modal {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 14px;
+  padding: 8px;
+  /*margin: 3rem 6rem; */
+}
+
+/* line 1578, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+#content {
+  border-radius: 8px;
+  background: #fff;
+  padding: 20px;
+  overflow: hidden;
+}
+
+/* line 1584, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+#close {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  display: block;
+  top: -7px;
+  right: -7px;
+  background-color: #fff;
+  border-radius: 14px;
+  font-weight: bold;
+  padding: 1px 8px;
+  border: 2px solid #5A5A5A;
+}
+
+/* line 1596, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+#close:hover {
+  background: #f7ad00;
+  color: #fff;
+}
+
+/* line 1601, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.naada-carousel div.healcode-image-area {
+  float: none !important;
+  width: 288px;
+  margin: 0 auto 1.5rem !important;
+}
+
+/* line 1605, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.naada-carousel div.healcode-image-area img {
+  border: 1px solid #E5E5E5;
+  float: none;
+  padding: 6px;
+  margin: 0;
+  width: 288px;
+  height: 178px;
+  border-radius: 5px;
+}
+
+/* line 1613, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.naada-carousel h2.healcode-enrollment-name, .naada-carousel h2.healcode-course-name {
+  text-transform: uppercase;
+  color: #f7ad00;
+  text-align: center;
+}
+
+/* line 1617, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.naada-carousel span.healcode-trainer-name {
+  text-align: center;
+  display: block;
+  text-transform: capitalize;
+  color: #555;
+}
+
+/* line 1622, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.naada-carousel div.healcode .healcode-course {
+  min-height: 466px;
+}
+
+/* line 1624, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.naada-carousel .slick-slider {
+  max-height: 450px;
+}
+
+/* line 1626, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.naada-carousel .slick-slider .slick-slide {
+  width: 360px;
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1024px) {
+  /* line 1629, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  .naada-carousel .slick-slider .slick-slide {
+    width: 400px;
+    margin: 0 1rem 0;
+  }
+}
+
+@media only screen and (min-width: 780px) and (max-width: 899px) {
+  /* line 1633, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  .naada-carousel .slick-slider .slick-slide {
+    width: 330px;
+  }
+}
+
+@media only screen and (min-width: 680px) and (max-width: 779px) {
+  /* line 1636, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  .naada-carousel .slick-slider .slick-slide {
+    width: 320px;
+  }
+}
+
+@media only screen and (min-width: 520px) and (max-width: 679px) {
+  /* line 1639, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  .naada-carousel .slick-slider .slick-slide {
+    width: 460px;
+    margin: 0 2rem;
+  }
+}
+
+@media only screen and (min-width: 450px) and (max-width: 519px) {
+  /* line 1643, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  .naada-carousel .slick-slider .slick-slide {
+    width: 400px;
+    margin: 0 2rem;
+  }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 449px) {
+  /* line 1647, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  .naada-carousel .slick-slider .slick-slide {
+    width: 320px;
+    margin: 0 1rem;
+  }
+}
+
+@media only screen and (max-width: 374px) {
+  /* line 1651, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  .naada-carousel .slick-slider .slick-slide {
+    width: 270px;
+    margin: 0;
+    padding: 0 !important;
+  }
+  /* line 1655, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  .naada-carousel .slick-slider div.healcode-image-area img {
+    width: 250px;
+    height: 153px;
+  }
+}
+
+/* line 1658, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.naada-carousel .slick-list {
+  padding: 0 0 0 0 !important;
+}
+
+/* Slick Slider */
+/* line 1663, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.slick-prev, .slick-next {
+  height: 40px !important;
+  width: 40px !important;
+}
+
+/* line 1667, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.slick-prev:before, .slick-next:before {
+  color: #b3ba1c !important;
+  font-size: 40px !important;
+}
+
+/* line 1671, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.entry-content ul.slick-dots {
+  margin-left: 0;
+}
+
+/* Landing Pages */
+/* line 1676, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.page-template-landing .LandingHero {
+  min-height: 600px;
+  background-position: 30% 20%;
+  position: relative;
+}
+
+/* line 1680, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.page-template-landing .LandingHero .callOut {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 300px auto 0 auto;
+  width: 60%;
+  text-align: center;
+}
+
+/* line 1687, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.page-template-landing .LandingHero .naadaPresents {
+  background-color: #b3ba1c;
+  color: #fff;
+  padding: 1rem 2rem;
+  display: inline-block;
+  margin: 0;
+  text-align: center;
+  text-transform: none;
+}
+
+/* line 1695, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.page-template-landing .LandingHero h2 {
+  text-transform: capitalize;
+  font-size: 3rem;
+  background-color: #fff;
+  color: #b3ba1c;
+  padding: 1rem 2rem;
+  margin: 0 auto;
+  text-align: center;
+  display: inline-block;
+}
+
+/* line 1704, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.page-template-landing .breadcrumb {
+  display: none;
+}
+
+/* line 1706, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.page-template-landing .courseShort {
+  background-color: #b3ba1c;
+  color: #fff;
+  line-height: 2.5rem;
+  font-size: 1.8rem;
+  text-align: center;
+  font-weight: 400;
+  padding: 2rem 0;
+}
+
+/* line 1714, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.page-template-landing .courseShort p {
+  margin-bottom: 0;
+}
+
+/* line 1716, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.page-template-landing .courseShort div {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* line 1720, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.page-template-landing .hardSell h2 {
+  text-transform: none;
+}
+
+/* line 1722, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.page-template-landing .hardSell + hr {
+  margin: 2rem 0 4rem;
+}
+
+/* line 1724, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.page-template-landing .hardSell span.coursePrice {
+  font-weight: bold;
+  font-size: 2.5rem;
+  display: block;
+  text-align: center;
+}
+
+/* line 1729, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.page-template-landing .hardSell .courseBuy {
+  position: relative;
+}
+
+/* line 1731, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.page-template-landing .hardSell .courseBuy::before {
+  position: absolute;
+  content: '';
+  width: 0;
+  height: 0;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-top: 40px solid #b3ba1c;
+  top: -60px;
+  left: 31%;
+}
+
+/* line 1741, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.page-template-landing hr {
+  width: 100%;
+  background-color: #eaeaea;
+  margin: 3rem auto 4rem;
+  position: relative;
+}
+
+/* line 1746, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.page-template-landing hr.buy::after {
+  position: absolute;
+  content: '';
+  width: 0;
+  height: 0;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-top: 40px solid #eaeaea;
+  bottom: -36px;
+  left: 46%;
+}
+
+/* line 1756, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.page-template-landing h1.entry-title {
+  text-align: center;
+  position: relative;
+  margin-bottom: 70px;
+}
+
+/* line 1760, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.page-template-landing h1.entry-title::after {
+  content: "";
+  position: absolute;
+  width: 37%;
+  height: 5px;
+  bottom: -14px;
+  left: 31%;
+  background-color: #b3ba1c;
+}
+
+/* line 1768, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.page-template-landing .price {
+  font-size: 2.5rem;
+  color: #b3ba1c;
+}
+
+/* line 1771, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.page-template-landing .one-half p:first-child {
+  font-size: 120%;
+  font-weight: 500;
+  line-height: 1.6rem;
+}
+
+/* line 1775, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.page-template-landing .one-half p:first-child::first-letter {
+  font-weight: bold;
+  font-size: 150%;
+}
+
+/* line 1778, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.page-template-landing .center {
+  float: left;
+  width: 100%;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+/* line 1783, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.page-template-landing .center .naada-button.large {
+  width: 30%;
+}
+
+@media only screen and (max-width: 800px) {
+  /* line 1786, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  .page-template-landing h1.entry-title {
+    margin-bottom: 50px;
+  }
+  /* line 1788, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  .page-template-landing .one-half.first {
+    padding-bottom: 2rem;
+  }
+  /* line 1790, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  .page-template-landing .center .naada-button.large {
+    width: 70%;
+  }
+}
+
+/* line 1793, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.page-template-landing ul.greenDots li {
+  list-style-type: none;
+  padding-left: 10px;
+  position: relative;
+  font-weight: 400;
+  line-height: 2rem;
+  font-size: 1.1rem;
+}
+
+/* line 1800, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.page-template-landing ul.greenDots li::before {
+  position: absolute;
+  content: "";
+  height: 10px;
+  width: 10px;
+  border-radius: 5px;
+  background-color: #b3ba1c;
+  left: -12px;
+  top: 11px;
+}
+
+/* line 1809, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.page-template-landing .intructorBio {
+  font-weight: 400;
+  font-weight: 1.1rem;
+}
+
+/* line 1812, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.page-template-landing a.naada-button.orange-button.large.centered {
+  width: 40%;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* line 1817, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.page-template-landing article.post-6717 {
+  display: none;
+}
+
+/* line 1821, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.testimonial {
+  display: block;
+  float: left;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+/* line 1826, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.testimonial p {
+  font-size: 1.5rem;
+  position: relative;
+}
+
+/* line 1829, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.testimonial p:first-child {
+  background-color: #e6e6e6;
+  padding: 2rem 2rem 2rem 3rem;
+  border-radius: 4px;
+}
+
+/* line 1833, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.testimonial p:first-child:before {
+  content: "\201C";
+  position: absolute;
+  top: 2rem;
+  left: 26px;
+  font-size: 3rem;
+  font-weight: 500;
+  line-height: normal;
+}
+
+/* line 1841, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.testimonial p:first-child:after {
+  position: absolute;
+  content: '';
+  width: 0;
+  height: 0;
+  border-left: 40px solid transparent;
+  border-right: 7px solid transparent;
+  border-top: 40px solid #e6e6e6;
+  bottom: -36px;
+  left: 54%;
+}
+
+/* line 1851, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.testimonial p.author {
+  float: right;
+  font-weight: 600;
+}
+
+/* line 1857, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.page-id-8013.page-template-landing ul.greenDots li {
+  margin-bottom: 1rem;
+}
+
+/* line 1859, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.page-id-8013.page-template-landing ul.greenDots li::first-line {
+  font-weight: bold;
+}
+
+/* line 1862, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.dropdownContainer.closed {
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+}
+
+/* line 1866, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.dropdownContainer.closed::after {
+  position: absolute;
+  content: "";
+  height: 200px;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  background: -moz-linear-gradient(top, rgba(245, 245, 245, 0) 0%, rgba(245, 245, 245, 0.01) 1%, whitesmoke 100%);
+  background: -webkit-linear-gradient(top, rgba(245, 245, 245, 0) 0%, rgba(245, 245, 245, 0.01) 1%, whitesmoke 100%);
+  background: linear-gradient(to bottom, rgba(245, 245, 245, 0) 0%, rgba(245, 245, 245, 0.01) 1%, whitesmoke 100%);
+}
+
+/* line 1877, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+a#dropdownOpen {
+  background-color: #cccccc;
+  color: #fff;
+  padding: 1rem;
+}
+
+/* line 1881, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+a#dropdownOpen:hover {
+  background-color: #aeaeae;
+}
+
+@media only screen and (max-width: 400px) {
+  /* line 1887, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  .page-template-landing .LandingHero {
+    background-size: cover;
+    min-height: 475px;
+  }
+  /* line 1890, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  .page-template-landing .LandingHero .callOut {
+    width: 100%;
+    margin: 275px auto 0 auto;
+  }
+  /* line 1893, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  .page-template-landing .LandingHero .callOut .naadaPresents {
+    font-size: 1rem;
+    margin: 0;
+    padding: .5rem;
+    width: 100%;
+  }
+  /* line 1898, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  .page-template-landing .LandingHero .callOut h2 {
+    font-size: 2rem;
+    padding: 1rem .5rem;
+  }
+  /* line 1901, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  .page-template-landing .courseShort p {
+    padding: 0 1rem;
+  }
+  /* line 1904, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  .page-template-landing .hardSell .first {
+    padding-bottom: 0;
+  }
+  /* line 1906, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  .page-template-landing .hardSell .courseBuy {
+    width: 100%;
+    text-align: center;
+  }
+  /* line 1909, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  .page-template-landing .hardSell .courseBuy::before {
+    display: none;
+  }
+  /* line 1911, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  .page-template-landing hr {
+    width: 100%;
+  }
+  /* line 1913, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  .page-template-landing img.instructorPic {
+    width: 80%;
+    margin: 0 auto 2rem;
+    display: block;
+  }
+  /* line 1917, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  .page-template-landing a.naada-button.orange-button.large.centered {
+    width: 100%;
+  }
+  /* line 1919, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  .page-template-landing hr.buy::after {
+    left: 34%;
+  }
+}
+
+/* CLINIC Page */
+/* line 1925, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.clinicCallout {
+  width: 550px;
+}
+
+/* line 1927, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.clinicCallout h3 {
+  font-weight: 400;
+  margin-bottom: 3rem;
+  line-height: 2rem;
+}
+
+/* line 1932, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.page-template-clinicpage {
+  font-size: 1.1rem;
+}
+
+/* line 1934, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.page-template-clinicpage .breadcrumb {
+  display: none;
+}
+
+/* line 1936, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.page-template-clinicpage .centerWrap {
+  margin: 2rem auto 4rem;
+}
+
+/* line 1938, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.page-template-clinicpage .centerWrap.bottom {
+  margin-bottom: 8rem;
+}
+
+/* line 1940, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.page-template-clinicpage .centerWrap p {
+  width: 70%;
+  margin: 0 auto 2rem;
+}
+
+/* line 1943, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.page-template-clinicpage .servicesWrap {
+  float: left;
+  margin-bottom: 4rem;
+}
+
+/* line 1946, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.page-template-clinicpage .servicesWrap .serviceBlock {
+  position: relative;
+  margin: 2rem auto;
+  width: 100%;
+  float: left;
+  background-color: #f1f1f1;
+}
+
+/* line 1952, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.page-template-clinicpage .servicesWrap .serviceBlock .serviceRight, .page-template-clinicpage .servicesWrap .serviceBlock .serviceLeft {
+  float: left;
+  width: 45%;
+}
+
+/* line 1955, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.page-template-clinicpage .servicesWrap .serviceBlock .serviceLeft {
+  background-position: center;
+  background-size: cover;
+  margin-right: 5%;
+  min-height: 455px;
+}
+
+/* line 1960, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.page-template-clinicpage .servicesWrap .serviceBlock .serviceLeft h2 {
+  color: #fff;
+  margin: 2rem;
+}
+
+/* line 1963, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.page-template-clinicpage .servicesWrap .serviceBlock .serviceRight {
+  padding: 2rem 0;
+}
+
+/* line 1965, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.page-template-clinicpage .rates {
+  width: 100%;
+  float: left;
+  text-align: left;
+  margin-bottom: 4rem;
+}
+
+/* line 1970, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.page-template-clinicpage .rates .centerWrap {
+  margin: 2rem auto;
+}
+
+/* line 1972, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.page-template-clinicpage .rates ul {
+  margin-left: 20px;
+}
+
+/* line 1974, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.page-template-clinicpage .rates ul li {
+  list-style-type: disc;
+}
+
+/* line 1976, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.page-template-clinicpage .testimonialWrap {
+  float: left;
+  margin-bottom: 4rem;
+}
+
+/* line 1979, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.page-template-clinicpage .testimonialWrap .testimonial {
+  padding: 2rem;
+  background-color: #e6e6e6;
+  position: relative;
+}
+
+/* line 1983, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.page-template-clinicpage .testimonialWrap .testimonial:after {
+  position: absolute;
+  content: '';
+  width: 0;
+  height: 0;
+  border-left: 40px solid transparent;
+  border-right: 7px solid transparent;
+  border-top: 40px solid #e6e6e6;
+  bottom: -36px;
+  left: 54%;
+}
+
+/* line 1993, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.page-template-clinicpage .testimonialWrap .testimonial .pic {
+  float: left;
+  width: 200px;
+  z-index: 100;
+  position: relative;
+  margin-right: 2rem;
+}
+
+/* line 1999, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.page-template-clinicpage .testimonialWrap .testimonial p:first-child {
+  padding: 0;
+  width: 75%;
+  float: right;
+}
+
+/* line 2003, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.page-template-clinicpage .testimonialWrap .testimonial p:first-child:before {
+  top: 0rem;
+  left: -32px;
+}
+
+/* line 2006, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.page-template-clinicpage .testimonialWrap p.author {
+  float: right;
+  font-weight: 600;
+  margin-right: 29%;
+  font-size: 1.5rem;
+}
+
+/* line 2012, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+body.page-id-8431 select#options[staff_ids] {
+  display: none;
+}
+
+/* line 2015, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.bookingCloak {
+  display: none;
+}
+
+/* WooCommerce Styles */
+/* line 2023, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.woocommerce main div.product p.price, .woocommerce main div.product span.price {
+  color: #B3BA1C;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+/* line 2027, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.woocommerce main div.product .quantity input {
+  padding: .5rem;
+}
+
+/* line 2029, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.woocommerce main #respond input#submit.alt, .woocommerce main a.button.alt, .woocommerce main button.button.alt, .woocommerce main input.button.alt {
+  background-color: #f7ad00;
+  padding: .75rem;
+}
+
+/* line 2032, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.woocommerce main #respond input#submit.alt:hover, .woocommerce main a.button.alt:hover, .woocommerce main button.button.alt:hover, .woocommerce main input.button.alt:hover {
+  background-color: #fabd30;
+}
+
+/* line 2034, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.woocommerce main button.single_add_to_cart_button.button.alt.large.centered {
+  padding: 1.25rem 2rem;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  float: none;
+}
+
+/* line 2043, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.woocommerce-cart main td.product-name, .woocommerce-checkout main td.product-name {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+/* line 2050, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+body.woocommerce main .woocommerce .order_details li, body.woocommerce-cart main .woocommerce .order_details li, body.woocommerce-checkout main .woocommerce .order_details li {
+  list-style-type: none;
+  font-size: .8rem;
+}
+
+/* line 2053, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+body.woocommerce main .woocommerce .woocommerce-message, body.woocommerce-cart main .woocommerce .woocommerce-message, body.woocommerce-checkout main .woocommerce .woocommerce-message {
+  border-top: 3px solid #b3ba1c;
+}
+
+/* line 2055, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+body.woocommerce main .woocommerce .woocommerce-info, body.woocommerce-cart main .woocommerce .woocommerce-info, body.woocommerce-checkout main .woocommerce .woocommerce-info {
+  border-top-color: #3FA4DC;
+}
+
+/* line 2057, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+body.woocommerce main .woocommerce .woocommerce-info:before, body.woocommerce-cart main .woocommerce .woocommerce-info:before, body.woocommerce-checkout main .woocommerce .woocommerce-info:before {
+  color: #3FA4DC;
+}
+
+/* line 2059, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+body.woocommerce main .woocommerce #respond input#submit.alt, body.woocommerce main .woocommerce a.button.alt, body.woocommerce main .woocommerce button.button.alt, body.woocommerce main .woocommerce input.button.alt, body.woocommerce-cart main .woocommerce #respond input#submit.alt, body.woocommerce-cart main .woocommerce a.button.alt, body.woocommerce-cart main .woocommerce button.button.alt, body.woocommerce-cart main .woocommerce input.button.alt, body.woocommerce-checkout main .woocommerce #respond input#submit.alt, body.woocommerce-checkout main .woocommerce a.button.alt, body.woocommerce-checkout main .woocommerce button.button.alt, body.woocommerce-checkout main .woocommerce input.button.alt {
+  background-color: #f7ad00;
+}
+
+/* line 2061, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+body.woocommerce main .woocommerce #respond input#submit.alt:hover, body.woocommerce main .woocommerce a.button.alt:hover, body.woocommerce main .woocommerce button.button.alt:hover, body.woocommerce main .woocommerce input.button.alt:hover, body.woocommerce-cart main .woocommerce #respond input#submit.alt:hover, body.woocommerce-cart main .woocommerce a.button.alt:hover, body.woocommerce-cart main .woocommerce button.button.alt:hover, body.woocommerce-cart main .woocommerce input.button.alt:hover, body.woocommerce-checkout main .woocommerce #respond input#submit.alt:hover, body.woocommerce-checkout main .woocommerce a.button.alt:hover, body.woocommerce-checkout main .woocommerce button.button.alt:hover, body.woocommerce-checkout main .woocommerce input.button.alt:hover {
+  background-color: #fabd30;
+}
+
+/* line 2063, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+body.woocommerce main .woocommerce input.button.alt:disabled, body.woocommerce main .woocommerce .woocommerce input.button.alt:disabled[disabled], body.woocommerce-cart main .woocommerce input.button.alt:disabled, body.woocommerce-cart main .woocommerce .woocommerce input.button.alt:disabled[disabled], body.woocommerce-checkout main .woocommerce input.button.alt:disabled, body.woocommerce-checkout main .woocommerce .woocommerce input.button.alt:disabled[disabled] {
+  background-color: #f7ad00;
+}
+
+/* line 2065, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+body.woocommerce main .star-rating, body.woocommerce-cart main .star-rating, body.woocommerce-checkout main .star-rating {
+  color: #b3ba1c;
+}
+
+/* line 2067, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+body.woocommerce main #payment ul.payment_methods li, body.woocommerce-cart main #payment ul.payment_methods li, body.woocommerce-checkout main #payment ul.payment_methods li {
+  list-style-type: none;
+}
+
+/* line 2069, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+body.woocommerce main #reviews #comments ol.commentlist li, body.woocommerce-cart main #reviews #comments ol.commentlist li, body.woocommerce-checkout main #reviews #comments ol.commentlist li {
+  list-style-type: none;
+  margin: 2rem 0 2rem;
+}
+
+/* line 2072, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+body.woocommerce main #reviews #comments ol.commentlist li img.avatar, body.woocommerce-cart main #reviews #comments ol.commentlist li img.avatar, body.woocommerce-checkout main #reviews #comments ol.commentlist li img.avatar {
+  width: 100px;
+  background: transparent;
+  border-radius: 4px;
+}
+
+/* line 2076, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+body.woocommerce main #reviews #comments ol.commentlist li .comment-text, body.woocommerce-cart main #reviews #comments ol.commentlist li .comment-text, body.woocommerce-checkout main #reviews #comments ol.commentlist li .comment-text {
+  margin: 0 0 0 120px;
+  background: #F5F5F5;
+  border: 0;
+}
+
+/*# sourceMappingURL=../css/naada.map */
