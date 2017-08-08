@@ -59,8 +59,7 @@ function homepage_Output(){
     <div class="parallaxContent">
       <h2><?php the_field('parallax1_section_title');?></h2>
       <div class="block left">
-        <h3>Study with Naada at Home, at Your Pace</h3>
-        Naada Yoga brings the highest quality yoga teachers to Montreal contributing to one of the leading teacher training programs in the country. We are proud to now offer online versions of selected courses from our NYTT curriculum.
+        
       </div>
       <div class="block right">
         Whether you are a yoga teacher in training, an instructor with years of experience or just interested in taking your yoga practice to the next level, these online yoga courses could be a perfect fit.
