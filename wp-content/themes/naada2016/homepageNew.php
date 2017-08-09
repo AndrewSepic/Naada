@@ -33,18 +33,18 @@ function homepage_Output(){
     <a class="fullSched" href="/schedule">FULL SCHEDULE</a>
     <div class="horz-sched"><?php echo do_shortcode( '[hc-hmw snippet="Homepage-Horizontal-Schedule"]');?>'</div>
     <div class="sell">
-      <div class="greenbox">
+      <div class="greenbox first">
         <h3><?php the_field('sell_box_1_title'); ?></h3>
       </div>
-      <a class="naada-button orange-button medium" href="http://clients.mindbodyonline.com/ws.asp?studioid=6387&amp;stype=41&amp;prodid=155">Sign Up</a>
-      <?php the_field('sell_box_1_text');?>
+      <a class="naada-button orange-button medium" href="">See Schedule</a>
+      <p><?php the_field('sell_box_1_text');?></p>
     </div>
     <div class="sell">
-      <div class="greenbox app">
+      <div class="greenbox second">
         <h3><?php the_field('sell_box_2_title'); ?></h3>
         </div>
-        <a class="naada-button orange-button medium" href="/mobile-app">Get the App</a>
-        <?php the_field('sell_box_2_text');?>
+        <a class="naada-button orange-button medium" href="http://clients.mindbodyonline.com/ws.asp?studioid=6387&amp;stype=41&amp;prodid=155">Sign Up</a>
+        <p><?php the_field('sell_box_2_text');?></p>
     </div>
 
     <hr />
