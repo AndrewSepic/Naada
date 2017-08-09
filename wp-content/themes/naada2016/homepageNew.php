@@ -36,14 +36,18 @@ function homepage_Output(){
       <div class="greenbox first">
         <h3><?php the_field('sell_box_1_title'); ?></h3>
       </div>
-      <a class="naada-button orange-button medium" href="">See Schedule</a>
+      <p>
+        <a class="naada-button orange-button medium" href="">See Schedule</a>
+      </p>
       <p><?php the_field('sell_box_1_text');?></p>
     </div>
     <div class="sell">
       <div class="greenbox second">
         <h3><?php the_field('sell_box_2_title'); ?></h3>
         </div>
-        <a class="naada-button orange-button medium" href="http://clients.mindbodyonline.com/ws.asp?studioid=6387&amp;stype=41&amp;prodid=155">Sign Up</a>
+        <p>
+          <a class="naada-button orange-button medium" href="http://clients.mindbodyonline.com/ws.asp?studioid=6387&amp;stype=41&amp;prodid=155">Sign Up</a>
+        </p>
         <p><?php the_field('sell_box_2_text');?></p>
     </div>
 
@@ -59,13 +63,13 @@ function homepage_Output(){
     <div class="parallaxContent">
       <h2><?php the_field('parallax1_section_title');?></h2>
       <div class="block left">
-
+        <?php the_field('parallax1_left_col');?>
       </div>
       <div class="block right">
-        Whether you are a yoga teacher in training, an instructor with years of experience or just interested in taking your yoga practice to the next level, these online yoga courses could be a perfect fit.
+        <?php the_field('parallax1_right_col');?>
       </div>
       <div class="clear"></div>
-      <a class="button orange-button medium" href="/online-yoga-education/">See Our Online Yoga Courses</a>
+      <a class="button orange-button medium" href="/therapeutic-clinic/">More About the Clinic</a>
       <div class="downArrow"></div>
       <div class="clear"></div>
     </div>
@@ -74,49 +78,29 @@ function homepage_Output(){
   <div class="homeContentWrap online-courses">
     <div class="online-carousel">
       <div>
-        <div class="courseImage"><img src="/wp-content/uploads/2017/02/ayurveda-course-thumbnail.jpg" alt="A Year of Ayurveda with Matthew Remski" /></div>
+        <div class="courseImage"><?php the_field('carousel_item_1_pic');?></div>
         <div class="courseInfo">
-          <h2><a href="/a-year-of-ayurveda-with-matthew-remski">A Year of Ayurveda</a></h2>
-          <span class="trainer-name">with <a href="/yoga-teacher-training/meet-the-faculty/#remski">Matthew Remski</a></span>
+          <h2><a href="<?php the_field('carousel_item_1_link');?>"><?php the_field('carousel_item_1');?></a></h2>
         </div>
-        <a class="button orange-button small" href="/a-year-of-ayurveda-with-matthew-remski">Course Info</a>
+        <a class="button orange-button small" href="<?php the_field('carousel_item_1_link');?>">Book Appointment</a>
       </div>
 
       <div>
-        <div class="courseImage"><img src="/wp-content/uploads/2014/06/sound-yoga-course.jpg" alt="Sound Yoga with Ann Dyer" /></div>
+        <div class="courseImage"><?php the_field('carousel_item_2_pic');?></div>
         <div class="courseInfo">
-          <h2><a href="/sound-yoga-with-ann-dyer">Sound Yoga</a></h2>
-          <span class="trainer-name">with <a href="/yoga-teacher-training/meet-the-faculty/#dyer">Ann Dyer</a></span>
+          <h2><a href="<?php the_field('carousel_item_2_link');?>"><?php the_field('carousel_item_2');?></a></h2>
         </div>
-        <a class="button orange-button small" href="/sound-yoga-with-ann-dyer">Course Info</a>
+        <a class="button orange-button small" href="<?php the_field('carousel_item_2_link');?>">Book Appointment</a>
       </div>
 
       <div>
-        <div class="courseImage"><img src="http://www.naada.ca/wp-content/uploads/2016/01/therapy-course.jpg" alt="Yoga Therapy with Dr. Baxter Bell" /></div>
+        <div class="courseImage"><?php the_field('carousel_item_3_pic');?></div>
         <div class="courseInfo">
-          <h2><a href="/product/yoga-as-therapy-with-dr-baxter-bell">Yoga Therapy</a></h2>
-          <span class="trainer-name">with <a href="/yoga-teacher-training/meet-the-faculty/#baxter">Dr. Baxter Bell</a></span>
+          <h2><a href="<?php the_field('carousel_item_3_link');?>"><?php the_field('carousel_item_3');?></a></h2>
         </div>
-        <a class="button orange-button small" href="/product/yoga-as-therapy-with-dr-baxter-bell">Course Info</a>
+        <a class="button orange-button small" href="<?php the_field('carousel_item_3_link');?>">Book Appointment</a>
       </div>
 
-      <div>
-        <div class="courseImage"><img src="http://www.naada.ca/wp-content/uploads/2016/01/pranayama-course.jpg" alt="Pranayama Course with Richard Rosen" /></div>
-        <div class="courseInfo">
-          <h2><a href="/pranayama-with-richard-rosen/">Pranayama</a></h2>
-          <span class="trainer-name">with <a href="/yoga-teacher-training/meet-the-faculty/#rosen">Richard Rosen</a></span>
-        </div>
-        <a class="button orange-button small" href="/pranayama-with-richard-rosen/">Course Info</a>
-      </div>
-
-      <div>
-        <div class="courseImage"><img src="/wp-content/uploads/2015/12/YogaforWomen.jpg" alt="Yoga for Women with Mary Paffard" /></div>
-        <div class="courseInfo">
-          <h2><a href="/product/yoga-for-women-with-mary-paffard">Yoga for Women</a></h2>
-          <span class="trainer-name">with <a href="/yoga-teacher-training/meet-the-faculty/#mary">Mary Paffard</a></span>
-        </div>
-        <a class="button orange-button small" href="/product/yoga-for-women-with-mary-paffard">Course Info</a>
-      </div>
     </div>
   </div>
 
