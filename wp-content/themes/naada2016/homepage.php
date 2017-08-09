@@ -13,8 +13,8 @@ function naada_videoBanner() {
 
     <!-- Video -->
     <video id="naadaFootage" autoplay="autoplay" muted loop poster="http://naada.staging.wpengine.com/wp-content/themes/naada2016/vid/still.jpg">
-      <source src="http://naada.staging.wpengine.com/wp-content/themes/naada2016/vid/VideoBanner3-HD.mp4" type="video/mp4">
-      <source src="http://naada.staging.wpengine.com/wp-content/themes/naada2016/vid/WebMVideo1.webm" type="video/webm">
+      <source src="<?php echo get_stylesheet_directory_uri(); ?>/vid/VideoBanner3-HD.mp4" type="video/mp4">
+      <source src="<?php echo get_stylesheet_directory_uri(); ?>/vid/WebMVideo1.webm" type="video/webm">
 
 
       Your browser doesn't support HTML5 video. Here's a <a href="#">link</a> to download the video.

@@ -13,8 +13,8 @@ function naada_videoBanner() {
 
     <!-- Video -->
     <video id="naadaFootage" autoplay="autoplay" muted loop poster="http://naada.staging.wpengine.com/wp-content/themes/naada2016/vid/still.jpg">
-      <source src="http://naada.staging.wpengine.com/wp-content/themes/naada2016/vid/VideoBanner3-HD.mp4" type="video/mp4">
-      <source src="http://naada.staging.wpengine.com/wp-content/themes/naada2016/vid/WebMVideo1.webm" type="video/webm">
+      <source src="<?php echo get_stylesheet_directory_uri(); ?>/vid/VideoBanner3-HD.mp4" type="video/mp4">
+      <source src="<?php echo get_stylesheet_directory_uri(); ?>/vid/WebMVideo1.webm" type="video/webm">
 
 
       Your browser doesn't support HTML5 video. Here's a <a href="#">link</a> to download the video.
@@ -59,7 +59,7 @@ function homepage_Output(){
     <div class="parallaxContent">
       <h2><?php the_field('parallax1_section_title');?></h2>
       <div class="block left">
-        
+
       </div>
       <div class="block right">
         Whether you are a yoga teacher in training, an instructor with years of experience or just interested in taking your yoga practice to the next level, these online yoga courses could be a perfect fit.
