@@ -76,7 +76,7 @@ function homepage_Output(){
   </section><!-- ONline Course Section -->
 
   <div class="homeContentWrap online-courses">
-    <div class="online-carousel">
+    <div class="clinic-carousel">
       <div>
         <div class="courseImage"><img alt="osteopathy" src="<?php the_field('carousel_item_1_pic');?>"/></div>
         <div class="courseInfo">
@@ -112,7 +112,7 @@ function homepage_Output(){
         <?php the_field('parallax2_left_col');?>
       </div>
       <div class="block right">
-        <?php the_field('parallax2_right_col');?>    
+        <?php the_field('parallax2_right_col');?>
       </div>
       <div class="clear"></div>
       <a class="button orange-button medium" href="/yoga-teacher-training">Learn More About NYTT</a>
