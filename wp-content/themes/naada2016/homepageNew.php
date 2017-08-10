@@ -75,7 +75,7 @@ function homepage_Output(){
     </div>
   </section><!-- ONline Course Section -->
 
-  <div class="homeContentWrap online-courses">
+  <div class="homeContentWrap therapy-clinic">
     <div class="clinic-carousel">
       <div>
         <div class="courseImage"><img alt="osteopathy" src="<?php the_field('carousel_item_1_pic');?>"/></div>
