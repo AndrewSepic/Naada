@@ -78,7 +78,7 @@ function homepage_Output(){
   <div class="homeContentWrap online-courses">
     <div class="online-carousel">
       <div>
-        <div class="courseImage"><?php the_field('carousel_item_1_pic');?></div>
+        <div class="courseImage"><img alt="osteopathy" src="<?php the_field('carousel_item_1_pic');?>"/></div>
         <div class="courseInfo">
           <h2><a href="<?php the_field('carousel_item_1_link');?>"><?php the_field('carousel_item_1');?></a></h2>
         </div>
@@ -86,7 +86,7 @@ function homepage_Output(){
       </div>
 
       <div>
-        <div class="courseImage"><?php the_field('carousel_item_2_pic');?></div>
+        <div class="courseImage"><img alt="yoga therapy" src="<?php the_field('carousel_item_2_pic');?>"/></div>
         <div class="courseInfo">
           <h2><a href="<?php the_field('carousel_item_2_link');?>"><?php the_field('carousel_item_2');?></a></h2>
         </div>
@@ -94,7 +94,7 @@ function homepage_Output(){
       </div>
 
       <div>
-        <div class="courseImage"><?php the_field('carousel_item_3_pic');?></div>
+        <div class="courseImage"><img alt="Massage Therapy" src="<?php the_field('carousel_item_3_pic');?>"/></div>
         <div class="courseInfo">
           <h2><a href="<?php the_field('carousel_item_3_link');?>"><?php the_field('carousel_item_3');?></a></h2>
         </div>
@@ -107,12 +107,12 @@ function homepage_Output(){
   <!-- NYTT Parallax Section -->
   <section class="module parallax parallax-2">
     <div class="parallaxContent">
-    <h2>Naada Yoga Teacher Training</h2>
+    <h2><?php the_field('parallax2_section_title');?></h2>
       <div class="block left">
-        Naada Yoga Teacher Training unites an internationally recognized faculty in a unique concept of open learning and education. NYTT teachers have worked closely together to develop programs that will empower you to see yoga as a living and evolving practice so that all of yoga’s multifaceted aspects – can better serve you, your students, and your community.
+        <?php the_field('parallax2_left_col');?>
       </div>
       <div class="block right">
-        NYTT programs enable you to dive deeply into the study and practice of yoga. All teacher training courses are offered on a part-time and weekend basis. Programs are modular, so you can complete them at your own pace. We offer a 200hr, 300hr, 500hr and 1000hr certifications.
+        <?php the_field('parallax2_right_col');?>    
       </div>
       <div class="clear"></div>
       <a class="button orange-button medium" href="/yoga-teacher-training">Learn More About NYTT</a>
