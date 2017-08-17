@@ -159,7 +159,7 @@ function homepage_Output(){
     </div>
   </div>
 
-  <section class="module parallax parallax-1">
+  <section class="module parallax parallax-3">
     <div class="parallaxContent">
       <h2><?php the_field('parallax3_section_title');?></h2>
       <div class="block left">
