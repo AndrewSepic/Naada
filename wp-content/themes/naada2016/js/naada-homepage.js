@@ -4,7 +4,7 @@
 //
 jQuery( document ).ready(function( $ ) {
 
- fireSlick('div.online-courses');
+ fireSlick('div.online-carousel');
  fireSlick('div.clinic-carousel');
  fireSlick('div.nytt-carousel');
  loginForm();

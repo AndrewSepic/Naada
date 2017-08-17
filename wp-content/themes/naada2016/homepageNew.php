@@ -176,7 +176,7 @@ function homepage_Output(){
   </section>
 
   <!-- ONline Course Section -->
-  <div class="homeContentWrap online-courses">
+  <div class="homeContentWrap">
     <div class="online-carousel">
       <div>
         <div class="courseImage"><img alt="<?php the_field('online_course_1');?>" src="<?php the_field('online_course_1_pic');?>"/></div>
