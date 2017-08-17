@@ -29,15 +29,15 @@ function naada_videoBanner() {
 function homepage_Output(){
   ?>
   <div class="homeContentWrap">
-    <h3 class="schedule">Today's Schedule</h3>
-    <a class="fullSched" href="/schedule">FULL SCHEDULE</a>
+    <h3 class="schedule"><?php the_field('todays_schedule');?></h3>
+    <a class="fullSched" href="/schedule"><?php the_field('full_schedule');?></a>
     <div class="horz-sched"><?php echo do_shortcode( '[hc-hmw snippet="Homepage-Horizontal-Schedule"]');?>'</div>
     <div class="sell">
       <div class="greenbox first">
         <h3><?php the_field('sell_box_1_title'); ?></h3>
       </div>
       <p>
-        <a class="naada-button orange-button medium" href="">See Schedule</a>
+        <a class="naada-button orange-button medium" href=""><?php the_field('sell_btn_text1');?></a>
       </p>
       <p><?php the_field('sell_box_1_text');?></p>
     </div>
@@ -46,7 +46,7 @@ function homepage_Output(){
         <h3><?php the_field('sell_box_2_title'); ?></h3>
         </div>
         <p>
-          <a class="naada-button orange-button medium" href="http://clients.mindbodyonline.com/ws.asp?studioid=6387&amp;stype=41&amp;prodid=155">Sign Up</a>
+          <a class="naada-button orange-button medium" href="http://clients.mindbodyonline.com/ws.asp?studioid=6387&amp;stype=41&amp;prodid=155"><?php the_field('sell_btn_text2');?></a>
         </p>
         <p><?php the_field('sell_box_2_text');?></p>
     </div>
@@ -73,8 +73,9 @@ function homepage_Output(){
       <div class="downArrow"></div>
       <div class="clear"></div>
     </div>
-  </section><!-- ONline Course Section -->
+  </section>
 
+  <!-- Therapeutic Clinic Section -->
   <div class="homeContentWrap therapy-clinic">
     <div class="clinic-carousel">
       <div>
@@ -127,34 +128,101 @@ function homepage_Output(){
       <div>
         <div class="courseImage"><img src="/wp-content/uploads/2016/02/nytt-200hr-web.jpg" alt="200 HR Yoga Teacher Training" /></div>
         <div class="courseInfo">
-          <h2><a href="/yoga-teacher-training/200-hour-foundation/">200 HR Foundation</a></h2>
+          <h2><a href="/yoga-teacher-training/200-hour-foundation/"><?php the_field('nytt_course_1');?></a></h2>
         </div>
-        <a class="button orange-button small" href="/yoga-teacher-training/200-hour-foundation/">Program Info</a>
+        <a class="button orange-button small" href="/yoga-teacher-training/200-hour-foundation/"><?php the_field('course_button_text');?></a>
       </div>
 
       <div>
         <div class="courseImage"><img src="/wp-content/uploads/2016/02/nytt-300hr-web.jpg" alt="300 HR Yoga Teacher Training" /></div>
         <div class="courseInfo">
-          <h2><a href="/yoga-teacher-training/300-hour-advanced/">300 HR Advanced</a></h2>
+          <h2><a href="/yoga-teacher-training/300-hour-advanced/"><?php the_field('nytt_course_2');?></a></h2>
         </div>
-        <a class="button orange-button small" href="/yoga-teacher-training/300-hour-advanced/">Program Info</a>
+        <a class="button orange-button small" href="/yoga-teacher-training/300-hour-advanced/"><?php the_field('course_button_text');?></a>
       </div>
 
       <div>
         <div class="courseImage"><img src="/wp-content/uploads/2016/02/nytt-500hr-web.jpg" alt="500 HR Yoga Teacher Training" /></div>
         <div class="courseInfo">
-          <h2><a href="/yoga-teacher-training/500-hour-certification/">500 HR Certification</a></h2>
+          <h2><a href="/yoga-teacher-training/500-hour-certification/"><?php the_field('nytt_course_3');?></a></h2>
         </div>
-        <a class="button orange-button small" href="/yoga-teacher-training/500-hour-certification/">Program Info</a>
+        <a class="button orange-button small" href="/yoga-teacher-training/500-hour-certification/"><?php the_field('course_button_text');?></a>
       </div>
 
       <div>
         <div class="courseImage"><img src="/wp-content/uploads/2016/02/nytt-1000hr-web.jpg" alt="1000 HR Yoga Teacher Training" /></div>
         <div class="courseInfo">
-          <h2><a href="/yoga-teacher-training/300-hour-therapeutics/">300 HR Therapeutics</a></h2>
+          <h2><a href="/yoga-teacher-training/300-hour-therapeutics/"><?php the_field('nytt_course_4');?></a></h2>
         </div>
-        <a class="button orange-button small" href="/yoga-teacher-training/300-hour-therapeutics/">Programs Info</a>
+        <a class="button orange-button small" href="/yoga-teacher-training/300-hour-therapeutics/"><?php the_field('course_button_text');?></a>
       </div>
+    </div>
+  </div>
+
+  <section class="module parallax parallax-1">
+    <div class="parallaxContent">
+      <h2><?php the_field('parallax3_section_title');?></h2>
+      <div class="block left">
+        <?php the_field('parallax3_left_col');?>
+      </div>
+      <div class="block right">
+        <?php the_field('parallax3_right_col');?>
+      </div>
+      <div class="clear"></div>
+      <p><a class="button orange-button medium" href="/online-yoga-education/">See Our Online Yoga Courses</a></p>
+      <div class="downArrow"></div>
+      <div class="clear"></div>
+    </div>
+  </section>
+
+  <!-- ONline Course Section -->
+  <div class="homeContentWrap online-courses">
+    <div class="online-carousel">
+      <div>
+        <div class="courseImage"><img alt="<?php the_field('online_course_1');?>" src="<?php the_field('online_course_1_pic');?>"/></div>
+        <div class="courseInfo">
+          <h2><a href="<?php the_field('online_course_1_link');?>"><?php the_field('online_course_1');?></a></h2>
+          <p><span class="trainer-name"><?php the_field('course_1_faculty_link');?></a></span></p>
+        </div>
+        <p><a class="button orange-button small" href="<?php the_field('online_course_1_link');?>"><?php the_field('online_course_button_text');?></a></p>
+      </div>
+
+      <div>
+        <div class="courseImage"><img alt="<?php the_field('online_course_2');?>" src="<?php the_field('online_course_2_pic');?>"/></div>
+        <div class="courseInfo">
+          <h2><a href="<?php the_field('online_course_2_link');?>"><?php the_field('online_course_2');?></a></h2>
+          <p><span class="trainer-name"><?php the_field('course_2_faculty_link');?></a></span></p>
+        </div>
+        <p><a class="button orange-button small" href="<?php the_field('online_course_2_link');?>"><?php the_field('online_course_button_text');?></a></p>
+      </div>
+
+      <div>
+        <div class="courseImage"><img alt="<?php the_field('online_course_3');?>" src="<?php the_field('online_course_3_pic');?>"/></div>
+        <div class="courseInfo">
+          <h2><a href="<?php the_field('online_course_3_link');?>"><?php the_field('online_course_3');?></a></h2>
+          <p><span class="trainer-name"><?php the_field('course_3_faculty_link');?></a></span></p>
+        </div>
+        <p><a class="button orange-button small" href="<?php the_field('online_course_3_link');?>"><?php the_field('online_course_button_text');?></a></p>
+      </div>
+
+      <div>
+        <div class="courseImage"><img alt="<?php the_field('online_course_4');?>" src="<?php the_field('online_course_4_pic');?>"/></div>
+        <div class="courseInfo">
+          <h2><a href="<?php the_field('online_course_4_link');?>"><?php the_field('online_course_4');?></a></h2>
+          <p><span class="trainer-name"><?php the_field('course_4_faculty_link');?></a></span></p>
+        </div>
+        <p><a class="button orange-button small" href="<?php the_field('online_course_4_link');?>"><?php the_field('online_course_button_text');?></a></p>
+      </div>
+
+      <div>
+        <div class="courseImage"><img alt="<?php the_field('online_course_5');?>" src="<?php the_field('online_course_5_pic');?>"/></div>
+        <div class="courseInfo">
+          <h2><a href="<?php the_field('online_course_5_link');?>"><?php the_field('online_course_5');?></a></h2>
+          <p><span class="trainer-name"><?php the_field('course_5_faculty_link');?></span></p>
+        </div>
+        <p><a class="button orange-button small" href="<?php the_field('online_course_5_link');?>"><?php the_field('online_course_button_text');?></a></p>
+      </div>
+
     </div>
   </div>
 <?php
