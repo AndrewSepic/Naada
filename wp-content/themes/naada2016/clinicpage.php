@@ -7,7 +7,8 @@ add_action( 'genesis_after_header', 'naada_clinicBanner', 10 );
 function naada_clinicBanner() {
   ?>
   <div class="clinicBanner" style="background-image: url('<?php the_field('hero_image');?>');'">
-
+    <!-- an extra line here to test out git push. Permalinks should work now -->
+    
     <div class="clinicCallout">
       <!-- Calls our Call out Widget -->
       <h1> <?php the_field('hero_title'); ?></h1>
