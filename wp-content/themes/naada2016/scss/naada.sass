@@ -983,6 +983,8 @@ body.home .site-inner, body.page-template-familypage .site-inner, body.page-temp
         padding: 10px
         margin: 3.5rem 0 0 0
         text-shadow: 1px 1px 1px rgba(0, 0, 1, 0.3)
+        @media only screen and (max-width: 400px)
+          margin: .5rem 0 0 0
     .greenbox.first
       background: url('../images/sauna.jpg') no-repeat 0% 50%
       background-size: cover
@@ -991,6 +993,8 @@ body.home .site-inner, body.page-template-familypage .site-inner, body.page-temp
         color: #fff
         text-shadow: 1px 1px 1px rgba(0, 0, 1, 0.3)
         padding: 10px 10px 10px 50px
+        @media only screen and (max-width: 400px)
+          padding: 5px
     .col_1_3
       width: 22%
     .col_2_3
@@ -1124,8 +1128,8 @@ section.module.parallax
   &.parallax-1 .parallaxContent .block.right p
     padding-top: 2.3rem
   @media only screen and (max-width: 640px)
-    &.parallax-1 .parallaxContent .block.right, &.parallax-2 .parallaxContent .block.right
-      margin: 0
+    &.parallaxContent .block.right
+      margin: 0 0 2rem
       p
         padding-top: 0
   div.downArrow
