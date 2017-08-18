@@ -8,7 +8,7 @@ function naada_clinicBanner() {
   ?>
   <div class="clinicBanner" style="background-image: url('<?php the_field('hero_image');?>');'">
     <!-- an extra line here to test out git push. Permalinks should work now -->
-    
+
     <div class="clinicCallout">
       <!-- Calls our Call out Widget -->
       <h1> <?php the_field('hero_title'); ?></h1>
@@ -37,7 +37,16 @@ function my_custom_stuff(){
       <p><?php the_field('treatments_text'); ?></p>
     </div>
 
-
+    <?php function languageURL() {
+      if (ICL_LANGUAGE_CODE == 'fr')) {
+        $frenchlink= 'fr';
+      }
+      else {
+        $frenchlink= '';
+      }
+    }
+    languageURL();
+    ?>
     <div class="servicesWrap">
       <div class="serviceBlock">
         <div class="serviceLeft" style="background-image: url('<?php the_field('osteo_image');?>');'">
@@ -45,10 +54,10 @@ function my_custom_stuff(){
         </div><!-- serviceLeft -->
         <div class="serviceRight">
           <p><?php the_field('osteopath_text'); ?></p>
-          <a href="/therapeutic-clinic/osteopathy-appointments/" class="naada-button orange-button medium">
+          <a href="<?php echo $frenchlink ?>/therapeutic-clinic/osteopathy-appointments/" class="naada-button orange-button medium">
             <?php the_field('book_an_appointment'); ?>
           </a>
-          <a href="/therapeutic-clinic/our-therapists/" class="naada-button orange-hollow medium">
+          <a href="<?php echo $frenchlink ?>/therapeutic-clinic/our-therapists/" class="naada-button orange-hollow medium">
             <?php the_field('meet_our_osteopaths'); ?>
           </a>
         </div><!-- serviceRight -->
@@ -61,10 +70,10 @@ function my_custom_stuff(){
         </div><!-- serviceLeft -->
         <div class="serviceRight">
           <p><?php the_field('yoga_therapy_text'); ?></p>
-          <a href="/therapeutic-clinic/yoga-therapy-appointments/" class="naada-button orange-button medium">
+          <a href="<?php echo $frenchlink ?>/therapeutic-clinic/yoga-therapy-appointments/" class="naada-button orange-button medium">
             <?php the_field('book_an_appointment'); ?>
           </a>
-          <a href="/therapeutic-clinic/our-therapists/" class="naada-button orange-hollow medium">
+          <a href="<?php echo $frenchlink ?>/therapeutic-clinic/our-therapists/" class="naada-button orange-hollow medium">
             <?php the_field('meet_our_therapists'); ?>
           </a>
         </div><!-- serviceRight -->
@@ -76,10 +85,10 @@ function my_custom_stuff(){
         </div><!-- serviceLeft -->
         <div class="serviceRight">
           <p><?php the_field('massage_therapy_text'); ?></p>
-          <a href="/therapeutic-clinic/massage-therapy-appointments/" class="naada-button orange-button medium">
+          <a href="<?php echo $frenchlink ?>/therapeutic-clinic/massage-therapy-appointments/" class="naada-button orange-button medium">
             <?php the_field('book_an_appointment'); ?>
           </a>
-          <a href="/therapeutic-clinic/our-therapists/" class="naada-button orange-hollow medium">
+          <a href="<?php echo $frenchlink ?>/therapeutic-clinic/our-therapists/" class="naada-button orange-hollow medium">
             <?php the_field('meet_our_therapists'); ?>
           </a>
         </div><!-- serviceRight -->
