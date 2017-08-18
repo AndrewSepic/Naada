@@ -107,18 +107,12 @@ $orangeHover: #fabd30
       display: none
   @media only screen and (max-width: 400px)
     left: 2%
-    h2
+    h1, h2
       font-size: 17px
     .textwidget p
       display: none
     .naada-button.large
       padding: 4px 10px
-
-
-
-
-
-
 
 .videoBanner video
   z-index: -100
@@ -582,7 +576,7 @@ span.dropcap
 
 @media only screen and (max-width: 400px)
   #menu-secondary-navigation li
-    font-size: 10px
+    font-size: 90%
 
 ul.menu-primary
   > li.menu-item-has-children > a:after
@@ -639,6 +633,9 @@ ul.menu-primary
 .header-image .site-title > a
   background: url('../images/logo.png') no-repeat left
   width: 360px
+  @media only screen and (max-width: 400px)
+    width: 320px
+    background-size: cover
 
 #menu-ytt-submenu li a, #menu-ytt-submenu-french li a
   font-size: 1.2em
@@ -1930,7 +1927,6 @@ a#dropdownOpen
 /* CLINIC Page */
 
 .clinicCallout
-  width: 550px
   h3
     font-weight: 400
     margin-bottom: 3rem
@@ -1947,6 +1943,8 @@ a#dropdownOpen
     p
       width: 70%
       margin: 0 auto 2rem
+      @media only screen and (max-width:400px)
+        width: 90%
   .servicesWrap
     float: left
     margin-bottom: 4rem
@@ -1959,16 +1957,22 @@ a#dropdownOpen
       .serviceRight, .serviceLeft
         float: left
         width: 45%
+        @media only screen and (max-width:400px)
+          width: 90%
       .serviceLeft
         background-position: center
         background-size: cover
         margin-right: 5%
         min-height: 455px
+        @media only screen and (max-width:400px)
+          min-height: 200px
         h2
           color: #fff
           margin: 2rem
       .serviceRight
         padding: 2rem 0
+        @media only screen and (max-width:400px)
+          padding: 2rem 1rem
   .rates
     width: 100%
     float: left
