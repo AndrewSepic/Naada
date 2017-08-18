@@ -38,7 +38,7 @@ function my_custom_stuff(){
     </div>
 
     <?php
-      if (ICL_LANGUAGE_CODE == 'fr')) {
+      if (ICL_LANGUAGE_CODE == 'fr') {
         $frenchlink= 'fr';
       }
       else {
