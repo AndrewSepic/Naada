@@ -52,7 +52,7 @@ function my_custom_stuff(){
         </div><!-- serviceLeft -->
         <div class="serviceRight">
           <p><?php the_field('osteopath_text'); ?></p>
-          <a href="<?php echo $frenchlink ?>/therapeutic-clinic/osteopathy-appointments/" class="naada-button orange-button medium">
+          <a href="/osteopathy-appointments/" class="naada-button orange-button medium">
             <?php the_field('book_an_appointment'); ?>
           </a>
           <a href="<?php echo $frenchlink ?>/therapeutic-clinic/our-therapists/" class="naada-button orange-hollow medium">
