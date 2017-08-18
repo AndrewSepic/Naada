@@ -37,15 +37,13 @@ function my_custom_stuff(){
       <p><?php the_field('treatments_text'); ?></p>
     </div>
 
-    <?php function languageURL() {
+    <?php
       if (ICL_LANGUAGE_CODE == 'fr')) {
         $frenchlink= 'fr';
       }
       else {
         $frenchlink= '';
       }
-    }
-    languageURL();
     ?>
     <div class="servicesWrap">
       <div class="serviceBlock">
