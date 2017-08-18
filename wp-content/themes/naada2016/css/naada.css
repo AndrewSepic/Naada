@@ -3072,40 +3072,45 @@ a#dropdownOpen:hover {
 }
 
 /* line 1946, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+.page-template-clinicpage .naada-button.medium {
+  font-size: 14px;
+}
+
+/* line 1948, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
 .page-template-clinicpage .breadcrumb {
   display: none;
 }
 
-/* line 1948, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+/* line 1950, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
 .page-template-clinicpage .centerWrap {
   margin: 2rem auto 4rem;
 }
 
-/* line 1950, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+/* line 1952, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
 .page-template-clinicpage .centerWrap.bottom {
   margin-bottom: 8rem;
 }
 
-/* line 1952, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+/* line 1954, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
 .page-template-clinicpage .centerWrap p {
   width: 70%;
   margin: 0 auto 2rem;
 }
 
 @media only screen and (max-width: 400px) {
-  /* line 1952, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  /* line 1954, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
   .page-template-clinicpage .centerWrap p {
     width: 90%;
   }
 }
 
-/* line 1957, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+/* line 1959, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
 .page-template-clinicpage .servicesWrap {
   float: left;
   margin-bottom: 4rem;
 }
 
-/* line 1960, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+/* line 1962, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
 .page-template-clinicpage .servicesWrap .serviceBlock {
   position: relative;
   margin: 2rem auto;
@@ -3114,20 +3119,20 @@ a#dropdownOpen:hover {
   background-color: #f1f1f1;
 }
 
-/* line 1966, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+/* line 1968, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
 .page-template-clinicpage .servicesWrap .serviceBlock .serviceRight, .page-template-clinicpage .servicesWrap .serviceBlock .serviceLeft {
   float: left;
   width: 45%;
 }
 
 @media only screen and (max-width: 400px) {
-  /* line 1966, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  /* line 1968, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
   .page-template-clinicpage .servicesWrap .serviceBlock .serviceRight, .page-template-clinicpage .servicesWrap .serviceBlock .serviceLeft {
     width: 90%;
   }
 }
 
-/* line 1971, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+/* line 1973, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
 .page-template-clinicpage .servicesWrap .serviceBlock .serviceLeft {
   background-position: center;
   background-size: cover;
@@ -3136,32 +3141,32 @@ a#dropdownOpen:hover {
 }
 
 @media only screen and (max-width: 400px) {
-  /* line 1971, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  /* line 1973, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
   .page-template-clinicpage .servicesWrap .serviceBlock .serviceLeft {
     min-height: 200px;
     width: 100%;
   }
 }
 
-/* line 1979, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+/* line 1981, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
 .page-template-clinicpage .servicesWrap .serviceBlock .serviceLeft h2 {
   color: #fff;
   margin: 2rem;
 }
 
-/* line 1982, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+/* line 1984, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
 .page-template-clinicpage .servicesWrap .serviceBlock .serviceRight {
   padding: 2rem 0;
 }
 
 @media only screen and (max-width: 400px) {
-  /* line 1982, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+  /* line 1984, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
   .page-template-clinicpage .servicesWrap .serviceBlock .serviceRight {
     padding: 2rem 1rem;
   }
 }
 
-/* line 1986, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+/* line 1988, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
 .page-template-clinicpage .rates {
   width: 100%;
   float: left;
@@ -3169,35 +3174,35 @@ a#dropdownOpen:hover {
   margin-bottom: 4rem;
 }
 
-/* line 1991, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+/* line 1993, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
 .page-template-clinicpage .rates .centerWrap {
   margin: 2rem auto;
 }
 
-/* line 1993, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+/* line 1995, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
 .page-template-clinicpage .rates ul {
   margin-left: 20px;
 }
 
-/* line 1995, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+/* line 1997, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
 .page-template-clinicpage .rates ul li {
   list-style-type: disc;
 }
 
-/* line 1997, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+/* line 1999, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
 .page-template-clinicpage .testimonialWrap {
   float: left;
   margin-bottom: 4rem;
 }
 
-/* line 2000, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+/* line 2002, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
 .page-template-clinicpage .testimonialWrap .testimonial {
   padding: 2rem;
   background-color: #e6e6e6;
   position: relative;
 }
 
-/* line 2004, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+/* line 2006, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
 .page-template-clinicpage .testimonialWrap .testimonial:after {
   position: absolute;
   content: '';
@@ -3210,7 +3215,7 @@ a#dropdownOpen:hover {
   left: 54%;
 }
 
-/* line 2014, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+/* line 2016, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
 .page-template-clinicpage .testimonialWrap .testimonial .pic {
   float: left;
   width: 200px;
@@ -3219,20 +3224,20 @@ a#dropdownOpen:hover {
   margin-right: 2rem;
 }
 
-/* line 2020, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+/* line 2022, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
 .page-template-clinicpage .testimonialWrap .testimonial p:first-child {
   padding: 0;
   width: 75%;
   float: right;
 }
 
-/* line 2024, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+/* line 2026, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
 .page-template-clinicpage .testimonialWrap .testimonial p:first-child:before {
   top: 0rem;
   left: -32px;
 }
 
-/* line 2027, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+/* line 2029, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
 .page-template-clinicpage .testimonialWrap p.author {
   float: right;
   font-weight: 600;
@@ -3240,48 +3245,41 @@ a#dropdownOpen:hover {
   font-size: 1.5rem;
 }
 
-@media only screen and (max-width: 400px) {
-  /* line 2033, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
-  .page-template-clinicpage .naada-button.medium {
-    font-size: 14px;
-  }
-}
-
-/* line 2037, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+/* line 2036, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
 body.page-id-8431 select#options[staff_ids] {
   display: none;
 }
 
-/* line 2040, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+/* line 2039, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
 .bookingCloak {
   display: none;
 }
 
 /* WooCommerce Styles */
-/* line 2048, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+/* line 2047, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
 .woocommerce main div.product p.price, .woocommerce main div.product span.price {
   color: #B3BA1C;
   font-size: 1.5rem;
   font-weight: 500;
 }
 
-/* line 2052, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+/* line 2051, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
 .woocommerce main div.product .quantity input {
   padding: .5rem;
 }
 
-/* line 2054, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+/* line 2053, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
 .woocommerce main #respond input#submit.alt, .woocommerce main a.button.alt, .woocommerce main button.button.alt, .woocommerce main input.button.alt {
   background-color: #f7ad00;
   padding: .75rem;
 }
 
-/* line 2057, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+/* line 2056, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
 .woocommerce main #respond input#submit.alt:hover, .woocommerce main a.button.alt:hover, .woocommerce main button.button.alt:hover, .woocommerce main input.button.alt:hover {
   background-color: #fabd30;
 }
 
-/* line 2059, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+/* line 2058, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
 .woocommerce main button.single_add_to_cart_button.button.alt.large.centered {
   padding: 1.25rem 2rem;
   text-align: center;
@@ -3290,72 +3288,72 @@ body.page-id-8431 select#options[staff_ids] {
   float: none;
 }
 
-/* line 2068, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+/* line 2067, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
 .woocommerce-cart main td.product-name, .woocommerce-checkout main td.product-name {
   font-weight: bold;
   font-size: 1rem;
 }
 
-/* line 2075, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+/* line 2074, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
 body.woocommerce main .woocommerce .order_details li, body.woocommerce-cart main .woocommerce .order_details li, body.woocommerce-checkout main .woocommerce .order_details li {
   list-style-type: none;
   font-size: .8rem;
 }
 
-/* line 2078, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+/* line 2077, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
 body.woocommerce main .woocommerce .woocommerce-message, body.woocommerce-cart main .woocommerce .woocommerce-message, body.woocommerce-checkout main .woocommerce .woocommerce-message {
   border-top: 3px solid #b3ba1c;
 }
 
-/* line 2080, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+/* line 2079, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
 body.woocommerce main .woocommerce .woocommerce-info, body.woocommerce-cart main .woocommerce .woocommerce-info, body.woocommerce-checkout main .woocommerce .woocommerce-info {
   border-top-color: #3FA4DC;
 }
 
-/* line 2082, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+/* line 2081, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
 body.woocommerce main .woocommerce .woocommerce-info:before, body.woocommerce-cart main .woocommerce .woocommerce-info:before, body.woocommerce-checkout main .woocommerce .woocommerce-info:before {
   color: #3FA4DC;
 }
 
-/* line 2084, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+/* line 2083, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
 body.woocommerce main .woocommerce #respond input#submit.alt, body.woocommerce main .woocommerce a.button.alt, body.woocommerce main .woocommerce button.button.alt, body.woocommerce main .woocommerce input.button.alt, body.woocommerce-cart main .woocommerce #respond input#submit.alt, body.woocommerce-cart main .woocommerce a.button.alt, body.woocommerce-cart main .woocommerce button.button.alt, body.woocommerce-cart main .woocommerce input.button.alt, body.woocommerce-checkout main .woocommerce #respond input#submit.alt, body.woocommerce-checkout main .woocommerce a.button.alt, body.woocommerce-checkout main .woocommerce button.button.alt, body.woocommerce-checkout main .woocommerce input.button.alt {
   background-color: #f7ad00;
 }
 
-/* line 2086, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+/* line 2085, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
 body.woocommerce main .woocommerce #respond input#submit.alt:hover, body.woocommerce main .woocommerce a.button.alt:hover, body.woocommerce main .woocommerce button.button.alt:hover, body.woocommerce main .woocommerce input.button.alt:hover, body.woocommerce-cart main .woocommerce #respond input#submit.alt:hover, body.woocommerce-cart main .woocommerce a.button.alt:hover, body.woocommerce-cart main .woocommerce button.button.alt:hover, body.woocommerce-cart main .woocommerce input.button.alt:hover, body.woocommerce-checkout main .woocommerce #respond input#submit.alt:hover, body.woocommerce-checkout main .woocommerce a.button.alt:hover, body.woocommerce-checkout main .woocommerce button.button.alt:hover, body.woocommerce-checkout main .woocommerce input.button.alt:hover {
   background-color: #fabd30;
 }
 
-/* line 2088, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+/* line 2087, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
 body.woocommerce main .woocommerce input.button.alt:disabled, body.woocommerce main .woocommerce .woocommerce input.button.alt:disabled[disabled], body.woocommerce-cart main .woocommerce input.button.alt:disabled, body.woocommerce-cart main .woocommerce .woocommerce input.button.alt:disabled[disabled], body.woocommerce-checkout main .woocommerce input.button.alt:disabled, body.woocommerce-checkout main .woocommerce .woocommerce input.button.alt:disabled[disabled] {
   background-color: #f7ad00;
 }
 
-/* line 2090, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+/* line 2089, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
 body.woocommerce main .star-rating, body.woocommerce-cart main .star-rating, body.woocommerce-checkout main .star-rating {
   color: #b3ba1c;
 }
 
-/* line 2092, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+/* line 2091, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
 body.woocommerce main #payment ul.payment_methods li, body.woocommerce-cart main #payment ul.payment_methods li, body.woocommerce-checkout main #payment ul.payment_methods li {
   list-style-type: none;
 }
 
-/* line 2094, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+/* line 2093, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
 body.woocommerce main #reviews #comments ol.commentlist li, body.woocommerce-cart main #reviews #comments ol.commentlist li, body.woocommerce-checkout main #reviews #comments ol.commentlist li {
   list-style-type: none;
   margin: 2rem 0 2rem;
 }
 
-/* line 2097, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+/* line 2096, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
 body.woocommerce main #reviews #comments ol.commentlist li img.avatar, body.woocommerce-cart main #reviews #comments ol.commentlist li img.avatar, body.woocommerce-checkout main #reviews #comments ol.commentlist li img.avatar {
   width: 100px;
   background: transparent;
   border-radius: 4px;
 }
 
-/* line 2101, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
+/* line 2100, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
 body.woocommerce main #reviews #comments ol.commentlist li .comment-text, body.woocommerce-cart main #reviews #comments ol.commentlist li .comment-text, body.woocommerce-checkout main #reviews #comments ol.commentlist li .comment-text {
   margin: 0 0 0 120px;
   background: #F5F5F5;
