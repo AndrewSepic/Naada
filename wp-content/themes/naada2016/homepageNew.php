@@ -69,7 +69,7 @@ function homepage_Output(){
         <?php the_field('parallax1_right_col');?>
       </div>
       <div class="clear"></div>
-      <a class="button orange-button medium" href="/therapeutic-clinic/">More About the Clinic</a>
+      <a class="button orange-button medium" href="/therapeutic-clinic/"><?php the_field('parallax1_more');?></a>
       <div class="downArrow"></div>
       <div class="clear"></div>
     </div>
@@ -83,7 +83,7 @@ function homepage_Output(){
         <div class="courseInfo">
           <h2><a href="<?php the_field('carousel_item_1_link');?>"><?php the_field('carousel_item_1');?></a></h2>
         </div>
-        <a class="button orange-button small" href="<?php the_field('carousel_item_1_link');?>">Book Appointment</a>
+        <a class="button orange-button small" href="<?php the_field('carousel_item_1_link');?>"><?php the_field('book_appointment');?></a>
       </div>
 
       <div>
@@ -91,7 +91,7 @@ function homepage_Output(){
         <div class="courseInfo">
           <h2><a href="<?php the_field('carousel_item_2_link');?>"><?php the_field('carousel_item_2');?></a></h2>
         </div>
-        <a class="button orange-button small" href="<?php the_field('carousel_item_2_link');?>">Book Appointment</a>
+        <a class="button orange-button small" href="<?php the_field('carousel_item_2_link');?>"><?php the_field('book_appointment');?></a>
       </div>
 
       <div>
@@ -99,7 +99,7 @@ function homepage_Output(){
         <div class="courseInfo">
           <h2><a href="<?php the_field('carousel_item_3_link');?>"><?php the_field('carousel_item_3');?></a></h2>
         </div>
-        <a class="button orange-button small" href="<?php the_field('carousel_item_3_link');?>">Book Appointment</a>
+        <a class="button orange-button small" href="<?php the_field('carousel_item_3_link');?>"><?php the_field('book_appointment');?></a>
       </div>
 
     </div>
@@ -116,7 +116,7 @@ function homepage_Output(){
         <?php the_field('parallax2_right_col');?>
       </div>
       <div class="clear"></div>
-      <a class="button orange-button medium" href="/yoga-teacher-training">Learn More About NYTT</a>
+      <a class="button orange-button medium" href="/yoga-teacher-training"><?php the_field('parallax2_more');?></a>
       <div class="downArrow"></div>
       <div class="clear"></div>
     </div>
@@ -169,7 +169,7 @@ function homepage_Output(){
         <?php the_field('parallax3_right_col');?>
       </div>
       <div class="clear"></div>
-      <p><a class="button orange-button medium" href="/online-yoga-education/">See Our Online Yoga Courses</a></p>
+      <p><a class="button orange-button medium" href="/online-yoga-education/"><?php the_field('parallax3_more');?></a></p>
       <div class="downArrow"></div>
       <div class="clear"></div>
     </div>
