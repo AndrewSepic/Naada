@@ -1596,7 +1596,8 @@ div.healcode-course div.enrollment
 .naada-carousel
   div.healcode-image-area
     float: none !important
-    width: 288px
+    // width: 288px
+    width: 309px
     margin: 0 auto 1.5rem !important
     img
       border: 1px solid #E5E5E5
@@ -1645,12 +1646,15 @@ div.healcode-course div.enrollment
         margin: 0 1rem
     @media only screen and (max-width: 374px)
       .slick-slide
-        width: 270px
+        width: 308px
         margin: 0
         padding: 0 !important
       div.healcode-image-area img
         width: 250px
         height: 153px
+        margin: 0 auto
+      h2.healcode-enrollment-name
+        width: 90%
   .slick-list
     padding: 0 0 0 0 !important
 
@@ -1659,6 +1663,7 @@ div.healcode-course div.enrollment
 .slick-prev, .slick-next
   height: 40px !important
   width: 40px !important
+  z-index: 10
 
 .slick-prev:before, .slick-next:before
   color: $naadagreen !important
