@@ -83,7 +83,7 @@ function homepage_Output(){
         <div class="courseInfo">
           <h2><a href="<?php the_field('carousel_item_1_link');?>"><?php the_field('carousel_item_1');?></a></h2>
         </div>
-        <a class="button orange-button small" href="<?php the_field('carousel_item_1_link');?>"><?php the_field('book_appointment');?></a>
+        <p><a class="button orange-button small" href="<?php the_field('carousel_item_1_link');?>"><?php the_field('book_appointment');?></a></p>
       </div>
 
       <div>
@@ -91,7 +91,7 @@ function homepage_Output(){
         <div class="courseInfo">
           <h2><a href="<?php the_field('carousel_item_2_link');?>"><?php the_field('carousel_item_2');?></a></h2>
         </div>
-        <a class="button orange-button small" href="<?php the_field('carousel_item_2_link');?>"><?php the_field('book_appointment');?></a>
+        <p><a class="button orange-button small" href="<?php the_field('carousel_item_2_link');?>"><?php the_field('book_appointment');?></a></p>
       </div>
 
       <div>
@@ -99,7 +99,7 @@ function homepage_Output(){
         <div class="courseInfo">
           <h2><a href="<?php the_field('carousel_item_3_link');?>"><?php the_field('carousel_item_3');?></a></h2>
         </div>
-        <a class="button orange-button small" href="<?php the_field('carousel_item_3_link');?>"><?php the_field('book_appointment');?></a>
+        <p><a class="button orange-button small" href="<?php the_field('carousel_item_3_link');?>"><?php the_field('book_appointment');?></a></p>
       </div>
 
     </div>
@@ -130,7 +130,7 @@ function homepage_Output(){
         <div class="courseInfo">
           <h2><a href="/yoga-teacher-training/200-hour-foundation/"><?php the_field('nytt_course_1');?></a></h2>
         </div>
-        <a class="button orange-button small" href="/yoga-teacher-training/200-hour-foundation/"><?php the_field('course_button_text');?></a>
+        <p><a class="button orange-button small" href="/yoga-teacher-training/200-hour-foundation/"><?php the_field('course_button_text');?></a></p>
       </div>
 
       <div>
@@ -138,7 +138,7 @@ function homepage_Output(){
         <div class="courseInfo">
           <h2><a href="/yoga-teacher-training/300-hour-advanced/"><?php the_field('nytt_course_2');?></a></h2>
         </div>
-        <a class="button orange-button small" href="/yoga-teacher-training/300-hour-advanced/"><?php the_field('course_button_text');?></a>
+        <p><a class="button orange-button small" href="/yoga-teacher-training/300-hour-advanced/"><?php the_field('course_button_text');?></a></p>
       </div>
 
       <div>
@@ -146,7 +146,7 @@ function homepage_Output(){
         <div class="courseInfo">
           <h2><a href="/yoga-teacher-training/500-hour-certification/"><?php the_field('nytt_course_3');?></a></h2>
         </div>
-        <a class="button orange-button small" href="/yoga-teacher-training/500-hour-certification/"><?php the_field('course_button_text');?></a>
+        <p><a class="button orange-button small" href="/yoga-teacher-training/500-hour-certification/"><?php the_field('course_button_text');?></a></p>
       </div>
 
       <div>
@@ -154,7 +154,7 @@ function homepage_Output(){
         <div class="courseInfo">
           <h2><a href="/yoga-teacher-training/300-hour-therapeutics/"><?php the_field('nytt_course_4');?></a></h2>
         </div>
-        <a class="button orange-button small" href="/yoga-teacher-training/300-hour-therapeutics/"><?php the_field('course_button_text');?></a>
+        <p><a class="button orange-button small" href="/yoga-teacher-training/300-hour-therapeutics/"><?php the_field('course_button_text');?></a></p>
       </div>
     </div>
   </div>
@@ -175,7 +175,7 @@ function homepage_Output(){
     </div>
   </section>
 
-  <!-- ONline Course Section -->
+  <!-- Online Course Section -->
   <div class="homeContentWrap">
     <div class="online-carousel">
       <div>
