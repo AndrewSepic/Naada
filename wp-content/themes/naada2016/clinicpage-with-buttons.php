@@ -1,5 +1,5 @@
 <?php /*
-Template Name: Clinic
+Template Name: Clinic-with-buttons
 */ ?>
 
 <?php
@@ -47,6 +47,9 @@ function my_custom_stuff(){
           <a href="<?php get_permalink(); ?>osteopathy-appointments/" class="naada-button orange-button medium">
             <?php the_field('book_an_appointment'); ?>
           </a>
+          <a href="<?php get_permalink(); ?>our-therapists/" class="naada-button orange-hollow medium">
+            <?php the_field('meet_our_osteopaths'); ?>
+          </a>
         </div><!-- serviceRight -->
       </div><!-- serviceBlock -->
 
@@ -60,6 +63,9 @@ function my_custom_stuff(){
           <a href="<?php get_permalink(); ?>yoga-therapy-appointments/" class="naada-button orange-button medium">
             <?php the_field('book_an_appointment'); ?>
           </a>
+          <a href="<?php get_permalink(); ?>our-therapists/" class="naada-button orange-hollow medium">
+            <?php the_field('meet_our_therapists'); ?>
+          </a>
         </div><!-- serviceRight -->
       </div><!-- serviceBlock -->
 
@@ -71,6 +77,9 @@ function my_custom_stuff(){
           <p><?php the_field('massage_therapy_text'); ?></p>
           <a href="<?php get_permalink(); ?>massage-therapy-appointments/" class="naada-button orange-button medium">
             <?php the_field('book_an_appointment'); ?>
+          </a>
+          <a href="<?php get_permalink(); ?>our-therapists/" class="naada-button orange-hollow medium">
+            <?php the_field('meet_our_therapists'); ?>
           </a>
         </div><!-- serviceRight -->
       </div><!-- serviceBlock -->
