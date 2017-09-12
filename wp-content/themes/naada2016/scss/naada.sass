@@ -107,7 +107,7 @@ hr
 .entry-content a, .sidebar a
   border-bottom: none
 
-button
+button,
   color: #fff
   font-weight: bold
   background-color: #f7ad00
@@ -210,7 +210,7 @@ input
 
 /* end buttons
 
-a.button, .button, .entry-content a.button
+a.button, .button, .entry-content a.button, button, input[type="button"], input[type="reset"], input[type="submit"]
   color: #fff
   font-weight: bold
   background-color: #f7ad00
@@ -365,6 +365,7 @@ span.dropcap
 
 .site-header
   min-height: 80px
+  background-color: #fff
   .wrap
     padding: 8px 0
 
@@ -563,7 +564,6 @@ ul.menu-primary
   max-width: 800px
   margin-top: 25px
   float: right
-  background-color: #fff
   ul
     li
       float: right
@@ -837,7 +837,7 @@ h2
     color: $orangeHover !important
 
 form#sfwd-mark-complete input#learndash_mark_complete_button[disabled]
-  color: #deb654
+  color: #deb654 !important
   background-color: #ffd180
   font-size: 1rem
   text-transform: uppercase
