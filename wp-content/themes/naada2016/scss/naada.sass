@@ -42,6 +42,10 @@ $orangeHover: #fabd30
 /** Default DOM Elements Typography **/
 /****/
 
+html
+  /** Set Root REM size **/
+  font-size: 100%
+
 body
   font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif
   font-size: 15px
@@ -56,12 +60,13 @@ body
 .sidebar
   font-size: 15px
   color: #666
+  .widget
+    background-color: #fff
+    padding: 2.5rem
 
 body.home, body.page-template-familypage
   background-color: #fff
 
-.sidebar
-  font-size: 14px
 
 a, .entry-title a, .sidebar .widget-title a, .entry-content a, .sidebar a
   color: #f7ad00
@@ -410,10 +415,12 @@ ul.menu-primary
 
 .genesis-nav-menu a
   padding: 15px 6px
+  color: #fff
 
 .nav-primary .genesis-nav-menu
   a:hover, .current-menu-item > a
     color: #e8e8e8
+    text-decoration: none
   .sub-menu
     .current-menu-item > a:hover
       color: #fff
@@ -684,6 +691,18 @@ section#search-3
 
 /* Posts & Pages
 
+.site-inner
+  padding-top: 40px
+
+.breadcrumb
+  margin-bottom: 20px
+
+.content
+  width: 800px
+  .entry
+    background-color: #fff
+    padding: 3rem 4rem
+
 .entry-title
   margin-bottom: 30px
 
@@ -817,6 +836,12 @@ h2
   &:hover
     color: $orangeHover !important
 
+form#sfwd-mark-complete input#learndash_mark_complete_button[disabled]
+  color: #deb654
+  background-color: #ffd180
+  font-size: 1rem
+  text-transform: uppercase
+
 .learndash_nevigation_lesson_topics_list > div > div.list_arrow
   display: block
   width: 16px
@@ -923,6 +948,14 @@ div.uber-grid-filters > div
 /* Footer
 
 
+.footer-widgets
+  padding-top: 40px
+  .footer-widgets-1, .footer-widgets-2, .footer-widgets-3
+    width: 340px
+    float: left
+  .footer-widgets-1
+    margin-right: 60px
+
 .footer-widgets, .woocommerce .footer-widgets
   background-color: #b3ba1c
   color: #fff
@@ -954,6 +987,9 @@ div.uber-grid-filters > div
   background-size: cover
   color: #fff
   padding: 1.5rem 0
+  text-align: center
+  font-size: 1rem
+  border-top: 0
   a
     color: #fff
     &:hover
