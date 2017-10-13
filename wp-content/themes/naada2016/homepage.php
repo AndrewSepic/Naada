@@ -37,7 +37,7 @@ function homepage_Output(){
         <h3><?php the_field('sell_box_1_title'); ?></h3>
       </div>
       <p>
-        <a class="naada-button orange-button medium" href=""><?php the_field('sell_btn_text1');?></a>
+        <a class="naada-button orange-button medium" href="/infrared-sauna"><?php the_field('sell_btn_text1');?></a>
       </p>
       <p><?php the_field('sell_box_1_text');?></p>
     </div>
