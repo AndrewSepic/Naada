@@ -76,6 +76,18 @@ function my_custom_stuff(){
       </div><!-- serviceBlock -->
 
       <div class="serviceBlock">
+        <div class="serviceLeft" style="background-image: url('<?php the_field('acupuncture_image');?>');'">
+          <h2><?php the_field('acupuncture_title'); ?></h2>
+        </div><!-- serviceLeft -->
+        <div class="serviceRight">
+          <p><?php the_field('acupuncture_text'); ?></p>
+          <a href="<?php get_permalink(); ?>acupuncture-appointments/" class="naada-button orange-button medium">
+            <?php the_field('book_an_appointment'); ?>
+          </a>
+        </div><!-- serviceRight -->
+      </div><!-- serviceBlock -->
+
+      <div class="serviceBlock">
         <div class="serviceLeft" style="background-image: url('<?php the_field('sauna_image');?>');'">
           <h2 class="sauna"><?php the_field('sauna_title'); ?></h2>
         </div><!-- serviceLeft -->
