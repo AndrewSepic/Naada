@@ -102,6 +102,14 @@ function homepage_Output(){
         <p><a class="button orange-button small" href="<?php the_field('carousel_item_3_link');?>"><?php the_field('book_appointment');?></a></p>
       </div>
 
+      <div>
+        <div class="courseImage"><img alt="Acupuncture Therapy" src="http://www.naada.ca/wp-content/uploads/2017/10/clinic-acupuncture-small.jpg"/></div>
+        <div class="courseInfo">
+          <h2><a href="http://www.naada.ca/therapeutic-clinic/acupuncture-appointments/">Acupuncture</a></h2>
+        </div>
+        <p><a class="button orange-button small" href="http://www.naada.ca/therapeutic-clinic/acupuncture-appointments/">Book Appointment</a></p>
+      </div>
+
     </div>
   </div>
 
