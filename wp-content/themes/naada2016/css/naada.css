@@ -628,7 +628,7 @@ ul.menu-primary ul > li.menu-item-has-children > a:after {
 .videoCallout div.downArrow:after, .familyCallout div.downArrow:after, .clinicCallout div.downArrow:after {
   content: '';
   display: inline-block;
-  margin-top: 9px;
+  margin-top: 12px;
   width: 12px;
   height: 12px;
   border-top: 5px solid #fff;
@@ -1657,7 +1657,7 @@ section.module.parallax div.downArrow {
 section.module.parallax div.downArrow:after {
   content: '';
   display: inline-block;
-  margin-top: 9px;
+  margin-top: 12px;
   width: 12px;
   height: 12px;
   border-top: 5px solid #fff;

@@ -103,11 +103,11 @@ function homepage_Output(){
       </div>
 
       <div>
-        <div class="courseImage"><img alt="Acupuncture Therapy" src="http://www.naada.ca/wp-content/uploads/2017/10/clinic-acupuncture-small.jpg"/></div>
+        <div class="courseImage"><img alt="Massage Therapy" src="<?php the_field('carousel_item_4_pic');?>"/></div>
         <div class="courseInfo">
-          <h2><a href="http://www.naada.ca/therapeutic-clinic/acupuncture-appointments/">Acupuncture</a></h2>
+          <h2><a href="<?php the_field('carousel_item_4_link');?>"><?php the_field('carousel_item_4');?></a></h2>
         </div>
-        <p><a class="button orange-button small" href="http://www.naada.ca/therapeutic-clinic/acupuncture-appointments/">Book Appointment</a></p>
+        <p><a class="button orange-button small" href="<?php the_field('carousel_item_4_link');?>"><?php the_field('book_appointment');?></a></p>
       </div>
 
     </div>
