@@ -896,12 +896,18 @@ section#search-3 h4 {
 }
 
 .content {
-  width: 800px;
+  /* Nexus G5 mobile issue fix: With a fix width the content will be pushed off the screen at smaller screen sizes. */
 }
 
 .content .entry {
   background-color: #fff;
   padding: 3rem 4rem;
+}
+
+@media only screen and (max-width: 500px) {
+  .content .entry {
+    padding: 1rem 2rem;
+  }
 }
 
 .entry-title {
