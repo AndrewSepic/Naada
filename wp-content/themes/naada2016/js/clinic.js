@@ -42,9 +42,19 @@ jQuery( document ).ready(function( $ ) {
   function openCloak() {
     $('a.openAppoint').on("click", function(e){
       e.preventDefault();
-      $('div.bookingCloak').slideDown('slow');
+      var name = $( this ).attr('data-name');
+      // console.log('div.bookingCloak#' + name );
+      $('div.bookingCloak#' + name ).slideDown('slow');
     })
   }
+
+  // function openCloak() {
+  //   console.log(this);
+  //   $('a.openAppoint').on("click", function(e){
+  //     e.preventDefault();
+  //     $('div.bookingCloak').slideDown('slow');
+  //   })
+  // }
 
   function AddYTIntakeLink() {
     //$('#session_type').change(function(){
