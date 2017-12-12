@@ -43,9 +43,14 @@ jQuery( document ).ready(function( $ ) {
     $('a.openAppoint').on("click", function(e){
       e.preventDefault();
       var name = $( this ).attr('data-name');
-      // console.log('div.bookingCloak#' + name );
-      $('div.bookingCloak#' + name ).slideDown('slow');
-    })
+      if (name) {
+        console.log('ATTR: div.bookingCloak#' + name );
+        $('div.bookingCloak#' + name ).slideDown('slow');
+      } else {
+        console.log('div.bookingCloak only');
+        $('div.bookingCloak').slideDown('slow');
+      }
+    });
   }
 
   // function openCloak() {
