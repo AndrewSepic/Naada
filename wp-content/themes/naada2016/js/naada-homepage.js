@@ -45,16 +45,20 @@ jQuery( document ).ready(function( $ ) {
 
   function homepageSchedCode(){
     //  Add Next button for next day's schedule
-    $('div.horz-sched healcode-widget div.header').hide().appendTo('div.horz-sched healcode-widget div.list_view td').fadeIn(200);
+    $('div.horz-sched healcode-widget div.header')
+      .hide()
+      .appendTo('div.horz-sched healcode-widget div.list_view td')
+      .fadeIn(200);
 
     // Each time you click the week links, reload this entire function
     $('div.horz-sched .week_links a').on("click", function(){
       healcodeHomepageSchedReady();
      });
 
+     // Iterate over each item in the main schedule and ensure the length of the class name doesn't exceed 25 characters
     $('div.horz-sched table td li.odd span.classname a').each(function(){
       if ($(this).text().length > 25) {
-        //$(this).css("background-color","red");
+        // $(this).css("background-color","red");
         var classname = $(this).text();
         var trimd = classname.substring(0, 25) + "...";
           $(this).text(trimd);
