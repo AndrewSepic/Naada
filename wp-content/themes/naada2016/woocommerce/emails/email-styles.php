@@ -85,7 +85,7 @@ $text_lighter_20 = wc_hex_lighter( $text, 20 );
 	font-size: 0.9rem
 	line-height:125%;
 	text-align:center;
-	padding: 0 48px 48px 48px;
+	padding: 0;
 }
 
 #credit p {
