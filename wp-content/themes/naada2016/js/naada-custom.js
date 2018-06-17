@@ -146,4 +146,39 @@ jQuery( document ).ready(function( $ ) {
     })
   }
 
+  // code for rotating testimonials. e.g. http://www.naada.ca/yoga-teacher-training/graduate-mentorship-program1
+  function rotateTestimonials(wrapperElement, testimonialElement, rotationTime) {
+    // gather all testimonials, determine the total, pick a random one next and make sure the container is set to the same height. Show the next testimonial.
+    var testimonials = $(testimonialElement);
+
+    var total = testimonials.length-1;
+    var next = Math.round(Math.random() * total);
+    var height = $(testimonials[next]).height();
+    $(testimonials[next]).removeClass('hide');
+    $(wrapperElement).height(height);
+
+    // only execute the loop if two or more testimonials are found.
+    if (total <= 1) return;
+
+    // Enter the loop, select the active element and set it to next.
+    setInterval(function() {
+      var activeEl = $(testimonialElement).not('.hide')[0];
+      var nextEl = activeEl;
+
+      // Determine the next testimonial, it cannot be the same one.
+      while (nextEl === activeEl) {
+        nextNum = Math.round(Math.random() * total);
+        nextEl = testimonials[nextNum];
+      }
+
+      // Hide the active testimonial, set the height of the wrapper to the height of the next one and show it.
+      $(activeEl).addClass('hide');
+      var height = $(nextEl).height();
+      $(wrapperElement).height(height);
+      $(nextEl).removeClass('hide');
+    }, rotationTime);
+  };
+
+    // activate the testimonial script.
+  rotateTestimonials('.testimonial-wrapper-js', '.testimonial', 5000);
 });

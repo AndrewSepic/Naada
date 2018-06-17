@@ -158,11 +158,11 @@ function homepage_Output(){
       </div>
 
       <div>
-        <div class="courseImage"><img src="/wp-content/uploads/2016/02/nytt-1000hr-web.jpg" alt="1000 HR Yoga Teacher Training" /></div>
+        <div class="courseImage"><img src="/wp-content/uploads/2016/02/nytt-1000hr-web.jpg" alt="Mentorship Program" /></div>
         <div class="courseInfo">
-          <h2><a href="/yoga-teacher-training/300-hour-therapeutics/"><?php the_field('nytt_course_4');?></a></h2>
+          <h2><a href="/yoga-teacher-training/graduate-mentorship-program/"><?php the_field('nytt_course_4');?></a></h2>
         </div>
-        <p><a class="button orange-button small" href="/yoga-teacher-training/300-hour-therapeutics/"><?php the_field('course_button_text');?></a></p>
+        <p><a class="button orange-button small" href="/yoga-teacher-training/graduate-mentorship-program/"><?php the_field('course_button_text');?></a></p>
       </div>
     </div>
   </div>

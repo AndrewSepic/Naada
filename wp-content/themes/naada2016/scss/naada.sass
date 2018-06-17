@@ -386,7 +386,7 @@ span.dropcap
   font-size: 13px
   color: #666
   text-transform: uppercase
-  font-weight: bold
+  font-weight: 500
 
 .menu-secondary
   font-size: 12px
@@ -400,7 +400,7 @@ ul.menu-primary
     content: '\f502'
     display: inline-block
     font: normal 12px/1 'Genericons'
-    vertical-align: bottom
+    vertical-align: -4px
     -webkit-font-smoothing: antialiased
     padding-left: 5px
   ul > li.menu-item-has-children > a:after
@@ -434,6 +434,7 @@ ul.menu-primary
       font-size: 13px
       text-transform: uppercase
       line-height: 1.2
+      width: 220px
 
 .genesis-nav-menu .sub-menu .current-menu-item a
   background-color: #fff
@@ -1420,7 +1421,21 @@ tr
     background: #909090
     padding: 5px 10px
 
-/* NYTT
+/* NYTT Testimonials (in Sidebar)
+
+.sidebar .testimonial
+  .testimonial-pic
+    width: 200px
+    margin: 0 auto 2rem
+  p:first-child
+    background-color: transparent
+    padding: 0
+    &:before
+      left: -20px
+      top: 0
+    &:after
+      content: none
+
 
 /** Course Descriptions Styles *
 
