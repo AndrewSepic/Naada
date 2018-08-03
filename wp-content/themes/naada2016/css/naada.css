@@ -509,10 +509,10 @@ span.dropcap {
   width: 100%;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1280px) {
   /* line 385, /Users/Andrew/naada/wp-content/themes/naada2016/scss/naada.sass */
   .nav-primary .wrap {
-    max-width: 90%;
+    max-width: 95%;
   }
 }
 
