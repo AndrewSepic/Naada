@@ -45,7 +45,10 @@ jQuery( document ).ready(function( $ ) {
 
   function homepageSchedCode(){
     //  Add Next button for next day's schedule
-    $('div.horz-sched healcode-widget div.header').hide().appendTo('div.horz-sched healcode-widget div.list_view td').fadeIn(200);
+    $('div.horz-sched healcode-widget div.header')
+      .hide()
+      .appendTo('div.horz-sched healcode-widget div.list_view td')
+      .fadeIn(200);
 
     // Each time you click the week links, reload this entire function
     $('div.horz-sched .week_links a').on("click", function(){
@@ -183,8 +186,8 @@ jQuery( document ).ready(function( $ ) {
       };
 
       // Generate the HTML and add it to the document
-      $overlay = $('<div id="overlay"></div>');
-      $modal = $('<div id="modal"></div>');
+      $overlay = $('<div id="overlay" style="z-index: 25;"></div>');
+      $modal = $('<div id="modal" style="z-index: 30;"></div>');
       $content = $("<div id='content'></div>");
       $close = $('<a id="close" href="#">X</a>');
 
@@ -224,6 +227,15 @@ jQuery( document ).ready(function( $ ) {
         });
 
       });
+
+    $("div.enrollment .healcode-enrollment-name > a").click(function(e){
+      e.preventDefault();
+      // Opens modal with description area as content
+      var htmlString = $(this).parent().clone().html() +
+        $(this).parent().siblings("div.healcode-description-area").clone().show().html();
+      modal.open({ content : htmlString });
+    });
+
 
     // Call Modal for Multi day Events
     $("div.healcode-course .more-info a").click(function(e){
