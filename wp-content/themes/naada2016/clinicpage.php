@@ -6,7 +6,7 @@ Template Name: Clinic
 add_action( 'genesis_after_header', 'naada_clinicBanner', 10 );
 function naada_clinicBanner() {
   ?>
-  <div class="clinicBanner" style="background-image: url('<?php the_field('hero_image');?>');'">
+  <div class="clinicBanner" style="background-image: url('<?php the_field('hero_image');?>);'">
     <!-- an extra line here to test out git push. Permalinks should work now -->
 
     <div class="clinicCallout">
@@ -39,7 +39,7 @@ function my_custom_stuff(){
 
     <div class="servicesWrap">
       <div class="serviceBlock">
-        <div class="serviceLeft" style="background-image: url('<?php the_field('osteo_image');?>');'">
+        <div class="serviceLeft" style="background-image: url('<?php the_field('osteo_image');?>);'">
           <h2><?php the_field('osteopathy'); ?></h2>
         </div><!-- serviceLeft -->
         <div class="serviceRight">
@@ -55,7 +55,7 @@ function my_custom_stuff(){
 
 
       <div class="serviceBlock">
-        <div class="serviceLeft" style="background-image: url('<?php the_field('yoga_therapy_image');?>');'">
+        <div class="serviceLeft" style="background-image: url('<?php the_field('yoga_therapy_image');?>);'">
           <h2><?php the_field('yoga_therapy_title'); ?></h2>
         </div><!-- serviceLeft -->
         <div class="serviceRight">
@@ -70,7 +70,7 @@ function my_custom_stuff(){
       </div><!-- serviceBlock -->
 
       <div class="serviceBlock">
-        <div class="serviceLeft" style="background-image: url('<?php the_field('massage_therapy_image');?>');'">
+        <div class="serviceLeft" style="background-image: url('<?php the_field('massage_therapy_image');?>);'">
           <h2><?php the_field('massage_therapy_title'); ?></h2>
         </div><!-- serviceLeft -->
         <div class="serviceRight">
@@ -85,7 +85,22 @@ function my_custom_stuff(){
       </div><!-- serviceBlock -->
 
       <div class="serviceBlock">
-        <div class="serviceLeft" style="background-image: url('<?php the_field('acupuncture_image');?>');'">
+        <div class="serviceLeft" style="background-image: url('<?php the_field('thai_massage_image');?>);'">
+          <h2><?php the_field('thai_massage_title'); ?></h2>
+        </div><!-- serviceLeft -->
+        <div class="serviceRight">
+          <p><?php the_field('thai_massage_text'); ?></p>
+          <a href="<?php get_permalink(); ?>thai-yoga-massage-appointments/" class="naada-button orange-button medium">
+            <?php the_field('book_an_appointment'); ?>
+          </a>
+          <a href="<?php get_permalink(); ?>our-therapists/#thai-yoga-massage" class="naada-button orange-hollow medium">
+            <?php the_field('meet_our_therapists'); ?>
+          </a>
+        </div><!-- serviceRight -->
+      </div><!-- serviceBlock -->
+
+      <div class="serviceBlock">
+        <div class="serviceLeft" style="background-image: url('<?php the_field('acupuncture_image');?>);'">
           <h2><?php the_field('acupuncture_title'); ?></h2>
         </div><!-- serviceLeft -->
         <div class="serviceRight">
@@ -100,7 +115,7 @@ function my_custom_stuff(){
       </div><!-- serviceBlock -->
 
       <div class="serviceBlock">
-        <div class="serviceLeft" style="background-image: url('<?php the_field('sauna_image');?>');'">
+        <div class="serviceLeft" style="background-image: url('<?php the_field('sauna_image');?>);'">
           <h2 class="sauna"><?php the_field('sauna_title'); ?></h2>
         </div><!-- serviceLeft -->
         <div class="serviceRight">
