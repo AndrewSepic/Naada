@@ -11,9 +11,8 @@
  * the readme will list any important changes.
  *
  * @see     https://docs.woocommerce.com/document/template-structure/
- * @author  WooThemes
  * @package WooCommerce/Templates
- * @version 3.3.2
+ * @version 3.5.1
  */
 
 defined( 'ABSPATH' ) || exit;
@@ -29,7 +28,7 @@ $columns           = apply_filters( 'woocommerce_product_thumbnails_columns', 4 
 $post_thumbnail_id = $product->get_image_id();
 $wrapper_classes   = apply_filters( 'woocommerce_single_product_image_gallery_classes', array(
 	'woocommerce-product-gallery',
-	'woocommerce-product-gallery--' . ( has_post_thumbnail() ? 'with-images' : 'without-images' ),
+	'woocommerce-product-gallery--' . ( $product->get_image_id() ? 'with-images' : 'without-images' ),
 	'woocommerce-product-gallery--columns-' . absint( $columns ),
 	'images',
 ) );
@@ -40,15 +39,15 @@ $wrapper_classes   = apply_filters( 'woocommerce_single_product_image_gallery_cl
 		if(get_field('vimeo_embed')) {
 				the_field('vimeo_embed');
 		}
-		elseif ( has_post_thumbnail() ) {
-			$html  = wc_get_gallery_image_html( $post_thumbnail_id, true );
+		elseif ( $product->get_image_id() ) {
+			$html = wc_get_gallery_image_html( $post_thumbnail_id, true );
 		} else {
 			$html  = '<div class="woocommerce-product-gallery__image--placeholder">';
-			$html .= sprintf( '<img src="%s" alt="%s" class="wp-post-image" />', esc_url( wc_placeholder_img_src() ), esc_html__( 'Awaiting product image', 'woocommerce' ) );
+			$html .= sprintf( '<img src="%s" alt="%s" class="wp-post-image" />', esc_url( wc_placeholder_img_src( 'woocommerce_single' ) ), esc_html__( 'Awaiting product image', 'woocommerce' ) );
 			$html .= '</div>';
 		}
 
-		echo apply_filters( 'woocommerce_single_product_image_thumbnail_html', $html, $post_thumbnail_id );
+		echo apply_filters( 'woocommerce_single_product_image_thumbnail_html', $html, $post_thumbnail_id ); // phpcs:disable WordPress.XSS.EscapeOutput.OutputNotEscaped
 
 		do_action( 'woocommerce_product_thumbnails' );
 		?>
