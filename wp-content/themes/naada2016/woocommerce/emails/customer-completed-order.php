@@ -10,29 +10,33 @@
  * happen. When this occurs the version of the template file will be bumped and
  * the readme will list any important changes.
  *
- * @see 	    https://docs.woocommerce.com/document/template-structure/
- * @author 		WooThemes
- * @package 	WooCommerce/Templates/Emails
- * @version     2.5.0
+ * @see https://docs.woocommerce.com/document/template-structure/
+ * @package WooCommerce/Templates/Emails
+ * @version 3.5.0
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-/**
+/*
  * @hooked WC_Emails::email_header() Output the email header
  */
 do_action( 'woocommerce_email_header', $email_heading, $email ); ?>
 
-<p><?php printf( __( "Hi there. Your recent order with %s is complete. Your online course is ready and waiting! Visit the <a href=\"http://naada.ca/online-school/my-courses/\">My Courses</a> area at Naada, log in and begin.  If this is your first purchase of an online course at Naada, your login information was sent to you in a previous email. ", 'woocommerce' ), get_option( 'blogname' ) ); ?></p>
-<p>Your order details are shown below for your reference:</p>
+<?php /* translators: %s: Customer first name */ ?>
+<p><?php printf( esc_html__( 'Hi %s,', 'woocommerce' ), esc_html( $order->get_billing_first_name() ) ); ?></p>
+<?php /* translators: %s: Site title */ ?>
+<p><?php printf( esc_html__( 'Your %s order has been marked complete on our side.', 'woocommerce' ), esc_html( wp_specialchars_decode( get_option( 'blogname' ), ENT_QUOTES ) ) ); ?></p>
+
 <p>-----------------------</p>
-<p><?php printf( __("Bonjour. Votre dernière commande chez %s est complétée. Votre cours en ligne est prêt et vous attend! Visitez la section <a href=\"http://naada.ca/online-school/my-courses/\">Mes Cours</a> chez Naada, connectez-vous et commencez. Si c’est votre premier achat pour un cours en ligne chez Naada, les informations pour vous connecter vous ont été envoyées préalablement par courriel.", 'woocommerce'), get_option('blogname'));?></p>
+<p><?php printf( esc_html__( 'Bonjour %s,', 'woocommerce' ), esc_html( $order->get_billing_first_name() ) ); ?></p>
+<?php /* translators: %s: Site title */ ?>
+<p><?php printf( esc_html__( 'Votre dernière commande chez %s est complétée. Votre cours en ligne est prêt et vous attend! Visitez la section <a href=\"http://naada.ca/fr/salle-de-cours/mes-cours/\">Mes Cours</a> chez Naada, connectez-vous et commencez. Si c’est votre premier achat pour un cours en ligne chez Naada, les informations pour vous connecter vous ont été envoyées préalablement par courriel.', 'woocommerce' ), esc_html( wp_specialchars_decode( get_option( 'blogname' ), ENT_QUOTES ) ) ); ?></p>
 <p>Voici un récapitulatif de votre commande pour référence :</p>
 <?php
 
-/**
+/*
  * @hooked WC_Emails::order_details() Shows the order details table.
  * @hooked WC_Structured_Data::generate_order_data() Generates structured data.
  * @hooked WC_Structured_Data::output_structured_data() Outputs structured data.
@@ -40,18 +44,24 @@ do_action( 'woocommerce_email_header', $email_heading, $email ); ?>
  */
 do_action( 'woocommerce_email_order_details', $order, $sent_to_admin, $plain_text, $email );
 
-/**
+/*
  * @hooked WC_Emails::order_meta() Shows order meta data.
  */
 do_action( 'woocommerce_email_order_meta', $order, $sent_to_admin, $plain_text, $email );
 
-/**
+/*
  * @hooked WC_Emails::customer_details() Shows customer details
  * @hooked WC_Emails::email_address() Shows email address
  */
 do_action( 'woocommerce_email_customer_details', $order, $sent_to_admin, $plain_text, $email );
 
-/**
+?>
+<p>
+<?php esc_html_e( 'Thanks for shopping with us.', 'woocommerce' ); ?>
+</p>
+<?php
+
+/*
  * @hooked WC_Emails::email_footer() Output the email footer
  */
 do_action( 'woocommerce_email_footer', $email );
