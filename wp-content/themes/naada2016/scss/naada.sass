@@ -1,13 +1,21 @@
 /*
   * CUSTOM THEME FOR NAADA yoga_wall
-  * By PAUL @ Blink Web Services & ANDREW @ THink Up Design
-  * Updated and Sassed January 2016
+  * By ANDREW @ THink Up Design and Roy Scheffers
+  * Updated and Sassed January 2019
 
 
 /* COLORS */
 $naadagreen: #b3ba1c
 $orange: #f7ad00
 $orangeHover: #fabd30
+
+$classBeginner: #b3ba1e       // Green
+$classIntermediate: #f59c00   // Orange
+$classAdvanced: #97c9ea       // Blue
+$classFamily: #f285a2         // Pink
+$classTherapeutic: #F1E33D    // Lighter version as in the older schedule (live)
+// $classTherapeutic: #D34F3F    // Red color
+
 
 /* MIXINS */
 =downArrow
@@ -1363,68 +1371,6 @@ section.module.parallax-4
 
 /* Andrew's HealCode styles
 
-/* Family
-
-tr
-  /* Family
-  &.kids_class_7_9yrs .class_level span, &.kids_class_5_10yrs .class_level span, &.kids_class_4_6_yrs .class_level span, &.prenatal .class_level span, &.postnatal .class_level span, &.family_yoga .class_level span, &.acro_yoga .class_level span,  &.kids_class_1_3_yrs .class_level span, &.kids_class_2_5_yrs .class_level span, &.mom_dad_crawlers_class .class_level span, &.kids_class_10_15yrs .class_level span,
-  &.moms_dads_yoga .class_level span, &.maman_compagnie .class_level span, &.parent_amp_bebe_postnatal .class_level span, &.girl_power_yoga_8_12yrs .class_level span, &.yoga_pour_enfants_5_10_ans_drop_in .class_level span, &.acroyoga_parent_et_enfant_7_12_ans .class_level span
-    color: #fff
-    text-transform: uppercase
-    background: #f285a2
-    padding: 5px 10px
-  /* Therapeutic
-  &.meditation .class_level span, &.restorative_101 .class_level span, &.restaurateur_cou_epaules .class_level span, &.restaurateur .class_level span, &.restaurateur_hanches_dos .class_level span, &.yoga_wall_restorative .class_level span, &.yin_yoga .class_level span, &.ayurveda .class_level span, &.advanced_anatomy .class_level span
-    color: #fff
-    text-transform: uppercase
-    background: #F1E33D
-    padding: 5px 10px
-  /* beginner
-  &.energizer .class_level span, &.rise_and_shine .class_level span, &.naada_level_1 .class_level span, &.intro_to_yoga .class_level span, &.yoga_wall_intro .class_level span, &.community_yoga_for_healthy_aging .class_level span, &.community_class .class_level span, &.yoga_wall_level_1 .class_level span
-    color: #fff
-    text-transform: uppercase
-    background: #b3ba1e
-    padding: 5px 10px
-  /* Intermediate
-  &.naada_level_2 .class_level span, &.yoga_wall .class_level span, &.shoulder_openers .class_level span, &.hip_openers .class_level span, &.back_bends .class_level span, &.yoga_wall .class_level span, &.yoga_wall_hip_openers .class_level span, &.yoga_wall_level_2 .class_level span
-    color: #fff
-    text-transform: uppercase
-    background: #97c9ea
-    padding: 5px 10px
-  /* Advanced
-  &.naada_live_by_donation .class_level span, &.live_workshop_level_2_3 .class_level span, &.naada_live .class_level span, &.naada_level_2_3 .class_level span
-    color: #fff
-    text-transform: uppercase
-    background: #f59c00
-    padding: 5px 10px
-  /* Specialty Classes
-  &.yoga_for_bone_health .class_level span, &.yoga_for_women_yoga_pour_femmes .class_level span, &.inversions .class_level span, &.yoga_for_men_yoga_pour_hommes .class_level span, &.intro_to_pranayama .class_level span, &.prenatal .class_level span, &.soins_du_dos_back_care .class_level span, &.back_care .class_level span, &.yoga_intro .class_level span
-    color: #fff
-    text-transform: uppercase
-    background: #f285a2
-    padding: 5px 10px
-  /* Workshops
-  &.decoding_the_sun_salutations_decoder_les_salutations_au_soleil .class_level span, &.finding_the_earth_through_standing_poses_connecter_avec_le_sol_lors_des_postures_debout .class_level span, &.get_to_the_core_twisting_in_standing_poses_droit_au_coeur_les_torsions_en_postures_debout .class_level span
-    color: #fff
-    text-transform: uppercase
-    background: #D34F3F
-    padding: 5px 10px
-
-
-
-
-.Enrollment
-  td.class_level span.class_level
-    color: #fff
-    text-transform: uppercase
-    background: #D34F3F
-    padding: 5px 10px
-  &.assisting_101 td.class_level span.class_level, &.ayurveda td.class_level span.class_level, &.asana_103 td.class_level span.class_level, &.back_care td.class_level span.class_level, &.meditation_101 td.class_level span.class_level, &.relax_and_renew td.class_level span.class_level, &.pranayama_101 td.class_level span.class_level, &.yoga_wall td.class_level span.class_level, &.naada_101 td.class_level span.class_level, &.psychology_of_yoga td.class_level span.class_level
-    color: #fff
-    text-transform: uppercase
-    background: #909090
-    padding: 5px 10px
-
 /* NYTT Testimonials (in Sidebar)
 
 .sidebar .testimonial
@@ -1441,31 +1387,32 @@ tr
       content: none
 
 
-/** Course Descriptions Styles *
+/* Course Descriptions Styles */
 
-.naada-class-categories
-  padding: 10px
-  text-transform: uppercase
+%naada-class-categories
   color: #fff
-
-.naada-class-category-desc
-  margin: 0 0 10px 10px
-  font-style: italic
-
-.naada-therapeutic
-  background: #e3d042
+  text-transform: uppercase
+  padding: 5px 10px
 
 .naada-beginner
-  background: #b3ba1e
+  @extend %naada-class-categories
+  background-color: $classBeginner
 
 .naada-intermediate
-  background: #97c9ea
+  @extend %naada-class-categories
+  background-color: $classIntermediate
 
 .naada-advanced
-  background: #f59c00
+  @extend %naada-class-categories
+  background-color: $classAdvanced
 
 .naada-family
-  background: #f285a2
+  @extend %naada-class-categories
+  background-color: $classFamily
+
+.naada-therapeutic
+  @extend %naada-class-categories
+  background-color: $classTherapeutic
 
 
 /* Mobile styles for Full Schedule */
