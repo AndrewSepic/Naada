@@ -1,15 +1,13 @@
 //
-//  Custom JS for Naada's Homepage
+//  Custom JS for Naada's various pages
 //  by Andrew@thinkupdesign.ca
 //
 
 jQuery( document ).ready(function( $ ) {
 
-  naadaSearch();
-  misc();
-  scrollNavReveal();
-  go_to_top();
-  healcodeFamilySchedReady();
+  // ---------------------------------------------------------
+  // Various function definitions
+  // ---------------------------------------------------------
 
   function healcodeFamilySchedReady(){
       var healCodeLoadingInterval2 = setInterval(function(){
@@ -85,22 +83,26 @@ jQuery( document ).ready(function( $ ) {
     }
   }
 
+
+  // Extend the search bar within the Naada sub header.
   function naadaSearch() {
     var searchForm = $('.site-header form.search-form');
     var searchFormInput = $('input[type="search"]', searchForm);
     searchFormInput.before('<span class="ico ico-mglass"></span>');
     searchForm.hover(
       function(){
-      searchForm.animate({width: "150px"}, 500);
-      searchFormInput.show();
-    }, function() {
-      searchForm.animate({width: "30px"}, 500);
-      searchFormInput.hide();
-    });
+        searchForm.animate({width: "150px"}, 500);
+        searchFormInput.show();
+      }, 
+      function() {
+        searchForm.animate({width: "30px"}, 500);
+        searchFormInput.hide();
+      }
+    );
   }
 
-  function misc(){
 
+  function misc(){
     // Swaps Horizontal schedule buttons with class listing
     // Used on Family Yoga & Home pages
     $('div.horz-sched healcode-widget div.header').hide().appendTo('div.horz-sched healcode-widget div.list_view td').fadeIn(200);
@@ -131,6 +133,7 @@ jQuery( document ).ready(function( $ ) {
 
   }
 
+
   //* Add smooth scrolling for any link having the class of "naada-top"
   function go_to_top() {
 		$('a.naada-top').click(function() {
@@ -146,39 +149,77 @@ jQuery( document ).ready(function( $ ) {
     })
   }
 
-function rotateTestimonials(wrapperElement, testimonialElement, rotationTime) {
-   // gather all testimonials, determine the total, pick a random one next and make sure the container is set to the same height. Show the next testimonial.
-  var testimonials = $(testimonialElement);
 
-  var total = testimonials.length-1;
-  var next = Math.round(Math.random() * total);
-  var height = $(testimonials[next]).height();
-  $(testimonials[next]).removeClass('hide');
-  $(wrapperElement).height(height);
+  function rotateTestimonials(wrapperElement, testimonialElement, rotationTime) {
+    // gather all testimonials, determine the total, pick a random one next and make sure the container is set to the same height. Show the next testimonial.
+    var testimonials = $(testimonialElement);
 
-  // only execute if two or more testimonials are found.
-  if (total <= 1) return;
-  if (rotationTime === undefined) return;
+    var total = testimonials.length-1;
+    var next = Math.round(Math.random() * total);
+    var height = $(testimonials[next]).height();
+    $(testimonials[next]).removeClass('hide');
+    $(wrapperElement).height(height);
 
-  // Enter the loop, select the active element and set it to next.
-  setInterval(function() {
-    var activeEl = $(testimonialElement).not('.hide')[0];
-    var nextEl = activeEl;
+    // only execute if two or more testimonials are found.
+    if (total <= 1) return;
+    if (rotationTime === undefined) return;
 
-    // Determine the next testimonial, it cannot be the same one.
-    while (nextEl === activeEl) {
-      nextNum = Math.round(Math.random() * total);
-      nextEl = testimonials[nextNum];
+    // Enter the loop, select the active element and set it to next.
+    setInterval(function() {
+      var activeEl = $(testimonialElement).not('.hide')[0];
+      var nextEl = activeEl;
+
+      // Determine the next testimonial, it cannot be the same one.
+      while (nextEl === activeEl) {
+        nextNum = Math.round(Math.random() * total);
+        nextEl = testimonials[nextNum];
+      }
+
+      // Hide the active testimonial, set the height of the wrapper to the height of the next one and show it.
+      $(activeEl).addClass('hide');
+      var height = $(nextEl).height();
+      $(wrapperElement).height(height);
+      $(nextEl).removeClass('hide');
+    }, rotationTime);
+  };
+
+
+  function formatSchedule() {
+    // Only execute this function when being on /schedule
+    var onSchedulePage = $('.page-id-7').length > 0;
+    if (!onSchedulePage) {
+      return;
     }
 
-    // Hide the active testimonial, set the height of the wrapper to the height of the next one and show it.
-    $(activeEl).addClass('hide');
-    var height = $(nextEl).height();
-    $(wrapperElement).height(height);
-    $(nextEl).removeClass('hide');
-  }, rotationTime);
-};
+    // When the page loads, check if the schedule has loaded
+    var checkForSchedule = setInterval(function(){
+      var scheduleLoaded = $('div.healcode.schedule').length > 0;
 
-  // activate the testimonial script.
-rotateTestimonials('.testimonial-wrapper-js', '.testimonial');
+      if (scheduleLoaded) {
+        // Clear the interval as code only needs to run once.
+        clearInterval(checkForSchedule);
+
+        var allClassLevelBlocks = $('span.class_level');
+
+        // Format the various class levels by adding its specific class
+        $(allClassLevelBlocks).each(function() {
+          var text = this.innerText.toLowerCase();
+          $(this).addClass('naada-' + text);
+        });
+      }
+    }, 100);
+  };
+
+
+  // ---------------------------------------------------------
+  // Initialisation of the various functions
+  // ---------------------------------------------------------
+  naadaSearch();
+  misc();
+  scrollNavReveal();
+  go_to_top();
+  healcodeFamilySchedReady();
+  rotateTestimonials('.testimonial-wrapper-js', '.testimonial');    // activate the testimonial script.
+  formatSchedule();                                                 // Code that runs only on /schedule
+  
 });
