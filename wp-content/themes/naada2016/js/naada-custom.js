@@ -186,7 +186,10 @@ jQuery( document ).ready(function( $ ) {
 
   function formatSchedule() {
     // Only execute this function when being on /schedule
-    var onSchedulePage = $('.page-id-7').length > 0;
+    var englishSchedule = $('.page-id-7').length > 0;
+    var frenchSchedule = $('.page-id-7285').length > 0;
+
+    var onSchedulePage = englishSchedule || frenchSchedule;
     if (!onSchedulePage) {
       return;
     }
