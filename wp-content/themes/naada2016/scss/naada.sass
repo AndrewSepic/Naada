@@ -9,12 +9,13 @@ $naadagreen: #b3ba1c
 $orange: #f7ad00
 $orangeHover: #fabd30
 
-$classBeginner: #b3ba1e       // Green
-$classIntermediate: #f59c00   // Orange
-$classAdvanced: #97c9ea       // Blue
-$classFamily: #f285a2         // Pink
-$classTherapeutic: #F1E33D    // Lighter version as in the older schedule (live)
-// $classTherapeutic: #D34F3F    // Red color
+$classBeginner    : #b3ba1e       // Green
+$classIntermediate: #f59c00       // Orange
+$classWorkshop   : #f59c00       // Orange
+$classAdvanced    : #97c9ea       // Blue
+$classFamily      : #f285a2       // Pink
+$classTherapeutic : #F1E33D       // Lighter version as in the older schedule (live)
+// $classTherapeutic : #D34F3F       // Red color
 
 
 /* MIXINS */
@@ -1414,6 +1415,9 @@ section.module.parallax-4
   @extend %naada-class-categories
   background-color: $classTherapeutic
 
+.naada-workshop
+  @extend %naada-class-categories
+  background-color: $classWorkshop
 
 /* Mobile styles for Full Schedule */
 @media only screen and (max-width: 400px)
