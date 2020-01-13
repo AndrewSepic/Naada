@@ -39,6 +39,21 @@ function my_custom_stuff(){
 
     <div class="servicesWrap">
       <div class="serviceBlock">
+        <div class="serviceLeft" style="background-image: url('<?php the_field('yoga_therapy_image');?>);'">
+          <h2><?php the_field('yoga_therapy_title'); ?></h2>
+        </div><!-- serviceLeft -->
+        <div class="serviceRight">
+          <p><?php the_field('yoga_therapy_text'); ?></p>
+          <a href="<?php get_permalink(); ?>yoga-therapy-appointments/" class="naada-button orange-button medium">
+            <?php the_field('book_an_appointment'); ?>
+          </a>
+          <a href="<?php get_permalink(); ?>our-therapists/" class="naada-button orange-hollow medium">
+            <?php the_field('meet_our_therapists'); ?>
+          </a>
+        </div><!-- serviceRight -->
+      </div><!-- serviceBlock -->
+
+      <div class="serviceBlock">
         <div class="serviceLeft" style="background-image: url('<?php the_field('osteo_image');?>);'">
           <h2><?php the_field('osteopathy'); ?></h2>
         </div><!-- serviceLeft -->
@@ -53,17 +68,16 @@ function my_custom_stuff(){
         </div><!-- serviceRight -->
       </div><!-- serviceBlock -->
 
-
       <div class="serviceBlock">
-        <div class="serviceLeft" style="background-image: url('<?php the_field('yoga_therapy_image');?>);'">
-          <h2><?php the_field('yoga_therapy_title'); ?></h2>
+        <div class="serviceLeft" style="background-image: url('<?php the_field('acupuncture_image');?>);'">
+          <h2><?php the_field('acupuncture_title'); ?></h2>
         </div><!-- serviceLeft -->
         <div class="serviceRight">
-          <p><?php the_field('yoga_therapy_text'); ?></p>
-          <a href="<?php get_permalink(); ?>yoga-therapy-appointments/" class="naada-button orange-button medium">
+          <p><?php the_field('acupuncture_text'); ?></p>
+          <a href="<?php get_permalink(); ?>acupuncture-appointments/" class="naada-button orange-button medium">
             <?php the_field('book_an_appointment'); ?>
           </a>
-          <a href="<?php get_permalink(); ?>our-therapists/" class="naada-button orange-hollow medium">
+          <a href="<?php get_permalink(); ?>our-therapists/#acupuncture" class="naada-button orange-hollow medium">
             <?php the_field('meet_our_therapists'); ?>
           </a>
         </div><!-- serviceRight -->
@@ -100,15 +114,15 @@ function my_custom_stuff(){
       </div><!-- serviceBlock -->
 
       <div class="serviceBlock">
-        <div class="serviceLeft" style="background-image: url('<?php the_field('acupuncture_image');?>);'">
-          <h2><?php the_field('acupuncture_title'); ?></h2>
+        <div class="serviceLeft" style="background-image: url('<?php the_field('shiatsu_image');?>);'">
+          <h2><?php the_field('shiatsu_title'); ?></h2>
         </div><!-- serviceLeft -->
         <div class="serviceRight">
-          <p><?php the_field('acupuncture_text'); ?></p>
-          <a href="<?php get_permalink(); ?>acupuncture-appointments/" class="naada-button orange-button medium">
+          <p><?php the_field('shiatsu_text'); ?></p>
+          <a href="<?php get_permalink(); ?>shiatsu-appointments/" class="naada-button orange-button medium">
             <?php the_field('book_an_appointment'); ?>
           </a>
-          <a href="<?php get_permalink(); ?>our-therapists/#acupuncture" class="naada-button orange-hollow medium">
+          <a href="<?php get_permalink(); ?>our-therapists/#shiatsu" class="naada-button orange-hollow medium">
             <?php the_field('meet_our_therapists'); ?>
           </a>
         </div><!-- serviceRight -->
