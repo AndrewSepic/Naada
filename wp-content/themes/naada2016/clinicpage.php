@@ -47,7 +47,7 @@ function my_custom_stuff(){
           <a href="<?php get_permalink(); ?>yoga-therapy-appointments/" class="naada-button orange-button medium">
             <?php the_field('book_an_appointment'); ?>
           </a>
-          <a href="<?php get_permalink(); ?>our-therapists/" class="naada-button orange-hollow medium">
+          <a href="<?php get_permalink(); ?>yoga-therapy-appointments/#yogatherapy" class="naada-button orange-hollow medium">
             <?php the_field('meet_our_therapists'); ?>
           </a>
         </div><!-- serviceRight -->
@@ -62,7 +62,7 @@ function my_custom_stuff(){
           <a href="<?php get_permalink(); ?>osteopathy-appointments/" class="naada-button orange-button medium">
             <?php the_field('book_an_appointment'); ?>
           </a>
-          <a href="<?php get_permalink(); ?>our-therapists/" class="naada-button orange-hollow medium">
+          <a href="<?php get_permalink(); ?>osteopathy-appointments/#osteopathy" class="naada-button orange-hollow medium">
             <?php the_field('meet_our_osteopaths'); ?>
           </a>
         </div><!-- serviceRight -->
@@ -77,7 +77,7 @@ function my_custom_stuff(){
           <a href="<?php get_permalink(); ?>acupuncture-appointments/" class="naada-button orange-button medium">
             <?php the_field('book_an_appointment'); ?>
           </a>
-          <a href="<?php get_permalink(); ?>our-therapists/#acupuncture" class="naada-button orange-hollow medium">
+          <a href="<?php get_permalink(); ?>acupuncture-appointments/#acupuncture" class="naada-button orange-hollow medium">
             <?php the_field('meet_our_therapists'); ?>
           </a>
         </div><!-- serviceRight -->
@@ -92,7 +92,7 @@ function my_custom_stuff(){
           <a href="<?php get_permalink(); ?>massage-therapy-appointments/" class="naada-button orange-button medium">
             <?php the_field('book_an_appointment'); ?>
           </a>
-          <a href="<?php get_permalink(); ?>our-therapists/#massage" class="naada-button orange-hollow medium">
+          <a href="<?php get_permalink(); ?>massage-therapy-appointments/#massage" class="naada-button orange-hollow medium">
             <?php the_field('meet_our_therapists'); ?>
           </a>
         </div><!-- serviceRight -->
@@ -107,7 +107,7 @@ function my_custom_stuff(){
           <a href="<?php get_permalink(); ?>thai-yoga-massage-appointments/" class="naada-button orange-button medium">
             <?php the_field('book_an_appointment'); ?>
           </a>
-          <a href="<?php get_permalink(); ?>our-therapists/#thai-yoga-massage" class="naada-button orange-hollow medium">
+          <a href="<?php get_permalink(); ?>thai-yoga-massage-appointments/#thaiyoga" class="naada-button orange-hollow medium">
             <?php the_field('meet_our_therapists'); ?>
           </a>
         </div><!-- serviceRight -->
@@ -122,7 +122,7 @@ function my_custom_stuff(){
           <a href="<?php get_permalink(); ?>shiatsu-appointments/" class="naada-button orange-button medium">
             <?php the_field('book_an_appointment'); ?>
           </a>
-          <a href="<?php get_permalink(); ?>our-therapists/#shiatsu" class="naada-button orange-hollow medium">
+          <a href="<?php get_permalink(); ?>shiatsu-appointments/#shiatsu" class="naada-button orange-hollow medium">
             <?php the_field('meet_our_therapists'); ?>
           </a>
         </div><!-- serviceRight -->
