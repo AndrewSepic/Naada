@@ -107,7 +107,11 @@ add_action('wp_enqueue_scripts', 'naada_homepage_script');
 // Add JS Only to clinic pages
 function clinic_script() {
 	global $post;
-	if (is_page('therapeutic-clinic') || '8403' == $post->post_parent ) {
+	if (is_page('therapeutic-clinic') || '8403' == $post->post_parent) {
+		wp_enqueue_script('clinic', get_stylesheet_directory_uri() . '/js/clinic.js', true);
+	}
+	// All this because the above code wont work for french parent pages..
+	elseif (is_page('8612') || is_page('8611') || is_page('8827') || is_page('8829') || is_page('9630') || is_page('10344')) {
 		wp_enqueue_script('clinic', get_stylesheet_directory_uri() . '/js/clinic.js', true);
 	}
 }
