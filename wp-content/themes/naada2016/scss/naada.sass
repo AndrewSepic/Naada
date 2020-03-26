@@ -497,6 +497,9 @@ ul.menu-primary
   background: url('../images/naada-live-stream.jpg') no-repeat top left
   background-size: cover
   min-height: 600px
+  @media only screen and (max-width: 450px)
+    background-position: top center
+    min-height: 300px
 
 .familyBanner, .clinicBanner
   background-size: cover
@@ -556,7 +559,7 @@ ul.menu-primary
     .text-widget p
       margin: 0 0 10px
   @media only screen and (max-width: 480px)
-    top: 20%
+    top: 37%
     .textwidget p
       display: none
   @media only screen and (max-width: 400px)
@@ -1033,6 +1036,8 @@ body.home .site-inner, body.page-template-familypage .site-inner, body.page-temp
   max-width: 100%
   .announcement
     padding: 2rem 0 4rem
+    a.fullSched
+      display: none
     h3
       font-weight: 200
       line-height: 2.2rem
@@ -1041,6 +1046,12 @@ body.home .site-inner, body.page-template-familypage .site-inner, body.page-temp
         margin-bottom: 2rem
     h3.link
       margin-top: 3rem
+  @media only screen and (max-width: 450px)
+    .announcement
+      padding: 0 0 2rem
+      h3
+        font-size: 1.25rem
+        line-height: 1.75rem
 // For homepage schedule & Schedule page schedule
 body.home .site-inner
   .live-stream-sched
@@ -1054,6 +1065,9 @@ body.home .site-inner, body.page-id-7 .live-stream-sched
       text-transform: uppercase
     .bw-session__group2 .bw-session__photo
       margin-top: -15px
+    @media only screen and (max-width: 450px)
+      .bw-session__group2 .bw-session__photo
+        display: none
 
 
   article.entry
@@ -1070,15 +1084,16 @@ body.home .site-inner, body.page-id-7 .live-stream-sched
       display: inline-block
       margin-bottom: 2rem
     a.fullSched
-      background: #F5F5F5
-      border: 1px solid #DEDEDE
-      border-radius: 5px
-      padding: .25rem
-      font-size: 0.9rem
-      color: #aeaeae
-      margin: 0 0 0 10px
-      display: inline-block
-      float: left
+      display: none
+      // background: #F5F5F5
+      // border: 1px solid #DEDEDE
+      // border-radius: 5px
+      // padding: .25rem
+      // font-size: 0.9rem
+      // color: #aeaeae
+      // margin: 0 0 0 10px
+      // display: inline-block
+      // float: left
       &:hover
         cursor: pointer
         background: $orange
@@ -1099,7 +1114,7 @@ body.home .site-inner, body.page-id-7 .live-stream-sched
         padding: 10px
         margin: 3.5rem 0 0 0
         text-shadow: 1px 1px 1px rgba(0, 0, 1, 0.3)
-        @media only screen and (max-width: 400px)
+        @media only screen and (max-width: 450px)
           margin: .5rem 0 0 0
     .greenbox.first
       background: url('../images/naada-community.jpg') no-repeat 0% 50%
@@ -2197,11 +2212,20 @@ body.page-id-10451 .content, body.page-id-10495 .content
     line-height: 2.2rem
   p
     font-size: 1.2rem
+  p.centerButtons
+    width: 86%
+    margin: 0 auto 2rem
+    @media only screen and (max-width:450px)
+      width: 95%
+      text-align: center
 
 /* Covid 19 Re-activation Form Page */
 body.page-id-10456 .content
   width: 80%
   margin-right: 10%
+  @media only screen and (max-width:450px)
+    width: 90%
+    margin-right: 5%
 
 /* Covid-19 About Livestream Page */
 body.page-id-10455 .entry-content, body.page-id-10496 .entry-content
@@ -2210,6 +2234,13 @@ body.page-id-10455 .entry-content, body.page-id-10496 .entry-content
     position: absolute
     top: 300px
     right: 110px
+    @media only screen and (max-width:450px)
+      top: 122px
+      right: -21px
+      font-size: 1rem
+      width: 100%
+      padding: .5rem
+
 
 /* Old Genesis Columns */
 .five-sixths, .four-sixths, .one-fourth, .one-half, .one-sixth,

@@ -85,8 +85,9 @@ jQuery( document ).ready(function( $ ) {
   // LIVEStream Schedule
   function homepageSchedCode(){
     console.log('homepageSchedCode Fires!');
-    $('div.live-stream-sched healcode-widget div#129819').removeClass('bw-widget--medium').addClass('bw-widget--large');
-
+    if ($(window).width() > 450) {
+      $('div.live-stream-sched healcode-widget div#129819').removeClass('bw-widget--medium').addClass('bw-widget--large');
+    }
     // Each time you click the week links, reload this entire function
     // $('div.horz-sched .week_links a').on("click", function(){
     //   healcodeHomepageSchedReady();

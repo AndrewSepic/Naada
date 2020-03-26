@@ -565,6 +565,13 @@ ul.menu-primary ul > li.menu-item-has-children > a:after {
   min-height: 600px;
 }
 
+@media only screen and (max-width: 450px) {
+  .videoBanner {
+    background-position: top center;
+    min-height: 300px;
+  }
+}
+
 .familyBanner, .clinicBanner {
   background-size: cover;
   min-height: 600px;
@@ -689,7 +696,7 @@ ul.menu-primary ul > li.menu-item-has-children > a:after {
 
 @media only screen and (max-width: 480px) {
   .videoCallout, .familyCallout, .clinicCallout {
-    top: 20%;
+    top: 37%;
   }
   .videoCallout .textwidget p, .familyCallout .textwidget p, .clinicCallout .textwidget p {
     display: none;
@@ -1342,6 +1349,10 @@ body.home .site-inner .announcement, body.page-template-familypage .site-inner .
   padding: 2rem 0 4rem;
 }
 
+body.home .site-inner .announcement a.fullSched, body.page-template-familypage .site-inner .announcement a.fullSched, body.page-template-landing .announcement a.fullSched {
+  display: none;
+}
+
 body.home .site-inner .announcement h3, body.page-template-familypage .site-inner .announcement h3, body.page-template-landing .announcement h3 {
   font-weight: 200;
   line-height: 2.2rem;
@@ -1356,6 +1367,16 @@ body.home .site-inner .announcement h3.link, body.page-template-familypage .site
   margin-top: 3rem;
 }
 
+@media only screen and (max-width: 450px) {
+  body.home .site-inner .announcement, body.page-template-familypage .site-inner .announcement, body.page-template-landing .announcement {
+    padding: 0 0 2rem;
+  }
+  body.home .site-inner .announcement h3, body.page-template-familypage .site-inner .announcement h3, body.page-template-landing .announcement h3 {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+}
+
 body.home .site-inner .live-stream-sched {
   float: left;
   width: 100%;
@@ -1368,6 +1389,12 @@ body.home .site-inner #bw-widget__schedules-129819 a.signup_now, body.page-id-7 
 
 body.home .site-inner #bw-widget__schedules-129819 .bw-session__group2 .bw-session__photo, body.page-id-7 .live-stream-sched #bw-widget__schedules-129819 .bw-session__group2 .bw-session__photo {
   margin-top: -15px;
+}
+
+@media only screen and (max-width: 450px) {
+  body.home .site-inner #bw-widget__schedules-129819 .bw-session__group2 .bw-session__photo, body.page-id-7 .live-stream-sched #bw-widget__schedules-129819 .bw-session__group2 .bw-session__photo {
+    display: none;
+  }
 }
 
 body.home .site-inner article.entry, body.page-id-7 .live-stream-sched article.entry {
@@ -1394,15 +1421,7 @@ body.home .site-inner .homeContentWrap h3.schedule, body.page-id-7 .live-stream-
 }
 
 body.home .site-inner .homeContentWrap a.fullSched, body.page-id-7 .live-stream-sched .homeContentWrap a.fullSched {
-  background: #F5F5F5;
-  border: 1px solid #DEDEDE;
-  border-radius: 5px;
-  padding: .25rem;
-  font-size: 0.9rem;
-  color: #aeaeae;
-  margin: 0 0 0 10px;
-  display: inline-block;
-  float: left;
+  display: none;
 }
 
 body.home .site-inner .homeContentWrap a.fullSched:hover, body.page-id-7 .live-stream-sched .homeContentWrap a.fullSched:hover {
@@ -1429,7 +1448,7 @@ body.home .site-inner .homeContentWrap .greenbox h3, body.page-id-7 .live-stream
   text-shadow: 1px 1px 1px rgba(0, 0, 1, 0.3);
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 450px) {
   body.home .site-inner .homeContentWrap .greenbox h3, body.page-id-7 .live-stream-sched .homeContentWrap .greenbox h3 {
     margin: .5rem 0 0 0;
   }
@@ -2978,10 +2997,29 @@ body.page-id-10451 .content p, body.page-id-10495 .content p {
   font-size: 1.2rem;
 }
 
+body.page-id-10451 .content p.centerButtons, body.page-id-10495 .content p.centerButtons {
+  width: 86%;
+  margin: 0 auto 2rem;
+}
+
+@media only screen and (max-width: 450px) {
+  body.page-id-10451 .content p.centerButtons, body.page-id-10495 .content p.centerButtons {
+    width: 95%;
+    text-align: center;
+  }
+}
+
 /* Covid 19 Re-activation Form Page */
 body.page-id-10456 .content {
   width: 80%;
   margin-right: 10%;
+}
+
+@media only screen and (max-width: 450px) {
+  body.page-id-10456 .content {
+    width: 90%;
+    margin-right: 5%;
+  }
 }
 
 /* Covid-19 About Livestream Page */
@@ -2993,6 +3031,16 @@ body.page-id-10455 .entry-content a.naada-button.orange-button.large.live, body.
   position: absolute;
   top: 300px;
   right: 110px;
+}
+
+@media only screen and (max-width: 450px) {
+  body.page-id-10455 .entry-content a.naada-button.orange-button.large.live, body.page-id-10496 .entry-content a.naada-button.orange-button.large.live {
+    top: 122px;
+    right: -21px;
+    font-size: 1rem;
+    width: 100%;
+    padding: .5rem;
+  }
 }
 
 /* Old Genesis Columns */
