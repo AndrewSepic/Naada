@@ -23,17 +23,33 @@ jQuery( document ).ready(function( $ ) {
 
   function healcodeHomepageSchedReady(){
       var healCodeLoadingInterval2 = setInterval(function(){
-        var healCodeLoading2 = $('div.horz-sched healcode-widget li.schedule_date');
+        var schedLoadProof = $('div.live-stream-sched healcode-widget .bw-widget__day');
         // if the healcode .enrollment div is loaded and has content
-        if (healCodeLoading2.length !== 0) {
+        if (schedLoadProof.length !== 0) {
          //  callback();
           homepageSchedCode();
+          console.log('Its loaded!');
           clearInterval(healCodeLoadingInterval2);
         }
       },100);
   }
 
   healcodeHomepageSchedReady();
+
+  // Former Homepage Horz sched listener
+  // function healcodeHomepageSchedReady(){
+  //     var healCodeLoadingInterval2 = setInterval(function(){
+  //       var healCodeLoading2 = $('div.horz-sched healcode-widget li.schedule_date');
+  //       // if the healcode .enrollment div is loaded and has content
+  //       if (healCodeLoading2.length !== 0) {
+  //        //  callback();
+  //         homepageSchedCode();
+  //         clearInterval(healCodeLoadingInterval2);
+  //       }
+  //     },100);
+  // }
+  //
+  // healcodeHomepageSchedReady();
 
   // Call success functions for Healcode Workshops
    healcodeWorkshopsReady(function () {
@@ -43,25 +59,45 @@ jQuery( document ).ready(function( $ ) {
        fireModal();
    });
 
+  // Former Horz Schedule callback
+  // function homepageSchedCode(){
+  //   //  Add Next button for next day's schedule
+  //   $('div.horz-sched healcode-widget div.header')
+  //     .hide()
+  //     .appendTo('div.horz-sched healcode-widget div.list_view td')
+  //     .fadeIn(200);
+  //
+  //   // Each time you click the week links, reload this entire function
+  //   $('div.horz-sched .week_links a').on("click", function(){
+  //     healcodeHomepageSchedReady();
+  //    });
+  //
+  //   $('div.horz-sched table td li.odd span.classname a').each(function(){
+  //     if ($(this).text().length > 25) {
+  //       //$(this).css("background-color","red");
+  //       var classname = $(this).text();
+  //       var trimd = classname.substring(0, 25) + "...";
+  //         $(this).text(trimd);
+  //     }
+  //   });
+  // }
+
+  // LIVEStream Schedule
   function homepageSchedCode(){
-    //  Add Next button for next day's schedule
-    $('div.horz-sched healcode-widget div.header')
-      .hide()
-      .appendTo('div.horz-sched healcode-widget div.list_view td')
-      .fadeIn(200);
+    console.log('homepageSchedCode Fires!');
+    $('div.live-stream-sched healcode-widget div#129819').removeClass('bw-widget--medium').addClass('bw-widget--large');
 
     // Each time you click the week links, reload this entire function
-    $('div.horz-sched .week_links a').on("click", function(){
-      healcodeHomepageSchedReady();
-     });
-
-    $('div.horz-sched table td li.odd span.classname a').each(function(){
-      if ($(this).text().length > 25) {
-        //$(this).css("background-color","red");
-        var classname = $(this).text();
-        var trimd = classname.substring(0, 25) + "...";
-          $(this).text(trimd);
-      }
+    // $('div.horz-sched .week_links a').on("click", function(){
+    //   healcodeHomepageSchedReady();
+    //  });
+    var instructor = $('div.live-stream-sched healcode-widget .bw-session__details .bw-session__instructor');
+    instructor.each(function(){
+      var photo = $(this).find('.bw-session__photo').clone();
+      $(this).closest('.bw-session__details').prev().find('.bw-session__group2').prepend(photo);
+      //.prev('.bw-session__basics')
+      //.children('.bw-session__group2')
+      //.append();
     });
   }
 

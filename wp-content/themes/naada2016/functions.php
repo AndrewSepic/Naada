@@ -98,7 +98,7 @@ add_action( 'wp_enqueue_scripts', 'naada_scripts' );
 
 // Add Big JS files for homepage only
 function naada_homepage_script() {
- if (is_front_page()){
+ if (is_front_page() || is_page('7')) {
 	 wp_enqueue_script('naada-homepage', get_stylesheet_directory_uri() . '/js/naada-homepage.js', array(), '1.0.0', true);
  }
 }
