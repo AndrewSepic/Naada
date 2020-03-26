@@ -2955,12 +2955,7 @@ body.woocommerce main #reviews #comments ol.commentlist li .comment-text, body.w
 }
 
 /* Covid 19 Letter */
-body.page-id-10451 .content, body.page-id-10456 .content {
-  width: 80%;
-  margin-right: 10%;
-}
-
-body.page-id-10451 .content h2, body.page-id-10456 .content h2 {
+body.page-id-10451 .content h2, body.page-id-10495 .content h2 {
   text-align: center;
   padding: 2rem 0;
   text-transform: uppercase;
@@ -2969,13 +2964,30 @@ body.page-id-10451 .content h2, body.page-id-10456 .content h2 {
   margin-bottom: 2rem;
 }
 
-body.page-id-10451 .content h3, body.page-id-10456 .content h3 {
+body.page-id-10451 .content h3, body.page-id-10495 .content h3 {
   margin-bottom: 2rem;
   line-height: 2.2rem;
 }
 
-body.page-id-10451 .content p, body.page-id-10456 .content p {
+body.page-id-10451 .content p, body.page-id-10495 .content p {
   font-size: 1.2rem;
+}
+
+/* Covid 19 Re-activation Form Page */
+body.page-id-10456 .content {
+  width: 80%;
+  margin-right: 10%;
+}
+
+/* Covid-19 About Livestream Page */
+body.page-id-10455 .entry-content, body.page-id-10496 .entry-content {
+  position: relative;
+}
+
+body.page-id-10455 .entry-content a.naada-button.orange-button.large.live, body.page-id-10496 .entry-content a.naada-button.orange-button.large.live {
+  position: absolute;
+  top: 300px;
+  right: 110px;
 }
 
 /* Old Genesis Columns */
