@@ -255,19 +255,19 @@ function custom_nav_items( $menu, $args ){
             return $menu;
 
     // append your custom code
-
-		if ((is_user_logged_in()) && (ICL_LANGUAGE_CODE == 'en')){
-    	$menu = sprintf( '<li><a href="/online-school/my-courses"> %s </a></li>', __( 'My NYTT Courses' ) ) . $menu;
-		}
-		elseif ((is_user_logged_in()) && (ICL_LANGUAGE_CODE == 'fr'))  {
-			$menu = sprintf( '<li><a href="/fr/salle-de-cours/mes-cours/"> %s </a></li>', __( 'Mes Cours NYTT' ) ) . $menu;
-		}
-		elseif (ICL_LANGUAGE_CODE == 'en') {
-			$menu = sprintf( '<li><a href="/online-school/my-courses"> %s </a></li>', __( 'Online School Login' ) ) . $menu;
-		}
-		else {
-			$menu = sprintf( '<li><a href="/fr/salle-de-cours/mes-cours/"> %s </a></li>', __( 'Connexion NYTT' ) ) . $menu;
-		}
+		// Removed 3/28/2020
+		// if ((is_user_logged_in()) && (ICL_LANGUAGE_CODE == 'en')){
+    // 	$menu = sprintf( '<li><a href="/online-school/my-courses"> %s </a></li>', __( 'My NYTT Courses' ) ) . $menu;
+		// }
+		// elseif ((is_user_logged_in()) && (ICL_LANGUAGE_CODE == 'fr'))  {
+		// 	$menu = sprintf( '<li><a href="/fr/salle-de-cours/mes-cours/"> %s </a></li>', __( 'Mes Cours NYTT' ) ) . $menu;
+		// }
+		// elseif (ICL_LANGUAGE_CODE == 'en') {
+		// 	$menu = sprintf( '<li><a href="/online-school/my-courses"> %s </a></li>', __( 'Online School Login' ) ) . $menu;
+		// }
+		// else {
+		// 	$menu = sprintf( '<li><a href="/fr/salle-de-cours/mes-cours/"> %s </a></li>', __( 'Connexion NYTT' ) ) . $menu;
+		// }
     // return the menu
     return $menu.get_search_form();
 
