@@ -1382,56 +1382,56 @@ body.home .site-inner .live-stream-sched {
   width: 100%;
 }
 
-body.home .site-inner #bw-widget__schedules-129819 a.signup_now, body.page-id-7 .live-stream-sched #bw-widget__schedules-129819 a.signup_now {
+body.home .site-inner #bw-widget__schedules-129819 a.signup_now, body.page-id-7 .live-stream-sched #bw-widget__schedules-129819 a.signup_now, body.page-id-7285 .live-stream-sched #bw-widget__schedules-129819 a.signup_now {
   color: #fff;
   text-transform: uppercase;
 }
 
-body.home .site-inner #bw-widget__schedules-129819 .bw-session__group2 .bw-session__photo, body.page-id-7 .live-stream-sched #bw-widget__schedules-129819 .bw-session__group2 .bw-session__photo {
+body.home .site-inner #bw-widget__schedules-129819 .bw-session__group2 .bw-session__photo, body.page-id-7 .live-stream-sched #bw-widget__schedules-129819 .bw-session__group2 .bw-session__photo, body.page-id-7285 .live-stream-sched #bw-widget__schedules-129819 .bw-session__group2 .bw-session__photo {
   margin-top: -15px;
 }
 
 @media only screen and (max-width: 450px) {
-  body.home .site-inner #bw-widget__schedules-129819 .bw-session__group2 .bw-session__photo, body.page-id-7 .live-stream-sched #bw-widget__schedules-129819 .bw-session__group2 .bw-session__photo {
+  body.home .site-inner #bw-widget__schedules-129819 .bw-session__group2 .bw-session__photo, body.page-id-7 .live-stream-sched #bw-widget__schedules-129819 .bw-session__group2 .bw-session__photo, body.page-id-7285 .live-stream-sched #bw-widget__schedules-129819 .bw-session__group2 .bw-session__photo {
     display: none;
   }
 }
 
-body.home .site-inner article.entry, body.page-id-7 .live-stream-sched article.entry {
+body.home .site-inner article.entry, body.page-id-7 .live-stream-sched article.entry, body.page-id-7285 .live-stream-sched article.entry {
   padding: 0;
   margin-bottom: 1rem;
 }
 
-body.home .site-inner .homeContentWrap, body.page-id-7 .live-stream-sched .homeContentWrap {
+body.home .site-inner .homeContentWrap, body.page-id-7 .live-stream-sched .homeContentWrap, body.page-id-7285 .live-stream-sched .homeContentWrap {
   max-width: 1200px;
   margin: 0 auto;
   padding: 3rem 3rem;
 }
 
 @media only screen and (max-width: 400px) {
-  body.home .site-inner .homeContentWrap, body.page-id-7 .live-stream-sched .homeContentWrap {
+  body.home .site-inner .homeContentWrap, body.page-id-7 .live-stream-sched .homeContentWrap, body.page-id-7285 .live-stream-sched .homeContentWrap {
     padding: 2rem 2rem;
   }
 }
 
-body.home .site-inner .homeContentWrap h3.schedule, body.page-id-7 .live-stream-sched .homeContentWrap h3.schedule {
+body.home .site-inner .homeContentWrap h3.schedule, body.page-id-7 .live-stream-sched .homeContentWrap h3.schedule, body.page-id-7285 .live-stream-sched .homeContentWrap h3.schedule {
   float: left;
   display: inline-block;
   margin-bottom: 2rem;
 }
 
-body.home .site-inner .homeContentWrap a.fullSched, body.page-id-7 .live-stream-sched .homeContentWrap a.fullSched {
+body.home .site-inner .homeContentWrap a.fullSched, body.page-id-7 .live-stream-sched .homeContentWrap a.fullSched, body.page-id-7285 .live-stream-sched .homeContentWrap a.fullSched {
   display: none;
 }
 
-body.home .site-inner .homeContentWrap a.fullSched:hover, body.page-id-7 .live-stream-sched .homeContentWrap a.fullSched:hover {
+body.home .site-inner .homeContentWrap a.fullSched:hover, body.page-id-7 .live-stream-sched .homeContentWrap a.fullSched:hover, body.page-id-7285 .live-stream-sched .homeContentWrap a.fullSched:hover {
   cursor: pointer;
   background: #f7ad00;
   color: #fff;
   border: 1px solid #f7ad00;
 }
 
-body.home .site-inner .homeContentWrap .greenbox, body.page-id-7 .live-stream-sched .homeContentWrap .greenbox {
+body.home .site-inner .homeContentWrap .greenbox, body.page-id-7 .live-stream-sched .homeContentWrap .greenbox, body.page-id-7285 .live-stream-sched .homeContentWrap .greenbox {
   background-color: #b3ba1c;
   color: #fff;
   padding: 10px;
@@ -1440,7 +1440,7 @@ body.home .site-inner .homeContentWrap .greenbox, body.page-id-7 .live-stream-sc
   background-color: #b3ba1c;
 }
 
-body.home .site-inner .homeContentWrap .greenbox h3, body.page-id-7 .live-stream-sched .homeContentWrap .greenbox h3 {
+body.home .site-inner .homeContentWrap .greenbox h3, body.page-id-7 .live-stream-sched .homeContentWrap .greenbox h3, body.page-id-7285 .live-stream-sched .homeContentWrap .greenbox h3 {
   font-size: 1.35rem;
   color: #fff;
   padding: 10px;
@@ -1449,123 +1449,123 @@ body.home .site-inner .homeContentWrap .greenbox h3, body.page-id-7 .live-stream
 }
 
 @media only screen and (max-width: 450px) {
-  body.home .site-inner .homeContentWrap .greenbox h3, body.page-id-7 .live-stream-sched .homeContentWrap .greenbox h3 {
+  body.home .site-inner .homeContentWrap .greenbox h3, body.page-id-7 .live-stream-sched .homeContentWrap .greenbox h3, body.page-id-7285 .live-stream-sched .homeContentWrap .greenbox h3 {
     margin: .5rem 0 0 0;
   }
 }
 
-body.home .site-inner .homeContentWrap .greenbox.first, body.page-id-7 .live-stream-sched .homeContentWrap .greenbox.first {
+body.home .site-inner .homeContentWrap .greenbox.first, body.page-id-7 .live-stream-sched .homeContentWrap .greenbox.first, body.page-id-7285 .live-stream-sched .homeContentWrap .greenbox.first {
   background: url("../images/naada-community.jpg") no-repeat 0% 50%;
   background-size: cover;
   position: relative;
 }
 
-body.home .site-inner .homeContentWrap .greenbox.first h3, body.page-id-7 .live-stream-sched .homeContentWrap .greenbox.first h3 {
+body.home .site-inner .homeContentWrap .greenbox.first h3, body.page-id-7 .live-stream-sched .homeContentWrap .greenbox.first h3, body.page-id-7285 .live-stream-sched .homeContentWrap .greenbox.first h3 {
   color: #fff;
   text-shadow: 1px 1px 1px rgba(0, 0, 1, 0.3);
   padding: 10px;
 }
 
 @media only screen and (max-width: 400px) {
-  body.home .site-inner .homeContentWrap .greenbox.first, body.page-id-7 .live-stream-sched .homeContentWrap .greenbox.first {
+  body.home .site-inner .homeContentWrap .greenbox.first, body.page-id-7 .live-stream-sched .homeContentWrap .greenbox.first, body.page-id-7285 .live-stream-sched .homeContentWrap .greenbox.first {
     background-position: 50% 50%;
   }
-  body.home .site-inner .homeContentWrap .greenbox.first h3, body.page-id-7 .live-stream-sched .homeContentWrap .greenbox.first h3 {
+  body.home .site-inner .homeContentWrap .greenbox.first h3, body.page-id-7 .live-stream-sched .homeContentWrap .greenbox.first h3, body.page-id-7285 .live-stream-sched .homeContentWrap .greenbox.first h3 {
     padding: 5px;
   }
 }
 
-body.home .site-inner .homeContentWrap .col_1_3, body.page-id-7 .live-stream-sched .homeContentWrap .col_1_3 {
+body.home .site-inner .homeContentWrap .col_1_3, body.page-id-7 .live-stream-sched .homeContentWrap .col_1_3, body.page-id-7285 .live-stream-sched .homeContentWrap .col_1_3 {
   width: 22%;
 }
 
-body.home .site-inner .homeContentWrap .col_2_3, body.page-id-7 .live-stream-sched .homeContentWrap .col_2_3 {
+body.home .site-inner .homeContentWrap .col_2_3, body.page-id-7 .live-stream-sched .homeContentWrap .col_2_3, body.page-id-7285 .live-stream-sched .homeContentWrap .col_2_3 {
   width: 72%;
 }
 
-body.home .site-inner .homeContentWrap .col_2_3 .naada-pricing td, body.page-id-7 .live-stream-sched .homeContentWrap .col_2_3 .naada-pricing td {
+body.home .site-inner .homeContentWrap .col_2_3 .naada-pricing td, body.page-id-7 .live-stream-sched .homeContentWrap .col_2_3 .naada-pricing td, body.page-id-7285 .live-stream-sched .homeContentWrap .col_2_3 .naada-pricing td {
   width: auto !important;
 }
 
-body.home .site-inner .homeContentWrap .col_2_3, body.home .site-inner .homeContentWrap .col_1_3, body.page-id-7 .live-stream-sched .homeContentWrap .col_2_3, body.page-id-7 .live-stream-sched .homeContentWrap .col_1_3 {
+body.home .site-inner .homeContentWrap .col_2_3, body.home .site-inner .homeContentWrap .col_1_3, body.page-id-7 .live-stream-sched .homeContentWrap .col_2_3, body.page-id-7 .live-stream-sched .homeContentWrap .col_1_3, body.page-id-7285 .live-stream-sched .homeContentWrap .col_2_3, body.page-id-7285 .live-stream-sched .homeContentWrap .col_1_3 {
   float: left;
   margin: 2rem 3% 2rem 0;
 }
 
-body.home .site-inner .homeContentWrap .col_2_3 p, body.home .site-inner .homeContentWrap .col_1_3 p, body.page-id-7 .live-stream-sched .homeContentWrap .col_2_3 p, body.page-id-7 .live-stream-sched .homeContentWrap .col_1_3 p {
+body.home .site-inner .homeContentWrap .col_2_3 p, body.home .site-inner .homeContentWrap .col_1_3 p, body.page-id-7 .live-stream-sched .homeContentWrap .col_2_3 p, body.page-id-7 .live-stream-sched .homeContentWrap .col_1_3 p, body.page-id-7285 .live-stream-sched .homeContentWrap .col_2_3 p, body.page-id-7285 .live-stream-sched .homeContentWrap .col_1_3 p {
   float: left;
   width: 60%;
 }
 
-body.home .site-inner .homeContentWrap .col_2_3 .greenbox + p, body.home .site-inner .homeContentWrap .col_1_3 .greenbox + p, body.page-id-7 .live-stream-sched .homeContentWrap .col_2_3 .greenbox + p, body.page-id-7 .live-stream-sched .homeContentWrap .col_1_3 .greenbox + p {
+body.home .site-inner .homeContentWrap .col_2_3 .greenbox + p, body.home .site-inner .homeContentWrap .col_1_3 .greenbox + p, body.page-id-7 .live-stream-sched .homeContentWrap .col_2_3 .greenbox + p, body.page-id-7 .live-stream-sched .homeContentWrap .col_1_3 .greenbox + p, body.page-id-7285 .live-stream-sched .homeContentWrap .col_2_3 .greenbox + p, body.page-id-7285 .live-stream-sched .homeContentWrap .col_1_3 .greenbox + p {
   float: left;
   width: 35%;
 }
 
 @media only screen and (max-width: 525px) {
-  body.home .site-inner .homeContentWrap .col_2_3 .greenbox + p, body.home .site-inner .homeContentWrap .col_1_3 .greenbox + p, body.page-id-7 .live-stream-sched .homeContentWrap .col_2_3 .greenbox + p, body.page-id-7 .live-stream-sched .homeContentWrap .col_1_3 .greenbox + p {
+  body.home .site-inner .homeContentWrap .col_2_3 .greenbox + p, body.home .site-inner .homeContentWrap .col_1_3 .greenbox + p, body.page-id-7 .live-stream-sched .homeContentWrap .col_2_3 .greenbox + p, body.page-id-7 .live-stream-sched .homeContentWrap .col_1_3 .greenbox + p, body.page-id-7285 .live-stream-sched .homeContentWrap .col_2_3 .greenbox + p, body.page-id-7285 .live-stream-sched .homeContentWrap .col_1_3 .greenbox + p {
     width: 100%;
     float: none;
   }
-  body.home .site-inner .homeContentWrap .col_2_3 .greenbox + p + p, body.home .site-inner .homeContentWrap .col_1_3 .greenbox + p + p, body.page-id-7 .live-stream-sched .homeContentWrap .col_2_3 .greenbox + p + p, body.page-id-7 .live-stream-sched .homeContentWrap .col_1_3 .greenbox + p + p {
+  body.home .site-inner .homeContentWrap .col_2_3 .greenbox + p + p, body.home .site-inner .homeContentWrap .col_1_3 .greenbox + p + p, body.page-id-7 .live-stream-sched .homeContentWrap .col_2_3 .greenbox + p + p, body.page-id-7 .live-stream-sched .homeContentWrap .col_1_3 .greenbox + p + p, body.page-id-7285 .live-stream-sched .homeContentWrap .col_2_3 .greenbox + p + p, body.page-id-7285 .live-stream-sched .homeContentWrap .col_1_3 .greenbox + p + p {
     float: left;
     width: 100%;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  body.home .site-inner .homeContentWrap .col_1_3, body.home .site-inner .homeContentWrap .col_2_3, body.page-id-7 .live-stream-sched .homeContentWrap .col_1_3, body.page-id-7 .live-stream-sched .homeContentWrap .col_2_3 {
+  body.home .site-inner .homeContentWrap .col_1_3, body.home .site-inner .homeContentWrap .col_2_3, body.page-id-7 .live-stream-sched .homeContentWrap .col_1_3, body.page-id-7 .live-stream-sched .homeContentWrap .col_2_3, body.page-id-7285 .live-stream-sched .homeContentWrap .col_1_3, body.page-id-7285 .live-stream-sched .homeContentWrap .col_2_3 {
     width: 100%;
     margin: 2rem 3% 0 0;
   }
 }
 
-body.home .site-inner .homeContentWrap .sell, body.page-id-7 .live-stream-sched .homeContentWrap .sell {
+body.home .site-inner .homeContentWrap .sell, body.page-id-7 .live-stream-sched .homeContentWrap .sell, body.page-id-7285 .live-stream-sched .homeContentWrap .sell {
   width: 47%;
   float: left;
   margin: 2rem 3% 2rem 0;
 }
 
-body.home .site-inner .homeContentWrap .sell p, body.page-id-7 .live-stream-sched .homeContentWrap .sell p {
+body.home .site-inner .homeContentWrap .sell p, body.page-id-7 .live-stream-sched .homeContentWrap .sell p, body.page-id-7285 .live-stream-sched .homeContentWrap .sell p {
   float: left;
   width: 60%;
 }
 
-body.home .site-inner .homeContentWrap .sell .greenbox + p, body.page-id-7 .live-stream-sched .homeContentWrap .sell .greenbox + p {
+body.home .site-inner .homeContentWrap .sell .greenbox + p, body.page-id-7 .live-stream-sched .homeContentWrap .sell .greenbox + p, body.page-id-7285 .live-stream-sched .homeContentWrap .sell .greenbox + p {
   float: left;
   width: 35%;
 }
 
 @media only screen and (max-width: 525px) {
-  body.home .site-inner .homeContentWrap .sell .greenbox + p, body.page-id-7 .live-stream-sched .homeContentWrap .sell .greenbox + p {
+  body.home .site-inner .homeContentWrap .sell .greenbox + p, body.page-id-7 .live-stream-sched .homeContentWrap .sell .greenbox + p, body.page-id-7285 .live-stream-sched .homeContentWrap .sell .greenbox + p {
     width: 100%;
     float: none;
   }
-  body.home .site-inner .homeContentWrap .sell .greenbox + p + p, body.page-id-7 .live-stream-sched .homeContentWrap .sell .greenbox + p + p {
+  body.home .site-inner .homeContentWrap .sell .greenbox + p + p, body.page-id-7 .live-stream-sched .homeContentWrap .sell .greenbox + p + p, body.page-id-7285 .live-stream-sched .homeContentWrap .sell .greenbox + p + p {
     float: left;
     width: 100%;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  body.home .site-inner .homeContentWrap .sell, body.page-id-7 .live-stream-sched .homeContentWrap .sell {
+  body.home .site-inner .homeContentWrap .sell, body.page-id-7 .live-stream-sched .homeContentWrap .sell, body.page-id-7285 .live-stream-sched .homeContentWrap .sell {
     width: 100%;
     margin: 2rem 3% 0 0;
   }
 }
 
-body.home .site-inner .homeContentWrap .login-left, body.page-id-7 .live-stream-sched .homeContentWrap .login-left {
+body.home .site-inner .homeContentWrap .login-left, body.page-id-7 .live-stream-sched .homeContentWrap .login-left, body.page-id-7285 .live-stream-sched .homeContentWrap .login-left {
   float: left;
   width: 20%;
   margin-right: 5%;
 }
 
-body.home .site-inner .homeContentWrap .login-right, body.page-id-7 .live-stream-sched .homeContentWrap .login-right {
+body.home .site-inner .homeContentWrap .login-right, body.page-id-7 .live-stream-sched .homeContentWrap .login-right, body.page-id-7285 .live-stream-sched .homeContentWrap .login-right {
   float: left;
   width: 75%;
 }
 
-body.home .site-inner .homeContentWrap .login-right div.signin, body.page-id-7 .live-stream-sched .homeContentWrap .login-right div.signin {
+body.home .site-inner .homeContentWrap .login-right div.signin, body.page-id-7 .live-stream-sched .homeContentWrap .login-right div.signin, body.page-id-7285 .live-stream-sched .homeContentWrap .login-right div.signin {
   background: #e1e1e1;
   border-radius: 10px;
   padding: 2rem 2rem 1rem;
@@ -1573,7 +1573,7 @@ body.home .site-inner .homeContentWrap .login-right div.signin, body.page-id-7 .
   width: 100%;
 }
 
-body.home .site-inner .homeContentWrap .login-right h3, body.page-id-7 .live-stream-sched .homeContentWrap .login-right h3 {
+body.home .site-inner .homeContentWrap .login-right h3, body.page-id-7 .live-stream-sched .homeContentWrap .login-right h3, body.page-id-7285 .live-stream-sched .homeContentWrap .login-right h3 {
   background: #f4f4f4;
   padding: .75rem 1.5rem;
   display: inline-block;
@@ -1582,25 +1582,25 @@ body.home .site-inner .homeContentWrap .login-right h3, body.page-id-7 .live-str
   border-radius: 10px 10px 0 0;
 }
 
-body.home .site-inner .homeContentWrap .login-right .form-group, body.page-id-7 .live-stream-sched .homeContentWrap .login-right .form-group {
+body.home .site-inner .homeContentWrap .login-right .form-group, body.page-id-7 .live-stream-sched .homeContentWrap .login-right .form-group, body.page-id-7285 .live-stream-sched .homeContentWrap .login-right .form-group {
   float: left;
   margin: 0 3% 2% 0;
 }
 
-body.home .site-inner .homeContentWrap .login-right .form-group:nth-of-type(1), body.home .site-inner .homeContentWrap .login-right .form-group .form-group:nth-of-type(2), body.page-id-7 .live-stream-sched .homeContentWrap .login-right .form-group:nth-of-type(1), body.page-id-7 .live-stream-sched .homeContentWrap .login-right .form-group .form-group:nth-of-type(2) {
+body.home .site-inner .homeContentWrap .login-right .form-group:nth-of-type(1), body.home .site-inner .homeContentWrap .login-right .form-group .form-group:nth-of-type(2), body.page-id-7 .live-stream-sched .homeContentWrap .login-right .form-group:nth-of-type(1), body.page-id-7 .live-stream-sched .homeContentWrap .login-right .form-group .form-group:nth-of-type(2), body.page-id-7285 .live-stream-sched .homeContentWrap .login-right .form-group:nth-of-type(1), body.page-id-7285 .live-stream-sched .homeContentWrap .login-right .form-group .form-group:nth-of-type(2) {
   width: 40%;
 }
 
-body.home .site-inner .homeContentWrap .login-right .form-group:nth-of-type(3), body.page-id-7 .live-stream-sched .homeContentWrap .login-right .form-group:nth-of-type(3) {
+body.home .site-inner .homeContentWrap .login-right .form-group:nth-of-type(3), body.page-id-7 .live-stream-sched .homeContentWrap .login-right .form-group:nth-of-type(3), body.page-id-7285 .live-stream-sched .homeContentWrap .login-right .form-group:nth-of-type(3) {
   width: 15%;
   margin: 1.65rem 0 1rem;
 }
 
-body.home .site-inner .homeContentWrap .login-right .form-group input[type="submit"], body.page-id-7 .live-stream-sched .homeContentWrap .login-right .form-group input[type="submit"] {
+body.home .site-inner .homeContentWrap .login-right .form-group input[type="submit"], body.page-id-7 .live-stream-sched .homeContentWrap .login-right .form-group input[type="submit"], body.page-id-7285 .live-stream-sched .homeContentWrap .login-right .form-group input[type="submit"] {
   float: right;
 }
 
-body.home .site-inner .homeContentWrap .login-right ul li, body.page-id-7 .live-stream-sched .homeContentWrap .login-right ul li {
+body.home .site-inner .homeContentWrap .login-right ul li, body.page-id-7 .live-stream-sched .homeContentWrap .login-right ul li, body.page-id-7285 .live-stream-sched .homeContentWrap .login-right ul li {
   list-style-type: none;
   font-size: 1.2rem;
   font-style: italic;
