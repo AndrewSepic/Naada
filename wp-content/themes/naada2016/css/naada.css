@@ -1382,6 +1382,17 @@ body.home .site-inner .live-stream-sched {
   width: 100%;
 }
 
+body.home .site-inner #bw-widget__schedules-129819 .bw-calendar-container, body.page-id-7 .live-stream-sched #bw-widget__schedules-129819 .bw-calendar-container, body.page-id-7285 .live-stream-sched #bw-widget__schedules-129819 .bw-calendar-container {
+  padding: 24px 0 17px;
+}
+
+body.home .site-inner #bw-widget__schedules-129819 .bw-widget--large .bw-fullcal-button, body.page-id-7 .live-stream-sched #bw-widget__schedules-129819 .bw-widget--large .bw-fullcal-button, body.page-id-7285 .live-stream-sched #bw-widget__schedules-129819 .bw-widget--large .bw-fullcal-button {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 13px;
+  display: block;
+}
+
 body.home .site-inner #bw-widget__schedules-129819 a.signup_now, body.page-id-7 .live-stream-sched #bw-widget__schedules-129819 a.signup_now, body.page-id-7285 .live-stream-sched #bw-widget__schedules-129819 a.signup_now {
   color: #fff;
   text-transform: uppercase;

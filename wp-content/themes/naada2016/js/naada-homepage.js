@@ -26,9 +26,8 @@ jQuery( document ).ready(function( $ ) {
         var schedLoadProof = $('div.live-stream-sched healcode-widget .bw-widget__day');
         // if the healcode .enrollment div is loaded and has content
         if (schedLoadProof.length !== 0) {
-         //  callback();
+          //callback();
           homepageSchedCode();
-          console.log('Its loaded!');
           clearInterval(healCodeLoadingInterval2);
         }
       },100);
@@ -85,21 +84,37 @@ jQuery( document ).ready(function( $ ) {
   // LIVEStream Schedule
   function homepageSchedCode(){
     console.log('homepageSchedCode Fires!');
-    if ($(window).width() > 450) {
-      $('div.live-stream-sched healcode-widget div#129819').removeClass('bw-widget--medium').addClass('bw-widget--large');
+    // Remove Cloned Teacher Profiles from Previous Loops
+    var teacherProfileExists = $('.bw-session__info .bw-session__group2 .bw-session__photo');
+    if ( teacherProfileExists ) {
+      teacherProfileExists.remove();
     }
-    // Each time you click the week links, reload this entire function
-    // $('div.horz-sched .week_links a').on("click", function(){
-    //   healcodeHomepageSchedReady();
-    //  });
+
+    // Modify Schedule Markup to hide/show as we want it
+    var liveStreamSched = $('div.live-stream-sched healcode-widget div#129819');
+    if ($(window).width() > 450) {
+      liveStreamSched.removeClass('bw-widget--medium').addClass('bw-widget--large');
+      liveStreamSched.find('.bw-fullcal__field').hide();
+      liveStreamSched.find('table.bw-calendar').show();
+      liveStreamSched.find('div.bw-widget__header .bw-header__filter-link').show();
+      liveStreamSched.find('button.bw-fullcal-button').show();
+    }
+    // Clone Teachers Profil Shot
     var instructor = $('div.live-stream-sched healcode-widget .bw-session__details .bw-session__instructor');
     instructor.each(function(){
       var photo = $(this).find('.bw-session__photo').clone();
       $(this).closest('.bw-session__details').prev().find('.bw-session__group2').prepend(photo);
-      //.prev('.bw-session__basics')
-      //.children('.bw-session__group2')
-      //.append();
     });
+
+    // Each time you click the week links, reload this entire function
+    liveStreamSched.find('td.bw-calendar__day span').on("click", function(){
+      console.log('you clicked a day in the calendar!');
+      healcodeHomepageSchedReady();
+    });
+  }
+
+  function cloneTeachers() {
+
   }
 
   function applySlickSlider() {
