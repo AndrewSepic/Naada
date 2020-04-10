@@ -3054,6 +3054,11 @@ body.page-id-10455 .entry-content a.naada-button.orange-button.large.live, body.
   }
 }
 
+/* LIve stream Sched Style */
+.bw-session__time .hc_time span.tmz {
+  color: #aeaeae !important;
+}
+
 /* Old Genesis Columns */
 .five-sixths, .four-sixths, .one-fourth, .one-half, .one-sixth,
 .one-third, .three-fourths, .three-sixths, .two-fourths, .two-sixths, .two-thirds {

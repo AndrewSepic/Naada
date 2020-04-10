@@ -89,6 +89,11 @@ jQuery( document ).ready(function( $ ) {
     if ( teacherProfileExists ) {
       teacherProfileExists.remove();
     }
+    // Remove Appended Time Zone
+    var timeZoneExists = $('div.live-stream-sched healcode-widget div#129819 span.hc_time span.tmz');
+    if ( timeZoneExists ) {
+      timeZoneExists.remove();
+    }
 
     // Modify Schedule Markup to hide/show as we want it
     var liveStreamSched = $('div.live-stream-sched healcode-widget div#129819');
@@ -98,6 +103,7 @@ jQuery( document ).ready(function( $ ) {
       liveStreamSched.find('table.bw-calendar').show();
       liveStreamSched.find('div.bw-widget__header .bw-header__filter-link').show();
       liveStreamSched.find('button.bw-fullcal-button').show();
+      liveStreamSched.find('span.hc_time').append('<span class="tmz"> EST</span>');
     }
     // Clone Teachers Profil Shot
     var instructor = $('div.live-stream-sched healcode-widget .bw-session__details .bw-session__instructor');
