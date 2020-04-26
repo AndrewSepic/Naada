@@ -12,7 +12,7 @@ jQuery( document ).ready(function( $ ) {
 
   function healcodeWorkshopsReady(callback){
       var healCodeLoadingInterval = setInterval(function(){
-        var healCodeLoading = $('div.naada-carousel healcode-widget .enrollment');
+        var healCodeLoading = $('div.naada-carousel healcode-widget .class_list');
         // if the healcode .enrollment div is loaded and has content
         if (healCodeLoading.length !== 0) {
           callback();
@@ -52,6 +52,7 @@ jQuery( document ).ready(function( $ ) {
 
   // Call success functions for Healcode Workshops
    healcodeWorkshopsReady(function () {
+      console.log('Specialty Classes Loaded!');
        applySlickSlider();
        modifyMarkup();
        multiDayMarkup();
@@ -125,7 +126,7 @@ jQuery( document ).ready(function( $ ) {
 
   function applySlickSlider() {
     // Call Slick Slider on the Workshops widget
-    $('div.naada-carousel .filtered_collection').slick ({
+    $('div.naada-carousel .class_list > div').slick ({
       dots: true,
       infinite: false,
       slidesToShow: 3,
@@ -158,10 +159,10 @@ jQuery( document ).ready(function( $ ) {
     $('div.naada-carousel .enrollment.slick-slide > div.healcode-date-area').after("<div class=\"more-info\"><a href=\"#\">More Info</a></div>");
 
     //Add css classes to columize events
-    $('div.naada-carousel div.healcode div.enrollment, div.naada-carousel div.healcode div.healcode-course').css({"float": "left", "clear": "none" })
+    $('div.naada-carousel div.healcode div.class_show').css({"float": "left", "clear": "none", "height": "auto" })
 
     // Hides event description area by default
-    $("div.naada-carousel div.healcode-description-area").hide();
+    $("div.naada-carousel div.class_description").hide();
 
     // Remove 'Date:' in Healcode Output
     var date = $('div.naada-carousel div.healcode span.healcode-date-value');

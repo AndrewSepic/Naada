@@ -1247,12 +1247,25 @@ section.module.parallax
       font-size: 1.45rem
       font-weight: 600
     .block
-      width: 45%
-      margin: 3rem 1rem 1rem
+      width: 50%
+      padding: 3rem 1rem 1rem
       float: left
       color: #fff
       font-size: 1.2rem
       text-align: left
+    .block.center
+      width: 80%
+      margin: 2rem auto
+      padding: 0
+      float: none
+    .flex
+      float: left
+      display: flex
+      justify-content: space-between
+      div
+        padding: 0 1rem
+        p
+          color: #fff
     .center
       margin: 3rem 1rem 1rem
       color: #fff
@@ -1274,6 +1287,15 @@ section.module.parallax
         padding-top: 0
   div.downArrow
     +downArrow
+
+body.home .site-inner .homeContentWrap.nytt-programs
+  padding: 6rem 3rem
+  h2, p
+    text-align: center
+  p
+    font-size: 1.2rem
+
+
 
 .onlineEducation
   text-align: center
@@ -1297,6 +1319,8 @@ section.module.parallax-2
 
 section.module.parallax-5
   background: url('../images/online-yoga-education.jpg') 50% 0 repeat fixed
+  .block.right p
+    margin-bottom: 5px
   @media only screen and (max-width: 400px)
     background: url('../images/online-yoga-education-mobile.jpg') 47% 40% repeat
     background-size: cover
@@ -1328,6 +1352,7 @@ section.module.parallax-5
   .slick-slide
     width: 365px
     text-align: center
+    height: auto
   @media only screen and (min-width: 600px) and (max-width: 1024px)
     .slick-slide
       width: 400px

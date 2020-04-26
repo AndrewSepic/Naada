@@ -6,14 +6,11 @@ Template Name: Homepage
 add_action( 'genesis_after_header', 'naada_videoBanner', 10 );
 function naada_videoBanner() {
   ?>
-  <div class="videoBanner">
 
-    <!-- Calls our Call out Widget -->
-    <?php dynamic_sidebar("video_callout"); ?>
-
-    <!-- Video -->
-    </div>
   <?php
+  // New Slider using Slider REvolution
+  putRevSlider("naada-homepage");
+
 }
 ?>
 
@@ -48,14 +45,90 @@ function homepage_Output(){
     </div>
 
     <hr />
-    <!-- Removed for the present time
-    <h3>Upcoming Courses</h3>
+
+    <h3>Specialty Classes</h3>
     <div class="naada-carousel">
-      <div id="healCodeLoading"><?php //echo do_shortcode( '[hc-hmw snippet="Homepage-Events-Carousel"]');?></div>
-    </div>-->
+      <div id="healCodeLoading"><?php echo do_shortcode( '[hc-hmw snippet="LIve-Stream-Specialty-Classes"]');?></div>
+    </div>
 
   </div><!-- .homeContentWrap -->
 
+  <!-- NYTT Parallax Section -->
+  <section class="module parallax parallax-2">
+    <div class="parallaxContent">
+    <h2><?php the_field('parallax2_section_title');?></h2>
+      <div class="block center">
+        <?php the_field('parallax2_center');?>
+      </div>
+      <div class="flex">
+           <div>
+            <?php the_field('parallax2_flex_col_1');?>
+          </div>
+
+          <div>
+           <?php the_field('parallax2_flex_col_2');?>
+         </div>
+
+         <div>
+          <?php the_field('parallax2_flex_col_3');?>
+        </div>
+
+      </div>
+      <div class="clear"></div>
+      <!-- <a class="button orange-button medium" href="/yoga-teacher-training"><?php //the_field('parallax2_more');?></a> -->
+      <div class="downArrow"></div>
+      <div class="clear"></div>
+    </div>
+  </section>
+
+  <!-- NYTT Programs Section -->
+  <div class="homeContentWrap nytt-programs">
+    <h2><?php if (get_field('nytt_message_title')) {
+        the_field('nytt_message_title');
+      }?>
+    </h2>
+    <p class="nyttSubtext">
+      <?php if (get_field('nytt_message_text')) {
+        the_field('nytt_message_text');
+      }?>
+    </p>
+    <div class="nytt-carousel">
+      <div>
+        <div class="courseImage"><img src="/wp-content/uploads/2016/02/nytt-200hr-web.jpg" alt="200 HR Yoga Teacher Training" /></div>
+        <div class="courseInfo">
+          <h2><a href="/yoga-teacher-training/200-hour-foundation/"><?php the_field('nytt_course_1');?></a></h2>
+        </div>
+        <p><a class="button orange-button small" href="/yoga-teacher-training/200-hour-foundation/"><?php the_field('course_button_text');?></a></p>
+      </div>
+
+      <div>
+        <div class="courseImage"><img src="/wp-content/uploads/2016/02/nytt-300hr-web.jpg" alt="300 HR Yoga Teacher Training" /></div>
+        <div class="courseInfo">
+          <h2><a href="/yoga-teacher-training/300-hour-advanced/"><?php the_field('nytt_course_2');?></a></h2>
+        </div>
+        <p><a class="button orange-button small" href="/yoga-teacher-training/300-hour-advanced/"><?php the_field('course_button_text');?></a></p>
+      </div>
+
+      <div>
+        <div class="courseImage"><img src="/wp-content/uploads/2016/02/nytt-500hr-web.jpg" alt="500 HR Yoga Teacher Training" /></div>
+        <div class="courseInfo">
+          <h2><a href="/yoga-teacher-training/500-hour-certification/"><?php the_field('nytt_course_3');?></a></h2>
+        </div>
+        <p><a class="button orange-button small" href="/yoga-teacher-training/500-hour-certification/"><?php the_field('course_button_text');?></a></p>
+      </div>
+
+    </div>
+
+    <?php //if (get_field('nytt_testimonials_title')) {
+      // the_field('nytt_testimonials_title');
+    //  }?>
+
+    <!-- Tesitmonials Video Embed -->
+    <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/45218771?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+  </div>
+
+
+  <!-- Online Courses Section -->
   <section class="module parallax parallax-5">
     <div class="parallaxContent">
       <h2><?php the_field('parallax3_section_title');?></h2>
@@ -120,114 +193,6 @@ function homepage_Output(){
         <p><a class="button orange-button small" href="<?php the_field('online_course_5_link');?>"><?php the_field('online_course_button_text');?></a></p>
       </div>
 
-    </div>
-  </div>
-
-  <section class="module parallax parallax-1">
-    <div class="parallaxContent">
-      <h2><?php the_field('parallax1_section_title');?></h2>
-      <div class="block left">
-        <?php the_field('parallax1_left_col');?>
-      </div>
-      <div class="block right">
-        <?php the_field('parallax1_right_col');?>
-      </div>
-      <div class="clear"></div>
-      <a class="button orange-button medium" href="/therapeutic-clinic/"><?php the_field('parallax1_more');?></a>
-      <div class="downArrow"></div>
-      <div class="clear"></div>
-    </div>
-  </section>
-
-  <!-- Therapeutic Clinic Section -->
-  <div class="homeContentWrap therapy-clinic">
-    <div class="clinic-carousel">
-      <div>
-        <div class="courseImage"><img alt="osteopathy" src="<?php the_field('carousel_item_1_pic');?>"/></div>
-        <div class="courseInfo">
-          <h2><a href="<?php the_field('carousel_item_1_link');?>"><?php the_field('carousel_item_1');?></a></h2>
-        </div>
-        <p><a class="button orange-button small" href="<?php the_field('carousel_item_1_link');?>"><?php the_field('book_appointment');?></a></p>
-      </div>
-
-      <div>
-        <div class="courseImage"><img alt="yoga therapy" src="<?php the_field('carousel_item_2_pic');?>"/></div>
-        <div class="courseInfo">
-          <h2><a href="<?php the_field('carousel_item_2_link');?>"><?php the_field('carousel_item_2');?></a></h2>
-        </div>
-        <p><a class="button orange-button small" href="<?php the_field('carousel_item_2_link');?>"><?php the_field('book_appointment');?></a></p>
-      </div>
-
-      <div>
-        <div class="courseImage"><img alt="Massage Therapy" src="<?php the_field('carousel_item_3_pic');?>"/></div>
-        <div class="courseInfo">
-          <h2><a href="<?php the_field('carousel_item_3_link');?>"><?php the_field('carousel_item_3');?></a></h2>
-        </div>
-        <p><a class="button orange-button small" href="<?php the_field('carousel_item_3_link');?>"><?php the_field('book_appointment');?></a></p>
-      </div>
-
-      <div>
-        <div class="courseImage"><img alt="Massage Therapy" src="<?php the_field('carousel_item_4_pic');?>"/></div>
-        <div class="courseInfo">
-          <h2><a href="<?php the_field('carousel_item_4_link');?>"><?php the_field('carousel_item_4');?></a></h2>
-        </div>
-        <p><a class="button orange-button small" href="<?php the_field('carousel_item_4_link');?>"><?php the_field('book_appointment');?></a></p>
-      </div>
-
-    </div>
-  </div>
-
-  <!-- NYTT Parallax Section -->
-  <section class="module parallax parallax-2">
-    <div class="parallaxContent">
-    <h2><?php the_field('parallax2_section_title');?></h2>
-      <div class="block left">
-        <?php the_field('parallax2_left_col');?>
-      </div>
-      <div class="block right">
-        <?php the_field('parallax2_right_col');?>
-      </div>
-      <div class="clear"></div>
-      <a class="button orange-button medium" href="/yoga-teacher-training"><?php the_field('parallax2_more');?></a>
-      <div class="downArrow"></div>
-      <div class="clear"></div>
-    </div>
-  </section>
-
-  <!-- NYTT Programs Section -->
-  <div class="homeContentWrap nytt-programs">
-    <div class="nytt-carousel">
-      <div>
-        <div class="courseImage"><img src="/wp-content/uploads/2016/02/nytt-200hr-web.jpg" alt="200 HR Yoga Teacher Training" /></div>
-        <div class="courseInfo">
-          <h2><a href="/yoga-teacher-training/200-hour-foundation/"><?php the_field('nytt_course_1');?></a></h2>
-        </div>
-        <p><a class="button orange-button small" href="/yoga-teacher-training/200-hour-foundation/"><?php the_field('course_button_text');?></a></p>
-      </div>
-
-      <div>
-        <div class="courseImage"><img src="/wp-content/uploads/2016/02/nytt-300hr-web.jpg" alt="300 HR Yoga Teacher Training" /></div>
-        <div class="courseInfo">
-          <h2><a href="/yoga-teacher-training/300-hour-advanced/"><?php the_field('nytt_course_2');?></a></h2>
-        </div>
-        <p><a class="button orange-button small" href="/yoga-teacher-training/300-hour-advanced/"><?php the_field('course_button_text');?></a></p>
-      </div>
-
-      <div>
-        <div class="courseImage"><img src="/wp-content/uploads/2016/02/nytt-500hr-web.jpg" alt="500 HR Yoga Teacher Training" /></div>
-        <div class="courseInfo">
-          <h2><a href="/yoga-teacher-training/500-hour-certification/"><?php the_field('nytt_course_3');?></a></h2>
-        </div>
-        <p><a class="button orange-button small" href="/yoga-teacher-training/500-hour-certification/"><?php the_field('course_button_text');?></a></p>
-      </div>
-
-      <div>
-        <div class="courseImage"><img src="/wp-content/uploads/2016/02/nytt-1000hr-web.jpg" alt="Mentorship Program" /></div>
-        <div class="courseInfo">
-          <h2><a href="/yoga-teacher-training/graduate-mentorship-program/"><?php the_field('nytt_course_4');?></a></h2>
-        </div>
-        <p><a class="button orange-button small" href="/yoga-teacher-training/graduate-mentorship-program/"><?php the_field('course_button_text');?></a></p>
-      </div>
     </div>
   </div>
 
