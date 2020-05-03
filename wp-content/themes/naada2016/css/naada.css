@@ -1307,21 +1307,24 @@ section.module.parallax-1 {
       background-size: cover; } }
 
 section.module.parallax-2 {
-  background: url("../images/nytt-bg.jpg") 50% 0 repeat fixed; }
+  background: url("../images/online-yoga-education.jpg") 50% 0 repeat fixed; }
+  section.module.parallax-2 .yttWrap img {
+    height: 125px;
+    padding: 0 1rem; }
   @media only screen and (max-width: 400px) {
     section.module.parallax-2 {
-      background: url("../images/nytt-bg-mobile.jpg") 55% 35% repeat;
+      background: url("../images/online-yoga-education-mobile.jpg") 55% 35% repeat;
       background-size: cover; } }
   section.module.parallax-2 .parallaxContent .block .right p {
     padding-top: 0; }
 
 section.module.parallax-5 {
-  background: url("../images/online-yoga-education.jpg") 50% 0 repeat fixed; }
+  background: url("../images/richard.jpg") 50% 0 repeat fixed; }
   section.module.parallax-5 .block.right p {
     margin-bottom: 5px; }
   @media only screen and (max-width: 400px) {
     section.module.parallax-5 {
-      background: url("../images/online-yoga-education-mobile.jpg") 47% 40% repeat;
+      background: url("../images/richard-mobile.jpg") 47% 40% repeat;
       background-size: cover; } }
 
 .clinic-carousel, .nytt-carousel, .online-carousel {
@@ -1675,11 +1678,11 @@ div.healcode-course div.enrollment {
     background: #f7ad00;
     color: #fff; }
 
-.naada-carousel div.healcode-image-area {
+.naada-carousel div.healcode div.healcode-image-area {
   float: none !important;
   width: 309px;
   margin: 0 auto 1.5rem !important; }
-  .naada-carousel div.healcode-image-area img {
+  .naada-carousel div.healcode div.healcode-image-area img {
     border: 1px solid #E5E5E5;
     float: none;
     padding: 6px;
@@ -1688,59 +1691,75 @@ div.healcode-course div.enrollment {
     height: 178px;
     border-radius: 5px; }
 
-.naada-carousel h2.healcode-enrollment-name, .naada-carousel h2.healcode-course-name {
+.naada-carousel div.healcode h1.class_name {
   text-transform: uppercase;
   color: #f7ad00;
-  text-align: center; }
+  text-align: center;
+  font-weight: 300 !important;
+  font-size: 1.25rem !important; }
 
-.naada-carousel span.healcode-trainer-name {
+.naada-carousel div.healcode span.class_offered_link {
+  text-align: center;
+  margin-top: 1rem;
+  display: block;
+  box-shadow: none !important;
+  background: transparent !important; }
+  .naada-carousel div.healcode span.class_offered_link a {
+    background: #f7ad00;
+    font-size: 1rem;
+    text-transform: uppercase;
+    padding: 16px 24px;
+    display: inline-block;
+    border-radius: 3px; }
+
+.naada-carousel div.healcode span.healcode-trainer-name {
   text-align: center;
   display: block;
   text-transform: capitalize;
   color: #555; }
 
-.naada-carousel div.healcode .healcode-course {
+.naada-carousel div.healcode div.healcode .healcode-course {
   min-height: 466px; }
 
-.naada-carousel .slick-slider {
+.naada-carousel div.healcode .slick-slider {
   max-height: 450px; }
-  .naada-carousel .slick-slider .slick-slide {
+  .naada-carousel div.healcode .slick-slider .slick-slide {
     width: 360px; }
   @media only screen and (min-width: 900px) and (max-width: 1024px) {
-    .naada-carousel .slick-slider .slick-slide {
+    .naada-carousel div.healcode .slick-slider .slick-slide {
       width: 400px;
       margin: 0 1rem 0; } }
   @media only screen and (min-width: 780px) and (max-width: 899px) {
-    .naada-carousel .slick-slider .slick-slide {
+    .naada-carousel div.healcode .slick-slider .slick-slide {
       width: 330px; } }
   @media only screen and (min-width: 680px) and (max-width: 779px) {
-    .naada-carousel .slick-slider .slick-slide {
+    .naada-carousel div.healcode .slick-slider .slick-slide {
       width: 320px; } }
   @media only screen and (min-width: 520px) and (max-width: 679px) {
-    .naada-carousel .slick-slider .slick-slide {
+    .naada-carousel div.healcode .slick-slider .slick-slide {
       width: 460px;
       margin: 0 2rem; } }
   @media only screen and (min-width: 450px) and (max-width: 519px) {
-    .naada-carousel .slick-slider .slick-slide {
+    .naada-carousel div.healcode .slick-slider .slick-slide {
       width: 400px;
       margin: 0 2rem; } }
   @media only screen and (min-width: 375px) and (max-width: 449px) {
-    .naada-carousel .slick-slider .slick-slide {
+    .naada-carousel div.healcode .slick-slider .slick-slide {
       width: 320px;
       margin: 0 1rem; } }
   @media only screen and (max-width: 374px) {
-    .naada-carousel .slick-slider .slick-slide {
+    .naada-carousel div.healcode .slick-slider .slick-slide {
       width: 308px;
       margin: 0;
       padding: 0 !important; }
-    .naada-carousel .slick-slider div.healcode-image-area img {
+    .naada-carousel div.healcode .slick-slider div.healcode-image-area img {
       width: 250px;
       height: 153px;
       margin: 0 auto; }
-    .naada-carousel .slick-slider h2.healcode-enrollment-name {
+    .naada-carousel div.healcode .slick-slider h2.healcode-enrollment-name {
       width: 90%; } }
 
-.naada-carousel .slick-list {
+.naada-carousel div.healcode .slick-list {
   padding: 0 0 0 0 !important; }
 
 /* Slick Slider */

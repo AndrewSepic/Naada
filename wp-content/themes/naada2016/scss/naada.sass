@@ -1310,19 +1310,22 @@ section.module.parallax-1
     background-size: cover
 
 section.module.parallax-2
-  background: url('../images/nytt-bg.jpg') 50% 0 repeat fixed
+  background: url('../images/online-yoga-education.jpg') 50% 0 repeat fixed
+  .yttWrap img
+    height: 125px
+    padding: 0 1rem
   @media only screen and (max-width: 400px)
-    background: url('../images/nytt-bg-mobile.jpg') 55% 35% repeat
+    background: url('../images/online-yoga-education-mobile.jpg') 55% 35% repeat
     background-size: cover
   .parallaxContent .block .right p
     padding-top: 0
 
 section.module.parallax-5
-  background: url('../images/online-yoga-education.jpg') 50% 0 repeat fixed
+  background: url('../images/richard.jpg') 50% 0 repeat fixed
   .block.right p
     margin-bottom: 5px
   @media only screen and (max-width: 400px)
-    background: url('../images/online-yoga-education-mobile.jpg') 47% 40% repeat
+    background: url('../images/richard-mobile.jpg') 47% 40% repeat
     background-size: cover
 
 .clinic-carousel, .nytt-carousel, .online-carousel
@@ -1712,7 +1715,7 @@ div.healcode-course div.enrollment
     background: #f7ad00
     color: #fff
 
-.naada-carousel
+.naada-carousel div.healcode
   div.healcode-image-area
     float: none !important
     // width: 288px
@@ -1726,10 +1729,26 @@ div.healcode-course div.enrollment
       width: 288px
       height: 178px
       border-radius: 5px
-  h2.healcode-enrollment-name, h2.healcode-course-name
+  h1.class_name
     text-transform: uppercase
     color: #f7ad00
     text-align: center
+    font-weight: 300 !important
+    font-size: 1.25rem !important
+  span.class_offered_link
+    text-align: center
+    margin-top: 1rem
+    display: block
+    box-shadow: none !important
+    background: transparent !important
+    a
+      background: $orange
+      font-size: 1rem
+      text-transform: uppercase
+      padding: 16px 24px
+      display: inline-block
+      border-radius: 3px
+
   span.healcode-trainer-name
     text-align: center
     display: block
