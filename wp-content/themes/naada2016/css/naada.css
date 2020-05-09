@@ -1786,7 +1786,8 @@ div.healcode-course div.enrollment {
   background-size: cover; }
 
 .page-template-landing .homeContentWrap {
-  overflow: hidden; }
+  overflow: hidden;
+  padding: 3rem 6rem; }
 
 .page-template-landing .LandingHero {
   min-height: 600px;
