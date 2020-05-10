@@ -104,7 +104,7 @@ h4
 
 hr
   border: 0
-  height: 4px
+  height: 2px
   margin-bottom: 4rem
   /*background-image: -webkit-linear-gradient(left, rgba(153,153,153,0), rgba(153,153,153,0.75), rgba(153,153,153,0));
    *background-image:    -moz-linear-gradient(left, rgba(153,153,153,0), rgba(153,153,153,0.75), rgba(153,153,153,0));
@@ -2332,3 +2332,130 @@ body.page-id-10455 .entry-content, body.page-id-10496 .entry-content
 @media only screen and (max-width: 900px)
   body.parent-pageid-8403 .one-half
     width: 100%
+
+//
+// NYTT Landing Pages (2020)
+//
+body.page-template-template-nytt
+  background-color: #fff
+  .nyttHero
+    height: 425px
+    width: 100%
+    position: relative
+    img
+      position: absolute
+      height: 100%
+      width: 100%
+      top: 0
+      left: 0
+      bottom: 0
+      right: 0
+      object-fit: cover
+    .titleWrap
+      margin: 0 auto
+      width: 70%
+      text-align: center
+      top: 45%
+      z-index: 100
+      position: relative
+      .leadIn
+        font-style: italic
+        font-size: 2rem
+        color: #fff
+        border-bottom: 2px solid $orange
+      h2
+        color: #fff
+        font-size: 3.5rem
+  .cert
+    background: $naadagreen
+    border-radius: 0 0 10px 10px
+    padding: 1.1rem 3rem
+    display: block
+    margin-left: 38%
+    text-align: center
+    transform: translateX(-29%)
+    h3
+      color: #fff
+      text-transform: capitalize
+      font-size: 2.25rem
+      font-weight: 300
+  .homeContentWrap
+    max-width: 1200px
+    margin: 0 auto
+    padding: 3rem 3rem
+    .courseShort p
+      font-size: 1.25rem
+      columns: 2
+  .buttonWrap
+    display: flex
+    justify-content: space-around
+    width: 100%
+    margin: 4rem auto
+  hr
+    margin-top: 2rem
+  .curriculum
+    padding: 4rem 0 2rem
+    h2
+      font-size: 2.25rem
+      text-align: center
+      text-transform: none
+
+.fiftyfiftyWrap
+  display: flex
+  .fiftyimage
+    width: 50%
+    position: relative
+    img
+      position: absolute
+      height: 100%
+      width: 100%
+      top: 0
+      left: 0
+      bottom: 0
+      right: 0
+      object-fit: cover
+  .fiftyimage.Right
+    order: 2
+  .fiftyContent
+    width: 50%
+    padding: 8rem 4rem
+    h2
+      text-transform: none
+      font-size: 2.1rem
+      text-align: center
+    h4
+      text-align: center
+      text-transform: none
+      font-size: 1.5rem
+      font-weight: 300
+    ul
+      margin-left: 0
+      list-style-type: none
+      width: 80%
+      margin: 0 auto
+      li
+        padding-left: 24px
+        background: url('../images/list-item.png') no-repeat 5px 8px
+        background-size: 11px
+        font-size: 1.1rem
+
+#nyttTabs
+  max-width: 800px
+  margin: 0 auto
+  ul.r-tabs-nav
+    background-color: #F6F6F6
+    display: flex
+    justify-content: space-between
+    box-shadow: 0px 2px 3px 0px rgba(0,0,0,.1)
+    border-radius: 7px 7px 0 0s
+    li.r-tabs-state-active
+      border-bottom: 7px solid $naadagreen
+      a
+        color: $naadagreen
+    li
+      padding: 1rem
+      flex-grow: 1
+      text-align: center
+      font-size: 1.15rem
+      a
+        color: #a5a5a5

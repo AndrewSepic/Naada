@@ -59,7 +59,7 @@ h4 {
 
 hr {
   border: 0;
-  height: 4px;
+  height: 2px;
   margin-bottom: 4rem;
   /*background-image: -webkit-linear-gradient(left, rgba(153,153,153,0), rgba(153,153,153,0.75), rgba(153,153,153,0));
    *background-image:    -moz-linear-gradient(left, rgba(153,153,153,0), rgba(153,153,153,0.75), rgba(153,153,153,0));
@@ -2310,3 +2310,127 @@ body.page-id-10455 .entry-content, body.page-id-10496 .entry-content {
 @media only screen and (max-width: 900px) {
   body.parent-pageid-8403 .one-half {
     width: 100%; } }
+
+body.page-template-template-nytt {
+  background-color: #fff; }
+  body.page-template-template-nytt .nyttHero {
+    height: 425px;
+    width: 100%;
+    position: relative; }
+    body.page-template-template-nytt .nyttHero img {
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      object-fit: cover; }
+    body.page-template-template-nytt .nyttHero .titleWrap {
+      margin: 0 auto;
+      width: 70%;
+      text-align: center;
+      top: 45%;
+      z-index: 100;
+      position: relative; }
+      body.page-template-template-nytt .nyttHero .titleWrap .leadIn {
+        font-style: italic;
+        font-size: 2rem;
+        color: #fff;
+        border-bottom: 2px solid #f7ad00; }
+      body.page-template-template-nytt .nyttHero .titleWrap h2 {
+        color: #fff;
+        font-size: 3.5rem; }
+  body.page-template-template-nytt .cert {
+    background: #b3ba1c;
+    border-radius: 0 0 10px 10px;
+    padding: 1.1rem 3rem;
+    display: block;
+    margin-left: 38%;
+    text-align: center;
+    transform: translateX(-29%); }
+    body.page-template-template-nytt .cert h3 {
+      color: #fff;
+      text-transform: capitalize;
+      font-size: 2.25rem;
+      font-weight: 300; }
+  body.page-template-template-nytt .homeContentWrap {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 3rem 3rem; }
+    body.page-template-template-nytt .homeContentWrap .courseShort p {
+      font-size: 1.25rem;
+      columns: 2; }
+  body.page-template-template-nytt .buttonWrap {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 4rem auto; }
+  body.page-template-template-nytt hr {
+    margin-top: 2rem; }
+  body.page-template-template-nytt .curriculum {
+    padding: 4rem 0 2rem; }
+    body.page-template-template-nytt .curriculum h2 {
+      font-size: 2.25rem;
+      text-align: center;
+      text-transform: none; }
+
+.fiftyfiftyWrap {
+  display: flex; }
+  .fiftyfiftyWrap .fiftyimage {
+    width: 50%;
+    position: relative; }
+    .fiftyfiftyWrap .fiftyimage img {
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      object-fit: cover; }
+  .fiftyfiftyWrap .fiftyimage.Right {
+    order: 2; }
+  .fiftyfiftyWrap .fiftyContent {
+    width: 50%;
+    padding: 8rem 4rem; }
+    .fiftyfiftyWrap .fiftyContent h2 {
+      text-transform: none;
+      font-size: 2.1rem;
+      text-align: center; }
+    .fiftyfiftyWrap .fiftyContent h4 {
+      text-align: center;
+      text-transform: none;
+      font-size: 1.5rem;
+      font-weight: 300; }
+    .fiftyfiftyWrap .fiftyContent ul {
+      margin-left: 0;
+      list-style-type: none;
+      width: 80%;
+      margin: 0 auto; }
+      .fiftyfiftyWrap .fiftyContent ul li {
+        padding-left: 24px;
+        background: url("../images/list-item.png") no-repeat 5px 8px;
+        background-size: 11px;
+        font-size: 1.1rem; }
+
+#nyttTabs {
+  max-width: 800px;
+  margin: 0 auto; }
+  #nyttTabs ul.r-tabs-nav {
+    background-color: #F6F6F6;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 7px 7px 0 0s; }
+    #nyttTabs ul.r-tabs-nav li.r-tabs-state-active {
+      border-bottom: 7px solid #b3ba1c; }
+      #nyttTabs ul.r-tabs-nav li.r-tabs-state-active a {
+        color: #b3ba1c; }
+    #nyttTabs ul.r-tabs-nav li {
+      padding: 1rem;
+      flex-grow: 1;
+      text-align: center;
+      font-size: 1.15rem; }
+      #nyttTabs ul.r-tabs-nav li a {
+        color: #a5a5a5; }
