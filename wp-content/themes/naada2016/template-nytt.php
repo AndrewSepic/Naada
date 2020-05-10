@@ -3,6 +3,7 @@ Template Name: NYTT Course Page
 */ ?>
 
 <?php
+remove_action('genesis_loop', 'genesis_do_loop');
 add_action( 'genesis_after_header', 'naada_nytt', 10 );
 function naada_nytt() {
 
@@ -30,8 +31,6 @@ $tuitionTitle = get_field('tuition_title');
 $tuitionLeft = get_field('tuition_content_left');
 $tuitionRight = get_field('tuition_content_right');
 $apply = get_field('apply_button');
-
-
 
 
   ?>
@@ -121,15 +120,16 @@ $apply = get_field('apply_button');
   <?php endif ?>
 
   <?php
+  // Tabs for Large Screen only
     if ( have_rows('tabs') ):
       $i = 0; ?>
       <div id="nyttTabs">
         <!-- Setup Tabs Nav -->
-        <ul class="r-tabs-nav">
+        <ul class="">
           <?php while (have_rows('tabs') ): the_row();
             $title = get_sub_field('tabs_title'); ?>
             <li>
-              <a href="<?php echo '#tab-' . $i; ?>" class="r-tabs-anchor"><?php echo $title; ?></a>
+              <a href="<?php echo '#tab-' . $i; ?>" class=""><?php echo $title; ?></a>
             </li>
             <?php $i++;?>
           <?php endwhile;?>
@@ -140,13 +140,14 @@ $apply = get_field('apply_button');
       <?php if ( have_rows('tabs') ) : ?>
         <?php $i = 0; ?>
           <?php while ( have_rows('tabs') ) : the_row();
-            $content = get_sub_field('tabs_content'); ?>
+            $content = get_sub_field('tabs_content');
+            $scheduleContent = get_sub_field('schedule');?>
 
-            <div class="r-tabs-panel r-tabs-state-<?php echo ($i == 0 ? 'active' : ''); ?>" id="<?php echo 'tab-' . $i; ?>">
+            <div id="<?php echo 'tab-' . $i; ?>">
               <?php echo $content; ?>
               <a class="showSchedule" href="#"><?php echo $schedule;?></a>
               <div class="schedule">
-                <?php echo $schedule; ?>
+                <?php echo $scheduleContent; ?>
               </div>
             </div><!-- /.tab-pane -->
             <?php $i++; ?>
@@ -154,6 +155,28 @@ $apply = get_field('apply_button');
       <?php endif; ?>
       </div>
     <!-- / #nyttTabs -->
+
+    <?php// Accordion for Small Screens only ?>
+    <!-- Accordion -->
+    <div class="curriculumAccordion">
+      <?php if ( have_rows('tabs') ): ?>
+        <div class="nytt-accordion">
+          <?php while (have_rows('tabs')): the_row();
+            $accordionHeader = get_sub_field('tabs_title');
+            $accordionContent = get_sub_field('tabs_content');
+            $accordionSchedule = get_sub_field('schedule');?>
+
+            <h3><?php echo $accordionHeader;?></h3>
+            <div> <?php echo $accordionContent;?>
+              <div class="schedule">
+                <?php echo $scheduleContent; ?>
+              </div>
+            </div>
+
+          <?php endwhile ?>
+        </div>
+      <?php endif ?>
+      </div> <!-- /. Module Structure -->
     </div>
 
     <!-- Module Structure -->
@@ -165,11 +188,11 @@ $apply = get_field('apply_button');
       <?php if ( have_rows('structure_accordion') ): ?>
         <div class="nytt-accordion">
           <?php while (have_rows('structure_accordion')): the_row();
-            $accordionHeader = get_field('accordion_header');
-            $accordionContent = get_field('accordion_content'); ?>
+            $accordionHeader = get_sub_field('accordion_header');
+            $accordionContent = get_sub_field('accordion_content'); ?>
 
             <h3><?php echo $accordionHeader;?></h3>
-            <div> <?php echo $accredContent;?></div>
+            <div> <?php echo $accordionContent;?></div>
           <?php endwhile ?>
         </div>
       <?php endif ?>
@@ -204,40 +227,43 @@ $apply = get_field('apply_button');
         <div> <?php echo $accredContent; ?></div>
       <?php endif ?>
     </div>
+  </div><!-- /.homeContentWrap -->
 
-    <div class="testimonials">
-      <div class="video">
-        <iframe src="https://player.vimeo.com/video/45218771?title=0&byline=0&portrait=0" style="" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-      </div>
-
-      <?php if (have_rows('testimonials')): ?>
-      <div class="testy">
-        <?php while (have_rows('testimonials')): the_row();
-          $testImage = get_sub_field('testimonial_image');
-          $testCopy = get_sub_field('testimonial_copy');
-          $testAuthor = get_sub_field('testimonial_author');?>
-
-          <img class="testyPic" src="<?php echo $testImage['url'];?>" alt="<?php echo $testImage['alt'];?>"/>
-          <div class="testCopy">
-            <p><?php echo $testCopy;?></p>
-            <span><?php echo $testAuthor;?></span>
-          </div>
-        <?php endwhile ?>
-      </div>
-    <?php endif ?>
+  <div class="testimonials">
+    <div class="video">
+      <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/45218771?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
     </div>
 
-    <div class="tuition">
+    <?php
+
+    // get Random Testimonial from repeater field (array)
+    $repeater = get_field( 'testimonials' );
+    $rand = rand(0, (count($repeater) - 1));?>
+
+    <div class="testy">
+        <img class="testyPic" src="<?php echo $repeater[$rand]['testimonial_image']['url'];?>" alt="Testimonial Headshot"/>
+        <div class="testCopy">
+          <p><?php  echo $repeater[$rand]['testimonial_copy'];?></p>
+          <span>- <?php echo $repeater[$rand]['testimonial_author'];?></span>
+        </div>
+
+    </div>
+
+  </div>
+
+  <div class="tuitionWrap">
+
       <?php if ( $tuitionTitle ): ?>
         <h2> <?php echo $tuitionTitle; ?></h2>
       <?php endif ?>
+      <div class="tuitionFlex">
+        <div class="tuitionLeft">
+          <?php echo $tuitionLeft;?>
+        </div>
 
-      <div class="tuitionLeft">
-        <?php echo $tuitionLeft;?>
-      </div>
-
-      <div class="tuitionRight">
-        <?php echo $tuitionRight;?>
+        <div class="tuitionRight">
+          <?php echo $tuitionRight;?>
+        </div>
       </div>
 
       <a class="naada-button green-button large" href="<?php echo $apply['url'];?>"><?php echo $apply['title'];?></a>
@@ -245,7 +271,7 @@ $apply = get_field('apply_button');
       <!-- Buttons -->
       <?php if ( $nextSession ): ?>
         <div class="buttonWrap">
-        <a class="naada-button hollow-button large" href="<?php echo $nextSession['url'];?>"><?php echo $nextSession['title'];?></a>
+        <a class="naada-button orange-hollow large" href="<?php echo $nextSession['url'];?>"><?php echo $nextSession['title'];?></a>
       <?php endif ?>
 
       <?php if ( $downloadPacket ): ?>
@@ -253,10 +279,7 @@ $apply = get_field('apply_button');
       </div>
       <?php endif ?>
 
-    </div>
-
-
-  </div><!-- /.homeContentWrap -->
+    </div><!-- ./tuitionWrap -->
 
 <?php
 }

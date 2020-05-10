@@ -570,7 +570,7 @@ ul.menu-primary ul > li.menu-item-has-children > a:after {
   @media only screen and (max-width: 700px) {
     .site-header .menu-secondary-navigation-container, .site-header .menu-secondary-navigation-french-container {
       float: left;
-      margin-top: 7px; }
+      margin: 7px 0 0 13px; }
       .site-header .menu-secondary-navigation-container section.widget_nav_menu, .site-header .menu-secondary-navigation-french-container section.widget_nav_menu {
         float: left;
         margin-left: 15px; }
@@ -2313,6 +2313,8 @@ body.page-id-10455 .entry-content, body.page-id-10496 .entry-content {
 
 body.page-template-template-nytt {
   background-color: #fff; }
+  body.page-template-template-nytt .site-inner {
+    display: none; }
   body.page-template-template-nytt .nyttHero {
     height: 425px;
     width: 100%;
@@ -2369,11 +2371,165 @@ body.page-template-template-nytt {
   body.page-template-template-nytt hr {
     margin-top: 2rem; }
   body.page-template-template-nytt .curriculum {
-    padding: 4rem 0 2rem; }
+    padding: 6rem 0 4rem; }
     body.page-template-template-nytt .curriculum h2 {
       font-size: 2.25rem;
       text-align: center;
-      text-transform: none; }
+      text-transform: none;
+      margin-bottom: 3rem; }
+      @media only screen and (max-width: 480px) {
+        body.page-template-template-nytt .curriculum h2 {
+          font-size: 1.75rem; } }
+  body.page-template-template-nytt .structure, body.page-template-template-nytt .curriculum {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 4rem 0; }
+    body.page-template-template-nytt .structure h2, body.page-template-template-nytt .curriculum h2 {
+      font-size: 2.25rem;
+      text-align: center;
+      text-transform: none;
+      margin-bottom: 3rem; }
+    body.page-template-template-nytt .structure h3, body.page-template-template-nytt .structure h3.ui-accordion-header.ui-state-default, body.page-template-template-nytt .curriculum h3, body.page-template-template-nytt .curriculum h3.ui-accordion-header.ui-state-default {
+      border: unset;
+      border-bottom: 2px solid #E7E7E7;
+      background: transparent;
+      font-size: 1.25rem;
+      text-transform: none;
+      color: #6E6E6E;
+      padding: 1rem 0; }
+    body.page-template-template-nytt .structure h3.ui-accordion-header.ui-state-active, body.page-template-template-nytt .curriculum h3.ui-accordion-header.ui-state-active {
+      border-bottom: 2px solid #b3ba1c; }
+    body.page-template-template-nytt .structure .ui-accordion .ui-accordion-icons, body.page-template-template-nytt .curriculum .ui-accordion .ui-accordion-icons {
+      padding-left: 0; }
+    body.page-template-template-nytt .structure .ui-icon, body.page-template-template-nytt .curriculum .ui-icon {
+      width: 32px;
+      height: 32px;
+      background-size: contain;
+      left: unset;
+      right: .5rem; }
+    body.page-template-template-nytt .structure span.ui-accordion-header-icon.ui-icon.up-green, body.page-template-template-nytt .curriculum span.ui-accordion-header-icon.ui-icon.up-green {
+      background-image: url("../images/up-arrow-green.png"); }
+    body.page-template-template-nytt .structure span.ui-accordion-header-icon.ui-icon.down-default, body.page-template-template-nytt .curriculum span.ui-accordion-header-icon.ui-icon.down-default {
+      background-image: url("../images/down-arrow.png"); }
+    body.page-template-template-nytt .structure .ui-accordion-content, body.page-template-template-nytt .curriculum .ui-accordion-content {
+      border: 0; }
+      body.page-template-template-nytt .structure .ui-accordion-content ul, body.page-template-template-nytt .curriculum .ui-accordion-content ul {
+        margin-left: 0;
+        list-style-type: none;
+        margin: 0 auto; }
+        body.page-template-template-nytt .structure .ui-accordion-content ul li, body.page-template-template-nytt .curriculum .ui-accordion-content ul li {
+          padding-left: 24px;
+          background: url("../images/list-item.png") no-repeat 5px 5px;
+          background-size: 11px;
+          font-size: 1.1rem;
+          margin: .5rem 0; }
+  body.page-template-template-nytt .bonusFull {
+    background-color: #F5F5F5;
+    padding: 3rem 0; }
+    body.page-template-template-nytt .bonusFull div {
+      max-width: 800px;
+      margin: 0 auto; }
+      body.page-template-template-nytt .bonusFull div h2 {
+        font-size: 2.25rem;
+        text-align: center;
+        text-transform: none;
+        margin-bottom: 3rem;
+        margin-bottom: 1rem; }
+        @media only screen and (max-width: 480px) {
+          body.page-template-template-nytt .bonusFull div h2 {
+            font-size: 1.75rem; } }
+      body.page-template-template-nytt .bonusFull div .bonusitems {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap; }
+        body.page-template-template-nytt .bonusFull div .bonusitems .bonusitem {
+          width: 50%;
+          font-size: 1.25rem;
+          padding-left: 40px;
+          background: url("../images/checkmark-circle.png") no-repeat 0% 50%;
+          background-size: 32px; }
+  body.page-template-template-nytt .accred {
+    padding: 2rem 0;
+    max-width: 800px;
+    margin: 0 auto; }
+    body.page-template-template-nytt .accred h2 {
+      font-size: 2.25rem;
+      text-align: center;
+      text-transform: none;
+      margin-bottom: 3rem;
+      margin-bottom: 1rem; }
+      @media only screen and (max-width: 480px) {
+        body.page-template-template-nytt .accred h2 {
+          font-size: 1.75rem; } }
+    body.page-template-template-nytt .accred div {
+      font-size: 1.25rem; }
+      body.page-template-template-nytt .accred div ul {
+        margin-left: 0;
+        list-style-type: none;
+        width: 70%;
+        margin: 0 auto 1rem; }
+        body.page-template-template-nytt .accred div ul li {
+          font-size: 1.25rem;
+          padding-left: 40px;
+          background: url("../images/checkmark-circle.png") no-repeat 0px 13px;
+          background-size: 32px;
+          margin: 2rem 0; }
+  body.page-template-template-nytt .testimonials {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1500px;
+    margin: 0 auto;
+    align-items: center; }
+    body.page-template-template-nytt .testimonials .video, body.page-template-template-nytt .testimonials .testy {
+      width: 50%;
+      margin: 2rem; }
+    body.page-template-template-nytt .testimonials .testy {
+      margin: 2rem 3rem; }
+      body.page-template-template-nytt .testimonials .testy .testyPic {
+        width: 30%;
+        float: left;
+        margin-right: 2rem; }
+      body.page-template-template-nytt .testimonials .testy .testCopy {
+        float: right;
+        width: 65%;
+        margin-top: 1rem; }
+        body.page-template-template-nytt .testimonials .testy .testCopy p {
+          font-style: italic;
+          font-size: 1.1rem; }
+        body.page-template-template-nytt .testimonials .testy .testCopy span {
+          display: block;
+          float: right;
+          font-weight: 500; }
+
+.tuitionWrap {
+  padding: 3rem 0;
+  max-width: 1200px;
+  margin: 0 auto; }
+  .tuitionWrap h2 {
+    font-size: 2.25rem;
+    text-align: center;
+    text-transform: none;
+    margin-bottom: 3rem; }
+    @media only screen and (max-width: 480px) {
+      .tuitionWrap h2 {
+        font-size: 1.75rem; } }
+  .tuitionWrap .tuitionFlex {
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto 2rem; }
+    .tuitionWrap .tuitionFlex .tuitionLeft, .tuitionWrap .tuitionFlex .tuitionRight {
+      width: 50%; }
+    .tuitionWrap .tuitionFlex .tuitionLeft {
+      font-size: 1.75rem;
+      font-weight: 300; }
+      .tuitionWrap .tuitionFlex .tuitionLeft span {
+        font-weight: 500;
+        color: #b3ba1c; }
+      .tuitionWrap .tuitionFlex .tuitionLeft p.early {
+        font-size: .9rem; }
+  .tuitionWrap a.naada-button.green-button {
+    display: table;
+    margin: 0 auto; }
 
 .fiftyfiftyWrap {
   display: flex; }
@@ -2417,12 +2573,20 @@ body.page-template-template-nytt {
 #nyttTabs {
   max-width: 800px;
   margin: 0 auto; }
+  #nyttTabs .schedule {
+    display: none; }
+    #nyttTabs .schedule p {
+      margin-bottom: .5rem; }
+    #nyttTabs .schedule ul {
+      margin-left: 20px; }
+      #nyttTabs .schedule ul li {
+        list-style-type: disc; }
   #nyttTabs ul.r-tabs-nav {
     background-color: #F6F6F6;
     display: flex;
     justify-content: space-between;
     box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
-    border-radius: 7px 7px 0 0s; }
+    border-radius: 7px 7px 0 0; }
     #nyttTabs ul.r-tabs-nav li.r-tabs-state-active {
       border-bottom: 7px solid #b3ba1c; }
       #nyttTabs ul.r-tabs-nav li.r-tabs-state-active a {
@@ -2434,3 +2598,97 @@ body.page-template-template-nytt {
       font-size: 1.15rem; }
       #nyttTabs ul.r-tabs-nav li a {
         color: #a5a5a5; }
+  #nyttTabs .r-tabs-panel {
+    padding: 2rem 1rem; }
+    #nyttTabs .r-tabs-panel h3 {
+      text-transform: none; }
+    #nyttTabs .r-tabs-panel h5 {
+      font-size: 1.25rem;
+      color: #b3ba1c;
+      text-transform: none; }
+    #nyttTabs .r-tabs-panel a {
+      color: #b3ba1c; }
+
+@media only screen and (max-width: 480px) {
+  body.page-template-template-nytt .nyttHero {
+    height: 375px; }
+    body.page-template-template-nytt .nyttHero .titleWrap {
+      top: 24%; }
+      body.page-template-template-nytt .nyttHero .titleWrap .leadIn {
+        font-size: 1.5rem; }
+      body.page-template-template-nytt .nyttHero .titleWrap h2 {
+        font-size: 2.5rem;
+        margin-top: 1rem; }
+  body.page-template-template-nytt .cert {
+    width: 100%;
+    margin-left: unset;
+    transform: unset;
+    border-radius: 0;
+    padding: 1rem; }
+    body.page-template-template-nytt .cert h3 {
+      font-size: 1.1rem;
+      margin-bottom: 0; }
+  body.page-template-template-nytt .homeContentWrap {
+    padding: 2rem; }
+    body.page-template-template-nytt .homeContentWrap .courseShort p {
+      columns: 1;
+      font-size: 1.15rem; }
+  body.page-template-template-nytt .buttonWrap {
+    flex-wrap: wrap; }
+  body.page-template-template-nytt .bonusFull div .bonusitems .bonusitem {
+    width: 100%;
+    margin: 1rem 2rem;
+    line-height: 1.7rem; }
+  body.page-template-template-nytt .accred {
+    padding: 2rem 0 0; }
+    body.page-template-template-nytt .accred div p {
+      font-size: 1.15rem; }
+    body.page-template-template-nytt .accred div ul {
+      width: 100%; }
+  body.page-template-template-nytt .testimonials {
+    flex-wrap: wrap; }
+    body.page-template-template-nytt .testimonials .video, body.page-template-template-nytt .testimonials .testy {
+      width: 100%; }
+    body.page-template-template-nytt .testimonials .testy {
+      margin: 0 2rem; }
+      body.page-template-template-nytt .testimonials .testy .testyPic {
+        width: 60%;
+        margin: 0 auto;
+        display: block;
+        float: none; }
+      body.page-template-template-nytt .testimonials .testy .testCopy {
+        width: 100%;
+        float: unset; }
+  body.page-template-template-nytt .tuitionWrap .tuitionFlex {
+    flex-wrap: wrap; }
+    body.page-template-template-nytt .tuitionWrap .tuitionFlex .tuitionLeft, body.page-template-template-nytt .tuitionWrap .tuitionFlex .tuitionRight {
+      width: 100%;
+      padding: 0 2rem; } }
+
+@media only screen and (max-width: 480px) {
+  .fiftyfiftyWrap {
+    flex-wrap: wrap; }
+    .fiftyfiftyWrap .fiftyimage, .fiftyfiftyWrap .fiftyContent {
+      width: 100%; }
+    .fiftyfiftyWrap .fiftyContent {
+      padding: 2rem; }
+      .fiftyfiftyWrap .fiftyContent ul {
+        width: 100%; }
+    .fiftyfiftyWrap .fiftyimage {
+      height: 400px; }
+    .fiftyfiftyWrap .fiftyimage.Right {
+      order: unset; } }
+
+.curriculumAccordion {
+  display: none; }
+
+@media only screen and (max-width: 480px) {
+  #nyttTabs {
+    display: none; }
+  .curriculumAccordion {
+    display: block; }
+  .curriculum .ui-accordion .ui-accordion-content, .structure .ui-accordion .ui-accordion-content {
+    padding: 1rem; }
+    .curriculum .ui-accordion .ui-accordion-content h5, .structure .ui-accordion .ui-accordion-content h5 {
+      font-size: 1rem;
+      color: #b3ba1c; } }

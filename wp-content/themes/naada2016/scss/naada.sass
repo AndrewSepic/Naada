@@ -603,7 +603,7 @@ ul.menu-primary
         color: $orangeHover
   @media only screen and (max-width: 700px)
     float: left
-    margin-top: 7px
+    margin: 7px 0 0 13px
     section.widget_nav_menu
       float: left
       margin-left: 15px
@@ -2336,8 +2336,20 @@ body.page-id-10455 .entry-content, body.page-id-10496 .entry-content
 //
 // NYTT Landing Pages (2020)
 //
+
+//mixin for center aligned titles
+=h2
+  font-size: 2.25rem
+  text-align: center
+  text-transform: none
+  margin-bottom: 3rem
+  @media only screen and (max-width: 480px)
+    font-size: 1.75rem
+
 body.page-template-template-nytt
   background-color: #fff
+  .site-inner
+    display: none
   .nyttHero
     height: 425px
     width: 100%
@@ -2394,11 +2406,144 @@ body.page-template-template-nytt
   hr
     margin-top: 2rem
   .curriculum
-    padding: 4rem 0 2rem
+    padding: 6rem 0 4rem
+    h2
+      +h2
+  .structure, .curriculum
+    max-width: 800px
+    margin: 0 auto
+    padding: 4rem 0
     h2
       font-size: 2.25rem
       text-align: center
       text-transform: none
+      margin-bottom: 3rem
+    h3, h3.ui-accordion-header.ui-state-default
+      border: unset
+      border-bottom: 2px solid #E7E7E7
+      background: transparent
+      font-size: 1.25rem
+      text-transform: none
+      color: #6E6E6E
+      padding: 1rem 0
+    h3.ui-accordion-header.ui-state-active
+      border-bottom: 2px solid $naadagreen
+    .ui-accordion .ui-accordion-icons
+      padding-left: 0
+    .ui-icon
+      width: 32px
+      height: 32px
+      background-size: contain
+      left: unset
+      right: .5rem
+    span.ui-accordion-header-icon.ui-icon.up-green
+      background-image: url('../images/up-arrow-green.png')
+    span.ui-accordion-header-icon.ui-icon.down-default
+      background-image: url('../images/down-arrow.png')
+    .ui-accordion-content
+      border: 0
+      ul
+        margin-left: 0
+        list-style-type: none
+        margin: 0 auto
+        li
+          padding-left: 24px
+          background: url('../images/list-item.png') no-repeat 5px 5px
+          background-size: 11px
+          font-size: 1.1rem
+          margin: .5rem 0
+  .bonusFull
+    background-color: #F5F5F5
+    padding: 3rem 0
+    div
+      max-width: 800px
+      margin: 0 auto
+      h2
+        +h2
+        margin-bottom: 1rem
+      .bonusitems
+        display: flex
+        justify-content: space-between
+        flex-wrap: wrap
+        .bonusitem
+          width: 50%
+          font-size: 1.25rem
+          padding-left: 40px
+          background: url('../images/checkmark-circle.png') no-repeat 0% 50%
+          background-size: 32px
+  .accred
+    padding: 2rem 0
+    max-width: 800px
+    margin: 0 auto
+    h2
+      +h2
+      margin-bottom: 1rem
+    div
+      font-size: 1.25rem
+      ul
+        margin-left: 0
+        list-style-type: none
+        width: 70%
+        margin: 0 auto 1rem
+        li
+          font-size: 1.25rem
+          padding-left: 40px
+          background: url('../images/checkmark-circle.png') no-repeat 0px 13px
+          background-size: 32px
+          margin: 2rem 0
+  .testimonials
+    display: flex
+    justify-content: space-around
+    max-width: 1500px
+    margin: 0 auto
+    align-items: center
+    .video, .testy
+      width: 50%
+      margin: 2rem
+    .testy
+      margin: 2rem 3rem
+      .testyPic
+        width: 30%
+        float: left
+        margin-right: 2rem
+      .testCopy
+        float: right
+        width: 65%
+        margin-top: 1rem
+        p
+          font-style: italic
+          font-size: 1.1rem
+        span
+          display: block
+          float: right
+          font-weight: 500
+
+.tuitionWrap
+  padding: 3rem 0
+  max-width: 1200px
+  margin: 0 auto
+  h2
+    +h2
+  .tuitionFlex
+    display: flex
+    max-width: 800px
+    margin: 0 auto 2rem
+    .tuitionLeft, .tuitionRight
+      width: 50%
+    .tuitionLeft
+      font-size: 1.75rem
+      font-weight: 300
+      span
+        font-weight: 500
+        color: $naadagreen
+      p.early
+        font-size: .9rem
+  a.naada-button.green-button
+    display: table
+    margin: 0 auto
+
+
+
 
 .fiftyfiftyWrap
   display: flex
@@ -2440,6 +2585,14 @@ body.page-template-template-nytt
         font-size: 1.1rem
 
 #nyttTabs
+  .schedule
+    display: none
+    p
+      margin-bottom: .5rem
+    ul
+      margin-left: 20px
+      li
+        list-style-type: disc
   max-width: 800px
   margin: 0 auto
   ul.r-tabs-nav
@@ -2447,7 +2600,7 @@ body.page-template-template-nytt
     display: flex
     justify-content: space-between
     box-shadow: 0px 2px 3px 0px rgba(0,0,0,.1)
-    border-radius: 7px 7px 0 0s
+    border-radius: 7px 7px 0 0
     li.r-tabs-state-active
       border-bottom: 7px solid $naadagreen
       a
@@ -2459,3 +2612,106 @@ body.page-template-template-nytt
       font-size: 1.15rem
       a
         color: #a5a5a5
+  .r-tabs-panel
+    padding: 2rem 1rem
+    h3
+      text-transform: none
+    h5
+      font-size: 1.25rem
+      color: $naadagreen
+      text-transform: none
+    a
+      color: $naadagreen
+
+// Responsive Styles for NYTT
+// Small screens
+@media only screen and (max-width: 480px)
+  body.page-template-template-nytt
+    .nyttHero
+      height: 375px
+      .titleWrap
+        top: 24%
+        .leadIn
+          font-size: 1.5rem
+        h2
+          font-size: 2.5rem
+          margin-top: 1rem
+    .cert
+      width: 100%
+      margin-left: unset
+      transform: unset
+      border-radius: 0
+      padding: 1rem
+      h3
+        font-size: 1.1rem
+        margin-bottom: 0
+    .homeContentWrap
+      padding: 2rem
+      .courseShort p
+        columns: 1
+        font-size: 1.15rem
+    .buttonWrap
+      flex-wrap: wrap
+    .bonusFull div .bonusitems .bonusitem
+      width: 100%
+      margin: 1rem 2rem
+      line-height: 1.7rem
+    .accred
+      padding: 2rem 0 0
+      div
+        p
+          font-size: 1.15rem
+        ul
+          width: 100%
+    .testimonials
+      flex-wrap: wrap
+      .video, .testy
+        width: 100%
+      .testy
+        margin: 0 2rem
+        .testyPic
+          width: 60%
+          margin: 0 auto
+          display: block
+          float: none
+        .testCopy
+          width: 100%
+          float: unset
+    .tuitionWrap .tuitionFlex
+      flex-wrap: wrap
+      .tuitionLeft, .tuitionRight
+        width: 100%
+        padding: 0 2rem
+
+
+
+// Fifty Fifty Styles Small Screens
+@media only screen and (max-width: 480px)
+  .fiftyfiftyWrap
+    flex-wrap: wrap
+    .fiftyimage, .fiftyContent
+      width: 100%
+    .fiftyContent
+      padding: 2rem
+      ul
+        width: 100%
+    .fiftyimage
+      height: 400px
+    .fiftyimage.Right
+      order: unset
+
+
+.curriculumAccordion
+  display: none
+// Accordion on Small Screens
+@media only screen and (max-width: 480px)
+  #nyttTabs
+    display: none
+  .curriculumAccordion
+    display: block
+  .curriculum, .structure
+    .ui-accordion .ui-accordion-content
+      padding: 1rem
+      h5
+        font-size: 1rem
+        color: $naadagreen
