@@ -339,6 +339,9 @@ span.dropcap {
   text-transform: uppercase;
   font-weight: 500; }
 
+html[lang="fr-FR"] .genesis-nav-menu {
+  font-size: 12px; }
+
 .menu-secondary {
   font-size: 12px; }
 
@@ -2488,7 +2491,7 @@ body.page-template-template-nytt {
       body.page-template-template-nytt .testimonials .testy .testyPic {
         width: 30%;
         float: left;
-        margin-right: 2rem; }
+        margin-right: 5%; }
       body.page-template-template-nytt .testimonials .testy .testCopy {
         float: right;
         width: 65%;
@@ -2516,7 +2519,7 @@ body.page-template-template-nytt {
   .tuitionWrap .tuitionFlex {
     display: flex;
     max-width: 800px;
-    margin: 0 auto 2rem; }
+    margin: 0 auto 4rem; }
     .tuitionWrap .tuitionFlex .tuitionLeft, .tuitionWrap .tuitionFlex .tuitionRight {
       width: 50%; }
     .tuitionWrap .tuitionFlex .tuitionLeft {
@@ -2525,6 +2528,8 @@ body.page-template-template-nytt {
       .tuitionWrap .tuitionFlex .tuitionLeft span {
         font-weight: 500;
         color: #b3ba1c; }
+      .tuitionWrap .tuitionFlex .tuitionLeft p {
+        margin-bottom: 0; }
       .tuitionWrap .tuitionFlex .tuitionLeft p.early {
         font-size: .9rem; }
   .tuitionWrap a.naada-button.green-button {

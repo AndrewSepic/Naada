@@ -252,6 +252,7 @@ $apply = get_field('apply_button');
   </div>
 
   <div class="tuitionWrap">
+    <hr>
 
       <?php if ( $tuitionTitle ): ?>
         <h2> <?php echo $tuitionTitle; ?></h2>

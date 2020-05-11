@@ -8,9 +8,13 @@ function naada_videoBanner() {
   ?>
 
   <?php
-  // New Slider using Slider REvolution
-  putRevSlider("naada-homepage");
-
+  if (ICL_LANGUAGE_CODE == 'fr' ) {
+    // French slider
+    putRevSlider('naada-homepage-fr');
+  } else {
+    // New Slider using Slider REvolution
+    putRevSlider("naada-homepage");
+  }
 }
 ?>
 
@@ -54,7 +58,7 @@ function homepage_Output(){
   </div><!-- .homeContentWrap -->
 
   <!-- NYTT Parallax Section -->
-  <section class="module parallax parallax-2">
+  <section id="nytt" class="module parallax parallax-2">
     <div class="parallaxContent">
     <h2><?php the_field('parallax2_section_title');?></h2>
       <div class="block center">
@@ -98,7 +102,7 @@ function homepage_Output(){
         <div class="courseInfo">
           <h2><a href="/yoga-teacher-training/200-hour-foundation/"><?php the_field('nytt_course_1');?></a></h2>
         </div>
-        <p><a class="button orange-button small" href="/yoga-teacher-training/200-hour-foundation/"><?php the_field('course_button_text');?></a></p>
+        <p><a class="button orange-button small" href="<?php the_field('nytt_course_1_link');?>"><?php the_field('course_button_text');?></a></p>
       </div>
 
       <div>
@@ -106,7 +110,7 @@ function homepage_Output(){
         <div class="courseInfo">
           <h2><a href="/yoga-teacher-training/300-hour-advanced/"><?php the_field('nytt_course_2');?></a></h2>
         </div>
-        <p><a class="button orange-button small" href="/yoga-teacher-training/300-hour-advanced/"><?php the_field('course_button_text');?></a></p>
+        <p><a class="button orange-button small" href="<?php the_field('nytt_course_2_link');?>"><?php the_field('course_button_text');?></a></p>
       </div>
 
       <div>
@@ -114,7 +118,7 @@ function homepage_Output(){
         <div class="courseInfo">
           <h2><a href="/yoga-teacher-training/500-hour-certification/"><?php the_field('nytt_course_3');?></a></h2>
         </div>
-        <p><a class="button orange-button small" href="/yoga-teacher-training/500-hour-certification/"><?php the_field('course_button_text');?></a></p>
+        <p><a class="button orange-button small" href="<?php the_field('nytt_course_3_link');?>"><?php the_field('course_button_text');?></a></p>
       </div>
 
     </div>
@@ -129,7 +133,7 @@ function homepage_Output(){
 
 
   <!-- Online Courses Section -->
-  <section class="module parallax parallax-5">
+  <section id="onlinecourses" class="module parallax parallax-5">
     <div class="parallaxContent">
       <h2><?php the_field('parallax3_section_title');?></h2>
       <div class="block left">
