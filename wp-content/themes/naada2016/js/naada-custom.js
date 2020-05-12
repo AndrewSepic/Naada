@@ -93,7 +93,7 @@ jQuery( document ).ready(function( $ ) {
       function(){
         searchForm.animate({width: "150px"}, 500);
         searchFormInput.show();
-      }, 
+      },
       function() {
         searchForm.animate({width: "30px"}, 500);
         searchFormInput.hide();
@@ -213,6 +213,11 @@ jQuery( document ).ready(function( $ ) {
     }, 100);
   };
 
+  function contactAccordions() {
+    $('#responsiveTabsContact, #fr-responsiveTabsContact').responsiveTabs({
+      startCollapsed: 'accordion'
+    });
+  }
 
   // ---------------------------------------------------------
   // Initialisation of the various functions
@@ -223,6 +228,7 @@ jQuery( document ).ready(function( $ ) {
   go_to_top();
   healcodeFamilySchedReady();
   rotateTestimonials('.testimonial-wrapper-js', '.testimonial');    // activate the testimonial script.
-  formatSchedule();                                                 // Code that runs only on /schedule
-  
+  formatSchedule();
+  contactAccordions();                                              // Code that runs only on /schedule
+
 });

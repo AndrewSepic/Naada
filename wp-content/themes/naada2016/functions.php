@@ -117,6 +117,12 @@ function naada_scripts() {
 		wp_enqueue_script('nytt', get_stylesheet_directory_uri() . '/js/nytt-landing.js');
 	}
 
+	// Contact Pages
+	if (is_page('38') || is_page('5151')) {
+		wp_enqueue_script('responsive-tabs-js', get_stylesheet_directory_uri() . '/js/jquery.responsiveTabs.min.js');
+		wp_enqueue_style('responsive-tabs-css', get_stylesheet_directory_uri() . '/css/responsive-tabs/responsive-tabs.css');
+	}
+
 }
 
 add_action( 'wp_enqueue_scripts', 'naada_scripts' );
