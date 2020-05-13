@@ -137,7 +137,7 @@
         // Trigger loaded event
         this.$element.trigger('tabs-load');
     };
-    
+
     //
     // PRIVATE FUNCTIONS
     //
@@ -553,3 +553,11 @@
     };
 
 }(jQuery, window));
+
+jQuery( document ).ready(function( $ ) {
+  function contactAccordions() {
+    $('#responsiveTabsContact, #fr-responsiveTabsContact').responsiveTabs({
+      startCollapsed: 'accordion'
+    });
+  }
+});

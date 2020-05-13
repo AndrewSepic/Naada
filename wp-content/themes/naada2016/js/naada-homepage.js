@@ -9,18 +9,17 @@ jQuery( document ).ready(function( $ ) {
  fireSlick('div.nytt-carousel');
  loginForm();
  parallaxInit();
- reloadWorkshops();
 
-  function healcodeWorkshopsReady(callback){
-      var healCodeLoadingInterval = setInterval(function(){
-        var healCodeLoading = $('div.naada-carousel healcode-widget .class_list');
-        // if the healcode .enrollment div is loaded and has content
-        if (healCodeLoading.length !== 0) {
-          callback();
-          clearInterval(healCodeLoadingInterval);
-        }
-      },100);
-  }
+ function healcodeWorkshopsReady(callback){
+     var healCodeLoadingInterval = setInterval(function(){
+       var healCodeLoading = $('div.naada-carousel healcode-widget .enrollment');
+       // if the healcode .enrollment div is loaded and has content
+       if (healCodeLoading.length !== 0) {
+         callback();
+         clearInterval(healCodeLoadingInterval);
+       }
+     },100);
+ }
 
   function healcodeHomepageSchedReady(){
       var healCodeLoadingInterval2 = setInterval(function(){
@@ -37,22 +36,14 @@ jQuery( document ).ready(function( $ ) {
   healcodeHomepageSchedReady();
 
   // Call success functions for Healcode Workshops
-   healcodeWorkshopsReady(function () {
-      console.log('Specialty Classes Loaded!');
-       applySlickSlider();
-       modifyMarkup();
-       //multiDayMarkup();
-       //fireModal();
-   });
-
-   // If workshops 2nd screen and click back
-   function reloadWorkshops() {
-     console.log('reload workshops ready to fire');
-     $('.back_link a').on("click", function(){
-       console.log('you clicked back');
-       healcodeWorkshopsReady();
+     healcodeWorkshopsReady(function () {
+         applySlickSlider();
+         modifyMarkup();
+         multiDayMarkup();
+         fireModal();
      });
-   }
+
+
 
   // Former Horz Schedule callback
   // function homepageSchedCode(){
@@ -121,7 +112,7 @@ jQuery( document ).ready(function( $ ) {
 
   function applySlickSlider() {
     // Call Slick Slider on the Workshops widget
-    $('div.naada-carousel .class_list > div').slick ({
+    $('div.naada-carousel .filtered_collection').slick ({
       dots: true,
       infinite: false,
       slidesToShow: 3,
@@ -150,54 +141,46 @@ jQuery( document ).ready(function( $ ) {
 
   function modifyMarkup(){
 
-    var classSlide = $('div.naada-carousel .class_show');
-
-    //Add css classes to columize events
-    classSlide.css({"float": "left", "clear": "none", "height": "auto" })
-
-    // Hides event description area by default
-    classSlide + $("div.class_description").hide();
-    classSlide + $('span.class_offered_link a').text("More Info");
-
-    classSlide + $("h1.class_name").each(function() {
-      var title= $(this);
-      $(this).parent().next().append(title);
-    });
-
     // Adds read more to Event Meta
-    //classSlide + $('div.healcode-image-area').parent().append("<div class=\"more-info\"><a class=\"button orange-button small\" href=\"#\">More Info</a></div>");
+        $('div.naada-carousel .enrollment.slick-slide > div.healcode-date-area').after("<div class=\"more-info\"><a href=\"#\">More Info</a></div>");
 
-    // // Remove 'Date:' in Healcode Output
-    // var date = $('div.naada-carousel div.healcode span.healcode-date-value');
-    // date.each(function(){
-    //   var str = $(this).text().replace(/Date:/g, '');
-    //   // if ($(this).text().length > 18){
-    //   // //  console.log(this);
-    //   //   var year = new Date().getFullYear();
-    //   //   //var yearPos = this.str.search(year);
-    //   //   str.replace(/year/g,'');
-    //   // }
-    //   $(this).text(str);
-    // });
+        //Add css classes to columize events
+        $('div.naada-carousel div.healcode div.enrollment, div.naada-carousel div.healcode div.healcode-course').css({"float": "left", "clear": "none" })
+
+        // Hides event description area by default
+        $("div.naada-carousel div.healcode-description-area").hide();
+
+        // Remove 'Date:' in Healcode Output
+        var date = $('div.naada-carousel div.healcode span.healcode-date-value');
+        date.each(function(){
+          var str = $(this).text().replace(/Date:/g, '');
+          // if ($(this).text().length > 18){
+          // //  console.log(this);
+          //   var year = new Date().getFullYear();
+          //   //var yearPos = this.str.search(year);
+          //   str.replace(/year/g,'');
+          // }
+          $(this).text(str);
+        });
   }
 
-  // function multiDayMarkup() {
-  //   var multiDay = $('div.naada-carousel div.healcode-course.slick-slide');
-  //
-  //   // Adds Content for Multiday Events
-  //   multiDay.each(function(){
-  //     var multiDayTag = "<div class='healcode-date-area'><span class='healcode-active-days'>Multi-day Event</span>";
-  //     var firstDay = $(this).find("div.enrollment.child span.healcode-date-value").first().text();
-  //     // Adds read more for multi-day
-  //     $(this).find('span.healcode-time-value').last().before("<div class=\"more-info\"><a href=\"#\">More Info</a></div>");
-  //     // Adds Starting Date
-  //     $(this).children(".healcode-course-name").after(multiDayTag + "<span class='healcode-time-value'>Starting:" + firstDay + "</span></div>");
-  //
-  //     // Removes un-needed markup in Multi-day events
-  //     $(this).children('.healcode-description-area').siblings("div.clear").remove();
-  //     //$(this).find('div.more-info').unwrap();
-  //   });
-  // }
+  function multiDayMarkup() {
+    var getDate = $('.healcode-date-value');
+
+    // If the date is longer than 12 char send it to multiDay array
+    getDate.each(function(){
+      if ( $(this).text().length > 12) {
+          //console.log(this);
+          //create trimmed string
+          var trimy = $(this).text().substring(0, 12);
+          var multiDayTag = "Multi-day Event";
+          $(this).text(multiDayTag);
+          $(this).prev().hide();
+          $(this).next().text('Starting: '+ trimy);
+
+      }
+    })
+  }
 
   function fireModal(){
     // Creates Modal window Markup
@@ -270,11 +253,11 @@ jQuery( document ).ready(function( $ ) {
     }());
 
     // Call Modal for Single events
-    $("div.class_show .more-info a").click(function(e){
+    $("div.enrollment .more-info a").click(function(e){
         e.preventDefault();
         // Opens modal with description area as content
-        var htmlString =  '<h2>' + $(this).parent().prev().clone().html() + '</h2>' + $(this).parentsUntil(".slick-track").find("div.class_description").clone().show().html() + $(this).parentsUntil(".slick-track").find("span.class_offered_link").clone().show().html();
-        console.log(htmlString);
+        var htmlString =  $(this).parent().prevAll('.healcode-enrollment-name').clone().html() + $(this).parentsUntil(".slick-track").find("div.healcode-description-area").clone().show().html() + $(this).parentsUntil(".slick-track").find("a.signup_now").clone().show().html();
+        //console.log(htmlString);
 
         modal.open({
           content : htmlString

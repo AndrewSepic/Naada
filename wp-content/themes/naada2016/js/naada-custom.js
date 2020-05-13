@@ -213,11 +213,6 @@ jQuery( document ).ready(function( $ ) {
     }, 100);
   };
 
-  function contactAccordions() {
-    $('#responsiveTabsContact, #fr-responsiveTabsContact').responsiveTabs({
-      startCollapsed: 'accordion'
-    });
-  }
 
   // ---------------------------------------------------------
   // Initialisation of the various functions
@@ -228,7 +223,6 @@ jQuery( document ).ready(function( $ ) {
   go_to_top();
   healcodeFamilySchedReady();
   rotateTestimonials('.testimonial-wrapper-js', '.testimonial');    // activate the testimonial script.
-  formatSchedule();
-  contactAccordions();                                              // Code that runs only on /schedule
+  formatSchedule();                                             // Code that runs only on /schedule
 
 });

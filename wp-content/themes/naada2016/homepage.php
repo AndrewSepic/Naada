@@ -50,9 +50,9 @@ function homepage_Output(){
 
     <hr />
 
-    <h3>Specialty Classes</h3>
+    <h3>Upcoming Courses</h3>
     <div class="naada-carousel">
-      <div id="healCodeLoading"><?php echo do_shortcode( '[hc-hmw snippet="LIve-Stream-Specialty-Classes"]');?></div>
+      <div id="healCodeLoading"><?php echo do_shortcode( '[hc-hmw snippet="Homepage-Events-Carousel"]');?></div>
     </div>
 
   </div><!-- .homeContentWrap -->
