@@ -23,6 +23,10 @@ jQuery( document ).ready(function( $ ) {
       startCollapsed: 'accordion'
   });
 
+  $('#nyttTabs2').responsiveTabs({
+      startCollapsed: 'accordion'
+  });
+
   function accordionInit() {
     var icons = {
         header: "down-default",

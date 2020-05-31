@@ -120,7 +120,7 @@ $apply = get_field('apply_button');
   <?php endif ?>
 
   <?php
-  // Tabs for Large Screen only
+    // Tabs
     if ( have_rows('tabs') ):
       $i = 0; ?>
       <div id="nyttTabs">
@@ -155,6 +155,45 @@ $apply = get_field('apply_button');
       <?php endif; ?>
       </div>
     <!-- / #nyttTabs -->
+    <?php
+    // If second tabs module is toggled TRUE
+    if( get_field('add_2nd_tabs_module') == TRUE ) {
+      // Tabs
+      if ( have_rows('tabs_2') ):
+        ?>
+        <div id="nyttTabs2">
+          <!-- Setup Tabs Nav -->
+          <ul class="">
+            <?php while (have_rows('tabs_2') ): the_row();
+              $title = get_sub_field('tabs_title'); ?>
+              <li>
+                <a href="<?php echo '#tab-' . $i; ?>" class=""><?php echo $title; ?></a>
+              </li>
+              <?php $i++;?>
+            <?php endwhile;?>
+          </ul><!-- /.r-tabs-nav -->
+      <?php endif ?>
+
+        <!-- Setup Tabs Content -->
+        <?php if ( have_rows('tabs_2') ) : ?>
+          <?php $i = 5; ?>
+            <?php while ( have_rows('tabs_2') ) : the_row();
+              $content = get_sub_field('tabs_content');
+              $scheduleContent = get_sub_field('schedule');?>
+
+              <div id="<?php echo 'tab-' . $i; ?>">
+                <?php echo $content; ?>
+                <a class="showSchedule" href="#"><?php echo $schedule;?></a>
+                <div class="schedule">
+                  <?php echo $scheduleContent; ?>
+                </div>
+              </div><!-- /.tab-pane -->
+              <?php $i++; ?>
+            <?php endwhile; ?>
+        <?php endif; ?>
+        </div>
+    <?php
+    } ?>
 
     <?php// Accordion for Small Screens only ?>
     <!-- Accordion -->

@@ -251,8 +251,18 @@ input
 \:focus
   outline-color: #fff
 
-.archive-pagination li a
-  background-color: #616161
+.archive-pagination
+  li a
+    background-color: transparent
+    color: $naadagreen
+  li.pagination-next a
+    font-size: 1.45rem
+    font-style: italic
+    margin-left: 1rem
+  li a:hover, .active a
+    background-color: transparent
+    color: $naadagreen
+    opacity: .55
 
 span.dropcap
   float: left
@@ -737,10 +747,6 @@ section#search-3
 
 .post h1.entry-title
   font-size: 24px
-
-.archive-pagination
-  li a:hover, .active a
-    background-color: #f7ad00
 
 .entry-meta
   font-weight: bold
@@ -2589,7 +2595,7 @@ body.page-template-template-nytt
         background-size: 11px
         font-size: 1.1rem
 
-#nyttTabs, #fr-responsiveTabsContact, #responsiveTabsContact
+#nyttTabs, #nyttTabs2, #fr-responsiveTabsContact, #responsiveTabsContact
   .schedule
     display: none
     p
@@ -2712,7 +2718,7 @@ body.page-template-template-nytt
   display: none
 // Accordion on Small Screens
 @media only screen and (max-width: 480px)
-  #nyttTabs
+  #nyttTabs, #nyttTabs2
     display: none
   .curriculumAccordion
     display: block

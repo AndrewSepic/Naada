@@ -196,7 +196,18 @@ input[type="checkbox"], input[type="image"], input[type="radio"] {
   outline-color: #fff; }
 
 .archive-pagination li a {
-  background-color: #616161; }
+  background-color: transparent;
+  color: #b3ba1c; }
+
+.archive-pagination li.pagination-next a {
+  font-size: 1.45rem;
+  font-style: italic;
+  margin-left: 1rem; }
+
+.archive-pagination li a:hover, .archive-pagination .active a {
+  background-color: transparent;
+  color: #b3ba1c;
+  opacity: .55; }
 
 span.dropcap {
   float: left;
@@ -705,9 +716,6 @@ section#search-3 {
 
 .post h1.entry-title {
   font-size: 24px; }
-
-.archive-pagination li a:hover, .archive-pagination .active a {
-  background-color: #f7ad00; }
 
 .entry-meta {
   font-weight: bold;
@@ -2575,45 +2583,45 @@ body.page-template-template-nytt {
         background-size: 11px;
         font-size: 1.1rem; }
 
-#nyttTabs, #fr-responsiveTabsContact, #responsiveTabsContact {
+#nyttTabs, #nyttTabs2, #fr-responsiveTabsContact, #responsiveTabsContact {
   max-width: 800px;
   margin: 0 auto; }
-  #nyttTabs .schedule, #fr-responsiveTabsContact .schedule, #responsiveTabsContact .schedule {
+  #nyttTabs .schedule, #nyttTabs2 .schedule, #fr-responsiveTabsContact .schedule, #responsiveTabsContact .schedule {
     display: none; }
-    #nyttTabs .schedule p, #fr-responsiveTabsContact .schedule p, #responsiveTabsContact .schedule p {
+    #nyttTabs .schedule p, #nyttTabs2 .schedule p, #fr-responsiveTabsContact .schedule p, #responsiveTabsContact .schedule p {
       margin-bottom: .5rem; }
-    #nyttTabs .schedule ul, #fr-responsiveTabsContact .schedule ul, #responsiveTabsContact .schedule ul {
+    #nyttTabs .schedule ul, #nyttTabs2 .schedule ul, #fr-responsiveTabsContact .schedule ul, #responsiveTabsContact .schedule ul {
       margin-left: 20px; }
-      #nyttTabs .schedule ul li, #fr-responsiveTabsContact .schedule ul li, #responsiveTabsContact .schedule ul li {
+      #nyttTabs .schedule ul li, #nyttTabs2 .schedule ul li, #fr-responsiveTabsContact .schedule ul li, #responsiveTabsContact .schedule ul li {
         list-style-type: disc; }
-  #nyttTabs ul.r-tabs-nav, #fr-responsiveTabsContact ul.r-tabs-nav, #responsiveTabsContact ul.r-tabs-nav {
+  #nyttTabs ul.r-tabs-nav, #nyttTabs2 ul.r-tabs-nav, #fr-responsiveTabsContact ul.r-tabs-nav, #responsiveTabsContact ul.r-tabs-nav {
     background-color: #F6F6F6;
     display: flex;
     justify-content: space-between;
     box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
     border-radius: 7px 7px 0 0;
     margin: 0; }
-    #nyttTabs ul.r-tabs-nav li.r-tabs-state-active, #fr-responsiveTabsContact ul.r-tabs-nav li.r-tabs-state-active, #responsiveTabsContact ul.r-tabs-nav li.r-tabs-state-active {
+    #nyttTabs ul.r-tabs-nav li.r-tabs-state-active, #nyttTabs2 ul.r-tabs-nav li.r-tabs-state-active, #fr-responsiveTabsContact ul.r-tabs-nav li.r-tabs-state-active, #responsiveTabsContact ul.r-tabs-nav li.r-tabs-state-active {
       border-bottom: 7px solid #b3ba1c; }
-      #nyttTabs ul.r-tabs-nav li.r-tabs-state-active a, #fr-responsiveTabsContact ul.r-tabs-nav li.r-tabs-state-active a, #responsiveTabsContact ul.r-tabs-nav li.r-tabs-state-active a {
+      #nyttTabs ul.r-tabs-nav li.r-tabs-state-active a, #nyttTabs2 ul.r-tabs-nav li.r-tabs-state-active a, #fr-responsiveTabsContact ul.r-tabs-nav li.r-tabs-state-active a, #responsiveTabsContact ul.r-tabs-nav li.r-tabs-state-active a {
         color: #b3ba1c; }
-    #nyttTabs ul.r-tabs-nav li, #fr-responsiveTabsContact ul.r-tabs-nav li, #responsiveTabsContact ul.r-tabs-nav li {
+    #nyttTabs ul.r-tabs-nav li, #nyttTabs2 ul.r-tabs-nav li, #fr-responsiveTabsContact ul.r-tabs-nav li, #responsiveTabsContact ul.r-tabs-nav li {
       padding: 1rem;
       flex-grow: 1;
       text-align: center;
       font-size: 1.15rem;
       list-style-type: none; }
-      #nyttTabs ul.r-tabs-nav li a, #fr-responsiveTabsContact ul.r-tabs-nav li a, #responsiveTabsContact ul.r-tabs-nav li a {
+      #nyttTabs ul.r-tabs-nav li a, #nyttTabs2 ul.r-tabs-nav li a, #fr-responsiveTabsContact ul.r-tabs-nav li a, #responsiveTabsContact ul.r-tabs-nav li a {
         color: #a5a5a5; }
-  #nyttTabs .r-tabs-panel, #fr-responsiveTabsContact .r-tabs-panel, #responsiveTabsContact .r-tabs-panel {
+  #nyttTabs .r-tabs-panel, #nyttTabs2 .r-tabs-panel, #fr-responsiveTabsContact .r-tabs-panel, #responsiveTabsContact .r-tabs-panel {
     padding: 2rem 1rem; }
-    #nyttTabs .r-tabs-panel h3, #fr-responsiveTabsContact .r-tabs-panel h3, #responsiveTabsContact .r-tabs-panel h3 {
+    #nyttTabs .r-tabs-panel h3, #nyttTabs2 .r-tabs-panel h3, #fr-responsiveTabsContact .r-tabs-panel h3, #responsiveTabsContact .r-tabs-panel h3 {
       text-transform: none; }
-    #nyttTabs .r-tabs-panel h5, #fr-responsiveTabsContact .r-tabs-panel h5, #responsiveTabsContact .r-tabs-panel h5 {
+    #nyttTabs .r-tabs-panel h5, #nyttTabs2 .r-tabs-panel h5, #fr-responsiveTabsContact .r-tabs-panel h5, #responsiveTabsContact .r-tabs-panel h5 {
       font-size: 1.25rem;
       color: #b3ba1c;
       text-transform: none; }
-    #nyttTabs .r-tabs-panel a, #fr-responsiveTabsContact .r-tabs-panel a, #responsiveTabsContact .r-tabs-panel a {
+    #nyttTabs .r-tabs-panel a, #nyttTabs2 .r-tabs-panel a, #fr-responsiveTabsContact .r-tabs-panel a, #responsiveTabsContact .r-tabs-panel a {
       color: #b3ba1c; }
 
 @media only screen and (max-width: 480px) {
@@ -2690,7 +2698,7 @@ body.page-template-template-nytt {
   display: none; }
 
 @media only screen and (max-width: 480px) {
-  #nyttTabs {
+  #nyttTabs, #nyttTabs2 {
     display: none; }
   .curriculumAccordion {
     display: block; }
