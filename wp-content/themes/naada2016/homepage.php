@@ -200,6 +200,56 @@ function homepage_Output(){
     </div>
   </div>
 
+  <!-- Therapeutic Clinic Section -->
+  <section class="module parallax parallax-1">
+    <div class="parallaxContent">
+      <h2><?php the_field('parallax1_section_title');?></h2>
+      <div class="block left">
+        <?php the_field('parallax1_left_col');?>
+      </div>
+      <div class="block right">
+        <?php the_field('parallax1_right_col');?>
+      </div>
+      <div class="clear"></div>
+      <a class="button orange-button medium" href="/therapeutic-clinic/"><?php the_field('parallax1_more');?></a>
+      <div class="downArrow"></div>
+      <div class="clear"></div>
+    </div>
+  </section>
+
+  <div class="homeContentWrap therapy-clinic">
+    <div class="clinic-carousel">
+      <?php
+      // check if the repeater field has rows of data
+      if( have_rows('clinic_modalities') ):
+
+       	// loop through the rows of data
+          while ( have_rows('clinic_modalities') ) : the_row();?>
+          <div>
+              <?php
+              $therapy_name = get_sub_field('therapy_name');
+              $therapy_image = get_sub_field('therapy_image');
+              $therapy_link = get_sub_field('therapy_link'); ?>
+
+              <div class="courseImage">
+                <img alt="<?php echo $therapy_image['alt'];?>" src="<?php echo $therapy_image['url'];?>"/>
+              </div>
+              <div class="courseInfo">
+                <h2><a href="<?php the_field('carousel_item_1_link');?>"><?php echo $therapy_name;?></a></h2>
+              </div>
+              <p><a class="button orange-button small" href="<?php echo $therapy_link;?>"><?php the_field('book_appointment');?></a></p>
+            </div>
+          <?php
+          endwhile;
+
+      else :
+
+          // no rows found
+
+      endif;?>
+    </div>
+  </div>
+
 
 <?php
 }
