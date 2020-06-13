@@ -229,7 +229,8 @@ function homepage_Output(){
               <?php
               $therapy_name = get_sub_field('therapy_name');
               $therapy_image = get_sub_field('therapy_image');
-              $therapy_link = get_sub_field('therapy_link'); ?>
+              $therapy_link = get_sub_field('therapy_link');
+              $is_active = get_sub_field('currently_booking');?>
 
               <div class="courseImage">
                 <img alt="<?php echo $therapy_image['alt'];?>" src="<?php echo $therapy_image['url'];?>"/>
@@ -237,7 +238,12 @@ function homepage_Output(){
               <div class="courseInfo">
                 <h2><a href="<?php the_field('carousel_item_1_link');?>"><?php echo $therapy_name;?></a></h2>
               </div>
-              <p><a class="button orange-button small" href="<?php echo $therapy_link;?>"><?php the_field('book_appointment');?></a></p>
+
+              <?php if ( $is_active ): ?>
+                <p><a class="button orange-button small" href="<?php echo $therapy_link;?>"><?php the_field('book_appointment');?></a></p>
+              <?php else : ?>
+                <p><a class="button inactive-button small" href="#"><?php the_field('coming_soon');?></a></p>
+              <?php endif; ?>
             </div>
           <?php
           endwhile;

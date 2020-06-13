@@ -13,9 +13,9 @@ function naada_clinicBanner() {
       <!-- Calls our Call out Widget -->
       <h1> <?php the_field('hero_title'); ?></h1>
       <h3> <?php the_field('hero_description');?></h3>
-      <a href="/therapeutic-clinic/clinic-appointments/" class="naada-button orange-button large">
-        <?php the_field('book_an_appointment'); ?>
-      </a>
+      <!-- <a href="/therapeutic-clinic/clinic-appointments/" class="naada-button orange-button large">
+        <?php //the_field('book_an_appointment'); ?>
+      </a> -->
     </div>
   </div>
   <?php
