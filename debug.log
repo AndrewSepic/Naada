@@ -1,0 +1,26 @@
+[27-Jun-2020 19:38:24 UTC] PHP Notice:  Undefined index: status in /nas/content/live/naada/wp-content/plugins/easy-facebook-likebox/easy-facebook-likebox.php on line 70
+[27-Jun-2020 19:38:24 UTC] PHP Deprecated:  Function create_function() is deprecated in /nas/content/live/naada/wp-content/plugins/sruti-box/sruti-box.php on line 90
+[27-Jun-2020 19:38:24 UTC] PHP Notice:  Undefined index: status in /nas/content/live/naada/wp-content/plugins/easy-facebook-likebox/easy-facebook-likebox.php on line 70
+[27-Jun-2020 19:38:24 UTC] PHP Deprecated:  Function create_function() is deprecated in /nas/content/live/naada/wp-content/plugins/sruti-box/sruti-box.php on line 90
+[27-Jun-2020 19:38:24 UTC] PHP Notice:  Undefined index: status in /nas/content/live/naada/wp-content/plugins/easy-facebook-likebox/easy-facebook-likebox.php on line 238
+[27-Jun-2020 19:38:24 UTC] PHP Notice:  Undefined index: status in /nas/content/live/naada/wp-content/plugins/easy-facebook-likebox/easy-facebook-likebox.php on line 240
+[27-Jun-2020 19:38:25 UTC] PHP Notice:  Undefined index: status in /nas/content/live/naada/wp-content/plugins/easy-facebook-likebox/easy-facebook-likebox.php on line 238
+[27-Jun-2020 19:38:25 UTC] PHP Notice:  Undefined index: status in /nas/content/live/naada/wp-content/plugins/easy-facebook-likebox/easy-facebook-likebox.php on line 240
+[27-Jun-2020 19:38:25 UTC] PHP Fatal error:  Uncaught Error: [] operator not supported for strings in /nas/content/live/naada/wp-content/themes/naada2016/inc/vod-query.php:43
+Stack trace:
+#0 /nas/content/live/naada/wp-includes/class-wp-hook.php(288): vod_pre_get_posts(Object(WP_Query))
+#1 /nas/content/live/naada/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /nas/content/live/naada/wp-includes/plugin.php(544): WP_Hook->do_action(Array)
+#3 /nas/content/live/naada/wp-includes/class-wp-query.php(1753): do_action_ref_array('pre_get_posts', Array)
+#4 /nas/content/live/naada/wp-includes/class-wp-query.php(3409): WP_Query->get_posts()
+#5 /nas/content/live/naada/wp-includes/class-wp.php(618): WP_Query->query(Array)
+#6 /nas/content/live/naada/wp-includes/class-wp.php(735): WP->query_posts()
+#7 /nas/content/live/naada/wp-includes/functions.php(1255): WP->main('')
+#8 /nas/content/live/naada/wp-blog-header.php(16): wp()
+#9 /nas/content/live/naada/index.php(17): require('/nas/content/li...')
+#10 {main}
+  thrown in /nas/content/live/naada/wp-content/themes/naada2016/inc/vod-query.php on line 43
+[27-Jun-2020 19:38:31 UTC] PHP Notice:  Undefined index: status in /nas/content/live/naada/wp-content/plugins/easy-facebook-likebox/easy-facebook-likebox.php on line 70
+[27-Jun-2020 19:38:31 UTC] PHP Deprecated:  Function create_function() is deprecated in /nas/content/live/naada/wp-content/plugins/sruti-box/sruti-box.php on line 90
+[27-Jun-2020 19:38:32 UTC] PHP Notice:  Undefined index: status in /nas/content/live/naada/wp-content/plugins/easy-facebook-likebox/easy-facebook-likebox.php on line 238
+[27-Jun-2020 19:38:32 UTC] PHP Notice:  Undefined index: status in /nas/content/live/naada/wp-content/plugins/easy-facebook-likebox/easy-facebook-likebox.php on line 240

@@ -56,4 +56,40 @@ function vod_post_type() {
 
 }
 add_action( 'init', 'vod_post_type', 0 );
+
+// Force Full Width Layout for VOD ARchive & Single
+add_filter( 'genesis_site_layout', 'naada_vod_layout' );
+// Force a layout
+function naada_vod_layout() {
+    if( 'vod' == get_post_type() ) {
+        return 'full-width-content';
+    }
+}
+
+
+/**
+	* When registering a Wp User, add the member to the VOD membership level by default
+**/
+
+//Disables the pmpro redirect to levels page when user tries to register
+add_filter("pmpro_login_redirect", "__return_false");
+
+function my_pmpro_default_registration_level($user_id) {
+	//Give all members who register membership level 1
+	pmpro_changeMembershipLevel(7, $user_id);
+}
+add_action('user_register', 'my_pmpro_default_registration_level');
+
+
+// Set posts per page to 30 on VOD Archive
+function vod_posts_per_page( $query ) {
+    if ( is_admin() || ! $query->is_main_query() ) {
+       return;
+    }
+
+    if ( is_post_type_archive( 'vod' ) ) {
+       $query->set( 'posts_per_page', 30 );
+    }
+}
+add_filter( 'pre_get_posts', 'vod_posts_per_page' );
 ?>

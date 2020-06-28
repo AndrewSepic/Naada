@@ -167,10 +167,19 @@ input
 
 .orange-hollow
   border: 2px solid $orange
-  background-color:
+  background-color: transparent
   &:hover
     color: #fbc13b
     border: 2px solid #fbc13b
+
+.green-hollow, .entry-content a.button.green-hollow
+  border: 2px solid $naadagreen
+  background-color: transparent
+  color: $naadagreen
+  &:hover
+    color: #fff
+    border: 2px solid $naadagreen
+    background-color: $naadagreen
 
 .grey-button
   color: #fff !important
@@ -2719,7 +2728,6 @@ body.page-template-template-nytt
     .fiftyimage.Right
       order: unset
 
-
 .curriculumAccordion
   display: none
 // Accordion on Small Screens
@@ -2734,3 +2742,174 @@ body.page-template-template-nytt
       h5
         font-size: 1rem
         color: $naadagreen
+
+//
+// VIDEO on DEMAND
+// Archive
+body.post-type-archive-vod
+  main.content
+    display: flex
+    justify-content: space-between
+    flex-wrap: wrap
+    a.vod.card
+      width: 30%
+      margin-bottom: 3rem
+      &:hover
+        transition: all .3s ease
+        box-shadow: 0px 5px 18px 0px rgba(169, 169, 169, 0.56)
+        cursor: pointer
+      div.image
+        position: relative
+        height: 250px
+        img
+          position: absolute
+          width: 100%
+          height: 100%
+          object-fit: cover
+
+// Archive & Single
+body.post-type-archive-vod, body.single-vod
+  div.vod-content
+    padding: 2rem
+    background-color: #fff
+    div.vod-header
+      display: flex
+      justify-content: space-between
+      align-items: center
+      h2
+        font-size: 1.5rem
+        margin-bottom: 0
+        color: #666
+      div.level
+        color: #fff
+        padding: .25rem 1rem
+        border-radius: 3px
+        display: inline-block
+        height: 37px
+        &.Beginner
+          background-color: $classBeginner
+        &.Intermediate
+          background-color: $classIntermediate
+        &.Advanced
+          background-color: $classAdvanced
+        &.Therapeutic
+          background-color: $classTherapeutic
+    div.vod-meta
+      margin-top: 2rem
+      height: 70px
+      color: #A5A5A5
+      span
+        color: #5a5a5a
+      div.instructor-image
+        height: 70px
+        width: 70px
+        border-radius: 70px
+        float: left
+        background-size: contain
+        margin-right: 1rem
+        margin-top: -.5rem
+        &.Alexandrine
+          background-image: url('../../../../wp-content/uploads/2020/03/alexandrine.jpg')
+        &.Alana
+          background-image: url('../../../../wp-content/uploads/2020/03/Alana-Battiston.jpg')
+        &.Audrey
+          background-image: url('../../../../wp-content/uploads/2020/03/Audrey-Morin.jpg')
+        &.Elizabeth
+          background-image: url('../../../../wp-content/uploads/2014/07/Elizabeth_Emberly4972_5X7.jpg')
+        &.Emily
+          background-image: url('../../../../wp-content/uploads/2014/07/Emily_Gan4616_5X7.jpg')
+        &.Kathleen
+          background-image: url('../../../../wp-content/uploads/2014/07/Kathleen_Stavert-5850_5X7.jpg')
+        &.Kreg
+          background-image: url('../../../../wp-content/uploads/2015/05/67143deb-2231-4d34-ba70-16be079ade57.jpg')
+        &.Marielle
+          background-image: url('../../../../wp-content/uploads/2014/07/Marielle_Bertin4683_5X7.jpg')
+        &.Pascale
+          background-image: url('../../../../wp-content/uploads/2019/03/PascaleWettstein3295-e1593046893897.jpg')
+        &.Susan
+          background-image: url('../../../../wp-content/uploads/2020/03/Susan-Bronson.jpg')
+        &.Xavier
+          background-image: url('../../../../wp-content/uploads/2015/02/unnamed.jpg')
+
+// Single Only
+body.single-vod
+  article.vod
+    padding: 3rem
+    div.vod-content
+      padding: 0
+      header.entry-header
+        display: none
+      div.vod-header
+        margin-top: 2rem
+        justify-content: flex-start
+        margin-top: 2rem
+        align-items: center
+        h2.entry-title
+          font-size: 2.2rem
+        .level
+          margin-left: 2rem
+      div.vod-meta
+        width: 45%
+        float: left
+        margin-bottom: 2rem
+        div.instructor-image
+          height: 100px
+          width: 100px
+        h2
+          text-transform: none
+          font-size: 1.5rem
+          color: #666
+          font-weight: 300
+    a.button.green-hollow
+      margin-top: 4rem
+
+// Styles for VOD Filter Bar
+#vod-filters
+  width: 100%
+  margin-bottom: 3rem
+  background-color: #fff
+  border: 1px solid #e6e6e6
+  padding: 2rem
+  h2
+    margin-bottom: 0
+    &:hover
+      cursor: pointer
+    span.arrow
+      background-image: url(../images/down-arrow.png)
+      width: 30px
+      height: 30px
+      display: block
+      float: right
+      background-size: contain
+      background-repeat: no-repeat
+      margin-top: 1rem
+      &.up-green
+        background-image: url('../images/up-arrow-green.png')
+  .filters-wrap
+    display: none
+    border-top: 1px solid rgb(232, 232, 232)
+    margin-top: 1rem
+    padding: 1rem 0px
+    justify-content: flex-start
+    position: relative
+    .filter
+      margin-right: 8%
+      h4
+        color: #c1c1c1
+        text-transform: capitalize
+        font-weight: 300
+    a#applyFilters
+      background-color: $naadagreen
+      height: 58px
+      position: absolute
+      right: 0
+      bottom: 0
+
+
+
+$classBeginner    : #b3ba1e       // Green
+$classIntermediate: #f59c00       // Orange
+$classWorkshop   : #f59c00       // Orange
+$classAdvanced    : #97c9ea       // Blue
+$classFamily      : #f285a2       // Pink
+$classTherapeutic : #F1E33D       // Lighter version as in the older schedule (live)

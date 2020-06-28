@@ -91,9 +91,10 @@ function genesischild_theme_setup() {
 require get_stylesheet_directory() . '/inc/enqueue-scripts.php';
 
 /**
- * CPT
+ * CPT & VOD Query
  */
 require get_stylesheet_directory() . '/inc/custom-post-types.php';
+require get_stylesheet_directory() . '/inc/vod-query.php';
 
 /**
  * Custom Filters and Actions
