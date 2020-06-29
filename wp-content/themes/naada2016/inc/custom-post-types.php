@@ -61,7 +61,7 @@ add_action( 'init', 'vod_post_type', 0 );
 add_filter( 'genesis_site_layout', 'naada_vod_layout' );
 // Force a layout
 function naada_vod_layout() {
-    if( 'vod' == get_post_type() ) {
+    if( 'vod' == get_post_type() || is_post_type_archive('vod') ) {
         return 'full-width-content';
     }
 }
@@ -88,7 +88,7 @@ function vod_posts_per_page( $query ) {
     }
 
     if ( is_post_type_archive( 'vod' ) ) {
-       $query->set( 'posts_per_page', 30 );
+       $query->set( 'posts_per_page', 21 );
     }
 }
 add_filter( 'pre_get_posts', 'vod_posts_per_page' );

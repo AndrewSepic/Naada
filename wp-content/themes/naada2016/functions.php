@@ -116,6 +116,11 @@ require get_stylesheet_directory() . '/inc/woocommerce.php';
  */
 require get_stylesheet_directory() . '/inc/shortcodes.php';
 
+/**
+ * AJAX Load More posts
+ */
+require get_stylesheet_directory() . '/inc/ajax-loadmoreposts.php';
+
 
 
 /**

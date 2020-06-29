@@ -91,12 +91,14 @@ function new_nav_menu_items($items,$args) {
 
 // Login re-direct
 
+
 function naada_login_redirect( $url, $request, $user ){
     if( $user && is_object( $user ) && is_a( $user, 'WP_User' ) ) {
         if( $user->has_cap( 'administrator' ) ) {
             $url = admin_url();
         } else {
-            $url = home_url('/online-school/my-courses/');
+						// Redirect to the page the request came from (same page as form)
+            $url = $request;
         }
     }
     return $url;

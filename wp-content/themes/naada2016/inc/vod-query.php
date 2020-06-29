@@ -1,8 +1,10 @@
 <?php
 // array of filters (field key => field name)
 $GLOBALS['my_query_filters'] = array(
-	'field_5eed6c96d918c'	=> 'level',
-	'field_5eed6d09d918d'	=> 'length'
+	//'field_5eed6c96d918c'	=> 'level',
+	'field_5eed6d09d918d'	=> 'length',
+	'field_5eed6d40d918e' => 'instructor',
+	'field_5eed6d75d918f' => 'language'
 );
 
 
@@ -19,9 +21,9 @@ function vod_pre_get_posts( $query ) {
 	// - allows custom code / plugins to continue working
 	if( !$query->is_main_query() ) return;
 
-
 	// get meta query
 	$meta_query = $query->get('meta_query');
+	$meta_query = array();
 
 
 	// loop over filters
@@ -38,18 +40,28 @@ function vod_pre_get_posts( $query ) {
 		// eg: http://www.website.com/events?city=melbourne,sydney
 		$value = explode(',', $_GET[ $name ]);
 
+		// Log if you are on the VOD page
+		if (is_post_type_archive('vod')):
+		//	echo '<pre>' . var_export($value, true) . '</pre>';
+		endif;
 
-			// append meta query
-			$meta_query = array();
+			// Append to meta query
     	$meta_query[] = array(
-            'key'		=> $name,
-            'value'		=> $value,
-            'compare'	=> 'IN',
-        );
+							'key'		=> $name,
+	            'value'		=> $value,
+	            'compare'	=> 'IN'
+					);
+
 	}
 
 	// update meta query
 	$query->set('meta_query', $meta_query);
+
+	// Log if you are on the VOD page
+	if (is_post_type_archive('vod')):
+	//	echo '<pre>' . var_export($meta_query, true) . '</pre>';
+	endif;
+
 
 }
 

@@ -188,6 +188,8 @@ a.button, .button, .entry-content a.button, button, input[type="button"], input[
   a.button:hover, .button:hover, .entry-content a.button:hover, button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover {
     background-color: #fabd30;
     color: #fff; }
+  a.button:focus, .button:focus, .entry-content a.button:focus, button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type="submit"]:focus {
+    background-color: #FFC849; }
 
 button:hover {
   background-color: #e19d00; }
@@ -2724,10 +2726,49 @@ body.page-template-template-nytt {
       font-size: 1rem;
       color: #b3ba1c; } }
 
+body.post-type-archive-vod .vodHero {
+  height: 425px;
+  width: 100%;
+  position: relative; }
+  body.post-type-archive-vod .vodHero img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    object-fit: cover;
+    object-position: bottom; }
+  body.post-type-archive-vod .vodHero .titleWrap {
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+    top: 45%;
+    z-index: 100;
+    position: relative; }
+    body.post-type-archive-vod .vodHero .titleWrap .leadIn {
+      font-style: italic;
+      font-size: 2rem;
+      color: #fff;
+      border-bottom: 2px solid #f7ad00; }
+    body.post-type-archive-vod .vodHero .titleWrap h2 {
+      color: #fff;
+      font-size: 3.5rem; }
+
+@media only screen and (max-width: 480px) {
+  body.post-type-archive-vod .vodHero {
+    height: 350px; }
+    body.post-type-archive-vod .vodHero .titleWrap {
+      top: 20%; }
+      body.post-type-archive-vod .vodHero .titleWrap h2 {
+        font-size: 2.5rem; } }
+
 body.post-type-archive-vod main.content {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  margin-bottom: 4rem; }
   body.post-type-archive-vod main.content a.vod.card {
     width: 30%;
     margin-bottom: 3rem; }
@@ -2743,10 +2784,18 @@ body.post-type-archive-vod main.content {
         width: 100%;
         height: 100%;
         object-fit: cover; }
+    @media only screen and (max-width: 480px) {
+      body.post-type-archive-vod main.content a.vod.card {
+        width: 100%; } }
+  body.post-type-archive-vod main.content a#loadmore {
+    margin: 1rem auto; }
 
 body.post-type-archive-vod div.vod-content, body.single-vod div.vod-content {
   padding: 2rem;
   background-color: #fff; }
+  @media only screen and (max-width: 480px) {
+    body.post-type-archive-vod div.vod-content, body.single-vod div.vod-content {
+      padding: 1.5rem; } }
   body.post-type-archive-vod div.vod-content div.vod-header, body.single-vod div.vod-content div.vod-header {
     display: flex;
     justify-content: space-between;
@@ -2801,17 +2850,31 @@ body.post-type-archive-vod div.vod-content, body.single-vod div.vod-content {
         background-image: url("../../../../wp-content/uploads/2014/07/Marielle_Bertin4683_5X7.jpg"); }
       body.post-type-archive-vod div.vod-content div.vod-meta div.instructor-image.Pascale, body.single-vod div.vod-content div.vod-meta div.instructor-image.Pascale {
         background-image: url("../../../../wp-content/uploads/2019/03/PascaleWettstein3295-e1593046893897.jpg"); }
+      body.post-type-archive-vod div.vod-content div.vod-meta div.instructor-image.Paola, body.single-vod div.vod-content div.vod-meta div.instructor-image.Paola {
+        background-image: url("../../../../wp-content/uploads/2020/03/Paola-Atallah.jpg"); }
       body.post-type-archive-vod div.vod-content div.vod-meta div.instructor-image.Susan, body.single-vod div.vod-content div.vod-meta div.instructor-image.Susan {
         background-image: url("../../../../wp-content/uploads/2020/03/Susan-Bronson.jpg"); }
       body.post-type-archive-vod div.vod-content div.vod-meta div.instructor-image.Xavier, body.single-vod div.vod-content div.vod-meta div.instructor-image.Xavier {
         background-image: url("../../../../wp-content/uploads/2015/02/unnamed.jpg"); }
 
+body.post-type-archive-vod .no-results, body.single-vod .no-results {
+  min-height: 228px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 4rem; }
+  body.post-type-archive-vod .no-results a, body.single-vod .no-results a {
+    text-decoration: underline; }
+
 body.single-vod article.vod {
   padding: 3rem; }
+  @media only screen and (max-width: 480px) {
+    body.single-vod article.vod {
+      padding: 1rem; } }
+  body.single-vod article.vod header.entry-header {
+    display: none; }
   body.single-vod article.vod div.vod-content {
     padding: 0; }
-    body.single-vod article.vod div.vod-content header.entry-header {
-      display: none; }
     body.single-vod article.vod div.vod-content div.vod-header {
       margin-top: 2rem;
       justify-content: flex-start;
@@ -2825,6 +2888,10 @@ body.single-vod article.vod {
       width: 45%;
       float: left;
       margin-bottom: 2rem; }
+      @media only screen and (max-width: 480px) {
+        body.single-vod article.vod div.vod-content div.vod-meta {
+          width: 100%;
+          height: unset; } }
       body.single-vod article.vod div.vod-content div.vod-meta div.instructor-image {
         height: 100px;
         width: 100px; }
@@ -2835,26 +2902,57 @@ body.single-vod article.vod {
         font-weight: 300; }
   body.single-vod article.vod a.button.green-hollow {
     margin-top: 4rem; }
+    @media only screen and (max-width: 480px) {
+      body.single-vod article.vod a.button.green-hollow {
+        margin-top: 0; } }
+
+body.post-type-archive-vod h3.login-leadin {
+  text-transform: capitalize; }
+
+body.post-type-archive-vod #loginform {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 2rem; }
+  body.post-type-archive-vod #loginform p {
+    margin-bottom: 0; }
+    body.post-type-archive-vod #loginform p.login-remember {
+      display: none; }
+    body.post-type-archive-vod #loginform p.login-submit {
+      margin-top: 1.6rem; }
+    body.post-type-archive-vod #loginform p label {
+      font-weight: 300; }
+  @media only screen and (max-width: 480px) {
+    body.post-type-archive-vod #loginform {
+      flex-wrap: wrap; }
+      body.post-type-archive-vod #loginform p {
+        width: 100%; }
+        body.post-type-archive-vod #loginform p input[type=text], body.post-type-archive-vod #loginform p input[type=password], body.post-type-archive-vod #loginform p input[type="submit"] {
+          width: 100%;
+          max-width: 100%; } }
 
 #vod-filters {
   width: 100%;
   margin-bottom: 3rem;
   background-color: #fff;
   border: 1px solid #e6e6e6;
-  padding: 2rem; }
+  padding: 1rem 2rem; }
   #vod-filters h2 {
-    margin-bottom: 0; }
+    margin-bottom: 0;
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-transform: capitalize; }
     #vod-filters h2:hover {
       cursor: pointer; }
     #vod-filters h2 span.arrow {
       background-image: url(../images/down-arrow.png);
       width: 30px;
-      height: 30px;
+      height: 21px;
       display: block;
       float: right;
       background-size: contain;
       background-repeat: no-repeat;
-      margin-top: 1rem; }
+      margin-top: .45rem; }
       #vod-filters h2 span.arrow.up-green {
         background-image: url("../images/up-arrow-green.png"); }
   #vod-filters .filters-wrap {
@@ -2876,3 +2974,12 @@ body.single-vod article.vod {
       position: absolute;
       right: 0;
       bottom: 0; }
+  @media only screen and (max-width: 480px) {
+    #vod-filters .filters-wrap {
+      flex-wrap: wrap; }
+      #vod-filters .filters-wrap .filter {
+        margin-right: 0;
+        width: 50%;
+        margin-bottom: 2rem; }
+        #vod-filters .filters-wrap .filter:nth-child(3) {
+          margin-bottom: 4rem; } }

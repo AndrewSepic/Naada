@@ -48,14 +48,16 @@ function vod_content() {
 
       </div>
 
-      <div class="vod-meta right">
-        <h2>Suggested Props </h2>
-        <p><?php echo $props; ?></p>
-      </div>
+      <?php if ($props) : ?>
+        <div class="vod-meta right">
+          <h2>Suggested Props </h2>
+          <p><?php echo $props; ?></p>
+        </div>
+      <?php endif; ?>
 
     </div>
 
-    <a class="button small green-hollow" href="/vod">&laquo; Back to VOD Archives</a>
+    <a class="button small green-hollow" href="/vod">&laquo; Back to COD Archives</a>
 <?php
 }
 genesis();
