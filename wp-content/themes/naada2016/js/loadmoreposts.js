@@ -18,7 +18,7 @@ jQuery(function($){ // use jQuery code inside this to avoid "$ is not defined" e
 			},
 			success : function( data ){
 				if( data ) {
-					button.text( 'Load More Classes' ).before(data); // insert new posts
+					button.text( 'Load More Classes' ).parent().before(data); // insert new posts
 					misha_loadmore_params.current_page++;
 
 					if ( misha_loadmore_params.current_page == misha_loadmore_params.max_page )

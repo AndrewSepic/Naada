@@ -19,7 +19,7 @@ function vod_content() {
   ?>
     <div class="vod-content">
       <?php
-      $level = get_field( 'level' );
+      $level = get_field( 'class_level' );
       $length = get_field( 'length' );
       $instructor = get_field( 'instructor' );
       $language = get_field( 'language' );
@@ -36,25 +36,27 @@ function vod_content() {
           }?>
       </div>
 
-      <div class="vod-meta left">
-        <?php
-        if ( $instructor ) { ?>
-          <div class="instructor-image <?php echo $instructor; ?>"></div>
-          <div class="instructor">Instructor: <span><?php echo $instructor;?></span> </div>
-        <?php }?>
+      <div class="metaWrap">
+        <div class="vod-meta left">
+          <?php
+          if ( $instructor ) { ?>
+            <div class="instructor-image <?php echo $instructor; ?>"></div>
+            <div class="instructor">Instructor: <span><?php echo $instructor;?></span> </div>
+          <?php }?>
 
-          <div class="lengthlang">Length: <span><?php echo $length; ?> mins</span></div>
-          <div class="lengthlang">Language: <span><?php echo $language;?></span></div>
+            <div class="lengthlang">Length: <span><?php echo $length; ?> mins</span></div>
+            <div class="lengthlang">Language: <span><?php echo $language;?></span></div>
 
-      </div>
-
-      <?php if ($props) : ?>
-        <div class="vod-meta right">
-          <h2>Suggested Props </h2>
-          <p><?php echo $props; ?></p>
         </div>
-      <?php endif; ?>
 
+        <?php if ($props) : ?>
+          <div class="vod-meta right">
+            <h2>Suggested Props </h2>
+            <p><?php echo $props; ?></p>
+          </div>
+        <?php endif; ?>
+      </div>
+      
     </div>
 
     <a class="button small green-hollow" href="/vod">&laquo; Back to COD Archives</a>

@@ -2787,8 +2787,13 @@ body.post-type-archive-vod main.content {
     @media only screen and (max-width: 480px) {
       body.post-type-archive-vod main.content a.vod.card {
         width: 100%; } }
-  body.post-type-archive-vod main.content a#loadmore {
-    margin: 1rem auto; }
+  body.post-type-archive-vod main.content .loadMoreWrap {
+    width: 100%;
+    position: relative;
+    align-items: center;
+    display: flex; }
+    body.post-type-archive-vod main.content .loadMoreWrap a#loadmore {
+      margin: 1rem auto; }
 
 body.post-type-archive-vod div.vod-content, body.single-vod div.vod-content {
   padding: 2rem;
@@ -2884,27 +2889,34 @@ body.single-vod article.vod {
         font-size: 2.2rem; }
       body.single-vod article.vod div.vod-content div.vod-header .level {
         margin-left: 2rem; }
-    body.single-vod article.vod div.vod-content div.vod-meta {
-      width: 45%;
-      float: left;
-      margin-bottom: 2rem; }
-      @media only screen and (max-width: 480px) {
-        body.single-vod article.vod div.vod-content div.vod-meta {
-          width: 100%;
-          height: unset; } }
-      body.single-vod article.vod div.vod-content div.vod-meta div.instructor-image {
-        height: 100px;
-        width: 100px; }
-      body.single-vod article.vod div.vod-content div.vod-meta h2 {
-        text-transform: none;
-        font-size: 1.5rem;
-        color: #666;
-        font-weight: 300; }
+    body.single-vod article.vod div.vod-content div.metaWrap {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap; }
+      body.single-vod article.vod div.vod-content div.metaWrap div.vod-meta {
+        width: 45%;
+        margin-bottom: 2rem; }
+        @media only screen and (max-width: 480px) {
+          body.single-vod article.vod div.vod-content div.metaWrap div.vod-meta {
+            width: 100%;
+            height: unset; } }
+        body.single-vod article.vod div.vod-content div.metaWrap div.vod-meta div.instructor-image {
+          height: 100px;
+          width: 100px; }
+        body.single-vod article.vod div.vod-content div.metaWrap div.vod-meta h2 {
+          text-transform: none;
+          font-size: 1.5rem;
+          color: #666;
+          font-weight: 300; }
   body.single-vod article.vod a.button.green-hollow {
     margin-top: 4rem; }
     @media only screen and (max-width: 480px) {
       body.single-vod article.vod a.button.green-hollow {
         margin-top: 0; } }
+
+body.post-type-archive-vod a.clearFilters {
+  font-size: 1.215rem;
+  margin-right: 1rem; }
 
 body.post-type-archive-vod h3.login-leadin {
   text-transform: capitalize; }
@@ -2960,20 +2972,24 @@ body.post-type-archive-vod #loginform {
     border-top: 1px solid #e8e8e8;
     margin-top: 1rem;
     padding: 1rem 0px;
-    justify-content: flex-start;
     position: relative; }
-    #vod-filters .filters-wrap .filter {
-      margin-right: 8%; }
-      #vod-filters .filters-wrap .filter h4 {
-        color: #c1c1c1;
-        text-transform: capitalize;
-        font-weight: 300; }
-    #vod-filters .filters-wrap a#applyFilters {
-      background-color: #b3ba1c;
-      height: 58px;
-      position: absolute;
-      right: 0;
-      bottom: 0; }
+    #vod-filters .filters-wrap .filters {
+      display: flex;
+      justify-content: flex-start; }
+      #vod-filters .filters-wrap .filters .filter {
+        margin-right: 8%; }
+        #vod-filters .filters-wrap .filters .filter h4 {
+          color: #c1c1c1;
+          text-transform: capitalize;
+          font-weight: 300; }
+      #vod-filters .filters-wrap .filters a#applyFilters {
+        background-color: #b3ba1c;
+        height: 58px;
+        position: absolute;
+        right: 0;
+        bottom: 0; }
+        #vod-filters .filters-wrap .filters a#applyFilters:hover {
+          background-color: #a6ad1b; }
   @media only screen and (max-width: 480px) {
     #vod-filters .filters-wrap {
       flex-wrap: wrap; }

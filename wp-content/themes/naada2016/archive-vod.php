@@ -38,7 +38,7 @@ function output_vod() {
 
 					<div class="vod-content">
 						<?php
-						$level = get_field( 'level' );
+						$level = get_field( 'class_level' );
 						$length = get_field( 'length' );
 						$instructor = get_field( 'instructor' );
 						$language = get_field( 'language' );?>
@@ -69,13 +69,20 @@ function output_vod() {
 
 			<?php
 		} // end while
-			// Load More Posts AJAX ?>
-		 <a id="loadmore" class="button green-button large" href="#">Load More Classes</a>
-		<?php
+			// Load More Posts AJAX
+
+			// don't display the button if there are not enough posts
+			global $wp_query;
+			if (  $wp_query->max_num_pages > 1 ) { ?>
+				<div class="loadMoreWrap">
+			 		<a id="loadmore" class="button green-button large" href="#">Load More Classes</a>
+				</div>
+		<?php }
+
 	} // end if
 	else { ?>
 		<div class="no-results">
-			<h2> Sorry there are no VOD's to match your filters</h2>
+			<h2> Sorry there are no classes to match your filters</h2>
 			<a href="/vod">Clear Filters X </a>
 		</div>
 		<?php

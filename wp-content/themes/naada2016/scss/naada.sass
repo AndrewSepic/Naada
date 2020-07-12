@@ -2808,8 +2808,14 @@ body.post-type-archive-vod
           object-fit: cover
       @media only screen and (max-width: 480px)
         width: 100%
-    a#loadmore
-      margin: 1rem auto
+    .loadMoreWrap
+      width: 100%
+      position: relative
+      align-items: center
+      display: flex
+      a#loadmore
+        margin: 1rem auto
+
 
 // Archive & Single
 body.post-type-archive-vod, body.single-vod
@@ -2907,27 +2913,33 @@ body.single-vod
           font-size: 2.2rem
         .level
           margin-left: 2rem
-      div.vod-meta
-        width: 45%
-        float: left
-        margin-bottom: 2rem
-        @media only screen and (max-width: 480px)
-          width: 100%
-          height: unset
-        div.instructor-image
-          height: 100px
-          width: 100px
-        h2
-          text-transform: none
-          font-size: 1.5rem
-          color: #666
-          font-weight: 300
+      div.metaWrap
+        display: flex
+        justify-content: space-between
+        flex-wrap: wrap
+        div.vod-meta
+          width: 45%
+          margin-bottom: 2rem
+          @media only screen and (max-width: 480px)
+            width: 100%
+            height: unset
+          div.instructor-image
+            height: 100px
+            width: 100px
+          h2
+            text-transform: none
+            font-size: 1.5rem
+            color: #666
+            font-weight: 300
     a.button.green-hollow
       margin-top: 4rem
       @media only screen and (max-width: 480px)
         margin-top: 0
 
 body.post-type-archive-vod
+  a.clearFilters
+    font-size: 1.215rem
+    margin-right: 1rem
   h3.login-leadin
     text-transform: capitalize
   #loginform
@@ -2984,20 +2996,24 @@ body.post-type-archive-vod
     border-top: 1px solid rgb(232, 232, 232)
     margin-top: 1rem
     padding: 1rem 0px
-    justify-content: flex-start
     position: relative
-    .filter
-      margin-right: 8%
-      h4
-        color: #c1c1c1
-        text-transform: capitalize
-        font-weight: 300
-    a#applyFilters
-      background-color: $naadagreen
-      height: 58px
-      position: absolute
-      right: 0
-      bottom: 0
+    .filters
+      display: flex
+      justify-content: flex-start
+      .filter
+        margin-right: 8%
+        h4
+          color: #c1c1c1
+          text-transform: capitalize
+          font-weight: 300
+      a#applyFilters
+        background-color: $naadagreen
+        height: 58px
+        position: absolute
+        right: 0
+        bottom: 0
+        &:hover
+          background-color: #a6ad1b
   //mobile styles for #vod-filters
   @media only screen and (max-width: 480px)
     .filters-wrap
