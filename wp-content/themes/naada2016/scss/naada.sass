@@ -2798,6 +2798,24 @@ body.post-type-archive-vod
         transition: all .3s ease
         box-shadow: 0px 5px 18px 0px rgba(169, 169, 169, 0.56)
         cursor: pointer
+      article
+        position: relative
+        div.new
+          position: absolute
+          z-index: 10
+          color: #fff
+          transform: rotate(-45deg)
+          text-transform: uppercase
+          font-weight: 500
+          border-bottom: 29px solid #b3ba1c
+          border-left: 29px solid transparent
+          border-right: 29px solid transparent
+          height: 0
+          left: -24px
+          top: 9px
+          span
+            display: inline-block
+            padding-top: 1px
       div.image
         position: relative
         height: 250px
@@ -3025,7 +3043,7 @@ body.post-type-archive-vod
 
 
 //MBO Authentication
-body.page-id-11303, body.page-id-11304
+body.page-id-11329, body.page-id-11330
   main.content
     min-height: 350px
     .breadcrumb
@@ -3036,6 +3054,9 @@ body.page-id-11303, body.page-id-11304
       margin: 4rem 0
       text-align: center
       position: relative
+      p#clientMsgContent
+        max-width: 600px
+        margin: 0 auto 1rem
       a.mbo
         width: 120px
         position: absolute

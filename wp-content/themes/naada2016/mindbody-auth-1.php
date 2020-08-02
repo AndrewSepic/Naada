@@ -20,7 +20,7 @@ function my_custom_stuff(){
       'Content-Type' => 'application/json',
       'SiteId' => '6387',
       'Api-Key' => '7bba39594b4d460293abdfd64c8eea48',
-      'Authorization' => '9f5d2815786541138c977a9a5267720d12d14b7b86ca4b20b2fc1585e37eb093'
+      'Authorization' => '6517cae4895a41d8a39f081eb4d863541a2eab31631c47249593dbc1439cce65'
     )
   );
 
@@ -75,7 +75,7 @@ function my_custom_stuff(){
   </script>
 
 <h4>Mindbody Authentication</h4>
- <?php 
+ <?php
 // if ( $responseCode = 200) {
 //     echo $responseCode . ' We\'ve got the array successfully';
 //   }

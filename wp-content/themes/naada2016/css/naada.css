@@ -2776,6 +2776,24 @@ body.post-type-archive-vod main.content {
       transition: all .3s ease;
       box-shadow: 0px 5px 18px 0px rgba(169, 169, 169, 0.56);
       cursor: pointer; }
+    body.post-type-archive-vod main.content a.vod.card article {
+      position: relative; }
+      body.post-type-archive-vod main.content a.vod.card article div.new {
+        position: absolute;
+        z-index: 10;
+        color: #fff;
+        transform: rotate(-45deg);
+        text-transform: uppercase;
+        font-weight: 500;
+        border-bottom: 29px solid #b3ba1c;
+        border-left: 29px solid transparent;
+        border-right: 29px solid transparent;
+        height: 0;
+        left: -24px;
+        top: 9px; }
+        body.post-type-archive-vod main.content a.vod.card article div.new span {
+          display: inline-block;
+          padding-top: 1px; }
     body.post-type-archive-vod main.content a.vod.card div.image {
       position: relative;
       height: 250px; }
@@ -2998,17 +3016,20 @@ body.post-type-archive-vod #mbologin {
         #vod-filters .filters-wrap .filter:nth-child(3) {
           margin-bottom: 4rem; } }
 
-body.page-id-11303 main.content, body.page-id-11304 main.content {
+body.page-id-11329 main.content, body.page-id-11330 main.content {
   min-height: 350px; }
-  body.page-id-11303 main.content .breadcrumb, body.page-id-11304 main.content .breadcrumb {
+  body.page-id-11329 main.content .breadcrumb, body.page-id-11330 main.content .breadcrumb {
     display: none; }
-  body.page-id-11303 main.content form#hiddenMBO, body.page-id-11304 main.content form#hiddenMBO {
+  body.page-id-11329 main.content form#hiddenMBO, body.page-id-11330 main.content form#hiddenMBO {
     display: none; }
-  body.page-id-11303 main.content .responseWrap, body.page-id-11304 main.content .responseWrap {
+  body.page-id-11329 main.content .responseWrap, body.page-id-11330 main.content .responseWrap {
     margin: 4rem 0;
     text-align: center;
     position: relative; }
-    body.page-id-11303 main.content .responseWrap a.mbo, body.page-id-11304 main.content .responseWrap a.mbo {
+    body.page-id-11329 main.content .responseWrap p#clientMsgContent, body.page-id-11330 main.content .responseWrap p#clientMsgContent {
+      max-width: 600px;
+      margin: 0 auto 1rem; }
+    body.page-id-11329 main.content .responseWrap a.mbo, body.page-id-11330 main.content .responseWrap a.mbo {
       width: 120px;
       position: absolute;
       bottom: -58px;

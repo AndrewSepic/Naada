@@ -31,6 +31,16 @@ function output_vod() {
 			the_post(); ?>
 			<a class="vod card" href="<?php the_permalink();?>">
 				<article>
+					<?php
+					// If New post
+					$post_date = get_the_date( 'Y-m-d' );
+					//echo $post_date;
+						if( strtotime($post_date) > strtotime('-7 day') ) { ?>
+							<div class="new"><span>New</span></div>
+							<?php
+						}
+
+					 ?>
 					<div class="image">
 						<?php $vod_image = get_field('vod_image');?>
 						<img src="<?php echo $vod_image['url'];?>" alt="<?php echo $vod_image['alt'];?>"/>
