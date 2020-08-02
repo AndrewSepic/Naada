@@ -2942,19 +2942,17 @@ body.post-type-archive-vod
     margin-right: 1rem
   h3.login-leadin
     text-transform: capitalize
-  #loginform
+  #mbologin
     width: 100%
     display: flex
     justify-content: flex-start
-    margin-bottom: 2rem
+    margin: 1rem 0 2rem
     p
       margin-bottom: 0
-      &.login-remember
-        display: none
-      &.login-submit
-        margin-top: 1.6rem
-      label
-        font-weight: 300
+    p.login-email
+      margin-right: 1rem
+    a
+      width: 120px
     @media only screen and (max-width: 480px)
       flex-wrap: wrap
       p
@@ -3026,6 +3024,23 @@ body.post-type-archive-vod
           margin-bottom: 4rem
 
 
+//MBO Authentication
+body.page-id-11303, body.page-id-11304
+  main.content
+    min-height: 350px
+    .breadcrumb
+      display: none
+    form#hiddenMBO
+      display: none
+    .responseWrap
+      margin: 4rem 0
+      text-align: center
+      position: relative
+      a.mbo
+        width: 120px
+        position: absolute
+        bottom: -58px
+        right: 45%
 
 
 

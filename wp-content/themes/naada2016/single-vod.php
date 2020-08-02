@@ -16,6 +16,10 @@ remove_action('genesis_entry_content', 'genesis_do_post_content');
 add_action( 'genesis_entry_content', 'vod_content' ); // Add custom loop
 
 function vod_content() {
+
+  // Check for Authorization
+  if ( isset( $_COOKIE['isAuthorized'] ) ){
+
   ?>
     <div class="vod-content">
       <?php
@@ -56,10 +60,17 @@ function vod_content() {
           </div>
         <?php endif; ?>
       </div>
-      
+
     </div>
 
     <a class="button small green-hollow" href="/vod">&laquo; Back to COD Archives</a>
-<?php
+    <?php
+  }
+  else {
+    ?> <h2>Sorry,</h2>
+      <p>Your account must be verified to access Classes on Demand</p>
+      <a class="button orange-button small" href="<?php echo site_url();?>/vod">Verify your account here</a>
+      <?php
+  }
 }
 genesis();

@@ -5,6 +5,7 @@ function naada_scripts() {
   wp_enqueue_script( 'naada-custom', get_stylesheet_directory_uri() . '/js/naada-custom.js', array(), '1.0.0', true );
 	wp_enqueue_script( 'slick', '//cdn.jsdelivr.net/jquery.slick/1.5.7/slick.min.js');
 	wp_enqueue_script( 'jqueryUI', '//code.jquery.com/ui/1.11.4/jquery-ui.js');
+	wp_enqueue_script( 'js-cookie', '//cdn.jsdelivr.net/npm/js-cookie@rc/dist/js.cookie.min.js');
 	wp_enqueue_style( 'slick-css', '//cdn.jsdelivr.net/jquery.slick/1.5.7/slick.css');
 	wp_enqueue_style( 'slick-theme', '//cdn.jsdelivr.net/jquery.slick/1.5.7/slick-theme.css' );
 
