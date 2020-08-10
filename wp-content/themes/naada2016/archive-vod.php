@@ -18,7 +18,11 @@ function vod_header() { ?>
 
 function output_vod() {
 
-	// Call Login
+	//
+	// Start Rendering the Page ELements
+ 	//
+
+	// Call Login - INcludes API Call to Access Token
 	get_template_part('/inc/vod', 'login');
 
 	// Call in Template Filters

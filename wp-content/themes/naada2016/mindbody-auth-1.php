@@ -11,16 +11,15 @@ Template Name: Mindbody Auth 1
 function my_custom_stuff(){
 //
 
-  $apiUrl = 'https://api.mindbodyonline.com/public/v6/client/clients?SearchText=' . $_POST['email']; // calling single client based on email
-  //$apiUrl = 'https://api.mindbodyonline.com/public/v6/client/clients'; // call All clients
-  //$userTokenApi = 'https://api.mindbodyonline.com/public/v6/usertoken/issue';
+  // calling single client based on email
+  $apiUrl = 'https://api.mindbodyonline.com/public/v6/client/clients?SearchText=' . $_POST['email'];
 
   $args = array(
     'headers' => array(
       'Content-Type' => 'application/json',
       'SiteId' => '6387',
       'Api-Key' => '7bba39594b4d460293abdfd64c8eea48',
-      'Authorization' => '6517cae4895a41d8a39f081eb4d863541a2eab31631c47249593dbc1439cce65'
+      'Authorization' => $_POST['access_token']
     )
   );
 
@@ -41,8 +40,6 @@ function my_custom_stuff(){
     jQuery( document ).ready(function( $ ) {
 
       var client = response.Clients;
-      console.log(client);
-      console.log(client[0].FirstName);
       var msgText = document.getElementById('clientMsg');
       var msgMsg = document.getElementById('clientMsgContent');
       var idPackage = document.getElementById('mbo_client_id');
@@ -96,6 +93,7 @@ function my_custom_stuff(){
   <form name="mbologinform" id="hiddenMBO" action="<?php echo site_url(); ?>/mindbody-auth-2" method="post">
 
     <input type="text" name="client_id" id="mbo_client_id" class="input" value="" size="20" autocomplete="off">
+    <input type="hidden" name="access_token" id="mbo_token" class="input" value="<?php echo $_POST['access_token']; ?>" size="20" autocomplete="off">
     <input type="submit" name="btnsubmit" id="btnsubmit" class="button button-primary" value="Log In">
 
   </form>

@@ -19,7 +19,7 @@ function my_custom_stuff(){
       'Content-Type' => 'application/json',
       'SiteId' => '6387',
       'Api-Key' => '7bba39594b4d460293abdfd64c8eea48',
-      'Authorization' => '6517cae4895a41d8a39f081eb4d863541a2eab31631c47249593dbc1439cce65'
+      'Authorization' => $_POST['access_token']
     )
   );
 
