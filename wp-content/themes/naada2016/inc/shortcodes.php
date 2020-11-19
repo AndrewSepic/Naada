@@ -15,7 +15,10 @@ function naada_button_orange ( $atts, $content = null ) {
 add_shortcode( 'button-1', 'naada_button_orange' );
 
 function naada_login ( $atts, $content = null ) {
-	return wp_login_form();
+	$args = array(
+		'redirect' => 'https://www.naada.ca/online-school/my-courses/',
+	);
+	return wp_login_form($args);
 }
 add_shortcode( 'naada-login', 'naada_login' );
 
