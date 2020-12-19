@@ -36,6 +36,7 @@ function my_custom_stuff(){
   <script type="text/javascript">
     // pass MBO array to a JavaScript variable
     var response = <?php echo $body; ?>;
+    console.log(response);
 
     jQuery( document ).ready(function( $ ) {
 
