@@ -49,7 +49,13 @@ jQuery( document ).ready(function( $ ) {
     }
 
     accordionInit();
-    openSchedule();
 
+    //Only run OpenSchedule is above breakpoint for responsive tabs
+    if(window.screen.width > 768) {
+      openSchedule();
+    }
+    else {
+      // silence is golden
+    }
 
 });

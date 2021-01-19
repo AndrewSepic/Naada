@@ -208,7 +208,7 @@ $apply = get_field('apply_button');
             <h3><?php echo $accordionHeader;?></h3>
             <div> <?php echo $accordionContent;?>
               <div class="schedule">
-                <?php echo $scheduleContent; ?>
+                <?php echo $accordionSchedule; ?>
               </div>
             </div>
 
