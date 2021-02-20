@@ -69,21 +69,6 @@ function my_custom_stuff(){
       </div><!-- serviceBlock -->
 
       <div class="serviceBlock">
-        <div class="serviceLeft" style="background-image: url('<?php the_field('acupuncture_image');?>);'">
-          <h2><?php the_field('acupuncture_title'); ?></h2>
-        </div><!-- serviceLeft -->
-        <div class="serviceRight">
-          <p><?php the_field('acupuncture_text'); ?></p>
-          <a href="<?php get_permalink(); ?>acupuncture-appointments/" class="naada-button orange-button medium">
-            <?php the_field('book_an_appointment'); ?>
-          </a>
-          <a href="<?php get_permalink(); ?>acupuncture-appointments/#acupuncture" class="naada-button orange-hollow medium">
-            <?php the_field('meet_our_therapists'); ?>
-          </a>
-        </div><!-- serviceRight -->
-      </div><!-- serviceBlock -->
-
-      <div class="serviceBlock">
         <div class="serviceLeft" style="background-image: url('<?php the_field('massage_therapy_image');?>);'">
           <h2><?php the_field('massage_therapy_title'); ?></h2>
         </div><!-- serviceLeft -->
@@ -93,21 +78,6 @@ function my_custom_stuff(){
             <?php the_field('book_an_appointment'); ?>
           </a>
           <a href="<?php get_permalink(); ?>massage-therapy-appointments/#massage" class="naada-button orange-hollow medium">
-            <?php the_field('meet_our_therapists'); ?>
-          </a>
-        </div><!-- serviceRight -->
-      </div><!-- serviceBlock -->
-
-      <div class="serviceBlock">
-        <div class="serviceLeft" style="background-image: url('<?php the_field('thai_massage_image');?>);'">
-          <h2><?php the_field('thai_massage_title'); ?></h2>
-        </div><!-- serviceLeft -->
-        <div class="serviceRight">
-          <p><?php the_field('thai_massage_text'); ?></p>
-          <a href="<?php get_permalink(); ?>thai-yoga-massage-appointments/" class="naada-button orange-button medium">
-            <?php the_field('book_an_appointment'); ?>
-          </a>
-          <a href="<?php get_permalink(); ?>thai-yoga-massage-appointments/#thaiyoga" class="naada-button orange-hollow medium">
             <?php the_field('meet_our_therapists'); ?>
           </a>
         </div><!-- serviceRight -->
@@ -129,12 +99,42 @@ function my_custom_stuff(){
       </div><!-- serviceBlock -->
 
       <div class="serviceBlock">
+        <div class="serviceLeft" style="background-image: url('<?php the_field('thai_massage_image');?>);'">
+          <h2><?php the_field('thai_massage_title'); ?></h2>
+        </div><!-- serviceLeft -->
+        <div class="serviceRight">
+          <p><?php the_field('thai_massage_text'); ?></p>
+          <a href="<?php get_permalink(); ?>thai-yoga-massage-appointments/" class="naada-button orange-button medium">
+            <?php the_field('book_an_appointment'); ?>
+          </a>
+          <a href="<?php get_permalink(); ?>thai-yoga-massage-appointments/#thaiyoga" class="naada-button orange-hollow medium">
+            <?php the_field('meet_our_therapists'); ?>
+          </a>
+        </div><!-- serviceRight -->
+      </div><!-- serviceBlock -->
+
+      <div class="serviceBlock">
         <div class="serviceLeft" style="background-image: url('<?php the_field('sauna_image');?>);'">
           <h2 class="sauna"><?php the_field('sauna_title'); ?></h2>
         </div><!-- serviceLeft -->
         <div class="serviceRight">
           <p><?php the_field('sauna_text'); ?></p>
           <!-- <a href="/therapeutic-clinic/clinic-appointments/" class="naada-button orange-button medium">Book An Appointment</a> <a href="/therapeutic-clinic/our-therapists/" class="naada-button orange-hollow medium">Meet Our Osteopaths</a> -->
+        </div><!-- serviceRight -->
+      </div><!-- serviceBlock -->
+
+      <div class="serviceBlock">
+        <div class="serviceLeft" style="background-image: url('<?php the_field('acupuncture_image');?>);'">
+          <h2><?php the_field('acupuncture_title'); ?></h2>
+        </div><!-- serviceLeft -->
+        <div class="serviceRight">
+          <p><?php the_field('acupuncture_text'); ?></p>
+          <a href="<?php get_permalink(); ?>acupuncture-appointments/" class="naada-button orange-button medium">
+            <?php the_field('book_an_appointment'); ?>
+          </a>
+          <a href="<?php get_permalink(); ?>acupuncture-appointments/#acupuncture" class="naada-button orange-hollow medium">
+            <?php the_field('meet_our_therapists'); ?>
+          </a>
         </div><!-- serviceRight -->
       </div><!-- serviceBlock -->
 
