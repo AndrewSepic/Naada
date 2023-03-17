@@ -12,7 +12,7 @@ function naada_videoBanner() {
   <?php dynamic_sidebar("video_callout"); ?>
 
   <!-- Video -->
-  <video id="naadaFootage" autoplay="autoplay" muted loop poster="http://naada.staging.wpengine.com/wp-content/themes/naada2016/vid/still.jpg">
+  <video id="naadaFootage" autoplay playsinline muted loop poster="http://naada.staging.wpengine.com/wp-content/themes/naada2016/vid/still.jpg">
     <source src="<?php echo get_stylesheet_directory_uri(); ?>/vid/VideoBanner3-HD.mp4" type="video/mp4">
     <source src="<?php echo get_stylesheet_directory_uri(); ?>/vid/WebMVideo1.webm" type="video/webm">
 
