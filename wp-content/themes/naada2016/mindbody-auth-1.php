@@ -36,6 +36,8 @@ function my_custom_stuff(){
   <script type="text/javascript">
     // pass MBO array to a JavaScript variable
     var response = <?php echo $body; ?>;
+	var responseCode = <?php echo $responseCode; ?>;
+	console.log("ResponseCode is", responseCode);
     console.log(response);
 
     jQuery( document ).ready(function( $ ) {

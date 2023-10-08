@@ -24,9 +24,9 @@
     // Post to API to Get Auth Token
   	$userTokenApi = 'https://api.mindbodyonline.com/public/v6/usertoken/issue';
 
-  	$body = json_encode( array(
+  	$userData = json_encode( array(
       'Username' => '_NaadaYoga',
-      'Password' => 'lL!Qj36IEyyi'
+	  'Password' => 'lL!Qj36IEyyi'
   	) );
 
   	$args = array(
@@ -40,7 +40,7 @@
   			'SiteId' => '6387',
   			'Api-Key' => '7bba39594b4d460293abdfd64c8eea48'
   		),
-  		'body' => $body,
+  		'body' => $userData,
   		'cookies'     => array()
   	);
 
@@ -56,9 +56,13 @@
 
   	<script type="text/javascript">
       // pass MBO array to a JavaScript variable
-      var response = <?php echo $body; ?>;
+      var response = <?php echo $body; ?>; 
+	  var userData = <?php echo $userData ?>;
+	  var responseCode = <?php echo $responseCode ?>;
 
-  		console.log(response);
+	  	console.log("Userdata we sent", userData);
+		console.log(responseCode);
+  		console.log("Response for access token", response);
   		var token = response.AccessToken;
 
       jQuery( document ).ready(function( $ ) {
@@ -66,7 +70,7 @@
         var tokenPackage = document.getElementById('mbo_token');
 
         //Check to see if response returned client
-        if ( token.length > 0 ) {
+        if ( token && token.length > 0 ) {
            // Pass Token to Hidden form field
            tokenPackage.value = token;
         }
