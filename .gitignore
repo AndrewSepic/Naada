@@ -14,6 +14,7 @@ wp-content/themes/genesis
 wp-content/themes/twentyseventeen
 wp-content/themes/sruti-box
 /images/
+wp-content/themes/naada2016/mbo-auth.php
 
 # Naada theme personal CSS/SASS files
 wp-content/themes/naada2016/scss/andrew.sass

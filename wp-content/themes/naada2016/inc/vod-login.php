@@ -1,4 +1,12 @@
 <?php
+
+// Load API Key
+if (file_exists(__DIR__ . '/../mbo-auth.php')) {
+    require __DIR__ . '/../mbo-auth.php';
+} else {
+    die("Error: Configuration file missing.");
+}
+
   //Check that the user is logged in/ has been verified and has cookies set
   if ( isset( $_COOKIE['isAuthorized'] ) ){
 
@@ -38,7 +46,7 @@
   		'headers' => array(
   			'Content-Type' => 'application/json',
   			'SiteId' => '6387',
-  			'Api-Key' => '7bba39594b4d460293abdfd64c8eea48'
+  			'Api-Key' => $MBO_API_KEY
   		),
   		'body' => $userData,
   		'cookies'     => array()
@@ -60,9 +68,9 @@
 	  var userData = <?php echo $userData ?>;
 	  var responseCode = <?php echo $responseCode ?>;
 
-	  	console.log("Userdata we sent", userData);
-		console.log(responseCode);
-  		console.log("Response for access token", response);
+	  	// console.log("Userdata we sent", userData);
+		// console.log(responseCode);
+  		// console.log("Response for access token", response);
   		var token = response.AccessToken;
 
       jQuery( document ).ready(function( $ ) {
