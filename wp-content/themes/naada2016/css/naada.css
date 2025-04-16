@@ -209,7 +209,7 @@ input[type=button], input[type=reset], input[type=submit] {
 }
 
 /* end buttons */
-a.button, .button, .entry-content a.button, button, input[type=button], input[type=reset], input[type=submit] {
+a.button, .button, .entry-content a.button, input[type=button], input[type=reset], input[type=submit] {
   color: #fff;
   font-weight: bold;
   background-color: #f7ad00;
@@ -219,11 +219,11 @@ a.button, .button, .entry-content a.button, button, input[type=button], input[ty
   font-size: 1rem;
   text-transform: uppercase;
 }
-a.button:hover, .button:hover, .entry-content a.button:hover, button:hover, input[type=button]:hover, input[type=reset]:hover, input[type=submit]:hover {
+a.button:hover, .button:hover, .entry-content a.button:hover, input[type=button]:hover, input[type=reset]:hover, input[type=submit]:hover {
   background-color: #fabd30;
   color: #fff;
 }
-a.button:focus, .button:focus, .entry-content a.button:focus, button:focus, input[type=button]:focus, input[type=reset]:focus, input[type=submit]:focus {
+a.button:focus, .button:focus, .entry-content a.button:focus, input[type=button]:focus, input[type=reset]:focus, input[type=submit]:focus {
   background-color: #FFC849;
 }
 
@@ -1212,7 +1212,7 @@ div.uber-grid-filters > div a {
   -moz-transition: opacity 0.25s ease-in-out;
   -webkit-transition: opacity 0.25s ease-in-out;
 }
-.footer-widgets button:not(.MuiButtonBase-root-210), .footer-widgets input[type=button], .footer-widgets input[type=reset], .footer-widgets input[type=submit], .footer-widgets .button, .footer-widgets input.button, .woocommerce .footer-widgets button:not(.MuiButtonBase-root-210), .woocommerce .footer-widgets input[type=button], .woocommerce .footer-widgets input[type=reset], .woocommerce .footer-widgets input[type=submit], .woocommerce .footer-widgets .button, .woocommerce .footer-widgets input.button {
+.footer-widgets button, .footer-widgets input[type=button], .footer-widgets input[type=reset], .footer-widgets input[type=submit], .footer-widgets .button, .footer-widgets input.button, .woocommerce .footer-widgets button, .woocommerce .footer-widgets input[type=button], .woocommerce .footer-widgets input[type=reset], .woocommerce .footer-widgets input[type=submit], .woocommerce .footer-widgets .button, .woocommerce .footer-widgets input.button {
   font-weight: bold;
   display: inline-block;
   position: relative;
@@ -1229,7 +1229,7 @@ div.uber-grid-filters > div a {
   border: 1px solid white;
   padding: 16px 24px;
 }
-.footer-widgets button:not(.MuiButtonBase-root-210):hover, .footer-widgets input[type=button]:hover, .footer-widgets input[type=reset]:hover, .footer-widgets input[type=submit]:hover, .footer-widgets .button:hover, .footer-widgets input.button:hover, .woocommerce .footer-widgets button:not(.MuiButtonBase-root-210):hover, .woocommerce .footer-widgets input[type=button]:hover, .woocommerce .footer-widgets input[type=reset]:hover, .woocommerce .footer-widgets input[type=submit]:hover, .woocommerce .footer-widgets .button:hover, .woocommerce .footer-widgets input.button:hover {
+.footer-widgets button:hover, .footer-widgets input[type=button]:hover, .footer-widgets input[type=reset]:hover, .footer-widgets input[type=submit]:hover, .footer-widgets .button:hover, .footer-widgets input.button:hover, .woocommerce .footer-widgets button:hover, .woocommerce .footer-widgets input[type=button]:hover, .woocommerce .footer-widgets input[type=reset]:hover, .woocommerce .footer-widgets input[type=submit]:hover, .woocommerce .footer-widgets .button:hover, .woocommerce .footer-widgets input.button:hover {
   background-color: #fabd30;
   color: #fff;
   display: inline-block;
@@ -3788,6 +3788,17 @@ body.page-id-11329 main.content .responseWrap a.mbo, body.page-id-11330 main.con
   position: absolute;
   bottom: -58px;
   right: 45%;
+}
+
+.naada-carousel [id*=bsport-widget] .cleanslate .bs-workshop-page__workshops__lists {
+  display: block !important;
+}
+.naada-carousel [id*=bsport-widget] .cleanslate .bs-workshop-card__offer-list, .naada-carousel [id*=bsport-widget] .cleanslate .bs-workshop-card__offer-list__title-wrapper, .naada-carousel [id*=bsport-widget] .cleanslate .bs-marketplace-filters__list {
+  display: none !important;
+}
+
+body.full-width-content [class*=MuiGrid-container] {
+  width: 100% !important;
 }
 
 /*# sourceMappingURL=naada.css.map */

@@ -231,7 +231,7 @@ input
 
 /* end buttons
 
-a.button, .button, .entry-content a.button, button, input[type="button"], input[type="reset"], input[type="submit"]
+a.button, .button, .entry-content a.button, input[type="button"], input[type="reset"], input[type="submit"]
   color: #fff
   font-weight: bold
   background-color: #f7ad00
@@ -1023,7 +1023,7 @@ div.uber-grid-filters > div
         transition: opacity .25s ease-in-out
         -moz-transition: opacity .25s ease-in-out
         -webkit-transition: opacity .25s ease-in-out
-  button:not(.MuiButtonBase-root-210), input[type="button"], input[type="reset"], input[type="submit"], .button, input.button
+  button, input[type="button"], input[type="reset"], input[type="submit"], .button, input.button
     font-weight: bold
     +naada-button
     +orange-button
@@ -3064,6 +3064,16 @@ body.page-id-11329, body.page-id-11330
         right: 45%
 
 
+// BSport Overrides
+
+.naada-carousel 
+  [id*="bsport-widget"] .cleanslate .bs-workshop-page__workshops__lists
+    display: block !important
+  [id*="bsport-widget"] .cleanslate .bs-workshop-card__offer-list, [id*="bsport-widget"] .cleanslate .bs-workshop-card__offer-list__title-wrapper, [id*="bsport-widget"] .cleanslate .bs-marketplace-filters__list
+    display: none !important
+	
+body.full-width-content [class*="MuiGrid-container"]
+  width: 100% !important
 
 $classBeginner    : #b3ba1e       // Green
 $classIntermediate: #f59c00       // Orange

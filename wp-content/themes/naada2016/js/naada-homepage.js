@@ -10,63 +10,27 @@ jQuery( document ).ready(function( $ ) {
  loginForm();
  parallaxInit();
 
- function healcodeWorkshopsReady(callback){
-     var healCodeLoadingInterval = setInterval(function(){
-       var healCodeLoading = $('div.naada-carousel healcode-widget .enrollment');
+ function BSportWorkshopsReady(callback){
+     var BSportLoadingInterval = setInterval(function(){
+       var BSportCodeLoading = $('div.naada-carousel #bsport-widget-7776 .bs-workshop-page__workshops__lists');
        // if the healcode .enrollment div is loaded and has content
-       if (healCodeLoading.length !== 0) {
+       if (BSportCodeLoading.length !== 0) {
+		console.log("BSport Loaded!");
          callback();
-         clearInterval(healCodeLoadingInterval);
+         clearInterval(BSportLoadingInterval);
        }
      },100);
  }
 
-  function healcodeHomepageSchedReady(){
-      var healCodeLoadingInterval2 = setInterval(function(){
-        var schedLoadProof = $('div.live-stream-sched healcode-widget .bw-widget__day');
-        // if the healcode .enrollment div is loaded and has content
-        if (schedLoadProof.length !== 0) {
-          //callback();
-          homepageSchedCode();
-          clearInterval(healCodeLoadingInterval2);
-        }
-      },100);
-  }
-
-  healcodeHomepageSchedReady();
-
   // Call success functions for Healcode Workshops
-     healcodeWorkshopsReady(function () {
+     BSportWorkshopsReady(function () {
+		console.log("callback fires!")
          applySlickSlider();
          modifyMarkup();
          multiDayMarkup();
          fireModal();
      });
 
-
-
-  // Former Horz Schedule callback
-  // function homepageSchedCode(){
-  //   //  Add Next button for next day's schedule
-  //   $('div.horz-sched healcode-widget div.header')
-  //     .hide()
-  //     .appendTo('div.horz-sched healcode-widget div.list_view td')
-  //     .fadeIn(200);
-  //
-  //   // Each time you click the week links, reload this entire function
-  //   $('div.horz-sched .week_links a').on("click", function(){
-  //     healcodeHomepageSchedReady();
-  //    });
-  //
-  //   $('div.horz-sched table td li.odd span.classname a').each(function(){
-  //     if ($(this).text().length > 25) {
-  //       //$(this).css("background-color","red");
-  //       var classname = $(this).text();
-  //       var trimd = classname.substring(0, 25) + "...";
-  //         $(this).text(trimd);
-  //     }
-  //   });
-  // }
 
   // LIVEStream Schedule
   function homepageSchedCode(){
@@ -112,11 +76,13 @@ jQuery( document ).ready(function( $ ) {
 
   function applySlickSlider() {
     // Call Slick Slider on the Workshops widget
-    $('div.naada-carousel .filtered_collection').slick ({
+	const container = $('div.naada-carousel #bsport-widget-7776 .bs-workshop-page__workshops__lists');
+	console.log("container is", container);
+    $('div.naada-carousel #bsport-widget-7776 .bs-workshop-page__workshops__lists').slick ({
       dots: true,
       infinite: false,
-      slidesToShow: 3,
-      slidesToScroll: 3,
+      slidesToShow: 1,
+      slidesToScroll: 1,
       variableWidth: true,
       responsive: [
         {
@@ -142,13 +108,13 @@ jQuery( document ).ready(function( $ ) {
   function modifyMarkup(){
 
     // Adds read more to Event Meta
-        $('div.naada-carousel .enrollment.slick-slide > div.healcode-date-area').after("<div class=\"more-info\"><a href=\"#\">More Info</a></div>");
+        $('div.naada-carousel #bsport-widget-7776 .cleanslate .bs-workshop-card__offer-list__offer__conditions').html("<div class=\"more-info\"><a href=\"/workshops-events/\">More Info</a></div>");
 
         //Add css classes to columize events
-        $('div.naada-carousel div.healcode div.enrollment, div.naada-carousel div.healcode div.healcode-course').css({"float": "left", "clear": "none" })
+        $('#bsport-widget-7776 .cleanslate .bs-workshop-page__workshops__lists ').css("display", "block");
 
         // Hides event description area by default
-        $("div.naada-carousel div.healcode-description-area").hide();
+        $("div.naada-carousel .bs-workshop-card__offer-list").hide();
 
         // Remove 'Date:' in Healcode Output
         var date = $('div.naada-carousel div.healcode span.healcode-date-value');
