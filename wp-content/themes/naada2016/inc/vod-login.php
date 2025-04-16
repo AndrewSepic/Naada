@@ -69,7 +69,7 @@ if (file_exists(__DIR__ . '/../mbo-auth.php')) {
 	  var responseCode = <?php echo $responseCode ?>;
 
 	  	// console.log("Userdata we sent", userData);
-		// console.log(responseCode);
+		console.log(responseCode);
   		// console.log("Response for access token", response);
   		var token = response.AccessToken;
 

@@ -34,7 +34,45 @@ function homepage_Output(){
     </div>
     <h3 class="schedule"><?php the_field('todays_schedule');?></h3>
     <a class="fullSched" href="/schedule"><?php the_field('full_schedule');?></a>
-    <div class="live-stream-sched"><?php echo do_shortcode( '[hc-hmw snippet="Live-Stream-Schedule"]');?></div>
+    <div class="live-stream-sched">
+
+		<? // BSPORT SCHEDULE SCRIPT ?>
+		 <script id="insert-bsport-widget-cdn">!function (b, s, p, o, r, t) { !typeof window.BsportWidget !== "undefined" && !document.getElementById("bsport-widget-cdn") && !function () { m = b.createElement(s), m.id = "bsport-widget-cdn", m.src = p, b.getElementsByTagName("head")[0].appendChild(m) }() }(document, "script", "https://cdn.bsport.io/scripts/widget.js")</script>
+			<script id="bsport-widget-mount">
+				function MountBsportWidget(config, repeat=1) {
+					if (repeat > 50) { return }
+					if (!window.BsportWidget) {
+						return setTimeout(() => {
+							MountBsportWidget(config,repeat+1)
+						}, 100 * repeat || 1)
+					}
+					BsportWidget.mount(config)
+				}
+			</script>
+			<script>
+				MountBsportWidget({
+						"parentElement": "bsport-widget-654188",
+						"companyId": 3380,
+						"franchiseId": null,
+						"dialogMode": 1,
+						"widgetType": "calendar", 
+						"showFab": false,
+						"fullScreenPopup": false,
+						"styles":undefined,
+						"config": {
+							"calendar": {                "coaches": [],
+						"establishments": [],
+						"metaActivities": [],
+						"levels": [],
+						"variant": null,
+						"groupSessionByPeriod": true}
+						}  
+					})
+			</script>
+		<div id="bsport-widget-654188"></div>
+
+		<? // BSPORT SCHEDULE SCRIPT END ?>
+	</div>
     <div class="sell">
       <div class="greenbox first">
         <h3><?php the_field('sell_box_1_title'); ?></h3>
@@ -56,9 +94,46 @@ function homepage_Output(){
 
     <hr />
 
-    <h3>Upcoming Courses</h3>
+    <h3>Upcoming Workshops & Events</h3>
     <div class="naada-carousel">
-      <div id="healCodeLoading"><?php echo do_shortcode( '[hc-hmw snippet="Homepage-Events-Carousel"]');?></div>
+      <div id="healCodeLoading">
+
+	  <? // BSport Workshop Widget ?>
+
+	  <script id="insert-bsport-widget-cdn">!function (b, s, p, o, r, t) { !typeof window.BsportWidget !== "undefined" && !document.getElementById("bsport-widget-cdn") && !function () { m = b.createElement(s), m.id = "bsport-widget-cdn", m.src = p, b.getElementsByTagName("head")[0].appendChild(m) }() }(document, "script", "https://cdn.bsport.io/scripts/widget.js")</script>
+		<script id="bsport-widget-mount">
+			function MountBsportWidget(config, repeat=1) {
+				if (repeat > 50) { return }
+				if (!window.BsportWidget) {
+					return setTimeout(() => {
+						MountBsportWidget(config,repeat+1)
+					}, 100 * repeat || 1)
+				}
+				BsportWidget.mount(config)
+			}
+		</script>
+		<script>
+			MountBsportWidget({
+					"parentElement": "bsport-widget-7776",
+					"companyId": 3380,
+					"franchiseId": null,
+					"dialogMode": 1,
+					"widgetType": "workshop", 
+					"showFab": false,
+					"fullScreenPopup": false,
+					"styles":undefined,
+					"config": {
+						"workshop": {                "coaches": [],
+					"establishments": [],
+					"metaActivities": [],
+					"levels": []}
+					}  
+				})
+		</script>
+		<div id="bsport-widget-7776"></div>
+
+		<? // BSport Workshop Widget END ?>
+	  </div>
     </div>
 
   </div><!-- .homeContentWrap -->
